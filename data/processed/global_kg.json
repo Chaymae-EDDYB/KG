@@ -1,0 +1,3828 @@
+{
+  "entities": [
+    {
+      "id": "ent-397eff7b",
+      "canonical_name": "mathematics",
+      "entity_type": "OTHER",
+      "modality": "text",
+      "aliases": [],
+      "evidence_ids": [
+        "ev-70c6be8d"
+      ],
+      "source_system": "itext2kg",
+      "embedding": null,
+      "metadata": {},
+      "doc_id": "ada-lovelace-001"
+    },
+    {
+      "id": "ent-8a8a1e47",
+      "canonical_name": "london",
+      "entity_type": "LOCATION",
+      "modality": "text",
+      "aliases": [],
+      "evidence_ids": [
+        "ev-8e4b9f4a"
+      ],
+      "source_system": "itext2kg",
+      "embedding": null,
+      "metadata": {
+        "cross_doc_ids": [
+          "alan-turing-001",
+          "rosalind-franklin-001"
+        ]
+      },
+      "doc_id": "ada-lovelace-001"
+    },
+    {
+      "id": "ent-58b46e98",
+      "canonical_name": "augustus de morgan",
+      "entity_type": "PERSON",
+      "modality": "multimodal",
+      "aliases": [
+        "Augustus De Morgan"
+      ],
+      "evidence_ids": [
+        "ev-6d98d34f",
+        "ev-92af2baf"
+      ],
+      "source_system": "itext2kg",
+      "embedding": null,
+      "metadata": {},
+      "doc_id": "ada-lovelace-001"
+    },
+    {
+      "id": "ent-03493707",
+      "canonical_name": "england",
+      "entity_type": "LOCATION",
+      "modality": "multimodal",
+      "aliases": [
+        "England"
+      ],
+      "evidence_ids": [
+        "ev-c3999772",
+        "ev-2adaa9db"
+      ],
+      "source_system": "itext2kg",
+      "embedding": null,
+      "metadata": {
+        "cross_doc_ids": [
+          "alan-turing-001",
+          "darwin-001",
+          "hawking-001",
+          "isaac-newton-001",
+          "rosalind-franklin-001"
+        ]
+      },
+      "doc_id": "ada-lovelace-001"
+    },
+    {
+      "id": "ent-cba13597",
+      "canonical_name": "lord byron",
+      "entity_type": "PERSON",
+      "modality": "multimodal",
+      "aliases": [
+        "Lord Byron"
+      ],
+      "evidence_ids": [
+        "ev-840628f0",
+        "ev-6a50a566"
+      ],
+      "source_system": "itext2kg",
+      "embedding": null,
+      "metadata": {},
+      "doc_id": "ada-lovelace-001"
+    },
+    {
+      "id": "ent-7e4e73a9",
+      "canonical_name": "university college london",
+      "entity_type": "ORGANIZATION",
+      "modality": "multimodal",
+      "aliases": [
+        "University College London"
+      ],
+      "evidence_ids": [
+        "ev-cd53ea8a",
+        "ev-8a108210"
+      ],
+      "source_system": "itext2kg",
+      "embedding": null,
+      "metadata": {},
+      "doc_id": "ada-lovelace-001"
+    },
+    {
+      "id": "ent-8b324a1d",
+      "canonical_name": "ada lovelace",
+      "entity_type": "PERSON",
+      "modality": "multimodal",
+      "aliases": [
+        "Ada Lovelace"
+      ],
+      "evidence_ids": [
+        "ev-6cce11a2",
+        "ev-3f6a52d2"
+      ],
+      "source_system": "itext2kg",
+      "embedding": null,
+      "metadata": {},
+      "doc_id": "ada-lovelace-001"
+    },
+    {
+      "id": "ent-a43ad8d4",
+      "canonical_name": "charles babbage",
+      "entity_type": "PERSON",
+      "modality": "multimodal",
+      "aliases": [
+        "Charles Babbage"
+      ],
+      "evidence_ids": [
+        "ev-cf67849c",
+        "ev-6d3b1815"
+      ],
+      "source_system": "itext2kg",
+      "embedding": null,
+      "metadata": {},
+      "doc_id": "ada-lovelace-001"
+    },
+    {
+      "id": "ent-2dba9abe",
+      "canonical_name": "analytical engine",
+      "entity_type": "CONCEPT",
+      "modality": "multimodal",
+      "aliases": [
+        "Analytical Engine"
+      ],
+      "evidence_ids": [
+        "ev-aac6cf6e",
+        "ev-7c52d509"
+      ],
+      "source_system": "itext2kg",
+      "embedding": null,
+      "metadata": {},
+      "doc_id": "ada-lovelace-001"
+    },
+    {
+      "id": "ent-dbb7d9ee",
+      "canonical_name": "university of manchester",
+      "entity_type": "ORGANIZATION",
+      "modality": "multimodal",
+      "aliases": [
+        "University of Manchester"
+      ],
+      "evidence_ids": [
+        "ev-4c04d74e",
+        "ev-f3508301"
+      ],
+      "source_system": "itext2kg",
+      "embedding": null,
+      "metadata": {},
+      "doc_id": "alan-turing-001"
+    },
+    {
+      "id": "ent-f4810be4",
+      "canonical_name": "government code and cypher school",
+      "entity_type": "ORGANIZATION",
+      "modality": "text",
+      "aliases": [],
+      "evidence_ids": [
+        "ev-8b65e6f9"
+      ],
+      "source_system": "itext2kg",
+      "embedding": null,
+      "metadata": {},
+      "doc_id": "alan-turing-001"
+    },
+    {
+      "id": "ent-826dba2b",
+      "canonical_name": "national physical laboratory",
+      "entity_type": "ORGANIZATION",
+      "modality": "multimodal",
+      "aliases": [
+        "National Physical Laboratory"
+      ],
+      "evidence_ids": [
+        "ev-8b8aa16f",
+        "ev-6cb22213"
+      ],
+      "source_system": "itext2kg",
+      "embedding": null,
+      "metadata": {},
+      "doc_id": "alan-turing-001"
+    },
+    {
+      "id": "ent-577da929",
+      "canonical_name": "world war ii",
+      "entity_type": "EVENT",
+      "modality": "multimodal",
+      "aliases": [
+        "World War"
+      ],
+      "evidence_ids": [
+        "ev-b9676f38",
+        "ev-d570e8a7"
+      ],
+      "source_system": "itext2kg",
+      "embedding": null,
+      "metadata": {},
+      "doc_id": "alan-turing-001"
+    },
+    {
+      "id": "ent-927e5288",
+      "canonical_name": "turing machine",
+      "entity_type": "CONCEPT",
+      "modality": "multimodal",
+      "aliases": [
+        "Turing Machine"
+      ],
+      "evidence_ids": [
+        "ev-62b9a230",
+        "ev-9d102e03"
+      ],
+      "source_system": "itext2kg",
+      "embedding": null,
+      "metadata": {},
+      "doc_id": "alan-turing-001"
+    },
+    {
+      "id": "ent-52969ae7",
+      "canonical_name": "artificial intelligence",
+      "entity_type": "OTHER",
+      "modality": "text",
+      "aliases": [],
+      "evidence_ids": [
+        "ev-223b978d"
+      ],
+      "source_system": "itext2kg",
+      "embedding": null,
+      "metadata": {},
+      "doc_id": "alan-turing-001"
+    },
+    {
+      "id": "ent-c88a0aaf",
+      "canonical_name": "bletchley park",
+      "entity_type": "LOCATION",
+      "modality": "multimodal",
+      "aliases": [
+        "Bletchley Park"
+      ],
+      "evidence_ids": [
+        "ev-16161f41",
+        "ev-074c47c4"
+      ],
+      "source_system": "itext2kg",
+      "embedding": null,
+      "metadata": {},
+      "doc_id": "alan-turing-001"
+    },
+    {
+      "id": "ent-2beae20d",
+      "canonical_name": "cambridge university",
+      "entity_type": "ORGANIZATION",
+      "modality": "multimodal",
+      "aliases": [
+        "Cambridge University"
+      ],
+      "evidence_ids": [
+        "ev-318223d6",
+        "ev-538e5c9e"
+      ],
+      "source_system": "itext2kg",
+      "embedding": null,
+      "metadata": {
+        "cross_doc_ids": [
+          "darwin-001",
+          "hawking-001",
+          "isaac-newton-001",
+          "rosalind-franklin-001"
+        ]
+      },
+      "doc_id": "alan-turing-001"
+    },
+    {
+      "id": "ent-f46dae89",
+      "canonical_name": "alan turing",
+      "entity_type": "PERSON",
+      "modality": "multimodal",
+      "aliases": [
+        "Alan Turing"
+      ],
+      "evidence_ids": [
+        "ev-18ec61d5",
+        "ev-593bea86"
+      ],
+      "source_system": "itext2kg",
+      "embedding": null,
+      "metadata": {},
+      "doc_id": "alan-turing-001"
+    },
+    {
+      "id": "ent-01cceba5",
+      "canonical_name": "turing test",
+      "entity_type": "CONCEPT",
+      "modality": "multimodal",
+      "aliases": [
+        "Turing Test"
+      ],
+      "evidence_ids": [
+        "ev-c4f5d399",
+        "ev-f5538752"
+      ],
+      "source_system": "itext2kg",
+      "embedding": null,
+      "metadata": {},
+      "doc_id": "alan-turing-001"
+    },
+    {
+      "id": "ent-c7e1b4cb",
+      "canonical_name": "Government Code",
+      "entity_type": "PERSON",
+      "modality": "multimodal",
+      "aliases": [],
+      "evidence_ids": [
+        "ev-17c84c50"
+      ],
+      "source_system": "mkgformer",
+      "embedding": null,
+      "metadata": {},
+      "doc_id": "alan-turing-001"
+    },
+    {
+      "id": "ent-b6e15d2d",
+      "canonical_name": "Cypher School",
+      "entity_type": "PERSON",
+      "modality": "multimodal",
+      "aliases": [],
+      "evidence_ids": [
+        "ev-84ab9d02"
+      ],
+      "source_system": "mkgformer",
+      "embedding": null,
+      "metadata": {},
+      "doc_id": "alan-turing-001"
+    },
+    {
+      "id": "ent-89f98c03",
+      "canonical_name": "voyage aboard hms beagle",
+      "entity_type": "EVENT",
+      "modality": "text",
+      "aliases": [],
+      "evidence_ids": [
+        "ev-4ff0a293"
+      ],
+      "source_system": "itext2kg",
+      "embedding": null,
+      "metadata": {},
+      "doc_id": "darwin-001"
+    },
+    {
+      "id": "ent-3bc5e2fe",
+      "canonical_name": "on the origin of species",
+      "entity_type": "OTHER",
+      "modality": "text",
+      "aliases": [],
+      "evidence_ids": [
+        "ev-5396ac45"
+      ],
+      "source_system": "itext2kg",
+      "embedding": null,
+      "metadata": {},
+      "doc_id": "darwin-001"
+    },
+    {
+      "id": "ent-5eb8f322",
+      "canonical_name": "theory of evolution by natural selection",
+      "entity_type": "CONCEPT",
+      "modality": "text",
+      "aliases": [],
+      "evidence_ids": [
+        "ev-3a0f5eb0"
+      ],
+      "source_system": "itext2kg",
+      "embedding": null,
+      "metadata": {},
+      "doc_id": "darwin-001"
+    },
+    {
+      "id": "ent-115d6b61",
+      "canonical_name": "shrewsbury",
+      "entity_type": "LOCATION",
+      "modality": "text",
+      "aliases": [],
+      "evidence_ids": [
+        "ev-bd1d29db"
+      ],
+      "source_system": "itext2kg",
+      "embedding": null,
+      "metadata": {},
+      "doc_id": "darwin-001"
+    },
+    {
+      "id": "ent-5c6f2519",
+      "canonical_name": "kent",
+      "entity_type": "LOCATION",
+      "modality": "text",
+      "aliases": [],
+      "evidence_ids": [
+        "ev-530c746d"
+      ],
+      "source_system": "itext2kg",
+      "embedding": null,
+      "metadata": {},
+      "doc_id": "darwin-001"
+    },
+    {
+      "id": "ent-d50dd4d7",
+      "canonical_name": "edinburgh university",
+      "entity_type": "ORGANIZATION",
+      "modality": "multimodal",
+      "aliases": [
+        "Edinburgh University"
+      ],
+      "evidence_ids": [
+        "ev-39e92dbe",
+        "ev-252495e6"
+      ],
+      "source_system": "itext2kg",
+      "embedding": null,
+      "metadata": {},
+      "doc_id": "darwin-001"
+    },
+    {
+      "id": "ent-566a99f1",
+      "canonical_name": "charles darwin",
+      "entity_type": "PERSON",
+      "modality": "multimodal",
+      "aliases": [
+        "Charles Darwin"
+      ],
+      "evidence_ids": [
+        "ev-63f8b9e7",
+        "ev-6edbf11a"
+      ],
+      "source_system": "itext2kg",
+      "embedding": null,
+      "metadata": {},
+      "doc_id": "darwin-001"
+    },
+    {
+      "id": "ent-61fca67d",
+      "canonical_name": "galapagos islands",
+      "entity_type": "LOCATION",
+      "modality": "multimodal",
+      "aliases": [
+        "Galapagos Islands"
+      ],
+      "evidence_ids": [
+        "ev-68d9c763",
+        "ev-b6f7bafe"
+      ],
+      "source_system": "itext2kg",
+      "embedding": null,
+      "metadata": {},
+      "doc_id": "darwin-001"
+    },
+    {
+      "id": "ent-f544e2fa",
+      "canonical_name": "down house",
+      "entity_type": "LOCATION",
+      "modality": "multimodal",
+      "aliases": [
+        "Down House"
+      ],
+      "evidence_ids": [
+        "ev-845b9b45",
+        "ev-5ddf342e"
+      ],
+      "source_system": "itext2kg",
+      "embedding": null,
+      "metadata": {},
+      "doc_id": "darwin-001"
+    },
+    {
+      "id": "ent-230a45c3",
+      "canonical_name": "germany",
+      "entity_type": "LOCATION",
+      "modality": "text",
+      "aliases": [],
+      "evidence_ids": [
+        "ev-9eb3f7a5"
+      ],
+      "source_system": "itext2kg",
+      "embedding": null,
+      "metadata": {
+        "cross_doc_ids": [
+          "einstein-groq-001",
+          "einstein-merged-001",
+          "einstein-multimodal-001",
+          "einstein-multimodal-001",
+          "einstein-real-001",
+          "sample"
+        ]
+      },
+      "doc_id": "einstein-clean-001"
+    },
+    {
+      "id": "ent-4be79eef",
+      "canonical_name": "princeton university",
+      "entity_type": "ORGANIZATION",
+      "modality": "multimodal",
+      "aliases": [
+        "Princeton University"
+      ],
+      "evidence_ids": [
+        "ev-a2bcaea7",
+        "ev-9cf3a9a6"
+      ],
+      "source_system": "itext2kg",
+      "embedding": null,
+      "metadata": {
+        "cross_doc_ids": [
+          "einstein-groq-001",
+          "einstein-merged-001",
+          "einstein-merged-001",
+          "einstein-multimodal-001",
+          "einstein-multimodal-001",
+          "einstein-multimodal-001",
+          "einstein-real-001",
+          "feynman-001",
+          "sample"
+        ]
+      },
+      "doc_id": "einstein-clean-001"
+    },
+    {
+      "id": "ent-d10b05e3",
+      "canonical_name": "albert einstein",
+      "entity_type": "PERSON",
+      "modality": "multimodal",
+      "aliases": [
+        "Albert Einstein"
+      ],
+      "evidence_ids": [
+        "ev-89718c71",
+        "ev-c17a97a7"
+      ],
+      "source_system": "itext2kg",
+      "embedding": null,
+      "metadata": {
+        "cross_doc_ids": [
+          "einstein-groq-001",
+          "einstein-merged-001",
+          "einstein-merged-001",
+          "einstein-multimodal-001",
+          "einstein-multimodal-001",
+          "einstein-multimodal-001",
+          "einstein-real-001",
+          "sample"
+        ]
+      },
+      "doc_id": "einstein-clean-001"
+    },
+    {
+      "id": "ent-e48f7b49",
+      "canonical_name": "ulm",
+      "entity_type": "LOCATION",
+      "modality": "text",
+      "aliases": [],
+      "evidence_ids": [
+        "ev-d82da957"
+      ],
+      "source_system": "itext2kg",
+      "embedding": null,
+      "metadata": {
+        "cross_doc_ids": [
+          "einstein-groq-001",
+          "einstein-merged-001",
+          "einstein-multimodal-001",
+          "einstein-real-001",
+          "sample"
+        ]
+      },
+      "doc_id": "einstein-clean-001"
+    },
+    {
+      "id": "ent-acd37e5d",
+      "canonical_name": "theory of relativity",
+      "entity_type": "CONCEPT",
+      "modality": "text",
+      "aliases": [],
+      "evidence_ids": [
+        "ev-0930fe01"
+      ],
+      "source_system": "itext2kg",
+      "embedding": null,
+      "metadata": {
+        "cross_doc_ids": [
+          "einstein-groq-001",
+          "einstein-merged-001",
+          "einstein-multimodal-001",
+          "einstein-real-001",
+          "sample"
+        ]
+      },
+      "doc_id": "einstein-clean-001"
+    },
+    {
+      "id": "ent-24584ff8",
+      "canonical_name": "nobel prize in physics",
+      "entity_type": "EVENT",
+      "modality": "multimodal",
+      "aliases": [
+        "Nobel Prize in Physics"
+      ],
+      "evidence_ids": [
+        "ev-e353c1d7",
+        "ev-70faf43e"
+      ],
+      "source_system": "itext2kg",
+      "embedding": null,
+      "metadata": {
+        "cross_doc_ids": [
+          "einstein-groq-001",
+          "einstein-merged-001",
+          "einstein-multimodal-001",
+          "einstein-multimodal-001",
+          "einstein-real-001",
+          "feynman-001",
+          "marie-curie-001",
+          "marie-curie-001",
+          "sample"
+        ]
+      },
+      "doc_id": "einstein-clean-001"
+    },
+    {
+      "id": "ent-ef129dae",
+      "canonical_name": "Ulm, Germany",
+      "entity_type": "LOCATION",
+      "modality": "multimodal",
+      "aliases": [],
+      "evidence_ids": [
+        "ev-bbbd3dac"
+      ],
+      "source_system": "mkgformer",
+      "embedding": null,
+      "metadata": {
+        "cross_doc_ids": [
+          "einstein-merged-001",
+          "einstein-multimodal-001",
+          "sample"
+        ]
+      },
+      "doc_id": "einstein-clean-001"
+    },
+    {
+      "id": "ent-17f7cdb0",
+      "canonical_name": "Albert",
+      "entity_type": "OTHER",
+      "modality": "multimodal",
+      "aliases": [],
+      "evidence_ids": [
+        "ev-af42474d"
+      ],
+      "source_system": "mkgformer",
+      "embedding": null,
+      "metadata": {
+        "cross_doc_ids": [
+          "einstein-multimodal-001"
+        ]
+      },
+      "doc_id": "einstein-merged-001"
+    },
+    {
+      "id": "ent-ee8660a0",
+      "canonical_name": "University",
+      "entity_type": "OTHER",
+      "modality": "multimodal",
+      "aliases": [],
+      "evidence_ids": [
+        "ev-caa52f6b"
+      ],
+      "source_system": "mkgformer",
+      "embedding": null,
+      "metadata": {
+        "cross_doc_ids": [
+          "einstein-multimodal-001"
+        ]
+      },
+      "doc_id": "einstein-merged-001"
+    },
+    {
+      "id": "ent-4970ec95",
+      "canonical_name": "Nobel",
+      "entity_type": "OTHER",
+      "modality": "multimodal",
+      "aliases": [],
+      "evidence_ids": [
+        "ev-3e9460bf"
+      ],
+      "source_system": "mkgformer",
+      "embedding": null,
+      "metadata": {
+        "cross_doc_ids": [
+          "einstein-multimodal-001"
+        ]
+      },
+      "doc_id": "einstein-merged-001"
+    },
+    {
+      "id": "ent-59085ed9",
+      "canonical_name": "Prize",
+      "entity_type": "OTHER",
+      "modality": "multimodal",
+      "aliases": [],
+      "evidence_ids": [
+        "ev-b3a6d00b"
+      ],
+      "source_system": "mkgformer",
+      "embedding": null,
+      "metadata": {
+        "cross_doc_ids": [
+          "einstein-multimodal-001"
+        ]
+      },
+      "doc_id": "einstein-merged-001"
+    },
+    {
+      "id": "ent-a197194e",
+      "canonical_name": "Physics",
+      "entity_type": "OTHER",
+      "modality": "multimodal",
+      "aliases": [],
+      "evidence_ids": [
+        "ev-5aba6048"
+      ],
+      "source_system": "mkgformer",
+      "embedding": null,
+      "metadata": {
+        "cross_doc_ids": [
+          "einstein-multimodal-001"
+        ]
+      },
+      "doc_id": "einstein-merged-001"
+    },
+    {
+      "id": "ent-51fda53c",
+      "canonical_name": "los alamos laboratory",
+      "entity_type": "LOCATION",
+      "modality": "multimodal",
+      "aliases": [
+        "Los Alamos Laboratory"
+      ],
+      "evidence_ids": [
+        "ev-444de7c8",
+        "ev-598d3330"
+      ],
+      "source_system": "itext2kg",
+      "embedding": null,
+      "metadata": {},
+      "doc_id": "feynman-001"
+    },
+    {
+      "id": "ent-a2379488",
+      "canonical_name": "quantum electrodynamics",
+      "entity_type": "OTHER",
+      "modality": "text",
+      "aliases": [],
+      "evidence_ids": [
+        "ev-21d89704"
+      ],
+      "source_system": "itext2kg",
+      "embedding": null,
+      "metadata": {},
+      "doc_id": "feynman-001"
+    },
+    {
+      "id": "ent-da0146f6",
+      "canonical_name": "new york city",
+      "entity_type": "LOCATION",
+      "modality": "multimodal",
+      "aliases": [
+        "New York City"
+      ],
+      "evidence_ids": [
+        "ev-0ecd7c9b",
+        "ev-f5d1bbf1"
+      ],
+      "source_system": "itext2kg",
+      "embedding": null,
+      "metadata": {
+        "cross_doc_ids": [
+          "nikola-tesla-001"
+        ]
+      },
+      "doc_id": "feynman-001"
+    },
+    {
+      "id": "ent-5bd92614",
+      "canonical_name": "california institute of technology",
+      "entity_type": "ORGANIZATION",
+      "modality": "multimodal",
+      "aliases": [
+        "California Institute"
+      ],
+      "evidence_ids": [
+        "ev-268cbd01",
+        "ev-5cdb7d8b"
+      ],
+      "source_system": "itext2kg",
+      "embedding": null,
+      "metadata": {},
+      "doc_id": "feynman-001"
+    },
+    {
+      "id": "ent-44c5997f",
+      "canonical_name": "massachusetts institute of technology",
+      "entity_type": "ORGANIZATION",
+      "modality": "multimodal",
+      "aliases": [
+        "Massachusetts Institute"
+      ],
+      "evidence_ids": [
+        "ev-8f9f7132",
+        "ev-d10551f7"
+      ],
+      "source_system": "itext2kg",
+      "embedding": null,
+      "metadata": {},
+      "doc_id": "feynman-001"
+    },
+    {
+      "id": "ent-7f6afcda",
+      "canonical_name": "feynman diagrams",
+      "entity_type": "CONCEPT",
+      "modality": "multimodal",
+      "aliases": [
+        "Feynman Diagrams"
+      ],
+      "evidence_ids": [
+        "ev-3118abb1",
+        "ev-9e8311fe"
+      ],
+      "source_system": "itext2kg",
+      "embedding": null,
+      "metadata": {},
+      "doc_id": "feynman-001"
+    },
+    {
+      "id": "ent-d5d9c90f",
+      "canonical_name": "richard feynman",
+      "entity_type": "PERSON",
+      "modality": "multimodal",
+      "aliases": [
+        "Richard Feynman"
+      ],
+      "evidence_ids": [
+        "ev-7cbb2716",
+        "ev-49faf159"
+      ],
+      "source_system": "itext2kg",
+      "embedding": null,
+      "metadata": {},
+      "doc_id": "feynman-001"
+    },
+    {
+      "id": "ent-1e32939b",
+      "canonical_name": "manhattan project",
+      "entity_type": "OTHER",
+      "modality": "multimodal",
+      "aliases": [
+        "Manhattan Project"
+      ],
+      "evidence_ids": [
+        "ev-cdc9e1c2",
+        "ev-83735980"
+      ],
+      "source_system": "itext2kg",
+      "embedding": null,
+      "metadata": {},
+      "doc_id": "feynman-001"
+    },
+    {
+      "id": "ent-825e65a4",
+      "canonical_name": "Institute of Technology",
+      "entity_type": "ORGANIZATION",
+      "modality": "multimodal",
+      "aliases": [],
+      "evidence_ids": [
+        "ev-9d214dd4"
+      ],
+      "source_system": "mkgformer",
+      "embedding": null,
+      "metadata": {},
+      "doc_id": "feynman-001"
+    },
+    {
+      "id": "ent-dbad46e4",
+      "canonical_name": "Stub Entity A",
+      "entity_type": "PERSON",
+      "modality": "text",
+      "aliases": [],
+      "evidence_ids": [
+        "ev-c552c0c6"
+      ],
+      "source_system": "stub",
+      "embedding": null,
+      "metadata": {},
+      "doc_id": "fusion-test-001"
+    },
+    {
+      "id": "ent-45f2fb72",
+      "canonical_name": "Stub Entity B",
+      "entity_type": "ORGANIZATION",
+      "modality": "text",
+      "aliases": [],
+      "evidence_ids": [
+        "ev-c552c0c6"
+      ],
+      "source_system": "stub",
+      "embedding": null,
+      "metadata": {},
+      "doc_id": "fusion-test-001"
+    },
+    {
+      "id": "ent-d37dda11",
+      "canonical_name": "stub_visual_object",
+      "entity_type": "OBJECT",
+      "modality": "image",
+      "aliases": [],
+      "evidence_ids": [
+        "ev-a0ebb21f"
+      ],
+      "source_system": "stub",
+      "embedding": null,
+      "metadata": {},
+      "doc_id": "fusion-test-001"
+    },
+    {
+      "id": "ent-b1ace9f9",
+      "canonical_name": "Stub Entity A",
+      "entity_type": "PERSON",
+      "modality": "text",
+      "aliases": [],
+      "evidence_ids": [
+        "ev-f60413cb"
+      ],
+      "source_system": "stub",
+      "embedding": null,
+      "metadata": {},
+      "doc_id": "fusion-test-001"
+    },
+    {
+      "id": "ent-ea9af0ff",
+      "canonical_name": "Stub Entity B",
+      "entity_type": "ORGANIZATION",
+      "modality": "text",
+      "aliases": [],
+      "evidence_ids": [
+        "ev-f60413cb"
+      ],
+      "source_system": "stub",
+      "embedding": null,
+      "metadata": {},
+      "doc_id": "fusion-test-001"
+    },
+    {
+      "id": "ent-116ef7a5",
+      "canonical_name": "stub_visual_object",
+      "entity_type": "OBJECT",
+      "modality": "image",
+      "aliases": [],
+      "evidence_ids": [
+        "ev-346277ca"
+      ],
+      "source_system": "stub",
+      "embedding": null,
+      "metadata": {},
+      "doc_id": "fusion-test-001"
+    },
+    {
+      "id": "ent-547c9de3",
+      "canonical_name": "astronomical observations",
+      "entity_type": "EVENT",
+      "modality": "text",
+      "aliases": [],
+      "evidence_ids": [
+        "ev-ad11f3cb"
+      ],
+      "source_system": "itext2kg",
+      "embedding": null,
+      "metadata": {},
+      "doc_id": "galileo-001"
+    },
+    {
+      "id": "ent-54dbc952",
+      "canonical_name": "galileo galilei",
+      "entity_type": "PERSON",
+      "modality": "multimodal",
+      "aliases": [
+        "Galileo Galilei"
+      ],
+      "evidence_ids": [
+        "ev-43b4eaa3",
+        "ev-5c4c385f"
+      ],
+      "source_system": "itext2kg",
+      "embedding": null,
+      "metadata": {},
+      "doc_id": "galileo-001"
+    },
+    {
+      "id": "ent-00e88b10",
+      "canonical_name": "university of pisa",
+      "entity_type": "ORGANIZATION",
+      "modality": "multimodal",
+      "aliases": [
+        "University of Pisa"
+      ],
+      "evidence_ids": [
+        "ev-6201b3f4",
+        "ev-92d42b1c"
+      ],
+      "source_system": "itext2kg",
+      "embedding": null,
+      "metadata": {},
+      "doc_id": "galileo-001"
+    },
+    {
+      "id": "ent-393f2cd2",
+      "canonical_name": "trial by roman inquisition",
+      "entity_type": "EVENT",
+      "modality": "multimodal",
+      "aliases": [
+        "Roman Inquisition"
+      ],
+      "evidence_ids": [
+        "ev-6f2da8e9",
+        "ev-2ca66173"
+      ],
+      "source_system": "itext2kg",
+      "embedding": null,
+      "metadata": {},
+      "doc_id": "galileo-001"
+    },
+    {
+      "id": "ent-46033dc8",
+      "canonical_name": "telescope improvement",
+      "entity_type": "OTHER",
+      "modality": "text",
+      "aliases": [],
+      "evidence_ids": [
+        "ev-154f6173"
+      ],
+      "source_system": "itext2kg",
+      "embedding": null,
+      "metadata": {},
+      "doc_id": "galileo-001"
+    },
+    {
+      "id": "ent-cd8211da",
+      "canonical_name": "university of padua",
+      "entity_type": "ORGANIZATION",
+      "modality": "multimodal",
+      "aliases": [
+        "University of Padua"
+      ],
+      "evidence_ids": [
+        "ev-5c8e94a5",
+        "ev-a1935958"
+      ],
+      "source_system": "itext2kg",
+      "embedding": null,
+      "metadata": {},
+      "doc_id": "galileo-001"
+    },
+    {
+      "id": "ent-fa3dc5af",
+      "canonical_name": "pisa",
+      "entity_type": "LOCATION",
+      "modality": "text",
+      "aliases": [],
+      "evidence_ids": [
+        "ev-80b0f52f"
+      ],
+      "source_system": "itext2kg",
+      "embedding": null,
+      "metadata": {},
+      "doc_id": "galileo-001"
+    },
+    {
+      "id": "ent-5b63614e",
+      "canonical_name": "italy",
+      "entity_type": "LOCATION",
+      "modality": "multimodal",
+      "aliases": [
+        "Italy"
+      ],
+      "evidence_ids": [
+        "ev-912ceef5",
+        "ev-6415b477"
+      ],
+      "source_system": "itext2kg",
+      "embedding": null,
+      "metadata": {},
+      "doc_id": "galileo-001"
+    },
+    {
+      "id": "ent-f2fd55d0",
+      "canonical_name": "supporter of copernican heliocentric model",
+      "entity_type": "OTHER",
+      "modality": "text",
+      "aliases": [],
+      "evidence_ids": [
+        "ev-55db4be9"
+      ],
+      "source_system": "itext2kg",
+      "embedding": null,
+      "metadata": {},
+      "doc_id": "galileo-001"
+    },
+    {
+      "id": "ent-0ca1aa76",
+      "canonical_name": "dialogue concerning the two chief world systems",
+      "entity_type": "OTHER",
+      "modality": "text",
+      "aliases": [],
+      "evidence_ids": [
+        "ev-95af5c7f"
+      ],
+      "source_system": "itext2kg",
+      "embedding": null,
+      "metadata": {},
+      "doc_id": "galileo-001"
+    },
+    {
+      "id": "ent-13e9a5db",
+      "canonical_name": "Dialogue Concerning",
+      "entity_type": "PERSON",
+      "modality": "multimodal",
+      "aliases": [],
+      "evidence_ids": [
+        "ev-50c0612c"
+      ],
+      "source_system": "mkgformer",
+      "embedding": null,
+      "metadata": {},
+      "doc_id": "galileo-001"
+    },
+    {
+      "id": "ent-2810d139",
+      "canonical_name": "Two Chief World",
+      "entity_type": "PERSON",
+      "modality": "multimodal",
+      "aliases": [],
+      "evidence_ids": [
+        "ev-9e5a59f4"
+      ],
+      "source_system": "mkgformer",
+      "embedding": null,
+      "metadata": {},
+      "doc_id": "galileo-001"
+    },
+    {
+      "id": "ent-1148000d",
+      "canonical_name": "oxford",
+      "entity_type": "LOCATION",
+      "modality": "text",
+      "aliases": [],
+      "evidence_ids": [
+        "ev-955df1bd"
+      ],
+      "source_system": "itext2kg",
+      "embedding": null,
+      "metadata": {},
+      "doc_id": "hawking-001"
+    },
+    {
+      "id": "ent-15084457",
+      "canonical_name": "stephen hawking",
+      "entity_type": "PERSON",
+      "modality": "multimodal",
+      "aliases": [
+        "Stephen Hawking"
+      ],
+      "evidence_ids": [
+        "ev-2ff4c727",
+        "ev-6affa924"
+      ],
+      "source_system": "itext2kg",
+      "embedding": null,
+      "metadata": {},
+      "doc_id": "hawking-001"
+    },
+    {
+      "id": "ent-510a5f1e",
+      "canonical_name": "hawking radiation",
+      "entity_type": "CONCEPT",
+      "modality": "multimodal",
+      "aliases": [
+        "Hawking Radiation"
+      ],
+      "evidence_ids": [
+        "ev-f246f591",
+        "ev-88d66f82"
+      ],
+      "source_system": "itext2kg",
+      "embedding": null,
+      "metadata": {},
+      "doc_id": "hawking-001"
+    },
+    {
+      "id": "ent-7904f84c",
+      "canonical_name": "lucasian professor of mathematics",
+      "entity_type": "OTHER",
+      "modality": "multimodal",
+      "aliases": [
+        "Lucasian Professor"
+      ],
+      "evidence_ids": [
+        "ev-8fc7cae2",
+        "ev-5bfb6830"
+      ],
+      "source_system": "itext2kg",
+      "embedding": null,
+      "metadata": {},
+      "doc_id": "hawking-001"
+    },
+    {
+      "id": "ent-bf7659fc",
+      "canonical_name": "university college oxford",
+      "entity_type": "ORGANIZATION",
+      "modality": "multimodal",
+      "aliases": [
+        "University College Oxford"
+      ],
+      "evidence_ids": [
+        "ev-9b8ee338",
+        "ev-32464905"
+      ],
+      "source_system": "itext2kg",
+      "embedding": null,
+      "metadata": {},
+      "doc_id": "hawking-001"
+    },
+    {
+      "id": "ent-ffcceb1e",
+      "canonical_name": "black holes",
+      "entity_type": "CONCEPT",
+      "modality": "text",
+      "aliases": [],
+      "evidence_ids": [
+        "ev-00b7eb2c"
+      ],
+      "source_system": "itext2kg",
+      "embedding": null,
+      "metadata": {},
+      "doc_id": "hawking-001"
+    },
+    {
+      "id": "ent-87edab65",
+      "canonical_name": "a brief history of time",
+      "entity_type": "OTHER",
+      "modality": "text",
+      "aliases": [],
+      "evidence_ids": [
+        "ev-3faea4f9"
+      ],
+      "source_system": "itext2kg",
+      "embedding": null,
+      "metadata": {},
+      "doc_id": "hawking-001"
+    },
+    {
+      "id": "ent-7448b9d2",
+      "canonical_name": "singularity theorems",
+      "entity_type": "CONCEPT",
+      "modality": "text",
+      "aliases": [],
+      "evidence_ids": [
+        "ev-97f514ef"
+      ],
+      "source_system": "itext2kg",
+      "embedding": null,
+      "metadata": {},
+      "doc_id": "hawking-001"
+    },
+    {
+      "id": "ent-fa5cae18",
+      "canonical_name": "roger penrose",
+      "entity_type": "PERSON",
+      "modality": "multimodal",
+      "aliases": [
+        "Roger Penrose"
+      ],
+      "evidence_ids": [
+        "ev-f355e57b",
+        "ev-df3d7cc2"
+      ],
+      "source_system": "itext2kg",
+      "embedding": null,
+      "metadata": {},
+      "doc_id": "hawking-001"
+    },
+    {
+      "id": "ent-aee0c3fa",
+      "canonical_name": "Brief History",
+      "entity_type": "PERSON",
+      "modality": "multimodal",
+      "aliases": [],
+      "evidence_ids": [
+        "ev-40a89318"
+      ],
+      "source_system": "mkgformer",
+      "embedding": null,
+      "metadata": {},
+      "doc_id": "hawking-001"
+    },
+    {
+      "id": "ent-e2964d64",
+      "canonical_name": "universal gravitation",
+      "entity_type": "CONCEPT",
+      "modality": "text",
+      "aliases": [],
+      "evidence_ids": [
+        "ev-455baff7"
+      ],
+      "source_system": "itext2kg",
+      "embedding": null,
+      "metadata": {},
+      "doc_id": "isaac-newton-001"
+    },
+    {
+      "id": "ent-d6ac6a13",
+      "canonical_name": "royal society",
+      "entity_type": "ORGANIZATION",
+      "modality": "multimodal",
+      "aliases": [
+        "Royal Society"
+      ],
+      "evidence_ids": [
+        "ev-9e418615",
+        "ev-6eff29e8"
+      ],
+      "source_system": "itext2kg",
+      "embedding": null,
+      "metadata": {},
+      "doc_id": "isaac-newton-001"
+    },
+    {
+      "id": "ent-49a37af1",
+      "canonical_name": "trinity college",
+      "entity_type": "ORGANIZATION",
+      "modality": "multimodal",
+      "aliases": [
+        "Trinity College"
+      ],
+      "evidence_ids": [
+        "ev-fe1d9b5e",
+        "ev-0d09035a"
+      ],
+      "source_system": "itext2kg",
+      "embedding": null,
+      "metadata": {},
+      "doc_id": "isaac-newton-001"
+    },
+    {
+      "id": "ent-cbb5745f",
+      "canonical_name": "isaac newton",
+      "entity_type": "PERSON",
+      "modality": "multimodal",
+      "aliases": [
+        "Isaac Newton"
+      ],
+      "evidence_ids": [
+        "ev-4b227f32",
+        "ev-c3acea61"
+      ],
+      "source_system": "itext2kg",
+      "embedding": null,
+      "metadata": {},
+      "doc_id": "isaac-newton-001"
+    },
+    {
+      "id": "ent-5e1f1a0f",
+      "canonical_name": "laws of motion",
+      "entity_type": "CONCEPT",
+      "modality": "text",
+      "aliases": [],
+      "evidence_ids": [
+        "ev-bc68b79a"
+      ],
+      "source_system": "itext2kg",
+      "embedding": null,
+      "metadata": {},
+      "doc_id": "isaac-newton-001"
+    },
+    {
+      "id": "ent-79ea4d66",
+      "canonical_name": "woolsthorpe",
+      "entity_type": "LOCATION",
+      "modality": "text",
+      "aliases": [],
+      "evidence_ids": [
+        "ev-6fad1cee"
+      ],
+      "source_system": "itext2kg",
+      "embedding": null,
+      "metadata": {},
+      "doc_id": "isaac-newton-001"
+    },
+    {
+      "id": "ent-e477eb5b",
+      "canonical_name": "royal mint",
+      "entity_type": "ORGANIZATION",
+      "modality": "multimodal",
+      "aliases": [
+        "Royal Mint"
+      ],
+      "evidence_ids": [
+        "ev-003968aa",
+        "ev-2e4bd900"
+      ],
+      "source_system": "itext2kg",
+      "embedding": null,
+      "metadata": {},
+      "doc_id": "isaac-newton-001"
+    },
+    {
+      "id": "ent-2b935ac9",
+      "canonical_name": "principia mathematica",
+      "entity_type": "OTHER",
+      "modality": "multimodal",
+      "aliases": [
+        "Principia Mathematica"
+      ],
+      "evidence_ids": [
+        "ev-d5cd9235",
+        "ev-0f818f34"
+      ],
+      "source_system": "itext2kg",
+      "embedding": null,
+      "metadata": {},
+      "doc_id": "isaac-newton-001"
+    },
+    {
+      "id": "ent-c634de03",
+      "canonical_name": "paris",
+      "entity_type": "LOCATION",
+      "modality": "multimodal",
+      "aliases": [
+        "Paris, France"
+      ],
+      "evidence_ids": [
+        "ev-0ff9c64f",
+        "ev-eddf68a1"
+      ],
+      "source_system": "itext2kg",
+      "embedding": null,
+      "metadata": {
+        "cross_doc_ids": [
+          "nikola-tesla-001"
+        ]
+      },
+      "doc_id": "marie-curie-001"
+    },
+    {
+      "id": "ent-e9efe722",
+      "canonical_name": "radium",
+      "entity_type": "OTHER",
+      "modality": "text",
+      "aliases": [],
+      "evidence_ids": [
+        "ev-16089405"
+      ],
+      "source_system": "itext2kg",
+      "embedding": null,
+      "metadata": {},
+      "doc_id": "marie-curie-001"
+    },
+    {
+      "id": "ent-fab20317",
+      "canonical_name": "sorbonne university",
+      "entity_type": "ORGANIZATION",
+      "modality": "multimodal",
+      "aliases": [
+        "Sorbonne University"
+      ],
+      "evidence_ids": [
+        "ev-a622094e",
+        "ev-100beded"
+      ],
+      "source_system": "itext2kg",
+      "embedding": null,
+      "metadata": {},
+      "doc_id": "marie-curie-001"
+    },
+    {
+      "id": "ent-b98d3a2e",
+      "canonical_name": "france",
+      "entity_type": "LOCATION",
+      "modality": "text",
+      "aliases": [],
+      "evidence_ids": [
+        "ev-46dbbbd0"
+      ],
+      "source_system": "itext2kg",
+      "embedding": null,
+      "metadata": {
+        "cross_doc_ids": [
+          "nikola-tesla-001"
+        ]
+      },
+      "doc_id": "marie-curie-001"
+    },
+    {
+      "id": "ent-e8df10f5",
+      "canonical_name": "warsaw",
+      "entity_type": "LOCATION",
+      "modality": "multimodal",
+      "aliases": [
+        "Warsaw, Poland"
+      ],
+      "evidence_ids": [
+        "ev-053ef113",
+        "ev-2fbaf799"
+      ],
+      "source_system": "itext2kg",
+      "embedding": null,
+      "metadata": {},
+      "doc_id": "marie-curie-001"
+    },
+    {
+      "id": "ent-2e82f99b",
+      "canonical_name": "marie curie",
+      "entity_type": "PERSON",
+      "modality": "multimodal",
+      "aliases": [
+        "Marie Curie"
+      ],
+      "evidence_ids": [
+        "ev-5a01c112",
+        "ev-e9e4f66a"
+      ],
+      "source_system": "itext2kg",
+      "embedding": null,
+      "metadata": {},
+      "doc_id": "marie-curie-001"
+    },
+    {
+      "id": "ent-6ccfd6a1",
+      "canonical_name": "pierre curie",
+      "entity_type": "PERSON",
+      "modality": "multimodal",
+      "aliases": [
+        "Pierre Curie"
+      ],
+      "evidence_ids": [
+        "ev-37fb6b79",
+        "ev-89dfdd75"
+      ],
+      "source_system": "itext2kg",
+      "embedding": null,
+      "metadata": {},
+      "doc_id": "marie-curie-001"
+    },
+    {
+      "id": "ent-c95efd17",
+      "canonical_name": "polonium",
+      "entity_type": "OTHER",
+      "modality": "text",
+      "aliases": [],
+      "evidence_ids": [
+        "ev-4b3ab595"
+      ],
+      "source_system": "itext2kg",
+      "embedding": null,
+      "metadata": {},
+      "doc_id": "marie-curie-001"
+    },
+    {
+      "id": "ent-d8a296e9",
+      "canonical_name": "poland",
+      "entity_type": "LOCATION",
+      "modality": "multimodal",
+      "aliases": [
+        "Warsaw, Poland"
+      ],
+      "evidence_ids": [
+        "ev-a9d1da52",
+        "ev-2fbaf799"
+      ],
+      "source_system": "itext2kg",
+      "embedding": null,
+      "metadata": {},
+      "doc_id": "marie-curie-001"
+    },
+    {
+      "id": "ent-14846977",
+      "canonical_name": "curie institute",
+      "entity_type": "ORGANIZATION",
+      "modality": "multimodal",
+      "aliases": [
+        "Curie Institute"
+      ],
+      "evidence_ids": [
+        "ev-cce21342",
+        "ev-0201267e"
+      ],
+      "source_system": "itext2kg",
+      "embedding": null,
+      "metadata": {},
+      "doc_id": "marie-curie-001"
+    },
+    {
+      "id": "ent-dd12001a",
+      "canonical_name": "Nobel Prizes",
+      "entity_type": "PERSON",
+      "modality": "multimodal",
+      "aliases": [],
+      "evidence_ids": [
+        "ev-8b092e6f"
+      ],
+      "source_system": "mkgformer",
+      "embedding": null,
+      "metadata": {},
+      "doc_id": "marie-curie-001"
+    },
+    {
+      "id": "ent-6d41e1c1",
+      "canonical_name": "thomas edison",
+      "entity_type": "PERSON",
+      "modality": "multimodal",
+      "aliases": [
+        "Thomas Edison"
+      ],
+      "evidence_ids": [
+        "ev-c4ae9925",
+        "ev-ca58538d"
+      ],
+      "source_system": "itext2kg",
+      "embedding": null,
+      "metadata": {},
+      "doc_id": "nikola-tesla-001"
+    },
+    {
+      "id": "ent-3e68104e",
+      "canonical_name": "united states",
+      "entity_type": "LOCATION",
+      "modality": "multimodal",
+      "aliases": [
+        "United States"
+      ],
+      "evidence_ids": [
+        "ev-766c7dfa",
+        "ev-f3935090"
+      ],
+      "source_system": "itext2kg",
+      "embedding": null,
+      "metadata": {},
+      "doc_id": "nikola-tesla-001"
+    },
+    {
+      "id": "ent-97b13fa6",
+      "canonical_name": "war of currents",
+      "entity_type": "EVENT",
+      "modality": "text",
+      "aliases": [],
+      "evidence_ids": [
+        "ev-3288d95c"
+      ],
+      "source_system": "itext2kg",
+      "embedding": null,
+      "metadata": {},
+      "doc_id": "nikola-tesla-001"
+    },
+    {
+      "id": "ent-bc056036",
+      "canonical_name": "austria",
+      "entity_type": "LOCATION",
+      "modality": "text",
+      "aliases": [],
+      "evidence_ids": [
+        "ev-530f861e"
+      ],
+      "source_system": "itext2kg",
+      "embedding": null,
+      "metadata": {},
+      "doc_id": "nikola-tesla-001"
+    },
+    {
+      "id": "ent-e6880cba",
+      "canonical_name": "continental edison company",
+      "entity_type": "ORGANIZATION",
+      "modality": "multimodal",
+      "aliases": [
+        "Continental Edison Company"
+      ],
+      "evidence_ids": [
+        "ev-34270625",
+        "ev-dc3cfff2"
+      ],
+      "source_system": "itext2kg",
+      "embedding": null,
+      "metadata": {},
+      "doc_id": "nikola-tesla-001"
+    },
+    {
+      "id": "ent-7cb3a2ef",
+      "canonical_name": "nikola tesla",
+      "entity_type": "PERSON",
+      "modality": "multimodal",
+      "aliases": [
+        "Nikola Tesla"
+      ],
+      "evidence_ids": [
+        "ev-fc21ddba",
+        "ev-bc0b8113"
+      ],
+      "source_system": "itext2kg",
+      "embedding": null,
+      "metadata": {},
+      "doc_id": "nikola-tesla-001"
+    },
+    {
+      "id": "ent-386fcc48",
+      "canonical_name": "smiljan",
+      "entity_type": "LOCATION",
+      "modality": "text",
+      "aliases": [],
+      "evidence_ids": [
+        "ev-d21cb679"
+      ],
+      "source_system": "itext2kg",
+      "embedding": null,
+      "metadata": {},
+      "doc_id": "nikola-tesla-001"
+    },
+    {
+      "id": "ent-4dcca5e6",
+      "canonical_name": "technical university of graz",
+      "entity_type": "ORGANIZATION",
+      "modality": "multimodal",
+      "aliases": [
+        "University of Graz"
+      ],
+      "evidence_ids": [
+        "ev-e8f8fe60",
+        "ev-b9091ca2"
+      ],
+      "source_system": "itext2kg",
+      "embedding": null,
+      "metadata": {},
+      "doc_id": "nikola-tesla-001"
+    },
+    {
+      "id": "ent-72c21b84",
+      "canonical_name": "Technical University",
+      "entity_type": "ORGANIZATION",
+      "modality": "multimodal",
+      "aliases": [],
+      "evidence_ids": [
+        "ev-a3fc0eb6"
+      ],
+      "source_system": "mkgformer",
+      "embedding": null,
+      "metadata": {},
+      "doc_id": "nikola-tesla-001"
+    },
+    {
+      "id": "ent-7f7b3552",
+      "canonical_name": "Smiljan, Austria",
+      "entity_type": "LOCATION",
+      "modality": "multimodal",
+      "aliases": [],
+      "evidence_ids": [
+        "ev-cde20ee7"
+      ],
+      "source_system": "mkgformer",
+      "embedding": null,
+      "metadata": {},
+      "doc_id": "nikola-tesla-001"
+    },
+    {
+      "id": "ent-0e2f59cb",
+      "canonical_name": "x ray crystallography",
+      "entity_type": "OTHER",
+      "modality": "text",
+      "aliases": [],
+      "evidence_ids": [
+        "ev-c104c2f0"
+      ],
+      "source_system": "itext2kg",
+      "embedding": null,
+      "metadata": {},
+      "doc_id": "rosalind-franklin-001"
+    },
+    {
+      "id": "ent-a4118b09",
+      "canonical_name": "king's college london",
+      "entity_type": "ORGANIZATION",
+      "modality": "multimodal",
+      "aliases": [
+        "College London"
+      ],
+      "evidence_ids": [
+        "ev-f4b74475",
+        "ev-a50814ee"
+      ],
+      "source_system": "itext2kg",
+      "embedding": null,
+      "metadata": {},
+      "doc_id": "rosalind-franklin-001"
+    },
+    {
+      "id": "ent-09d54857",
+      "canonical_name": "rosalind franklin",
+      "entity_type": "PERSON",
+      "modality": "multimodal",
+      "aliases": [
+        "Rosalind Franklin"
+      ],
+      "evidence_ids": [
+        "ev-234cceca",
+        "ev-04ab5ebc"
+      ],
+      "source_system": "itext2kg",
+      "embedding": null,
+      "metadata": {},
+      "doc_id": "rosalind-franklin-001"
+    },
+    {
+      "id": "ent-88b318fe",
+      "canonical_name": "understanding of dna structure",
+      "entity_type": "EVENT",
+      "modality": "text",
+      "aliases": [],
+      "evidence_ids": [
+        "ev-cf0b9084"
+      ],
+      "source_system": "itext2kg",
+      "embedding": null,
+      "metadata": {},
+      "doc_id": "rosalind-franklin-001"
+    },
+    {
+      "id": "ent-7816530c",
+      "canonical_name": "james watson",
+      "entity_type": "PERSON",
+      "modality": "multimodal",
+      "aliases": [
+        "James Watson"
+      ],
+      "evidence_ids": [
+        "ev-9b352a53",
+        "ev-b44ff181"
+      ],
+      "source_system": "itext2kg",
+      "embedding": null,
+      "metadata": {},
+      "doc_id": "rosalind-franklin-001"
+    },
+    {
+      "id": "ent-55a37b53",
+      "canonical_name": "birkbeck college",
+      "entity_type": "ORGANIZATION",
+      "modality": "multimodal",
+      "aliases": [
+        "Birkbeck College"
+      ],
+      "evidence_ids": [
+        "ev-f8100a72",
+        "ev-92db4ede"
+      ],
+      "source_system": "itext2kg",
+      "embedding": null,
+      "metadata": {},
+      "doc_id": "rosalind-franklin-001"
+    },
+    {
+      "id": "ent-d4b8fc5e",
+      "canonical_name": "francis crick",
+      "entity_type": "PERSON",
+      "modality": "multimodal",
+      "aliases": [
+        "Francis Crick"
+      ],
+      "evidence_ids": [
+        "ev-75f64325",
+        "ev-249150a7"
+      ],
+      "source_system": "itext2kg",
+      "embedding": null,
+      "metadata": {},
+      "doc_id": "rosalind-franklin-001"
+    }
+  ],
+  "relations": [
+    {
+      "id": "rel-7406ce40",
+      "subject_id": "ent-8b324a1d",
+      "predicate": "worked_on",
+      "object_id": "ent-2dba9abe",
+      "confidence": 1.0,
+      "source_system": "itext2kg",
+      "evidence_ids": [],
+      "metadata": {
+        "observation_dates": [],
+        "source_doc": "ada-lovelace-001"
+      }
+    },
+    {
+      "id": "rel-5e3b3537",
+      "subject_id": "ent-8b324a1d",
+      "predicate": "born_in",
+      "object_id": "ent-8a8a1e47",
+      "confidence": 1.0,
+      "source_system": "itext2kg",
+      "evidence_ids": [],
+      "metadata": {
+        "observation_dates": [],
+        "source_doc": "ada-lovelace-001"
+      }
+    },
+    {
+      "id": "rel-5b34b7e4",
+      "subject_id": "ent-8b324a1d",
+      "predicate": "worked_with",
+      "object_id": "ent-a43ad8d4",
+      "confidence": 1.0,
+      "source_system": "itext2kg",
+      "evidence_ids": [],
+      "metadata": {
+        "observation_dates": [],
+        "source_doc": "ada-lovelace-001"
+      }
+    },
+    {
+      "id": "rel-f90e44da",
+      "subject_id": "ent-8b324a1d",
+      "predicate": "daughter_of",
+      "object_id": "ent-cba13597",
+      "confidence": 1.0,
+      "source_system": "itext2kg",
+      "evidence_ids": [],
+      "metadata": {
+        "observation_dates": [],
+        "source_doc": "ada-lovelace-001"
+      }
+    },
+    {
+      "id": "rel-f78359fa",
+      "subject_id": "ent-8a8a1e47",
+      "predicate": "located_in",
+      "object_id": "ent-03493707",
+      "confidence": 1.0,
+      "source_system": "itext2kg",
+      "evidence_ids": [],
+      "metadata": {
+        "observation_dates": [],
+        "source_doc": "ada-lovelace-001"
+      }
+    },
+    {
+      "id": "rel-21184328",
+      "subject_id": "ent-8b324a1d",
+      "predicate": "studied_under",
+      "object_id": "ent-58b46e98",
+      "confidence": 1.0,
+      "source_system": "itext2kg",
+      "evidence_ids": [],
+      "metadata": {
+        "observation_dates": [],
+        "source_doc": "ada-lovelace-001"
+      }
+    },
+    {
+      "id": "rel-b2e7b501",
+      "subject_id": "ent-8b324a1d",
+      "predicate": "studied",
+      "object_id": "ent-397eff7b",
+      "confidence": 1.0,
+      "source_system": "itext2kg",
+      "evidence_ids": [],
+      "metadata": {
+        "observation_dates": [],
+        "source_doc": "ada-lovelace-001"
+      }
+    },
+    {
+      "id": "rel-a90b775e",
+      "subject_id": "ent-8b324a1d",
+      "predicate": "studied_at",
+      "object_id": "ent-7e4e73a9",
+      "confidence": 1.0,
+      "source_system": "itext2kg",
+      "evidence_ids": [],
+      "metadata": {
+        "observation_dates": [],
+        "source_doc": "ada-lovelace-001"
+      }
+    },
+    {
+      "id": "rel-f09e8ea7",
+      "subject_id": "ent-f46dae89",
+      "predicate": "worked_at",
+      "object_id": "ent-826dba2b",
+      "confidence": 1.0,
+      "source_system": "itext2kg",
+      "evidence_ids": [],
+      "metadata": {
+        "observation_dates": [],
+        "source_doc": "alan-turing-001"
+      }
+    },
+    {
+      "id": "rel-d36033be",
+      "subject_id": "ent-f46dae89",
+      "predicate": "worked_at",
+      "object_id": "ent-dbb7d9ee",
+      "confidence": 1.0,
+      "source_system": "itext2kg",
+      "evidence_ids": [],
+      "metadata": {
+        "observation_dates": [],
+        "source_doc": "alan-turing-001"
+      }
+    },
+    {
+      "id": "rel-3339c7da",
+      "subject_id": "ent-f46dae89",
+      "predicate": "worked_at",
+      "object_id": "ent-f4810be4",
+      "confidence": 1.0,
+      "source_system": "itext2kg",
+      "evidence_ids": [],
+      "metadata": {
+        "observation_dates": [],
+        "source_doc": "alan-turing-001"
+      }
+    },
+    {
+      "id": "rel-9a785577",
+      "subject_id": "ent-927e5288",
+      "predicate": "worked_at",
+      "object_id": "ent-c88a0aaf",
+      "confidence": 1.0,
+      "source_system": "itext2kg",
+      "evidence_ids": [],
+      "metadata": {
+        "observation_dates": [],
+        "source_doc": "alan-turing-001"
+      }
+    },
+    {
+      "id": "rel-5a042999",
+      "subject_id": "ent-927e5288",
+      "predicate": "developed",
+      "object_id": "ent-01cceba5",
+      "confidence": 1.0,
+      "source_system": "itext2kg",
+      "evidence_ids": [],
+      "metadata": {
+        "observation_dates": [],
+        "source_doc": "alan-turing-001"
+      }
+    },
+    {
+      "id": "rel-9f69d9c4",
+      "subject_id": "ent-927e5288",
+      "predicate": "worked_at",
+      "object_id": "ent-826dba2b",
+      "confidence": 1.0,
+      "source_system": "itext2kg",
+      "evidence_ids": [],
+      "metadata": {
+        "observation_dates": [],
+        "source_doc": "alan-turing-001"
+      }
+    },
+    {
+      "id": "rel-48ff5b61",
+      "subject_id": "ent-f46dae89",
+      "predicate": "participated_in",
+      "object_id": "ent-577da929",
+      "confidence": 1.0,
+      "source_system": "itext2kg",
+      "evidence_ids": [],
+      "metadata": {
+        "observation_dates": [],
+        "source_doc": "alan-turing-001"
+      }
+    },
+    {
+      "id": "rel-1bf62585",
+      "subject_id": "ent-927e5288",
+      "predicate": "worked_at",
+      "object_id": "ent-dbb7d9ee",
+      "confidence": 1.0,
+      "source_system": "itext2kg",
+      "evidence_ids": [],
+      "metadata": {
+        "observation_dates": [],
+        "source_doc": "alan-turing-001"
+      }
+    },
+    {
+      "id": "rel-14c81d56",
+      "subject_id": "ent-f46dae89",
+      "predicate": "born_in",
+      "object_id": "ent-8a8a1e47",
+      "confidence": 1.0,
+      "source_system": "itext2kg",
+      "evidence_ids": [],
+      "metadata": {
+        "observation_dates": [],
+        "source_doc": "alan-turing-001"
+      }
+    },
+    {
+      "id": "rel-e285a440",
+      "subject_id": "ent-f46dae89",
+      "predicate": "developed",
+      "object_id": "ent-52969ae7",
+      "confidence": 1.0,
+      "source_system": "itext2kg",
+      "evidence_ids": [],
+      "metadata": {
+        "observation_dates": [],
+        "source_doc": "alan-turing-001"
+      }
+    },
+    {
+      "id": "rel-cdbbe4e9",
+      "subject_id": "ent-927e5288",
+      "predicate": "worked_at",
+      "object_id": "ent-f4810be4",
+      "confidence": 1.0,
+      "source_system": "itext2kg",
+      "evidence_ids": [],
+      "metadata": {
+        "observation_dates": [],
+        "source_doc": "alan-turing-001"
+      }
+    },
+    {
+      "id": "rel-cd888159",
+      "subject_id": "ent-927e5288",
+      "predicate": "studied_at",
+      "object_id": "ent-2beae20d",
+      "confidence": 1.0,
+      "source_system": "itext2kg",
+      "evidence_ids": [],
+      "metadata": {
+        "observation_dates": [],
+        "source_doc": "alan-turing-001"
+      }
+    },
+    {
+      "id": "rel-f61ba338",
+      "subject_id": "ent-927e5288",
+      "predicate": "contributed_to",
+      "object_id": "ent-52969ae7",
+      "confidence": 1.0,
+      "source_system": "itext2kg",
+      "evidence_ids": [],
+      "metadata": {
+        "observation_dates": [],
+        "source_doc": "alan-turing-001"
+      }
+    },
+    {
+      "id": "rel-3ec1dcbd",
+      "subject_id": "ent-f46dae89",
+      "predicate": "born_in",
+      "object_id": "ent-03493707",
+      "confidence": 1.0,
+      "source_system": "itext2kg",
+      "evidence_ids": [],
+      "metadata": {
+        "observation_dates": [],
+        "source_doc": "alan-turing-001"
+      }
+    },
+    {
+      "id": "rel-949f3b68",
+      "subject_id": "ent-927e5288",
+      "predicate": "born_in",
+      "object_id": "ent-8a8a1e47",
+      "confidence": 1.0,
+      "source_system": "itext2kg",
+      "evidence_ids": [],
+      "metadata": {
+        "observation_dates": [],
+        "source_doc": "alan-turing-001"
+      }
+    },
+    {
+      "id": "rel-ab876856",
+      "subject_id": "ent-f46dae89",
+      "predicate": "developed",
+      "object_id": "ent-927e5288",
+      "confidence": 1.0,
+      "source_system": "itext2kg",
+      "evidence_ids": [],
+      "metadata": {
+        "observation_dates": [],
+        "source_doc": "alan-turing-001"
+      }
+    },
+    {
+      "id": "rel-e8a5ccf2",
+      "subject_id": "ent-577da929",
+      "predicate": "participated_in",
+      "object_id": "ent-f46dae89",
+      "confidence": 1.0,
+      "source_system": "itext2kg",
+      "evidence_ids": [],
+      "metadata": {
+        "observation_dates": [],
+        "source_doc": "alan-turing-001"
+      }
+    },
+    {
+      "id": "rel-ee80fd1e",
+      "subject_id": "ent-927e5288",
+      "predicate": "developed",
+      "object_id": "ent-927e5288",
+      "confidence": 1.0,
+      "source_system": "itext2kg",
+      "evidence_ids": [],
+      "metadata": {
+        "observation_dates": [],
+        "source_doc": "alan-turing-001"
+      }
+    },
+    {
+      "id": "rel-51ceab6d",
+      "subject_id": "ent-f46dae89",
+      "predicate": "worked_at",
+      "object_id": "ent-c88a0aaf",
+      "confidence": 1.0,
+      "source_system": "itext2kg",
+      "evidence_ids": [],
+      "metadata": {
+        "observation_dates": [],
+        "source_doc": "alan-turing-001"
+      }
+    },
+    {
+      "id": "rel-0e4bb913",
+      "subject_id": "ent-f46dae89",
+      "predicate": "developed",
+      "object_id": "ent-01cceba5",
+      "confidence": 1.0,
+      "source_system": "itext2kg",
+      "evidence_ids": [],
+      "metadata": {
+        "observation_dates": [],
+        "source_doc": "alan-turing-001"
+      }
+    },
+    {
+      "id": "rel-24269a71",
+      "subject_id": "ent-f46dae89",
+      "predicate": "studied_at",
+      "object_id": "ent-2beae20d",
+      "confidence": 1.0,
+      "source_system": "itext2kg",
+      "evidence_ids": [],
+      "metadata": {
+        "observation_dates": [],
+        "source_doc": "alan-turing-001"
+      }
+    },
+    {
+      "id": "rel-f45ddc9b",
+      "subject_id": "ent-5c6f2519",
+      "predicate": "located_in",
+      "object_id": "ent-03493707",
+      "confidence": 1.0,
+      "source_system": "itext2kg",
+      "evidence_ids": [],
+      "metadata": {
+        "observation_dates": [],
+        "source_doc": "darwin-001"
+      }
+    },
+    {
+      "id": "rel-7f45d2b6",
+      "subject_id": "ent-566a99f1",
+      "predicate": "studied_at",
+      "object_id": "ent-d50dd4d7",
+      "confidence": 1.0,
+      "source_system": "itext2kg",
+      "evidence_ids": [],
+      "metadata": {
+        "observation_dates": [],
+        "source_doc": "darwin-001"
+      }
+    },
+    {
+      "id": "rel-63c8e6f3",
+      "subject_id": "ent-566a99f1",
+      "predicate": "born_in",
+      "object_id": "ent-115d6b61",
+      "confidence": 1.0,
+      "source_system": "itext2kg",
+      "evidence_ids": [],
+      "metadata": {
+        "observation_dates": [],
+        "source_doc": "darwin-001"
+      }
+    },
+    {
+      "id": "rel-e044e6a5",
+      "subject_id": "ent-566a99f1",
+      "predicate": "studied_at",
+      "object_id": "ent-2beae20d",
+      "confidence": 1.0,
+      "source_system": "itext2kg",
+      "evidence_ids": [],
+      "metadata": {
+        "observation_dates": [],
+        "source_doc": "darwin-001"
+      }
+    },
+    {
+      "id": "rel-78db3978",
+      "subject_id": "ent-566a99f1",
+      "predicate": "lived_at",
+      "object_id": "ent-f544e2fa",
+      "confidence": 1.0,
+      "source_system": "itext2kg",
+      "evidence_ids": [],
+      "metadata": {
+        "observation_dates": [],
+        "source_doc": "darwin-001"
+      }
+    },
+    {
+      "id": "rel-90fe5e07",
+      "subject_id": "ent-115d6b61",
+      "predicate": "located_in",
+      "object_id": "ent-03493707",
+      "confidence": 1.0,
+      "source_system": "itext2kg",
+      "evidence_ids": [],
+      "metadata": {
+        "observation_dates": [],
+        "source_doc": "darwin-001"
+      }
+    },
+    {
+      "id": "rel-2ff53576",
+      "subject_id": "ent-f544e2fa",
+      "predicate": "located_in",
+      "object_id": "ent-5c6f2519",
+      "confidence": 1.0,
+      "source_system": "itext2kg",
+      "evidence_ids": [],
+      "metadata": {
+        "observation_dates": [],
+        "source_doc": "darwin-001"
+      }
+    },
+    {
+      "id": "rel-ccc20ecf",
+      "subject_id": "ent-89f98c03",
+      "predicate": "visited",
+      "object_id": "ent-61fca67d",
+      "confidence": 1.0,
+      "source_system": "itext2kg",
+      "evidence_ids": [],
+      "metadata": {
+        "observation_dates": [],
+        "source_doc": "darwin-001"
+      }
+    },
+    {
+      "id": "rel-9498edd7",
+      "subject_id": "ent-566a99f1",
+      "predicate": "published",
+      "object_id": "ent-3bc5e2fe",
+      "confidence": 1.0,
+      "source_system": "itext2kg",
+      "evidence_ids": [],
+      "metadata": {
+        "observation_dates": [],
+        "source_doc": "darwin-001"
+      }
+    },
+    {
+      "id": "rel-0c8eb5df",
+      "subject_id": "ent-566a99f1",
+      "predicate": "embarked_on",
+      "object_id": "ent-89f98c03",
+      "confidence": 1.0,
+      "source_system": "itext2kg",
+      "evidence_ids": [],
+      "metadata": {
+        "observation_dates": [],
+        "source_doc": "darwin-001"
+      }
+    },
+    {
+      "id": "rel-61c6c08c",
+      "subject_id": "ent-566a99f1",
+      "predicate": "developed",
+      "object_id": "ent-5eb8f322",
+      "confidence": 1.0,
+      "source_system": "itext2kg",
+      "evidence_ids": [],
+      "metadata": {
+        "observation_dates": [],
+        "source_doc": "darwin-001"
+      }
+    },
+    {
+      "id": "rel-9af0849b",
+      "subject_id": "ent-d10b05e3",
+      "predicate": "received",
+      "object_id": "ent-24584ff8",
+      "confidence": 1.0,
+      "source_system": "itext2kg",
+      "evidence_ids": [],
+      "metadata": {
+        "observation_dates": [],
+        "source_doc": "einstein-clean-001"
+      }
+    },
+    {
+      "id": "rel-077d9d28",
+      "subject_id": "ent-d10b05e3",
+      "predicate": "worked_at",
+      "object_id": "ent-4be79eef",
+      "confidence": 1.0,
+      "source_system": "itext2kg",
+      "evidence_ids": [],
+      "metadata": {
+        "observation_dates": [],
+        "source_doc": "einstein-clean-001"
+      }
+    },
+    {
+      "id": "rel-ee9c74c8",
+      "subject_id": "ent-d10b05e3",
+      "predicate": "born_in",
+      "object_id": "ent-230a45c3",
+      "confidence": 1.0,
+      "source_system": "itext2kg",
+      "evidence_ids": [],
+      "metadata": {
+        "observation_dates": [],
+        "source_doc": "einstein-clean-001"
+      }
+    },
+    {
+      "id": "rel-48e66c04",
+      "subject_id": "ent-d10b05e3",
+      "predicate": "born_in",
+      "object_id": "ent-e48f7b49",
+      "confidence": 1.0,
+      "source_system": "itext2kg",
+      "evidence_ids": [],
+      "metadata": {
+        "observation_dates": [],
+        "source_doc": "einstein-clean-001"
+      }
+    },
+    {
+      "id": "rel-e103d63e",
+      "subject_id": "ent-d10b05e3",
+      "predicate": "developed",
+      "object_id": "ent-acd37e5d",
+      "confidence": 1.0,
+      "source_system": "itext2kg",
+      "evidence_ids": [],
+      "metadata": {
+        "observation_dates": [],
+        "source_doc": "einstein-clean-001"
+      }
+    },
+    {
+      "id": "rel-f6babf89",
+      "subject_id": "ent-d10b05e3",
+      "predicate": "from",
+      "object_id": "ent-230a45c3",
+      "confidence": 1.0,
+      "source_system": "itext2kg",
+      "evidence_ids": [],
+      "metadata": {
+        "observation_dates": [],
+        "source_doc": "einstein-multimodal-001"
+      }
+    },
+    {
+      "id": "rel-33685c65",
+      "subject_id": "ent-4be79eef",
+      "predicate": "depicted_as",
+      "object_id": "ent-4be79eef",
+      "confidence": 1.0,
+      "source_system": "fusion",
+      "evidence_ids": [
+        "ev-c8cedaab"
+      ],
+      "metadata": {
+        "source_doc": "einstein-multimodal-001"
+      }
+    },
+    {
+      "id": "rel-10dfda2f",
+      "subject_id": "ent-230a45c3",
+      "predicate": "depicted_as",
+      "object_id": "ent-230a45c3",
+      "confidence": 1.0,
+      "source_system": "fusion",
+      "evidence_ids": [
+        "ev-8ed96521"
+      ],
+      "metadata": {
+        "source_doc": "einstein-multimodal-001"
+      }
+    },
+    {
+      "id": "rel-ecfa6967",
+      "subject_id": "ent-d10b05e3",
+      "predicate": "depicted_as",
+      "object_id": "ent-d10b05e3",
+      "confidence": 1.0,
+      "source_system": "fusion",
+      "evidence_ids": [
+        "ev-483355c6"
+      ],
+      "metadata": {
+        "source_doc": "einstein-multimodal-001"
+      }
+    },
+    {
+      "id": "rel-8a1954a6",
+      "subject_id": "ent-24584ff8",
+      "predicate": "depicted_as",
+      "object_id": "ent-24584ff8",
+      "confidence": 1.0,
+      "source_system": "fusion",
+      "evidence_ids": [
+        "ev-4dc0b27a"
+      ],
+      "metadata": {
+        "source_doc": "einstein-multimodal-001"
+      }
+    },
+    {
+      "id": "rel-8286be7b",
+      "subject_id": "ent-d5d9c90f",
+      "predicate": "developed",
+      "object_id": "ent-7f6afcda",
+      "confidence": 1.0,
+      "source_system": "itext2kg",
+      "evidence_ids": [],
+      "metadata": {
+        "observation_dates": [],
+        "source_doc": "feynman-001"
+      }
+    },
+    {
+      "id": "rel-f2df907c",
+      "subject_id": "ent-d5d9c90f",
+      "predicate": "born_in",
+      "object_id": "ent-da0146f6",
+      "confidence": 1.0,
+      "source_system": "itext2kg",
+      "evidence_ids": [],
+      "metadata": {
+        "observation_dates": [],
+        "source_doc": "feynman-001"
+      }
+    },
+    {
+      "id": "rel-9655ba09",
+      "subject_id": "ent-d5d9c90f",
+      "predicate": "studied_at",
+      "object_id": "ent-44c5997f",
+      "confidence": 1.0,
+      "source_system": "itext2kg",
+      "evidence_ids": [],
+      "metadata": {
+        "observation_dates": [],
+        "source_doc": "feynman-001"
+      }
+    },
+    {
+      "id": "rel-8778d649",
+      "subject_id": "ent-d5d9c90f",
+      "predicate": "contributed_to",
+      "object_id": "ent-a2379488",
+      "confidence": 1.0,
+      "source_system": "itext2kg",
+      "evidence_ids": [],
+      "metadata": {
+        "observation_dates": [],
+        "source_doc": "feynman-001"
+      }
+    },
+    {
+      "id": "rel-f8d0b52a",
+      "subject_id": "ent-d5d9c90f",
+      "predicate": "studied_at",
+      "object_id": "ent-4be79eef",
+      "confidence": 1.0,
+      "source_system": "itext2kg",
+      "evidence_ids": [],
+      "metadata": {
+        "observation_dates": [],
+        "source_doc": "feynman-001"
+      }
+    },
+    {
+      "id": "rel-40e752f5",
+      "subject_id": "ent-d5d9c90f",
+      "predicate": "worked_at",
+      "object_id": "ent-51fda53c",
+      "confidence": 1.0,
+      "source_system": "itext2kg",
+      "evidence_ids": [],
+      "metadata": {
+        "observation_dates": [],
+        "source_doc": "feynman-001"
+      }
+    },
+    {
+      "id": "rel-f222ede5",
+      "subject_id": "ent-d5d9c90f",
+      "predicate": "taught_at",
+      "object_id": "ent-5bd92614",
+      "confidence": 1.0,
+      "source_system": "itext2kg",
+      "evidence_ids": [],
+      "metadata": {
+        "observation_dates": [],
+        "source_doc": "feynman-001"
+      }
+    },
+    {
+      "id": "rel-aad68426",
+      "subject_id": "ent-d5d9c90f",
+      "predicate": "won",
+      "object_id": "ent-24584ff8",
+      "confidence": 1.0,
+      "source_system": "itext2kg",
+      "evidence_ids": [],
+      "metadata": {
+        "observation_dates": [],
+        "source_doc": "feynman-001"
+      }
+    },
+    {
+      "id": "rel-f42472ff",
+      "subject_id": "ent-d5d9c90f",
+      "predicate": "worked_on",
+      "object_id": "ent-1e32939b",
+      "confidence": 1.0,
+      "source_system": "itext2kg",
+      "evidence_ids": [],
+      "metadata": {
+        "observation_dates": [],
+        "source_doc": "feynman-001"
+      }
+    },
+    {
+      "id": "rel-d4a23b89",
+      "subject_id": "ent-dbad46e4",
+      "predicate": "affiliated_with",
+      "object_id": "ent-45f2fb72",
+      "confidence": 0.9,
+      "source_system": "stub",
+      "evidence_ids": [
+        "ev-c552c0c6"
+      ],
+      "metadata": {
+        "source_doc": "fusion-test-001"
+      }
+    },
+    {
+      "id": "rel-c96678c6",
+      "subject_id": "ent-dbad46e4",
+      "predicate": "depicted_as",
+      "object_id": "ent-d37dda11",
+      "confidence": 0.75,
+      "source_system": "stub-fusion",
+      "evidence_ids": [
+        "ev-a0ebb21f"
+      ],
+      "metadata": {
+        "source_doc": "fusion-test-001"
+      }
+    },
+    {
+      "id": "rel-03a9a243",
+      "subject_id": "ent-b1ace9f9",
+      "predicate": "affiliated_with",
+      "object_id": "ent-ea9af0ff",
+      "confidence": 0.9,
+      "source_system": "stub",
+      "evidence_ids": [
+        "ev-f60413cb"
+      ],
+      "metadata": {
+        "source_doc": "fusion-test-001"
+      }
+    },
+    {
+      "id": "rel-261a2655",
+      "subject_id": "ent-b1ace9f9",
+      "predicate": "depicted_as",
+      "object_id": "ent-116ef7a5",
+      "confidence": 0.75,
+      "source_system": "stub-fusion",
+      "evidence_ids": [
+        "ev-346277ca"
+      ],
+      "metadata": {
+        "source_doc": "fusion-test-001"
+      }
+    },
+    {
+      "id": "rel-747cce34",
+      "subject_id": "ent-54dbc952",
+      "predicate": "was",
+      "object_id": "ent-f2fd55d0",
+      "confidence": 1.0,
+      "source_system": "itext2kg",
+      "evidence_ids": [],
+      "metadata": {
+        "observation_dates": [],
+        "source_doc": "galileo-001"
+      }
+    },
+    {
+      "id": "rel-4f7960c8",
+      "subject_id": "ent-54dbc952",
+      "predicate": "published",
+      "object_id": "ent-0ca1aa76",
+      "confidence": 1.0,
+      "source_system": "itext2kg",
+      "evidence_ids": [],
+      "metadata": {
+        "observation_dates": [],
+        "source_doc": "galileo-001"
+      }
+    },
+    {
+      "id": "rel-af4aa101",
+      "subject_id": "ent-54dbc952",
+      "predicate": "born_in",
+      "object_id": "ent-fa3dc5af",
+      "confidence": 1.0,
+      "source_system": "itext2kg",
+      "evidence_ids": [],
+      "metadata": {
+        "observation_dates": [],
+        "source_doc": "galileo-001"
+      }
+    },
+    {
+      "id": "rel-30305190",
+      "subject_id": "ent-54dbc952",
+      "predicate": "tried_by",
+      "object_id": "ent-393f2cd2",
+      "confidence": 1.0,
+      "source_system": "itext2kg",
+      "evidence_ids": [],
+      "metadata": {
+        "observation_dates": [],
+        "source_doc": "galileo-001"
+      }
+    },
+    {
+      "id": "rel-89f7ed75",
+      "subject_id": "ent-54dbc952",
+      "predicate": "taught_at",
+      "object_id": "ent-cd8211da",
+      "confidence": 1.0,
+      "source_system": "itext2kg",
+      "evidence_ids": [],
+      "metadata": {
+        "observation_dates": [],
+        "source_doc": "galileo-001"
+      }
+    },
+    {
+      "id": "rel-420f35f7",
+      "subject_id": "ent-54dbc952",
+      "predicate": "improved",
+      "object_id": "ent-46033dc8",
+      "confidence": 1.0,
+      "source_system": "itext2kg",
+      "evidence_ids": [],
+      "metadata": {
+        "observation_dates": [],
+        "source_doc": "galileo-001"
+      }
+    },
+    {
+      "id": "rel-c9eb439d",
+      "subject_id": "ent-54dbc952",
+      "predicate": "born_in",
+      "object_id": "ent-5b63614e",
+      "confidence": 1.0,
+      "source_system": "itext2kg",
+      "evidence_ids": [],
+      "metadata": {
+        "observation_dates": [],
+        "source_doc": "galileo-001"
+      }
+    },
+    {
+      "id": "rel-96a654fe",
+      "subject_id": "ent-54dbc952",
+      "predicate": "made",
+      "object_id": "ent-547c9de3",
+      "confidence": 1.0,
+      "source_system": "itext2kg",
+      "evidence_ids": [],
+      "metadata": {
+        "observation_dates": [],
+        "source_doc": "galileo-001"
+      }
+    },
+    {
+      "id": "rel-53af0c7c",
+      "subject_id": "ent-54dbc952",
+      "predicate": "is",
+      "object_id": "ent-f2fd55d0",
+      "confidence": 1.0,
+      "source_system": "itext2kg",
+      "evidence_ids": [],
+      "metadata": {
+        "observation_dates": [],
+        "source_doc": "galileo-001"
+      }
+    },
+    {
+      "id": "rel-6a9cc8e3",
+      "subject_id": "ent-54dbc952",
+      "predicate": "studied_at",
+      "object_id": "ent-00e88b10",
+      "confidence": 1.0,
+      "source_system": "itext2kg",
+      "evidence_ids": [],
+      "metadata": {
+        "observation_dates": [],
+        "source_doc": "galileo-001"
+      }
+    },
+    {
+      "id": "rel-46dc2629",
+      "subject_id": "ent-54dbc952",
+      "predicate": "taught_in",
+      "object_id": "ent-5b63614e",
+      "confidence": 1.0,
+      "source_system": "itext2kg",
+      "evidence_ids": [],
+      "metadata": {
+        "observation_dates": [],
+        "source_doc": "galileo-001"
+      }
+    },
+    {
+      "id": "rel-a67936d5",
+      "subject_id": "ent-54dbc952",
+      "predicate": "studied_at",
+      "object_id": "ent-5b63614e",
+      "confidence": 1.0,
+      "source_system": "itext2kg",
+      "evidence_ids": [],
+      "metadata": {
+        "observation_dates": [],
+        "source_doc": "galileo-001"
+      }
+    },
+    {
+      "id": "rel-2294a133",
+      "subject_id": "ent-15084457",
+      "predicate": "developed_theories_about",
+      "object_id": "ent-ffcceb1e",
+      "confidence": 1.0,
+      "source_system": "itext2kg",
+      "evidence_ids": [],
+      "metadata": {
+        "observation_dates": [],
+        "source_doc": "hawking-001"
+      }
+    },
+    {
+      "id": "rel-483c4fdb",
+      "subject_id": "ent-15084457",
+      "predicate": "born_in",
+      "object_id": "ent-03493707",
+      "confidence": 1.0,
+      "source_system": "itext2kg",
+      "evidence_ids": [],
+      "metadata": {
+        "observation_dates": [],
+        "source_doc": "hawking-001"
+      }
+    },
+    {
+      "id": "rel-1772c192",
+      "subject_id": "ent-fa5cae18",
+      "predicate": "studied_at",
+      "object_id": "ent-bf7659fc",
+      "confidence": 1.0,
+      "source_system": "itext2kg",
+      "evidence_ids": [],
+      "metadata": {
+        "observation_dates": [],
+        "source_doc": "hawking-001"
+      }
+    },
+    {
+      "id": "rel-9d38a0cd",
+      "subject_id": "ent-15084457",
+      "predicate": "studied_at",
+      "object_id": "ent-bf7659fc",
+      "confidence": 1.0,
+      "source_system": "itext2kg",
+      "evidence_ids": [],
+      "metadata": {
+        "observation_dates": [],
+        "source_doc": "hawking-001"
+      }
+    },
+    {
+      "id": "rel-b20ccd30",
+      "subject_id": "ent-15084457",
+      "predicate": "wrote",
+      "object_id": "ent-87edab65",
+      "confidence": 1.0,
+      "source_system": "itext2kg",
+      "evidence_ids": [],
+      "metadata": {
+        "observation_dates": [],
+        "source_doc": "hawking-001"
+      }
+    },
+    {
+      "id": "rel-44d8767c",
+      "subject_id": "ent-fa5cae18",
+      "predicate": "theorized_about",
+      "object_id": "ent-ffcceb1e",
+      "confidence": 1.0,
+      "source_system": "itext2kg",
+      "evidence_ids": [],
+      "metadata": {
+        "observation_dates": [],
+        "source_doc": "hawking-001"
+      }
+    },
+    {
+      "id": "rel-38e9c305",
+      "subject_id": "ent-15084457",
+      "predicate": "worked_with",
+      "object_id": "ent-fa5cae18",
+      "confidence": 1.0,
+      "source_system": "itext2kg",
+      "evidence_ids": [],
+      "metadata": {
+        "observation_dates": [],
+        "source_doc": "hawking-001"
+      }
+    },
+    {
+      "id": "rel-f90846fa",
+      "subject_id": "ent-fa5cae18",
+      "predicate": "studied_at",
+      "object_id": "ent-2beae20d",
+      "confidence": 1.0,
+      "source_system": "itext2kg",
+      "evidence_ids": [],
+      "metadata": {
+        "observation_dates": [],
+        "source_doc": "hawking-001"
+      }
+    },
+    {
+      "id": "rel-da85f1de",
+      "subject_id": "ent-fa5cae18",
+      "predicate": "wrote",
+      "object_id": "ent-87edab65",
+      "confidence": 1.0,
+      "source_system": "itext2kg",
+      "evidence_ids": [],
+      "metadata": {
+        "observation_dates": [],
+        "source_doc": "hawking-001"
+      }
+    },
+    {
+      "id": "rel-b15f92cb",
+      "subject_id": "ent-15084457",
+      "predicate": "studied_at",
+      "object_id": "ent-2beae20d",
+      "confidence": 1.0,
+      "source_system": "itext2kg",
+      "evidence_ids": [],
+      "metadata": {
+        "observation_dates": [],
+        "source_doc": "hawking-001"
+      }
+    },
+    {
+      "id": "rel-74c229b8",
+      "subject_id": "ent-15084457",
+      "predicate": "born_in",
+      "object_id": "ent-1148000d",
+      "confidence": 1.0,
+      "source_system": "itext2kg",
+      "evidence_ids": [],
+      "metadata": {
+        "observation_dates": [],
+        "source_doc": "hawking-001"
+      }
+    },
+    {
+      "id": "rel-353e9333",
+      "subject_id": "ent-fa5cae18",
+      "predicate": "born_in",
+      "object_id": "ent-1148000d",
+      "confidence": 1.0,
+      "source_system": "itext2kg",
+      "evidence_ids": [],
+      "metadata": {
+        "observation_dates": [],
+        "source_doc": "hawking-001"
+      }
+    },
+    {
+      "id": "rel-9a6e878c",
+      "subject_id": "ent-15084457",
+      "predicate": "worked_on",
+      "object_id": "ent-7448b9d2",
+      "confidence": 1.0,
+      "source_system": "itext2kg",
+      "evidence_ids": [],
+      "metadata": {
+        "observation_dates": [],
+        "source_doc": "hawking-001"
+      }
+    },
+    {
+      "id": "rel-87c95fdd",
+      "subject_id": "ent-15084457",
+      "predicate": "lived_in",
+      "object_id": "ent-03493707",
+      "confidence": 1.0,
+      "source_system": "itext2kg",
+      "evidence_ids": [],
+      "metadata": {
+        "observation_dates": [],
+        "source_doc": "hawking-001"
+      }
+    },
+    {
+      "id": "rel-cee191fe",
+      "subject_id": "ent-fa5cae18",
+      "predicate": "holds_position",
+      "object_id": "ent-7904f84c",
+      "confidence": 1.0,
+      "source_system": "itext2kg",
+      "evidence_ids": [],
+      "metadata": {
+        "observation_dates": [],
+        "source_doc": "hawking-001"
+      }
+    },
+    {
+      "id": "rel-929230bb",
+      "subject_id": "ent-fa5cae18",
+      "predicate": "developed",
+      "object_id": "ent-510a5f1e",
+      "confidence": 1.0,
+      "source_system": "itext2kg",
+      "evidence_ids": [],
+      "metadata": {
+        "observation_dates": [],
+        "source_doc": "hawking-001"
+      }
+    },
+    {
+      "id": "rel-49f311e3",
+      "subject_id": "ent-15084457",
+      "predicate": "holds_position",
+      "object_id": "ent-7904f84c",
+      "confidence": 1.0,
+      "source_system": "itext2kg",
+      "evidence_ids": [],
+      "metadata": {
+        "observation_dates": [],
+        "source_doc": "hawking-001"
+      }
+    },
+    {
+      "id": "rel-bc2df1d1",
+      "subject_id": "ent-fa5cae18",
+      "predicate": "worked_on",
+      "object_id": "ent-7448b9d2",
+      "confidence": 1.0,
+      "source_system": "itext2kg",
+      "evidence_ids": [],
+      "metadata": {
+        "observation_dates": [],
+        "source_doc": "hawking-001"
+      }
+    },
+    {
+      "id": "rel-37c492b6",
+      "subject_id": "ent-15084457",
+      "predicate": "developed_theories_about",
+      "object_id": "ent-510a5f1e",
+      "confidence": 1.0,
+      "source_system": "itext2kg",
+      "evidence_ids": [],
+      "metadata": {
+        "observation_dates": [],
+        "source_doc": "hawking-001"
+      }
+    },
+    {
+      "id": "rel-5bc9f9a3",
+      "subject_id": "ent-fa5cae18",
+      "predicate": "collaborated_with",
+      "object_id": "ent-fa5cae18",
+      "confidence": 1.0,
+      "source_system": "itext2kg",
+      "evidence_ids": [],
+      "metadata": {
+        "observation_dates": [],
+        "source_doc": "hawking-001"
+      }
+    },
+    {
+      "id": "rel-14326cc6",
+      "subject_id": "ent-cbb5745f",
+      "predicate": "studied_at",
+      "object_id": "ent-49a37af1",
+      "confidence": 1.0,
+      "source_system": "itext2kg",
+      "evidence_ids": [],
+      "metadata": {
+        "observation_dates": [],
+        "source_doc": "isaac-newton-001"
+      }
+    },
+    {
+      "id": "rel-844626e0",
+      "subject_id": "ent-cbb5745f",
+      "predicate": "published",
+      "object_id": "ent-2b935ac9",
+      "confidence": 1.0,
+      "source_system": "itext2kg",
+      "evidence_ids": [],
+      "metadata": {
+        "observation_dates": [],
+        "source_doc": "isaac-newton-001"
+      }
+    },
+    {
+      "id": "rel-d5db4f52",
+      "subject_id": "ent-cbb5745f",
+      "predicate": "developed",
+      "object_id": "ent-e2964d64",
+      "confidence": 1.0,
+      "source_system": "itext2kg",
+      "evidence_ids": [],
+      "metadata": {
+        "observation_dates": [],
+        "source_doc": "isaac-newton-001"
+      }
+    },
+    {
+      "id": "rel-5300a0ed",
+      "subject_id": "ent-cbb5745f",
+      "predicate": "studied_at",
+      "object_id": "ent-2beae20d",
+      "confidence": 1.0,
+      "source_system": "itext2kg",
+      "evidence_ids": [],
+      "metadata": {
+        "observation_dates": [],
+        "source_doc": "isaac-newton-001"
+      }
+    },
+    {
+      "id": "rel-1d27387e",
+      "subject_id": "ent-cbb5745f",
+      "predicate": "developed",
+      "object_id": "ent-5e1f1a0f",
+      "confidence": 1.0,
+      "source_system": "itext2kg",
+      "evidence_ids": [],
+      "metadata": {
+        "observation_dates": [],
+        "source_doc": "isaac-newton-001"
+      }
+    },
+    {
+      "id": "rel-75d11985",
+      "subject_id": "ent-cbb5745f",
+      "predicate": "lived_in",
+      "object_id": "ent-03493707",
+      "confidence": 1.0,
+      "source_system": "itext2kg",
+      "evidence_ids": [],
+      "metadata": {
+        "observation_dates": [],
+        "source_doc": "isaac-newton-001"
+      }
+    },
+    {
+      "id": "rel-10a91dd2",
+      "subject_id": "ent-cbb5745f",
+      "predicate": "served_as_master",
+      "object_id": "ent-e477eb5b",
+      "confidence": 1.0,
+      "source_system": "itext2kg",
+      "evidence_ids": [],
+      "metadata": {
+        "observation_dates": [],
+        "source_doc": "isaac-newton-001"
+      }
+    },
+    {
+      "id": "rel-edbc14fc",
+      "subject_id": "ent-cbb5745f",
+      "predicate": "served_as_warden",
+      "object_id": "ent-e477eb5b",
+      "confidence": 1.0,
+      "source_system": "itext2kg",
+      "evidence_ids": [],
+      "metadata": {
+        "observation_dates": [],
+        "source_doc": "isaac-newton-001"
+      }
+    },
+    {
+      "id": "rel-4181a5bb",
+      "subject_id": "ent-cbb5745f",
+      "predicate": "born_in",
+      "object_id": "ent-79ea4d66",
+      "confidence": 1.0,
+      "source_system": "itext2kg",
+      "evidence_ids": [],
+      "metadata": {
+        "observation_dates": [],
+        "source_doc": "isaac-newton-001"
+      }
+    },
+    {
+      "id": "rel-1846f85d",
+      "subject_id": "ent-cbb5745f",
+      "predicate": "elected_president",
+      "object_id": "ent-d6ac6a13",
+      "confidence": 1.0,
+      "source_system": "itext2kg",
+      "evidence_ids": [],
+      "metadata": {
+        "observation_dates": [],
+        "source_doc": "isaac-newton-001"
+      }
+    },
+    {
+      "id": "rel-cbf1c2ca",
+      "subject_id": "ent-cbb5745f",
+      "predicate": "born_in",
+      "object_id": "ent-03493707",
+      "confidence": 1.0,
+      "source_system": "itext2kg",
+      "evidence_ids": [],
+      "metadata": {
+        "observation_dates": [],
+        "source_doc": "isaac-newton-001"
+      }
+    },
+    {
+      "id": "rel-c936d73a",
+      "subject_id": "ent-2e82f99b",
+      "predicate": "discovered",
+      "object_id": "ent-e9efe722",
+      "confidence": 1.0,
+      "source_system": "itext2kg",
+      "evidence_ids": [],
+      "metadata": {
+        "observation_dates": [],
+        "source_doc": "marie-curie-001"
+      }
+    },
+    {
+      "id": "rel-3227cd0e",
+      "subject_id": "ent-2e82f99b",
+      "predicate": "born_in",
+      "object_id": "ent-d8a296e9",
+      "confidence": 1.0,
+      "source_system": "itext2kg",
+      "evidence_ids": [],
+      "metadata": {
+        "observation_dates": [],
+        "source_doc": "marie-curie-001"
+      }
+    },
+    {
+      "id": "rel-45424cb2",
+      "subject_id": "ent-fab20317",
+      "predicate": "located_in",
+      "object_id": "ent-c634de03",
+      "confidence": 1.0,
+      "source_system": "itext2kg",
+      "evidence_ids": [],
+      "metadata": {
+        "observation_dates": [],
+        "source_doc": "marie-curie-001"
+      }
+    },
+    {
+      "id": "rel-f40750f1",
+      "subject_id": "ent-14846977",
+      "predicate": "located_in",
+      "object_id": "ent-c634de03",
+      "confidence": 1.0,
+      "source_system": "itext2kg",
+      "evidence_ids": [],
+      "metadata": {
+        "observation_dates": [],
+        "source_doc": "marie-curie-001"
+      }
+    },
+    {
+      "id": "rel-7faaa41e",
+      "subject_id": "ent-2e82f99b",
+      "predicate": "moved_to",
+      "object_id": "ent-c634de03",
+      "confidence": 1.0,
+      "source_system": "itext2kg",
+      "evidence_ids": [],
+      "metadata": {
+        "observation_dates": [],
+        "source_doc": "marie-curie-001"
+      }
+    },
+    {
+      "id": "rel-8a233545",
+      "subject_id": "ent-6ccfd6a1",
+      "predicate": "won",
+      "object_id": "ent-24584ff8",
+      "confidence": 1.0,
+      "source_system": "itext2kg",
+      "evidence_ids": [],
+      "metadata": {
+        "observation_dates": [],
+        "source_doc": "marie-curie-001"
+      }
+    },
+    {
+      "id": "rel-f6ab7cbb",
+      "subject_id": "ent-2e82f99b",
+      "predicate": "born_in",
+      "object_id": "ent-e8df10f5",
+      "confidence": 1.0,
+      "source_system": "itext2kg",
+      "evidence_ids": [],
+      "metadata": {
+        "observation_dates": [],
+        "source_doc": "marie-curie-001"
+      }
+    },
+    {
+      "id": "rel-a42bb465",
+      "subject_id": "ent-d8a296e9",
+      "predicate": "is_connected_to",
+      "object_id": "ent-b98d3a2e",
+      "confidence": 1.0,
+      "source_system": "itext2kg",
+      "evidence_ids": [],
+      "metadata": {
+        "observation_dates": [],
+        "source_doc": "marie-curie-001"
+      }
+    },
+    {
+      "id": "rel-46efb918",
+      "subject_id": "ent-2e82f99b",
+      "predicate": "won",
+      "object_id": "ent-24584ff8",
+      "confidence": 1.0,
+      "source_system": "itext2kg",
+      "evidence_ids": [],
+      "metadata": {
+        "observation_dates": [],
+        "source_doc": "marie-curie-001"
+      }
+    },
+    {
+      "id": "rel-e70ae923",
+      "subject_id": "ent-6ccfd6a1",
+      "predicate": "born_in",
+      "object_id": "ent-e8df10f5",
+      "confidence": 1.0,
+      "source_system": "itext2kg",
+      "evidence_ids": [],
+      "metadata": {
+        "observation_dates": [],
+        "source_doc": "marie-curie-001"
+      }
+    },
+    {
+      "id": "rel-2c0ca417",
+      "subject_id": "ent-2e82f99b",
+      "predicate": "studied_at",
+      "object_id": "ent-fab20317",
+      "confidence": 1.0,
+      "source_system": "itext2kg",
+      "evidence_ids": [],
+      "metadata": {
+        "observation_dates": [],
+        "source_doc": "marie-curie-001"
+      }
+    },
+    {
+      "id": "rel-22133205",
+      "subject_id": "ent-6ccfd6a1",
+      "predicate": "studied_at",
+      "object_id": "ent-fab20317",
+      "confidence": 1.0,
+      "source_system": "itext2kg",
+      "evidence_ids": [],
+      "metadata": {
+        "observation_dates": [],
+        "source_doc": "marie-curie-001"
+      }
+    },
+    {
+      "id": "rel-76143c8e",
+      "subject_id": "ent-6ccfd6a1",
+      "predicate": "founded",
+      "object_id": "ent-14846977",
+      "confidence": 1.0,
+      "source_system": "itext2kg",
+      "evidence_ids": [],
+      "metadata": {
+        "observation_dates": [],
+        "source_doc": "marie-curie-001"
+      }
+    },
+    {
+      "id": "rel-9a539c52",
+      "subject_id": "ent-6ccfd6a1",
+      "predicate": "collaborated_with",
+      "object_id": "ent-6ccfd6a1",
+      "confidence": 1.0,
+      "source_system": "itext2kg",
+      "evidence_ids": [],
+      "metadata": {
+        "observation_dates": [],
+        "source_doc": "marie-curie-001"
+      }
+    },
+    {
+      "id": "rel-cf4611ea",
+      "subject_id": "ent-2e82f99b",
+      "predicate": "founded",
+      "object_id": "ent-14846977",
+      "confidence": 1.0,
+      "source_system": "itext2kg",
+      "evidence_ids": [],
+      "metadata": {
+        "observation_dates": [],
+        "source_doc": "marie-curie-001"
+      }
+    },
+    {
+      "id": "rel-5142dbf6",
+      "subject_id": "ent-6ccfd6a1",
+      "predicate": "discovered",
+      "object_id": "ent-c95efd17",
+      "confidence": 1.0,
+      "source_system": "itext2kg",
+      "evidence_ids": [],
+      "metadata": {
+        "observation_dates": [],
+        "source_doc": "marie-curie-001"
+      }
+    },
+    {
+      "id": "rel-6c701a7b",
+      "subject_id": "ent-6ccfd6a1",
+      "predicate": "discovered",
+      "object_id": "ent-e9efe722",
+      "confidence": 1.0,
+      "source_system": "itext2kg",
+      "evidence_ids": [],
+      "metadata": {
+        "observation_dates": [],
+        "source_doc": "marie-curie-001"
+      }
+    },
+    {
+      "id": "rel-a0a6aaf1",
+      "subject_id": "ent-2e82f99b",
+      "predicate": "collaborated_with",
+      "object_id": "ent-6ccfd6a1",
+      "confidence": 1.0,
+      "source_system": "itext2kg",
+      "evidence_ids": [],
+      "metadata": {
+        "observation_dates": [],
+        "source_doc": "marie-curie-001"
+      }
+    },
+    {
+      "id": "rel-2bd06daf",
+      "subject_id": "ent-2e82f99b",
+      "predicate": "moved_to",
+      "object_id": "ent-b98d3a2e",
+      "confidence": 1.0,
+      "source_system": "itext2kg",
+      "evidence_ids": [],
+      "metadata": {
+        "observation_dates": [],
+        "source_doc": "marie-curie-001"
+      }
+    },
+    {
+      "id": "rel-9af7e8d2",
+      "subject_id": "ent-2e82f99b",
+      "predicate": "discovered",
+      "object_id": "ent-c95efd17",
+      "confidence": 1.0,
+      "source_system": "itext2kg",
+      "evidence_ids": [],
+      "metadata": {
+        "observation_dates": [],
+        "source_doc": "marie-curie-001"
+      }
+    },
+    {
+      "id": "rel-4795f72b",
+      "subject_id": "ent-7cb3a2ef",
+      "predicate": "worked_for",
+      "object_id": "ent-e6880cba",
+      "confidence": 1.0,
+      "source_system": "itext2kg",
+      "evidence_ids": [],
+      "metadata": {
+        "observation_dates": [],
+        "source_doc": "nikola-tesla-001"
+      }
+    },
+    {
+      "id": "rel-5f3216b0",
+      "subject_id": "ent-7cb3a2ef",
+      "predicate": "worked_in",
+      "object_id": "ent-b98d3a2e",
+      "confidence": 1.0,
+      "source_system": "itext2kg",
+      "evidence_ids": [],
+      "metadata": {
+        "observation_dates": [],
+        "source_doc": "nikola-tesla-001"
+      }
+    },
+    {
+      "id": "rel-607a0c14",
+      "subject_id": "ent-7cb3a2ef",
+      "predicate": "studied_at",
+      "object_id": "ent-4dcca5e6",
+      "confidence": 1.0,
+      "source_system": "itext2kg",
+      "evidence_ids": [],
+      "metadata": {
+        "observation_dates": [],
+        "source_doc": "nikola-tesla-001"
+      }
+    },
+    {
+      "id": "rel-b7798e23",
+      "subject_id": "ent-7cb3a2ef",
+      "predicate": "born_in",
+      "object_id": "ent-bc056036",
+      "confidence": 1.0,
+      "source_system": "itext2kg",
+      "evidence_ids": [],
+      "metadata": {
+        "observation_dates": [],
+        "source_doc": "nikola-tesla-001"
+      }
+    },
+    {
+      "id": "rel-6aeca37d",
+      "subject_id": "ent-7cb3a2ef",
+      "predicate": "worked_at",
+      "object_id": "ent-da0146f6",
+      "confidence": 1.0,
+      "source_system": "itext2kg",
+      "evidence_ids": [],
+      "metadata": {
+        "observation_dates": [],
+        "source_doc": "nikola-tesla-001"
+      }
+    },
+    {
+      "id": "rel-8cdc6186",
+      "subject_id": "ent-7cb3a2ef",
+      "predicate": "rival_of",
+      "object_id": "ent-6d41e1c1",
+      "confidence": 1.0,
+      "source_system": "itext2kg",
+      "evidence_ids": [],
+      "metadata": {
+        "observation_dates": [],
+        "source_doc": "nikola-tesla-001"
+      }
+    },
+    {
+      "id": "rel-918ef39c",
+      "subject_id": "ent-7cb3a2ef",
+      "predicate": "involved_in",
+      "object_id": "ent-97b13fa6",
+      "confidence": 1.0,
+      "source_system": "itext2kg",
+      "evidence_ids": [],
+      "metadata": {
+        "observation_dates": [],
+        "source_doc": "nikola-tesla-001"
+      }
+    },
+    {
+      "id": "rel-d46d93c3",
+      "subject_id": "ent-7cb3a2ef",
+      "predicate": "moved_to",
+      "object_id": "ent-3e68104e",
+      "confidence": 1.0,
+      "source_system": "itext2kg",
+      "evidence_ids": [],
+      "metadata": {
+        "observation_dates": [],
+        "source_doc": "nikola-tesla-001"
+      }
+    },
+    {
+      "id": "rel-f6d64e3b",
+      "subject_id": "ent-7cb3a2ef",
+      "predicate": "worked_in",
+      "object_id": "ent-da0146f6",
+      "confidence": 1.0,
+      "source_system": "itext2kg",
+      "evidence_ids": [],
+      "metadata": {
+        "observation_dates": [],
+        "source_doc": "nikola-tesla-001"
+      }
+    },
+    {
+      "id": "rel-283ddcfc",
+      "subject_id": "ent-7cb3a2ef",
+      "predicate": "worked_in",
+      "object_id": "ent-c634de03",
+      "confidence": 1.0,
+      "source_system": "itext2kg",
+      "evidence_ids": [],
+      "metadata": {
+        "observation_dates": [],
+        "source_doc": "nikola-tesla-001"
+      }
+    },
+    {
+      "id": "rel-1fd60dbe",
+      "subject_id": "ent-7cb3a2ef",
+      "predicate": "born_in",
+      "object_id": "ent-386fcc48",
+      "confidence": 1.0,
+      "source_system": "itext2kg",
+      "evidence_ids": [],
+      "metadata": {
+        "observation_dates": [],
+        "source_doc": "nikola-tesla-001"
+      }
+    },
+    {
+      "id": "rel-d593e39e",
+      "subject_id": "ent-09d54857",
+      "predicate": "used",
+      "object_id": "ent-0e2f59cb",
+      "confidence": 1.0,
+      "source_system": "itext2kg",
+      "evidence_ids": [],
+      "metadata": {
+        "observation_dates": [],
+        "source_doc": "rosalind-franklin-001"
+      }
+    },
+    {
+      "id": "rel-96b72975",
+      "subject_id": "ent-09d54857",
+      "predicate": "born_in",
+      "object_id": "ent-8a8a1e47",
+      "confidence": 1.0,
+      "source_system": "itext2kg",
+      "evidence_ids": [],
+      "metadata": {
+        "observation_dates": [],
+        "source_doc": "rosalind-franklin-001"
+      }
+    },
+    {
+      "id": "rel-fe319dac",
+      "subject_id": "ent-09d54857",
+      "predicate": "conducted_research_at",
+      "object_id": "ent-a4118b09",
+      "confidence": 1.0,
+      "source_system": "itext2kg",
+      "evidence_ids": [],
+      "metadata": {
+        "observation_dates": [],
+        "source_doc": "rosalind-franklin-001"
+      }
+    },
+    {
+      "id": "rel-01ee822d",
+      "subject_id": "ent-09d54857",
+      "predicate": "studied_at",
+      "object_id": "ent-2beae20d",
+      "confidence": 1.0,
+      "source_system": "itext2kg",
+      "evidence_ids": [],
+      "metadata": {
+        "observation_dates": [],
+        "source_doc": "rosalind-franklin-001"
+      }
+    },
+    {
+      "id": "rel-33c5d623",
+      "subject_id": "ent-7816530c",
+      "predicate": "contributed_to",
+      "object_id": "ent-88b318fe",
+      "confidence": 1.0,
+      "source_system": "itext2kg",
+      "evidence_ids": [],
+      "metadata": {
+        "observation_dates": [],
+        "source_doc": "rosalind-franklin-001"
+      }
+    },
+    {
+      "id": "rel-a4f79810",
+      "subject_id": "ent-d4b8fc5e",
+      "predicate": "contributed_to",
+      "object_id": "ent-88b318fe",
+      "confidence": 1.0,
+      "source_system": "itext2kg",
+      "evidence_ids": [],
+      "metadata": {
+        "observation_dates": [],
+        "source_doc": "rosalind-franklin-001"
+      }
+    },
+    {
+      "id": "rel-b9cb24ae",
+      "subject_id": "ent-09d54857",
+      "predicate": "contributed_to",
+      "object_id": "ent-88b318fe",
+      "confidence": 1.0,
+      "source_system": "itext2kg",
+      "evidence_ids": [],
+      "metadata": {
+        "observation_dates": [],
+        "source_doc": "rosalind-franklin-001"
+      }
+    },
+    {
+      "id": "rel-1209eda4",
+      "subject_id": "ent-7816530c",
+      "predicate": "collaborated_with",
+      "object_id": "ent-d4b8fc5e",
+      "confidence": 1.0,
+      "source_system": "itext2kg",
+      "evidence_ids": [],
+      "metadata": {
+        "observation_dates": [],
+        "source_doc": "rosalind-franklin-001"
+      }
+    },
+    {
+      "id": "rel-e3801bd3",
+      "subject_id": "ent-09d54857",
+      "predicate": "worked_at",
+      "object_id": "ent-55a37b53",
+      "confidence": 1.0,
+      "source_system": "itext2kg",
+      "evidence_ids": [],
+      "metadata": {
+        "observation_dates": [],
+        "source_doc": "rosalind-franklin-001"
+      }
+    }
+  ],
+  "metadata": {
+    "source_documents": 17,
+    "total_entities": 115,
+    "total_relations": 146
+  }
+}

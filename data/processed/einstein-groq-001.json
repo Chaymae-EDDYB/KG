@@ -1,0 +1,221 @@
+{
+  "doc_id": "einstein-groq-001",
+  "entities": [
+    {
+      "id": "ent-8af7b5cf",
+      "canonical_name": "albert einstein",
+      "entity_type": "PERSON",
+      "modality": "text",
+      "aliases": [],
+      "evidence_ids": [
+        "ev-e0cc6b8b"
+      ],
+      "source_system": "itext2kg",
+      "embedding": null,
+      "metadata": {}
+    },
+    {
+      "id": "ent-85b5f84f",
+      "canonical_name": "theory of relativity",
+      "entity_type": "CONCEPT",
+      "modality": "text",
+      "aliases": [],
+      "evidence_ids": [
+        "ev-1518da17"
+      ],
+      "source_system": "itext2kg",
+      "embedding": null,
+      "metadata": {}
+    },
+    {
+      "id": "ent-0e429e8b",
+      "canonical_name": "germany",
+      "entity_type": "LOCATION",
+      "modality": "text",
+      "aliases": [],
+      "evidence_ids": [
+        "ev-3dbefc9a"
+      ],
+      "source_system": "itext2kg",
+      "embedding": null,
+      "metadata": {}
+    },
+    {
+      "id": "ent-c307533d",
+      "canonical_name": "princeton university",
+      "entity_type": "ORGANIZATION",
+      "modality": "text",
+      "aliases": [],
+      "evidence_ids": [
+        "ev-4f872cb7"
+      ],
+      "source_system": "itext2kg",
+      "embedding": null,
+      "metadata": {}
+    },
+    {
+      "id": "ent-68a9c800",
+      "canonical_name": "nobel prize in physics",
+      "entity_type": "EVENT",
+      "modality": "text",
+      "aliases": [],
+      "evidence_ids": [
+        "ev-689e31c3"
+      ],
+      "source_system": "itext2kg",
+      "embedding": null,
+      "metadata": {}
+    },
+    {
+      "id": "ent-19cae11c",
+      "canonical_name": "ulm",
+      "entity_type": "LOCATION",
+      "modality": "text",
+      "aliases": [],
+      "evidence_ids": [
+        "ev-8fcadc9a"
+      ],
+      "source_system": "itext2kg",
+      "embedding": null,
+      "metadata": {}
+    }
+  ],
+  "relations": [
+    {
+      "id": "rel-771e3629",
+      "subject_id": "ent-8af7b5cf",
+      "predicate": "born_in",
+      "object_id": "ent-19cae11c",
+      "confidence": 1.0,
+      "source_system": "itext2kg",
+      "evidence_ids": [],
+      "metadata": {
+        "observation_dates": []
+      }
+    },
+    {
+      "id": "rel-97fada80",
+      "subject_id": "ent-8af7b5cf",
+      "predicate": "worked_at",
+      "object_id": "ent-c307533d",
+      "confidence": 1.0,
+      "source_system": "itext2kg",
+      "evidence_ids": [],
+      "metadata": {
+        "observation_dates": []
+      }
+    },
+    {
+      "id": "rel-69832d92",
+      "subject_id": "ent-8af7b5cf",
+      "predicate": "developed",
+      "object_id": "ent-85b5f84f",
+      "confidence": 1.0,
+      "source_system": "itext2kg",
+      "evidence_ids": [],
+      "metadata": {
+        "observation_dates": []
+      }
+    },
+    {
+      "id": "rel-1e2d4bd5",
+      "subject_id": "ent-8af7b5cf",
+      "predicate": "born_in",
+      "object_id": "ent-0e429e8b",
+      "confidence": 1.0,
+      "source_system": "itext2kg",
+      "evidence_ids": [],
+      "metadata": {
+        "observation_dates": []
+      }
+    },
+    {
+      "id": "rel-7c962ecf",
+      "subject_id": "ent-8af7b5cf",
+      "predicate": "received",
+      "object_id": "ent-68a9c800",
+      "confidence": 1.0,
+      "source_system": "itext2kg",
+      "evidence_ids": [],
+      "metadata": {
+        "observation_dates": []
+      }
+    }
+  ],
+  "evidences": [
+    {
+      "id": "ev-e0cc6b8b",
+      "source_doc_id": "einstein-groq-001",
+      "source_type": "text_span",
+      "content": "albert einstein",
+      "bbox": null,
+      "page": null,
+      "image_path": null,
+      "model_name": "itext2kg/llama-3.3-70b-versatile",
+      "confidence": 1.0,
+      "metadata": {}
+    },
+    {
+      "id": "ev-1518da17",
+      "source_doc_id": "einstein-groq-001",
+      "source_type": "text_span",
+      "content": "theory of relativity",
+      "bbox": null,
+      "page": null,
+      "image_path": null,
+      "model_name": "itext2kg/llama-3.3-70b-versatile",
+      "confidence": 1.0,
+      "metadata": {}
+    },
+    {
+      "id": "ev-3dbefc9a",
+      "source_doc_id": "einstein-groq-001",
+      "source_type": "text_span",
+      "content": "germany",
+      "bbox": null,
+      "page": null,
+      "image_path": null,
+      "model_name": "itext2kg/llama-3.3-70b-versatile",
+      "confidence": 1.0,
+      "metadata": {}
+    },
+    {
+      "id": "ev-4f872cb7",
+      "source_doc_id": "einstein-groq-001",
+      "source_type": "text_span",
+      "content": "princeton university",
+      "bbox": null,
+      "page": null,
+      "image_path": null,
+      "model_name": "itext2kg/llama-3.3-70b-versatile",
+      "confidence": 1.0,
+      "metadata": {}
+    },
+    {
+      "id": "ev-689e31c3",
+      "source_doc_id": "einstein-groq-001",
+      "source_type": "text_span",
+      "content": "nobel prize in physics",
+      "bbox": null,
+      "page": null,
+      "image_path": null,
+      "model_name": "itext2kg/llama-3.3-70b-versatile",
+      "confidence": 1.0,
+      "metadata": {}
+    },
+    {
+      "id": "ev-8fcadc9a",
+      "source_doc_id": "einstein-groq-001",
+      "source_type": "text_span",
+      "content": "ulm",
+      "bbox": null,
+      "page": null,
+      "image_path": null,
+      "model_name": "itext2kg/llama-3.3-70b-versatile",
+      "confidence": 1.0,
+      "metadata": {}
+    }
+  ],
+  "pipeline_stage": "fusion",
+  "metadata": {}
+}

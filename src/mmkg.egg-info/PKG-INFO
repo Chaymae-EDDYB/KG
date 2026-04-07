@@ -1,0 +1,20 @@
+Metadata-Version: 2.4
+Name: mmkg
+Version: 0.1.0
+Summary: Multimodal Incremental KG: iText2KG + MKGformer integration
+Requires-Python: >=3.9
+Requires-Dist: pydantic<3.0,>=2.5
+Requires-Dist: click>=8.1
+Requires-Dist: pyyaml>=6.0
+Requires-Dist: networkx>=3.2
+Requires-Dist: numpy>=1.26
+Requires-Dist: loguru>=0.7
+Requires-Dist: rich>=13.0
+Requires-Dist: openai>=1.0
+Requires-Dist: sentence-transformers>=2.2
+Requires-Dist: python-dotenv>=1.0
+Requires-Dist: faiss-cpu>=1.7
+Provides-Extra: dev
+Requires-Dist: pytest>=7.4; extra == "dev"
+Requires-Dist: pytest-cov>=4.1; extra == "dev"
+Requires-Dist: ruff>=0.1; extra == "dev"

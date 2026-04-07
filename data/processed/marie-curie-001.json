@@ -1,0 +1,831 @@
+{
+  "doc_id": "marie-curie-001",
+  "entities": [
+    {
+      "id": "ent-c634de03",
+      "canonical_name": "paris",
+      "entity_type": "LOCATION",
+      "modality": "multimodal",
+      "aliases": [
+        "Paris, France"
+      ],
+      "evidence_ids": [
+        "ev-0ff9c64f",
+        "ev-eddf68a1"
+      ],
+      "source_system": "itext2kg",
+      "embedding": null,
+      "metadata": {}
+    },
+    {
+      "id": "ent-e9efe722",
+      "canonical_name": "radium",
+      "entity_type": "OTHER",
+      "modality": "text",
+      "aliases": [],
+      "evidence_ids": [
+        "ev-16089405"
+      ],
+      "source_system": "itext2kg",
+      "embedding": null,
+      "metadata": {}
+    },
+    {
+      "id": "ent-fab20317",
+      "canonical_name": "sorbonne university",
+      "entity_type": "ORGANIZATION",
+      "modality": "multimodal",
+      "aliases": [
+        "Sorbonne University"
+      ],
+      "evidence_ids": [
+        "ev-a622094e",
+        "ev-100beded"
+      ],
+      "source_system": "itext2kg",
+      "embedding": null,
+      "metadata": {}
+    },
+    {
+      "id": "ent-ce33ce2a",
+      "canonical_name": "nobel prize in chemistry",
+      "entity_type": "OTHER",
+      "modality": "multimodal",
+      "aliases": [
+        "Nobel Prize in Chemistry"
+      ],
+      "evidence_ids": [
+        "ev-21e17b7d",
+        "ev-c00f3fdf"
+      ],
+      "source_system": "itext2kg",
+      "embedding": null,
+      "metadata": {}
+    },
+    {
+      "id": "ent-b98d3a2e",
+      "canonical_name": "france",
+      "entity_type": "LOCATION",
+      "modality": "text",
+      "aliases": [],
+      "evidence_ids": [
+        "ev-46dbbbd0"
+      ],
+      "source_system": "itext2kg",
+      "embedding": null,
+      "metadata": {}
+    },
+    {
+      "id": "ent-e8df10f5",
+      "canonical_name": "warsaw",
+      "entity_type": "LOCATION",
+      "modality": "multimodal",
+      "aliases": [
+        "Warsaw, Poland"
+      ],
+      "evidence_ids": [
+        "ev-053ef113",
+        "ev-2fbaf799"
+      ],
+      "source_system": "itext2kg",
+      "embedding": null,
+      "metadata": {}
+    },
+    {
+      "id": "ent-2e82f99b",
+      "canonical_name": "marie curie",
+      "entity_type": "PERSON",
+      "modality": "multimodal",
+      "aliases": [
+        "Marie Curie"
+      ],
+      "evidence_ids": [
+        "ev-5a01c112",
+        "ev-e9e4f66a"
+      ],
+      "source_system": "itext2kg",
+      "embedding": null,
+      "metadata": {}
+    },
+    {
+      "id": "ent-6ccfd6a1",
+      "canonical_name": "pierre curie",
+      "entity_type": "PERSON",
+      "modality": "multimodal",
+      "aliases": [
+        "Pierre Curie"
+      ],
+      "evidence_ids": [
+        "ev-37fb6b79",
+        "ev-89dfdd75"
+      ],
+      "source_system": "itext2kg",
+      "embedding": null,
+      "metadata": {}
+    },
+    {
+      "id": "ent-c95efd17",
+      "canonical_name": "polonium",
+      "entity_type": "OTHER",
+      "modality": "text",
+      "aliases": [],
+      "evidence_ids": [
+        "ev-4b3ab595"
+      ],
+      "source_system": "itext2kg",
+      "embedding": null,
+      "metadata": {}
+    },
+    {
+      "id": "ent-d8a296e9",
+      "canonical_name": "poland",
+      "entity_type": "LOCATION",
+      "modality": "multimodal",
+      "aliases": [
+        "Warsaw, Poland"
+      ],
+      "evidence_ids": [
+        "ev-a9d1da52",
+        "ev-2fbaf799"
+      ],
+      "source_system": "itext2kg",
+      "embedding": null,
+      "metadata": {}
+    },
+    {
+      "id": "ent-96a4efd9",
+      "canonical_name": "nobel prize in physics",
+      "entity_type": "OTHER",
+      "modality": "multimodal",
+      "aliases": [
+        "Nobel Prize in Physics"
+      ],
+      "evidence_ids": [
+        "ev-e7dcd1ab",
+        "ev-f1721163"
+      ],
+      "source_system": "itext2kg",
+      "embedding": null,
+      "metadata": {}
+    },
+    {
+      "id": "ent-14846977",
+      "canonical_name": "curie institute",
+      "entity_type": "ORGANIZATION",
+      "modality": "multimodal",
+      "aliases": [
+        "Curie Institute"
+      ],
+      "evidence_ids": [
+        "ev-cce21342",
+        "ev-0201267e"
+      ],
+      "source_system": "itext2kg",
+      "embedding": null,
+      "metadata": {}
+    },
+    {
+      "id": "ent-dd12001a",
+      "canonical_name": "Nobel Prizes",
+      "entity_type": "PERSON",
+      "modality": "multimodal",
+      "aliases": [],
+      "evidence_ids": [
+        "ev-8b092e6f"
+      ],
+      "source_system": "mkgformer",
+      "embedding": null,
+      "metadata": {}
+    }
+  ],
+  "relations": [
+    {
+      "id": "rel-c936d73a",
+      "subject_id": "ent-2e82f99b",
+      "predicate": "discovered",
+      "object_id": "ent-e9efe722",
+      "confidence": 1.0,
+      "source_system": "itext2kg",
+      "evidence_ids": [],
+      "metadata": {
+        "observation_dates": []
+      }
+    },
+    {
+      "id": "rel-3227cd0e",
+      "subject_id": "ent-2e82f99b",
+      "predicate": "born_in",
+      "object_id": "ent-d8a296e9",
+      "confidence": 1.0,
+      "source_system": "itext2kg",
+      "evidence_ids": [],
+      "metadata": {
+        "observation_dates": []
+      }
+    },
+    {
+      "id": "rel-45424cb2",
+      "subject_id": "ent-fab20317",
+      "predicate": "located_in",
+      "object_id": "ent-c634de03",
+      "confidence": 1.0,
+      "source_system": "itext2kg",
+      "evidence_ids": [],
+      "metadata": {
+        "observation_dates": []
+      }
+    },
+    {
+      "id": "rel-f40750f1",
+      "subject_id": "ent-14846977",
+      "predicate": "located_in",
+      "object_id": "ent-c634de03",
+      "confidence": 1.0,
+      "source_system": "itext2kg",
+      "evidence_ids": [],
+      "metadata": {
+        "observation_dates": []
+      }
+    },
+    {
+      "id": "rel-7faaa41e",
+      "subject_id": "ent-2e82f99b",
+      "predicate": "moved_to",
+      "object_id": "ent-c634de03",
+      "confidence": 1.0,
+      "source_system": "itext2kg",
+      "evidence_ids": [],
+      "metadata": {
+        "observation_dates": []
+      }
+    },
+    {
+      "id": "rel-8a233545",
+      "subject_id": "ent-6ccfd6a1",
+      "predicate": "won",
+      "object_id": "ent-96a4efd9",
+      "confidence": 1.0,
+      "source_system": "itext2kg",
+      "evidence_ids": [],
+      "metadata": {
+        "observation_dates": []
+      }
+    },
+    {
+      "id": "rel-f6ab7cbb",
+      "subject_id": "ent-2e82f99b",
+      "predicate": "born_in",
+      "object_id": "ent-e8df10f5",
+      "confidence": 1.0,
+      "source_system": "itext2kg",
+      "evidence_ids": [],
+      "metadata": {
+        "observation_dates": []
+      }
+    },
+    {
+      "id": "rel-a42bb465",
+      "subject_id": "ent-d8a296e9",
+      "predicate": "is_connected_to",
+      "object_id": "ent-b98d3a2e",
+      "confidence": 1.0,
+      "source_system": "itext2kg",
+      "evidence_ids": [],
+      "metadata": {
+        "observation_dates": []
+      }
+    },
+    {
+      "id": "rel-64af702e",
+      "subject_id": "ent-6ccfd6a1",
+      "predicate": "won",
+      "object_id": "ent-ce33ce2a",
+      "confidence": 1.0,
+      "source_system": "itext2kg",
+      "evidence_ids": [],
+      "metadata": {
+        "observation_dates": []
+      }
+    },
+    {
+      "id": "rel-46efb918",
+      "subject_id": "ent-2e82f99b",
+      "predicate": "won",
+      "object_id": "ent-96a4efd9",
+      "confidence": 1.0,
+      "source_system": "itext2kg",
+      "evidence_ids": [],
+      "metadata": {
+        "observation_dates": []
+      }
+    },
+    {
+      "id": "rel-e70ae923",
+      "subject_id": "ent-6ccfd6a1",
+      "predicate": "born_in",
+      "object_id": "ent-e8df10f5",
+      "confidence": 1.0,
+      "source_system": "itext2kg",
+      "evidence_ids": [],
+      "metadata": {
+        "observation_dates": []
+      }
+    },
+    {
+      "id": "rel-2c0ca417",
+      "subject_id": "ent-2e82f99b",
+      "predicate": "studied_at",
+      "object_id": "ent-fab20317",
+      "confidence": 1.0,
+      "source_system": "itext2kg",
+      "evidence_ids": [],
+      "metadata": {
+        "observation_dates": []
+      }
+    },
+    {
+      "id": "rel-a9183b2b",
+      "subject_id": "ent-2e82f99b",
+      "predicate": "won",
+      "object_id": "ent-ce33ce2a",
+      "confidence": 1.0,
+      "source_system": "itext2kg",
+      "evidence_ids": [],
+      "metadata": {
+        "observation_dates": []
+      }
+    },
+    {
+      "id": "rel-22133205",
+      "subject_id": "ent-6ccfd6a1",
+      "predicate": "studied_at",
+      "object_id": "ent-fab20317",
+      "confidence": 1.0,
+      "source_system": "itext2kg",
+      "evidence_ids": [],
+      "metadata": {
+        "observation_dates": []
+      }
+    },
+    {
+      "id": "rel-76143c8e",
+      "subject_id": "ent-6ccfd6a1",
+      "predicate": "founded",
+      "object_id": "ent-14846977",
+      "confidence": 1.0,
+      "source_system": "itext2kg",
+      "evidence_ids": [],
+      "metadata": {
+        "observation_dates": []
+      }
+    },
+    {
+      "id": "rel-9a539c52",
+      "subject_id": "ent-6ccfd6a1",
+      "predicate": "collaborated_with",
+      "object_id": "ent-6ccfd6a1",
+      "confidence": 1.0,
+      "source_system": "itext2kg",
+      "evidence_ids": [],
+      "metadata": {
+        "observation_dates": []
+      }
+    },
+    {
+      "id": "rel-cf4611ea",
+      "subject_id": "ent-2e82f99b",
+      "predicate": "founded",
+      "object_id": "ent-14846977",
+      "confidence": 1.0,
+      "source_system": "itext2kg",
+      "evidence_ids": [],
+      "metadata": {
+        "observation_dates": []
+      }
+    },
+    {
+      "id": "rel-5142dbf6",
+      "subject_id": "ent-6ccfd6a1",
+      "predicate": "discovered",
+      "object_id": "ent-c95efd17",
+      "confidence": 1.0,
+      "source_system": "itext2kg",
+      "evidence_ids": [],
+      "metadata": {
+        "observation_dates": []
+      }
+    },
+    {
+      "id": "rel-6c701a7b",
+      "subject_id": "ent-6ccfd6a1",
+      "predicate": "discovered",
+      "object_id": "ent-e9efe722",
+      "confidence": 1.0,
+      "source_system": "itext2kg",
+      "evidence_ids": [],
+      "metadata": {
+        "observation_dates": []
+      }
+    },
+    {
+      "id": "rel-a0a6aaf1",
+      "subject_id": "ent-2e82f99b",
+      "predicate": "collaborated_with",
+      "object_id": "ent-6ccfd6a1",
+      "confidence": 1.0,
+      "source_system": "itext2kg",
+      "evidence_ids": [],
+      "metadata": {
+        "observation_dates": []
+      }
+    },
+    {
+      "id": "rel-2bd06daf",
+      "subject_id": "ent-2e82f99b",
+      "predicate": "moved_to",
+      "object_id": "ent-b98d3a2e",
+      "confidence": 1.0,
+      "source_system": "itext2kg",
+      "evidence_ids": [],
+      "metadata": {
+        "observation_dates": []
+      }
+    },
+    {
+      "id": "rel-9af7e8d2",
+      "subject_id": "ent-2e82f99b",
+      "predicate": "discovered",
+      "object_id": "ent-c95efd17",
+      "confidence": 1.0,
+      "source_system": "itext2kg",
+      "evidence_ids": [],
+      "metadata": {
+        "observation_dates": []
+      }
+    }
+  ],
+  "evidences": [
+    {
+      "id": "ev-0ff9c64f",
+      "source_doc_id": "marie-curie-001",
+      "source_type": "text_span",
+      "content": "paris",
+      "bbox": null,
+      "page": null,
+      "image_path": null,
+      "model_name": "itext2kg/llama-3.3-70b-versatile",
+      "confidence": 1.0,
+      "metadata": {}
+    },
+    {
+      "id": "ev-16089405",
+      "source_doc_id": "marie-curie-001",
+      "source_type": "text_span",
+      "content": "radium",
+      "bbox": null,
+      "page": null,
+      "image_path": null,
+      "model_name": "itext2kg/llama-3.3-70b-versatile",
+      "confidence": 1.0,
+      "metadata": {}
+    },
+    {
+      "id": "ev-a622094e",
+      "source_doc_id": "marie-curie-001",
+      "source_type": "text_span",
+      "content": "sorbonne university",
+      "bbox": null,
+      "page": null,
+      "image_path": null,
+      "model_name": "itext2kg/llama-3.3-70b-versatile",
+      "confidence": 1.0,
+      "metadata": {}
+    },
+    {
+      "id": "ev-21e17b7d",
+      "source_doc_id": "marie-curie-001",
+      "source_type": "text_span",
+      "content": "nobel prize in chemistry",
+      "bbox": null,
+      "page": null,
+      "image_path": null,
+      "model_name": "itext2kg/llama-3.3-70b-versatile",
+      "confidence": 1.0,
+      "metadata": {}
+    },
+    {
+      "id": "ev-46dbbbd0",
+      "source_doc_id": "marie-curie-001",
+      "source_type": "text_span",
+      "content": "france",
+      "bbox": null,
+      "page": null,
+      "image_path": null,
+      "model_name": "itext2kg/llama-3.3-70b-versatile",
+      "confidence": 1.0,
+      "metadata": {}
+    },
+    {
+      "id": "ev-053ef113",
+      "source_doc_id": "marie-curie-001",
+      "source_type": "text_span",
+      "content": "warsaw",
+      "bbox": null,
+      "page": null,
+      "image_path": null,
+      "model_name": "itext2kg/llama-3.3-70b-versatile",
+      "confidence": 1.0,
+      "metadata": {}
+    },
+    {
+      "id": "ev-5a01c112",
+      "source_doc_id": "marie-curie-001",
+      "source_type": "text_span",
+      "content": "marie curie",
+      "bbox": null,
+      "page": null,
+      "image_path": null,
+      "model_name": "itext2kg/llama-3.3-70b-versatile",
+      "confidence": 1.0,
+      "metadata": {}
+    },
+    {
+      "id": "ev-37fb6b79",
+      "source_doc_id": "marie-curie-001",
+      "source_type": "text_span",
+      "content": "pierre curie",
+      "bbox": null,
+      "page": null,
+      "image_path": null,
+      "model_name": "itext2kg/llama-3.3-70b-versatile",
+      "confidence": 1.0,
+      "metadata": {}
+    },
+    {
+      "id": "ev-4b3ab595",
+      "source_doc_id": "marie-curie-001",
+      "source_type": "text_span",
+      "content": "polonium",
+      "bbox": null,
+      "page": null,
+      "image_path": null,
+      "model_name": "itext2kg/llama-3.3-70b-versatile",
+      "confidence": 1.0,
+      "metadata": {}
+    },
+    {
+      "id": "ev-a9d1da52",
+      "source_doc_id": "marie-curie-001",
+      "source_type": "text_span",
+      "content": "poland",
+      "bbox": null,
+      "page": null,
+      "image_path": null,
+      "model_name": "itext2kg/llama-3.3-70b-versatile",
+      "confidence": 1.0,
+      "metadata": {}
+    },
+    {
+      "id": "ev-e7dcd1ab",
+      "source_doc_id": "marie-curie-001",
+      "source_type": "text_span",
+      "content": "nobel prize in physics",
+      "bbox": null,
+      "page": null,
+      "image_path": null,
+      "model_name": "itext2kg/llama-3.3-70b-versatile",
+      "confidence": 1.0,
+      "metadata": {}
+    },
+    {
+      "id": "ev-cce21342",
+      "source_doc_id": "marie-curie-001",
+      "source_type": "text_span",
+      "content": "curie institute",
+      "bbox": null,
+      "page": null,
+      "image_path": null,
+      "model_name": "itext2kg/llama-3.3-70b-versatile",
+      "confidence": 1.0,
+      "metadata": {}
+    },
+    {
+      "id": "ev-100beded",
+      "source_doc_id": "marie-curie-001",
+      "source_type": "model_output",
+      "content": "Sorbonne University",
+      "bbox": null,
+      "page": null,
+      "image_path": "data/raw/test_image.jpg",
+      "model_name": "mkgformer-mner",
+      "confidence": 0.6,
+      "metadata": {}
+    },
+    {
+      "id": "ev-0201267e",
+      "source_doc_id": "marie-curie-001",
+      "source_type": "model_output",
+      "content": "Curie Institute",
+      "bbox": null,
+      "page": null,
+      "image_path": "data/raw/test_image.jpg",
+      "model_name": "mkgformer-mner",
+      "confidence": 0.6,
+      "metadata": {}
+    },
+    {
+      "id": "ev-f1721163",
+      "source_doc_id": "marie-curie-001",
+      "source_type": "model_output",
+      "content": "Nobel Prize in Physics",
+      "bbox": null,
+      "page": null,
+      "image_path": "data/raw/test_image.jpg",
+      "model_name": "mkgformer-mner",
+      "confidence": 0.6,
+      "metadata": {}
+    },
+    {
+      "id": "ev-c00f3fdf",
+      "source_doc_id": "marie-curie-001",
+      "source_type": "model_output",
+      "content": "Nobel Prize in Chemistry",
+      "bbox": null,
+      "page": null,
+      "image_path": "data/raw/test_image.jpg",
+      "model_name": "mkgformer-mner",
+      "confidence": 0.6,
+      "metadata": {}
+    },
+    {
+      "id": "ev-2fbaf799",
+      "source_doc_id": "marie-curie-001",
+      "source_type": "model_output",
+      "content": "Warsaw, Poland",
+      "bbox": null,
+      "page": null,
+      "image_path": "data/raw/test_image.jpg",
+      "model_name": "mkgformer-mner",
+      "confidence": 0.6,
+      "metadata": {}
+    },
+    {
+      "id": "ev-eddf68a1",
+      "source_doc_id": "marie-curie-001",
+      "source_type": "model_output",
+      "content": "Paris, France",
+      "bbox": null,
+      "page": null,
+      "image_path": "data/raw/test_image.jpg",
+      "model_name": "mkgformer-mner",
+      "confidence": 0.6,
+      "metadata": {}
+    },
+    {
+      "id": "ev-e9e4f66a",
+      "source_doc_id": "marie-curie-001",
+      "source_type": "model_output",
+      "content": "Marie Curie",
+      "bbox": null,
+      "page": null,
+      "image_path": "data/raw/test_image.jpg",
+      "model_name": "mkgformer-mner",
+      "confidence": 0.6,
+      "metadata": {}
+    },
+    {
+      "id": "ev-89dfdd75",
+      "source_doc_id": "marie-curie-001",
+      "source_type": "model_output",
+      "content": "Pierre Curie",
+      "bbox": null,
+      "page": null,
+      "image_path": "data/raw/test_image.jpg",
+      "model_name": "mkgformer-mner",
+      "confidence": 0.6,
+      "metadata": {}
+    },
+    {
+      "id": "ev-8b092e6f",
+      "source_doc_id": "marie-curie-001",
+      "source_type": "model_output",
+      "content": "Nobel Prizes",
+      "bbox": null,
+      "page": null,
+      "image_path": "data/raw/test_image.jpg",
+      "model_name": "mkgformer-mner",
+      "confidence": 0.6,
+      "metadata": {}
+    },
+    {
+      "id": "ev-d9cae7b4",
+      "source_doc_id": "marie-curie-001",
+      "source_type": "model_output",
+      "content": "cross-modal: sorbonne university <-> Sorbonne University",
+      "bbox": null,
+      "page": null,
+      "image_path": null,
+      "model_name": "cross-modal-fuser",
+      "confidence": 1.0,
+      "metadata": {}
+    },
+    {
+      "id": "ev-60b5b129",
+      "source_doc_id": "marie-curie-001",
+      "source_type": "model_output",
+      "content": "cross-modal: curie institute <-> Curie Institute",
+      "bbox": null,
+      "page": null,
+      "image_path": null,
+      "model_name": "cross-modal-fuser",
+      "confidence": 1.0,
+      "metadata": {}
+    },
+    {
+      "id": "ev-d8969511",
+      "source_doc_id": "marie-curie-001",
+      "source_type": "model_output",
+      "content": "cross-modal: nobel prize in physics <-> Nobel Prize in Physics",
+      "bbox": null,
+      "page": null,
+      "image_path": null,
+      "model_name": "cross-modal-fuser",
+      "confidence": 1.0,
+      "metadata": {}
+    },
+    {
+      "id": "ev-6abef4e9",
+      "source_doc_id": "marie-curie-001",
+      "source_type": "model_output",
+      "content": "cross-modal: nobel prize in chemistry <-> Nobel Prize in Chemistry",
+      "bbox": null,
+      "page": null,
+      "image_path": null,
+      "model_name": "cross-modal-fuser",
+      "confidence": 1.0,
+      "metadata": {}
+    },
+    {
+      "id": "ev-4a2466ce",
+      "source_doc_id": "marie-curie-001",
+      "source_type": "model_output",
+      "content": "cross-modal: marie curie <-> Marie Curie",
+      "bbox": null,
+      "page": null,
+      "image_path": null,
+      "model_name": "cross-modal-fuser",
+      "confidence": 1.0,
+      "metadata": {}
+    },
+    {
+      "id": "ev-8ab47570",
+      "source_doc_id": "marie-curie-001",
+      "source_type": "model_output",
+      "content": "cross-modal: pierre curie <-> Pierre Curie",
+      "bbox": null,
+      "page": null,
+      "image_path": null,
+      "model_name": "cross-modal-fuser",
+      "confidence": 1.0,
+      "metadata": {}
+    },
+    {
+      "id": "ev-677e9e04",
+      "source_doc_id": "marie-curie-001",
+      "source_type": "model_output",
+      "content": "cross-modal: paris <-> Paris, France",
+      "bbox": null,
+      "page": null,
+      "image_path": null,
+      "model_name": "cross-modal-fuser",
+      "confidence": 1.0,
+      "metadata": {}
+    },
+    {
+      "id": "ev-79d4e5e1",
+      "source_doc_id": "marie-curie-001",
+      "source_type": "model_output",
+      "content": "cross-modal: warsaw <-> Warsaw, Poland",
+      "bbox": null,
+      "page": null,
+      "image_path": null,
+      "model_name": "cross-modal-fuser",
+      "confidence": 1.0,
+      "metadata": {}
+    },
+    {
+      "id": "ev-1fdb4081",
+      "source_doc_id": "marie-curie-001",
+      "source_type": "model_output",
+      "content": "cross-modal: poland <-> Warsaw, Poland",
+      "bbox": null,
+      "page": null,
+      "image_path": null,
+      "model_name": "cross-modal-fuser",
+      "confidence": 1.0,
+      "metadata": {}
+    }
+  ],
+  "pipeline_stage": "fusion",
+  "metadata": {}
+}

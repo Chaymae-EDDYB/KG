@@ -1,0 +1,521 @@
+{
+  "doc_id": "ada-lovelace-001",
+  "entities": [
+    {
+      "id": "ent-397eff7b",
+      "canonical_name": "mathematics",
+      "entity_type": "OTHER",
+      "modality": "text",
+      "aliases": [],
+      "evidence_ids": [
+        "ev-70c6be8d"
+      ],
+      "source_system": "itext2kg",
+      "embedding": null,
+      "metadata": {}
+    },
+    {
+      "id": "ent-8a8a1e47",
+      "canonical_name": "london",
+      "entity_type": "LOCATION",
+      "modality": "text",
+      "aliases": [],
+      "evidence_ids": [
+        "ev-8e4b9f4a"
+      ],
+      "source_system": "itext2kg",
+      "embedding": null,
+      "metadata": {}
+    },
+    {
+      "id": "ent-58b46e98",
+      "canonical_name": "augustus de morgan",
+      "entity_type": "PERSON",
+      "modality": "multimodal",
+      "aliases": [
+        "Augustus De Morgan"
+      ],
+      "evidence_ids": [
+        "ev-6d98d34f",
+        "ev-92af2baf"
+      ],
+      "source_system": "itext2kg",
+      "embedding": null,
+      "metadata": {}
+    },
+    {
+      "id": "ent-03493707",
+      "canonical_name": "england",
+      "entity_type": "LOCATION",
+      "modality": "multimodal",
+      "aliases": [
+        "England"
+      ],
+      "evidence_ids": [
+        "ev-c3999772",
+        "ev-2adaa9db"
+      ],
+      "source_system": "itext2kg",
+      "embedding": null,
+      "metadata": {}
+    },
+    {
+      "id": "ent-cba13597",
+      "canonical_name": "lord byron",
+      "entity_type": "PERSON",
+      "modality": "multimodal",
+      "aliases": [
+        "Lord Byron"
+      ],
+      "evidence_ids": [
+        "ev-840628f0",
+        "ev-6a50a566"
+      ],
+      "source_system": "itext2kg",
+      "embedding": null,
+      "metadata": {}
+    },
+    {
+      "id": "ent-7e4e73a9",
+      "canonical_name": "university college london",
+      "entity_type": "ORGANIZATION",
+      "modality": "multimodal",
+      "aliases": [
+        "University College London"
+      ],
+      "evidence_ids": [
+        "ev-cd53ea8a",
+        "ev-8a108210"
+      ],
+      "source_system": "itext2kg",
+      "embedding": null,
+      "metadata": {}
+    },
+    {
+      "id": "ent-8b324a1d",
+      "canonical_name": "ada lovelace",
+      "entity_type": "PERSON",
+      "modality": "multimodal",
+      "aliases": [
+        "Ada Lovelace"
+      ],
+      "evidence_ids": [
+        "ev-6cce11a2",
+        "ev-3f6a52d2"
+      ],
+      "source_system": "itext2kg",
+      "embedding": null,
+      "metadata": {}
+    },
+    {
+      "id": "ent-a43ad8d4",
+      "canonical_name": "charles babbage",
+      "entity_type": "PERSON",
+      "modality": "multimodal",
+      "aliases": [
+        "Charles Babbage"
+      ],
+      "evidence_ids": [
+        "ev-cf67849c",
+        "ev-6d3b1815"
+      ],
+      "source_system": "itext2kg",
+      "embedding": null,
+      "metadata": {}
+    },
+    {
+      "id": "ent-2dba9abe",
+      "canonical_name": "analytical engine",
+      "entity_type": "CONCEPT",
+      "modality": "multimodal",
+      "aliases": [
+        "Analytical Engine"
+      ],
+      "evidence_ids": [
+        "ev-aac6cf6e",
+        "ev-7c52d509"
+      ],
+      "source_system": "itext2kg",
+      "embedding": null,
+      "metadata": {}
+    }
+  ],
+  "relations": [
+    {
+      "id": "rel-7406ce40",
+      "subject_id": "ent-8b324a1d",
+      "predicate": "worked_on",
+      "object_id": "ent-2dba9abe",
+      "confidence": 1.0,
+      "source_system": "itext2kg",
+      "evidence_ids": [],
+      "metadata": {
+        "observation_dates": []
+      }
+    },
+    {
+      "id": "rel-5e3b3537",
+      "subject_id": "ent-8b324a1d",
+      "predicate": "born_in",
+      "object_id": "ent-8a8a1e47",
+      "confidence": 1.0,
+      "source_system": "itext2kg",
+      "evidence_ids": [],
+      "metadata": {
+        "observation_dates": []
+      }
+    },
+    {
+      "id": "rel-5b34b7e4",
+      "subject_id": "ent-8b324a1d",
+      "predicate": "worked_with",
+      "object_id": "ent-a43ad8d4",
+      "confidence": 1.0,
+      "source_system": "itext2kg",
+      "evidence_ids": [],
+      "metadata": {
+        "observation_dates": []
+      }
+    },
+    {
+      "id": "rel-f90e44da",
+      "subject_id": "ent-8b324a1d",
+      "predicate": "daughter_of",
+      "object_id": "ent-cba13597",
+      "confidence": 1.0,
+      "source_system": "itext2kg",
+      "evidence_ids": [],
+      "metadata": {
+        "observation_dates": []
+      }
+    },
+    {
+      "id": "rel-f78359fa",
+      "subject_id": "ent-8a8a1e47",
+      "predicate": "located_in",
+      "object_id": "ent-03493707",
+      "confidence": 1.0,
+      "source_system": "itext2kg",
+      "evidence_ids": [],
+      "metadata": {
+        "observation_dates": []
+      }
+    },
+    {
+      "id": "rel-21184328",
+      "subject_id": "ent-8b324a1d",
+      "predicate": "studied_under",
+      "object_id": "ent-58b46e98",
+      "confidence": 1.0,
+      "source_system": "itext2kg",
+      "evidence_ids": [],
+      "metadata": {
+        "observation_dates": []
+      }
+    },
+    {
+      "id": "rel-b2e7b501",
+      "subject_id": "ent-8b324a1d",
+      "predicate": "studied",
+      "object_id": "ent-397eff7b",
+      "confidence": 1.0,
+      "source_system": "itext2kg",
+      "evidence_ids": [],
+      "metadata": {
+        "observation_dates": []
+      }
+    },
+    {
+      "id": "rel-a90b775e",
+      "subject_id": "ent-8b324a1d",
+      "predicate": "studied_at",
+      "object_id": "ent-7e4e73a9",
+      "confidence": 1.0,
+      "source_system": "itext2kg",
+      "evidence_ids": [],
+      "metadata": {
+        "observation_dates": []
+      }
+    }
+  ],
+  "evidences": [
+    {
+      "id": "ev-70c6be8d",
+      "source_doc_id": "ada-lovelace-001",
+      "source_type": "text_span",
+      "content": "mathematics",
+      "bbox": null,
+      "page": null,
+      "image_path": null,
+      "model_name": "itext2kg/llama-3.3-70b-versatile",
+      "confidence": 1.0,
+      "metadata": {}
+    },
+    {
+      "id": "ev-8e4b9f4a",
+      "source_doc_id": "ada-lovelace-001",
+      "source_type": "text_span",
+      "content": "london",
+      "bbox": null,
+      "page": null,
+      "image_path": null,
+      "model_name": "itext2kg/llama-3.3-70b-versatile",
+      "confidence": 1.0,
+      "metadata": {}
+    },
+    {
+      "id": "ev-6d98d34f",
+      "source_doc_id": "ada-lovelace-001",
+      "source_type": "text_span",
+      "content": "augustus de morgan",
+      "bbox": null,
+      "page": null,
+      "image_path": null,
+      "model_name": "itext2kg/llama-3.3-70b-versatile",
+      "confidence": 1.0,
+      "metadata": {}
+    },
+    {
+      "id": "ev-c3999772",
+      "source_doc_id": "ada-lovelace-001",
+      "source_type": "text_span",
+      "content": "england",
+      "bbox": null,
+      "page": null,
+      "image_path": null,
+      "model_name": "itext2kg/llama-3.3-70b-versatile",
+      "confidence": 1.0,
+      "metadata": {}
+    },
+    {
+      "id": "ev-840628f0",
+      "source_doc_id": "ada-lovelace-001",
+      "source_type": "text_span",
+      "content": "lord byron",
+      "bbox": null,
+      "page": null,
+      "image_path": null,
+      "model_name": "itext2kg/llama-3.3-70b-versatile",
+      "confidence": 1.0,
+      "metadata": {}
+    },
+    {
+      "id": "ev-cd53ea8a",
+      "source_doc_id": "ada-lovelace-001",
+      "source_type": "text_span",
+      "content": "university college london",
+      "bbox": null,
+      "page": null,
+      "image_path": null,
+      "model_name": "itext2kg/llama-3.3-70b-versatile",
+      "confidence": 1.0,
+      "metadata": {}
+    },
+    {
+      "id": "ev-6cce11a2",
+      "source_doc_id": "ada-lovelace-001",
+      "source_type": "text_span",
+      "content": "ada lovelace",
+      "bbox": null,
+      "page": null,
+      "image_path": null,
+      "model_name": "itext2kg/llama-3.3-70b-versatile",
+      "confidence": 1.0,
+      "metadata": {}
+    },
+    {
+      "id": "ev-cf67849c",
+      "source_doc_id": "ada-lovelace-001",
+      "source_type": "text_span",
+      "content": "charles babbage",
+      "bbox": null,
+      "page": null,
+      "image_path": null,
+      "model_name": "itext2kg/llama-3.3-70b-versatile",
+      "confidence": 1.0,
+      "metadata": {}
+    },
+    {
+      "id": "ev-aac6cf6e",
+      "source_doc_id": "ada-lovelace-001",
+      "source_type": "text_span",
+      "content": "analytical engine",
+      "bbox": null,
+      "page": null,
+      "image_path": null,
+      "model_name": "itext2kg/llama-3.3-70b-versatile",
+      "confidence": 1.0,
+      "metadata": {}
+    },
+    {
+      "id": "ev-2adaa9db",
+      "source_doc_id": "ada-lovelace-001",
+      "source_type": "model_output",
+      "content": "England",
+      "bbox": null,
+      "page": null,
+      "image_path": "data/raw/test_image.jpg",
+      "model_name": "mkgformer-mner",
+      "confidence": 0.6,
+      "metadata": {}
+    },
+    {
+      "id": "ev-3f6a52d2",
+      "source_doc_id": "ada-lovelace-001",
+      "source_type": "model_output",
+      "content": "Ada Lovelace",
+      "bbox": null,
+      "page": null,
+      "image_path": "data/raw/test_image.jpg",
+      "model_name": "mkgformer-mner",
+      "confidence": 0.6,
+      "metadata": {}
+    },
+    {
+      "id": "ev-6a50a566",
+      "source_doc_id": "ada-lovelace-001",
+      "source_type": "model_output",
+      "content": "Lord Byron",
+      "bbox": null,
+      "page": null,
+      "image_path": "data/raw/test_image.jpg",
+      "model_name": "mkgformer-mner",
+      "confidence": 0.6,
+      "metadata": {}
+    },
+    {
+      "id": "ev-6d3b1815",
+      "source_doc_id": "ada-lovelace-001",
+      "source_type": "model_output",
+      "content": "Charles Babbage",
+      "bbox": null,
+      "page": null,
+      "image_path": "data/raw/test_image.jpg",
+      "model_name": "mkgformer-mner",
+      "confidence": 0.6,
+      "metadata": {}
+    },
+    {
+      "id": "ev-7c52d509",
+      "source_doc_id": "ada-lovelace-001",
+      "source_type": "model_output",
+      "content": "Analytical Engine",
+      "bbox": null,
+      "page": null,
+      "image_path": "data/raw/test_image.jpg",
+      "model_name": "mkgformer-mner",
+      "confidence": 0.6,
+      "metadata": {}
+    },
+    {
+      "id": "ev-92af2baf",
+      "source_doc_id": "ada-lovelace-001",
+      "source_type": "model_output",
+      "content": "Augustus De Morgan",
+      "bbox": null,
+      "page": null,
+      "image_path": "data/raw/test_image.jpg",
+      "model_name": "mkgformer-mner",
+      "confidence": 0.6,
+      "metadata": {}
+    },
+    {
+      "id": "ev-8a108210",
+      "source_doc_id": "ada-lovelace-001",
+      "source_type": "model_output",
+      "content": "University College London",
+      "bbox": null,
+      "page": null,
+      "image_path": "data/raw/test_image.jpg",
+      "model_name": "mkgformer-mner",
+      "confidence": 0.6,
+      "metadata": {}
+    },
+    {
+      "id": "ev-58725761",
+      "source_doc_id": "ada-lovelace-001",
+      "source_type": "model_output",
+      "content": "cross-modal: england <-> England",
+      "bbox": null,
+      "page": null,
+      "image_path": null,
+      "model_name": "cross-modal-fuser",
+      "confidence": 1.0,
+      "metadata": {}
+    },
+    {
+      "id": "ev-1e878123",
+      "source_doc_id": "ada-lovelace-001",
+      "source_type": "model_output",
+      "content": "cross-modal: ada lovelace <-> Ada Lovelace",
+      "bbox": null,
+      "page": null,
+      "image_path": null,
+      "model_name": "cross-modal-fuser",
+      "confidence": 1.0,
+      "metadata": {}
+    },
+    {
+      "id": "ev-9197f868",
+      "source_doc_id": "ada-lovelace-001",
+      "source_type": "model_output",
+      "content": "cross-modal: lord byron <-> Lord Byron",
+      "bbox": null,
+      "page": null,
+      "image_path": null,
+      "model_name": "cross-modal-fuser",
+      "confidence": 1.0,
+      "metadata": {}
+    },
+    {
+      "id": "ev-51e8c9d0",
+      "source_doc_id": "ada-lovelace-001",
+      "source_type": "model_output",
+      "content": "cross-modal: charles babbage <-> Charles Babbage",
+      "bbox": null,
+      "page": null,
+      "image_path": null,
+      "model_name": "cross-modal-fuser",
+      "confidence": 1.0,
+      "metadata": {}
+    },
+    {
+      "id": "ev-a87314bd",
+      "source_doc_id": "ada-lovelace-001",
+      "source_type": "model_output",
+      "content": "cross-modal: analytical engine <-> Analytical Engine",
+      "bbox": null,
+      "page": null,
+      "image_path": null,
+      "model_name": "cross-modal-fuser",
+      "confidence": 1.0,
+      "metadata": {}
+    },
+    {
+      "id": "ev-494d6aae",
+      "source_doc_id": "ada-lovelace-001",
+      "source_type": "model_output",
+      "content": "cross-modal: augustus de morgan <-> Augustus De Morgan",
+      "bbox": null,
+      "page": null,
+      "image_path": null,
+      "model_name": "cross-modal-fuser",
+      "confidence": 1.0,
+      "metadata": {}
+    },
+    {
+      "id": "ev-80b20806",
+      "source_doc_id": "ada-lovelace-001",
+      "source_type": "model_output",
+      "content": "cross-modal: university college london <-> University College London",
+      "bbox": null,
+      "page": null,
+      "image_path": null,
+      "model_name": "cross-modal-fuser",
+      "confidence": 1.0,
+      "metadata": {}
+    }
+  ],
+  "pipeline_stage": "fusion",
+  "metadata": {}
+}

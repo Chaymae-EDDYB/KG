@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d4" for="node" attr.name="source_system" attr.type="string" />
+  <key id="d3" for="node" attr.name="modality" attr.type="string" />
+  <key id="d2" for="node" attr.name="entity_type" attr.type="string" />
+  <key id="d1" for="node" attr.name="canonical_name" attr.type="string" />
+  <key id="d0" for="graph" attr.name="doc_id" attr.type="string" />
+  <graph edgedefault="directed">
+    <node id="ent-548d6f0c">
+      <data key="d1">nobel prize in physics</data>
+      <data key="d2">EVENT</data>
+      <data key="d3">text</data>
+      <data key="d4">itext2kg</data>
+    </node>
+    <node id="ent-4126600d">
+      <data key="d1">princeton university</data>
+      <data key="d2">ORGANIZATION</data>
+      <data key="d3">text</data>
+      <data key="d4">itext2kg</data>
+    </node>
+    <node id="ent-8bd46a65">
+      <data key="d1">ulm</data>
+      <data key="d2">LOCATION</data>
+      <data key="d3">text</data>
+      <data key="d4">itext2kg</data>
+    </node>
+    <node id="ent-b04ee8b1">
+      <data key="d1">albert einstein</data>
+      <data key="d2">PERSON</data>
+      <data key="d3">text</data>
+      <data key="d4">itext2kg</data>
+    </node>
+    <node id="ent-bf8fef8a">
+      <data key="d1">germany</data>
+      <data key="d2">LOCATION</data>
+      <data key="d3">text</data>
+      <data key="d4">itext2kg</data>
+    </node>
+    <node id="ent-ab0162b8">
+      <data key="d1">theory of relativity</data>
+      <data key="d2">CONCEPT</data>
+      <data key="d3">text</data>
+      <data key="d4">itext2kg</data>
+    </node>
+    <data key="d0">einstein-real-001</data>
+  </graph>
+</graphml>

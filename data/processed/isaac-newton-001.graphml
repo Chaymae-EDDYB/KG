@@ -1,0 +1,129 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d8" for="edge" attr.name="source_system" attr.type="string" />
+  <key id="d7" for="edge" attr.name="confidence" attr.type="double" />
+  <key id="d6" for="edge" attr.name="predicate" attr.type="string" />
+  <key id="d5" for="edge" attr.name="key" attr.type="string" />
+  <key id="d4" for="node" attr.name="source_system" attr.type="string" />
+  <key id="d3" for="node" attr.name="modality" attr.type="string" />
+  <key id="d2" for="node" attr.name="entity_type" attr.type="string" />
+  <key id="d1" for="node" attr.name="canonical_name" attr.type="string" />
+  <key id="d0" for="graph" attr.name="doc_id" attr.type="string" />
+  <graph edgedefault="directed">
+    <node id="ent-e2964d64">
+      <data key="d1">universal gravitation</data>
+      <data key="d2">CONCEPT</data>
+      <data key="d3">text</data>
+      <data key="d4">itext2kg</data>
+    </node>
+    <node id="ent-d6ac6a13">
+      <data key="d1">royal society</data>
+      <data key="d2">ORGANIZATION</data>
+      <data key="d3">multimodal</data>
+      <data key="d4">itext2kg</data>
+    </node>
+    <node id="ent-49a37af1">
+      <data key="d1">trinity college</data>
+      <data key="d2">ORGANIZATION</data>
+      <data key="d3">multimodal</data>
+      <data key="d4">itext2kg</data>
+    </node>
+    <node id="ent-d7ce4341">
+      <data key="d1">england</data>
+      <data key="d2">LOCATION</data>
+      <data key="d3">multimodal</data>
+      <data key="d4">itext2kg</data>
+    </node>
+    <node id="ent-cbb5745f">
+      <data key="d1">isaac newton</data>
+      <data key="d2">PERSON</data>
+      <data key="d3">multimodal</data>
+      <data key="d4">itext2kg</data>
+    </node>
+    <node id="ent-5e1f1a0f">
+      <data key="d1">laws of motion</data>
+      <data key="d2">CONCEPT</data>
+      <data key="d3">text</data>
+      <data key="d4">itext2kg</data>
+    </node>
+    <node id="ent-e2d10d83">
+      <data key="d1">cambridge university</data>
+      <data key="d2">ORGANIZATION</data>
+      <data key="d3">multimodal</data>
+      <data key="d4">itext2kg</data>
+    </node>
+    <node id="ent-79ea4d66">
+      <data key="d1">woolsthorpe</data>
+      <data key="d2">LOCATION</data>
+      <data key="d3">text</data>
+      <data key="d4">itext2kg</data>
+    </node>
+    <node id="ent-e477eb5b">
+      <data key="d1">royal mint</data>
+      <data key="d2">ORGANIZATION</data>
+      <data key="d3">multimodal</data>
+      <data key="d4">itext2kg</data>
+    </node>
+    <node id="ent-2b935ac9">
+      <data key="d1">principia mathematica</data>
+      <data key="d2">OTHER</data>
+      <data key="d3">multimodal</data>
+      <data key="d4">itext2kg</data>
+    </node>
+    <edge source="ent-cbb5745f" target="ent-49a37af1">
+      <data key="d5">rel-14326cc6</data>
+      <data key="d6">studied_at</data>
+      <data key="d7">1.0</data>
+      <data key="d8">itext2kg</data>
+    </edge>
+    <edge source="ent-cbb5745f" target="ent-2b935ac9">
+      <data key="d5">rel-844626e0</data>
+      <data key="d6">published</data>
+      <data key="d7">1.0</data>
+      <data key="d8">itext2kg</data>
+    </edge>
+    <edge source="ent-cbb5745f" target="ent-e2964d64">
+      <data key="d5">rel-d5db4f52</data>
+      <data key="d6">developed</data>
+      <data key="d7">1.0</data>
+      <data key="d8">itext2kg</data>
+    </edge>
+    <edge source="ent-cbb5745f" target="ent-e2d10d83">
+      <data key="d5">rel-5300a0ed</data>
+      <data key="d6">studied_at</data>
+      <data key="d7">1.0</data>
+      <data key="d8">itext2kg</data>
+    </edge>
+    <edge source="ent-cbb5745f" target="ent-5e1f1a0f">
+      <data key="d5">rel-1d27387e</data>
+      <data key="d6">developed</data>
+      <data key="d7">1.0</data>
+      <data key="d8">itext2kg</data>
+    </edge>
+    <edge source="ent-cbb5745f" target="ent-d7ce4341">
+      <data key="d5">rel-cbf1c2ca</data>
+      <data key="d6">born_in</data>
+      <data key="d7">1.0</data>
+      <data key="d8">itext2kg</data>
+    </edge>
+    <edge source="ent-cbb5745f" target="ent-e477eb5b">
+      <data key="d5">rel-edbc14fc</data>
+      <data key="d6">served_as_warden</data>
+      <data key="d7">1.0</data>
+      <data key="d8">itext2kg</data>
+    </edge>
+    <edge source="ent-cbb5745f" target="ent-79ea4d66">
+      <data key="d5">rel-4181a5bb</data>
+      <data key="d6">born_in</data>
+      <data key="d7">1.0</data>
+      <data key="d8">itext2kg</data>
+    </edge>
+    <edge source="ent-cbb5745f" target="ent-d6ac6a13">
+      <data key="d5">rel-1846f85d</data>
+      <data key="d6">elected_president</data>
+      <data key="d7">1.0</data>
+      <data key="d8">itext2kg</data>
+    </edge>
+    <data key="d0">isaac-newton-001</data>
+  </graph>
+</graphml>

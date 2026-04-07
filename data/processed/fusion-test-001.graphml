@@ -1,0 +1,75 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d8" for="edge" attr.name="source_system" attr.type="string" />
+  <key id="d7" for="edge" attr.name="confidence" attr.type="double" />
+  <key id="d6" for="edge" attr.name="predicate" attr.type="string" />
+  <key id="d5" for="edge" attr.name="key" attr.type="string" />
+  <key id="d4" for="node" attr.name="source_system" attr.type="string" />
+  <key id="d3" for="node" attr.name="modality" attr.type="string" />
+  <key id="d2" for="node" attr.name="entity_type" attr.type="string" />
+  <key id="d1" for="node" attr.name="canonical_name" attr.type="string" />
+  <key id="d0" for="graph" attr.name="doc_id" attr.type="string" />
+  <graph edgedefault="directed">
+    <node id="ent-dbad46e4">
+      <data key="d1">Stub Entity A</data>
+      <data key="d2">PERSON</data>
+      <data key="d3">text</data>
+      <data key="d4">stub</data>
+    </node>
+    <node id="ent-45f2fb72">
+      <data key="d1">Stub Entity B</data>
+      <data key="d2">ORGANIZATION</data>
+      <data key="d3">text</data>
+      <data key="d4">stub</data>
+    </node>
+    <node id="ent-d37dda11">
+      <data key="d1">stub_visual_object</data>
+      <data key="d2">OBJECT</data>
+      <data key="d3">image</data>
+      <data key="d4">stub</data>
+    </node>
+    <node id="ent-b1ace9f9">
+      <data key="d1">Stub Entity A</data>
+      <data key="d2">PERSON</data>
+      <data key="d3">text</data>
+      <data key="d4">stub</data>
+    </node>
+    <node id="ent-ea9af0ff">
+      <data key="d1">Stub Entity B</data>
+      <data key="d2">ORGANIZATION</data>
+      <data key="d3">text</data>
+      <data key="d4">stub</data>
+    </node>
+    <node id="ent-116ef7a5">
+      <data key="d1">stub_visual_object</data>
+      <data key="d2">OBJECT</data>
+      <data key="d3">image</data>
+      <data key="d4">stub</data>
+    </node>
+    <edge source="ent-dbad46e4" target="ent-45f2fb72">
+      <data key="d5">rel-d4a23b89</data>
+      <data key="d6">affiliated_with</data>
+      <data key="d7">0.9</data>
+      <data key="d8">stub</data>
+    </edge>
+    <edge source="ent-dbad46e4" target="ent-d37dda11">
+      <data key="d5">rel-c96678c6</data>
+      <data key="d6">depicted_as</data>
+      <data key="d7">0.75</data>
+      <data key="d8">stub-fusion</data>
+    </edge>
+    <edge source="ent-b1ace9f9" target="ent-ea9af0ff">
+      <data key="d5">rel-03a9a243</data>
+      <data key="d6">affiliated_with</data>
+      <data key="d7">0.9</data>
+      <data key="d8">stub</data>
+    </edge>
+    <edge source="ent-b1ace9f9" target="ent-116ef7a5">
+      <data key="d5">rel-261a2655</data>
+      <data key="d6">depicted_as</data>
+      <data key="d7">0.75</data>
+      <data key="d8">stub-fusion</data>
+    </edge>
+    <data key="d0">fusion-test-001</data>
+  </graph>
+</graphml>

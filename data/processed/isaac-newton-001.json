@@ -1,0 +1,582 @@
+{
+  "doc_id": "isaac-newton-001",
+  "entities": [
+    {
+      "id": "ent-e2964d64",
+      "canonical_name": "universal gravitation",
+      "entity_type": "CONCEPT",
+      "modality": "text",
+      "aliases": [],
+      "evidence_ids": [
+        "ev-455baff7"
+      ],
+      "source_system": "itext2kg",
+      "embedding": null,
+      "metadata": {}
+    },
+    {
+      "id": "ent-d6ac6a13",
+      "canonical_name": "royal society",
+      "entity_type": "ORGANIZATION",
+      "modality": "multimodal",
+      "aliases": [
+        "Royal Society"
+      ],
+      "evidence_ids": [
+        "ev-9e418615",
+        "ev-6eff29e8"
+      ],
+      "source_system": "itext2kg",
+      "embedding": null,
+      "metadata": {}
+    },
+    {
+      "id": "ent-49a37af1",
+      "canonical_name": "trinity college",
+      "entity_type": "ORGANIZATION",
+      "modality": "multimodal",
+      "aliases": [
+        "Trinity College"
+      ],
+      "evidence_ids": [
+        "ev-fe1d9b5e",
+        "ev-0d09035a"
+      ],
+      "source_system": "itext2kg",
+      "embedding": null,
+      "metadata": {}
+    },
+    {
+      "id": "ent-d7ce4341",
+      "canonical_name": "england",
+      "entity_type": "LOCATION",
+      "modality": "multimodal",
+      "aliases": [
+        "England"
+      ],
+      "evidence_ids": [
+        "ev-d920863e",
+        "ev-bc06ce3d"
+      ],
+      "source_system": "itext2kg",
+      "embedding": null,
+      "metadata": {}
+    },
+    {
+      "id": "ent-cbb5745f",
+      "canonical_name": "isaac newton",
+      "entity_type": "PERSON",
+      "modality": "multimodal",
+      "aliases": [
+        "Isaac Newton"
+      ],
+      "evidence_ids": [
+        "ev-4b227f32",
+        "ev-c3acea61"
+      ],
+      "source_system": "itext2kg",
+      "embedding": null,
+      "metadata": {}
+    },
+    {
+      "id": "ent-5e1f1a0f",
+      "canonical_name": "laws of motion",
+      "entity_type": "CONCEPT",
+      "modality": "text",
+      "aliases": [],
+      "evidence_ids": [
+        "ev-bc68b79a"
+      ],
+      "source_system": "itext2kg",
+      "embedding": null,
+      "metadata": {}
+    },
+    {
+      "id": "ent-e2d10d83",
+      "canonical_name": "cambridge university",
+      "entity_type": "ORGANIZATION",
+      "modality": "multimodal",
+      "aliases": [
+        "Cambridge University"
+      ],
+      "evidence_ids": [
+        "ev-108c7504",
+        "ev-72a6be01"
+      ],
+      "source_system": "itext2kg",
+      "embedding": null,
+      "metadata": {}
+    },
+    {
+      "id": "ent-79ea4d66",
+      "canonical_name": "woolsthorpe",
+      "entity_type": "LOCATION",
+      "modality": "text",
+      "aliases": [],
+      "evidence_ids": [
+        "ev-6fad1cee"
+      ],
+      "source_system": "itext2kg",
+      "embedding": null,
+      "metadata": {}
+    },
+    {
+      "id": "ent-e477eb5b",
+      "canonical_name": "royal mint",
+      "entity_type": "ORGANIZATION",
+      "modality": "multimodal",
+      "aliases": [
+        "Royal Mint"
+      ],
+      "evidence_ids": [
+        "ev-003968aa",
+        "ev-2e4bd900"
+      ],
+      "source_system": "itext2kg",
+      "embedding": null,
+      "metadata": {}
+    },
+    {
+      "id": "ent-2b935ac9",
+      "canonical_name": "principia mathematica",
+      "entity_type": "OTHER",
+      "modality": "multimodal",
+      "aliases": [
+        "Principia Mathematica"
+      ],
+      "evidence_ids": [
+        "ev-d5cd9235",
+        "ev-0f818f34"
+      ],
+      "source_system": "itext2kg",
+      "embedding": null,
+      "metadata": {}
+    }
+  ],
+  "relations": [
+    {
+      "id": "rel-14326cc6",
+      "subject_id": "ent-cbb5745f",
+      "predicate": "studied_at",
+      "object_id": "ent-49a37af1",
+      "confidence": 1.0,
+      "source_system": "itext2kg",
+      "evidence_ids": [],
+      "metadata": {
+        "observation_dates": []
+      }
+    },
+    {
+      "id": "rel-844626e0",
+      "subject_id": "ent-cbb5745f",
+      "predicate": "published",
+      "object_id": "ent-2b935ac9",
+      "confidence": 1.0,
+      "source_system": "itext2kg",
+      "evidence_ids": [],
+      "metadata": {
+        "observation_dates": []
+      }
+    },
+    {
+      "id": "rel-d5db4f52",
+      "subject_id": "ent-cbb5745f",
+      "predicate": "developed",
+      "object_id": "ent-e2964d64",
+      "confidence": 1.0,
+      "source_system": "itext2kg",
+      "evidence_ids": [],
+      "metadata": {
+        "observation_dates": []
+      }
+    },
+    {
+      "id": "rel-5300a0ed",
+      "subject_id": "ent-cbb5745f",
+      "predicate": "studied_at",
+      "object_id": "ent-e2d10d83",
+      "confidence": 1.0,
+      "source_system": "itext2kg",
+      "evidence_ids": [],
+      "metadata": {
+        "observation_dates": []
+      }
+    },
+    {
+      "id": "rel-1d27387e",
+      "subject_id": "ent-cbb5745f",
+      "predicate": "developed",
+      "object_id": "ent-5e1f1a0f",
+      "confidence": 1.0,
+      "source_system": "itext2kg",
+      "evidence_ids": [],
+      "metadata": {
+        "observation_dates": []
+      }
+    },
+    {
+      "id": "rel-75d11985",
+      "subject_id": "ent-cbb5745f",
+      "predicate": "lived_in",
+      "object_id": "ent-d7ce4341",
+      "confidence": 1.0,
+      "source_system": "itext2kg",
+      "evidence_ids": [],
+      "metadata": {
+        "observation_dates": []
+      }
+    },
+    {
+      "id": "rel-10a91dd2",
+      "subject_id": "ent-cbb5745f",
+      "predicate": "served_as_master",
+      "object_id": "ent-e477eb5b",
+      "confidence": 1.0,
+      "source_system": "itext2kg",
+      "evidence_ids": [],
+      "metadata": {
+        "observation_dates": []
+      }
+    },
+    {
+      "id": "rel-edbc14fc",
+      "subject_id": "ent-cbb5745f",
+      "predicate": "served_as_warden",
+      "object_id": "ent-e477eb5b",
+      "confidence": 1.0,
+      "source_system": "itext2kg",
+      "evidence_ids": [],
+      "metadata": {
+        "observation_dates": []
+      }
+    },
+    {
+      "id": "rel-4181a5bb",
+      "subject_id": "ent-cbb5745f",
+      "predicate": "born_in",
+      "object_id": "ent-79ea4d66",
+      "confidence": 1.0,
+      "source_system": "itext2kg",
+      "evidence_ids": [],
+      "metadata": {
+        "observation_dates": []
+      }
+    },
+    {
+      "id": "rel-1846f85d",
+      "subject_id": "ent-cbb5745f",
+      "predicate": "elected_president",
+      "object_id": "ent-d6ac6a13",
+      "confidence": 1.0,
+      "source_system": "itext2kg",
+      "evidence_ids": [],
+      "metadata": {
+        "observation_dates": []
+      }
+    },
+    {
+      "id": "rel-cbf1c2ca",
+      "subject_id": "ent-cbb5745f",
+      "predicate": "born_in",
+      "object_id": "ent-d7ce4341",
+      "confidence": 1.0,
+      "source_system": "itext2kg",
+      "evidence_ids": [],
+      "metadata": {
+        "observation_dates": []
+      }
+    }
+  ],
+  "evidences": [
+    {
+      "id": "ev-455baff7",
+      "source_doc_id": "isaac-newton-001",
+      "source_type": "text_span",
+      "content": "universal gravitation",
+      "bbox": null,
+      "page": null,
+      "image_path": null,
+      "model_name": "itext2kg/llama-3.3-70b-versatile",
+      "confidence": 1.0,
+      "metadata": {}
+    },
+    {
+      "id": "ev-9e418615",
+      "source_doc_id": "isaac-newton-001",
+      "source_type": "text_span",
+      "content": "royal society",
+      "bbox": null,
+      "page": null,
+      "image_path": null,
+      "model_name": "itext2kg/llama-3.3-70b-versatile",
+      "confidence": 1.0,
+      "metadata": {}
+    },
+    {
+      "id": "ev-fe1d9b5e",
+      "source_doc_id": "isaac-newton-001",
+      "source_type": "text_span",
+      "content": "trinity college",
+      "bbox": null,
+      "page": null,
+      "image_path": null,
+      "model_name": "itext2kg/llama-3.3-70b-versatile",
+      "confidence": 1.0,
+      "metadata": {}
+    },
+    {
+      "id": "ev-d920863e",
+      "source_doc_id": "isaac-newton-001",
+      "source_type": "text_span",
+      "content": "england",
+      "bbox": null,
+      "page": null,
+      "image_path": null,
+      "model_name": "itext2kg/llama-3.3-70b-versatile",
+      "confidence": 1.0,
+      "metadata": {}
+    },
+    {
+      "id": "ev-4b227f32",
+      "source_doc_id": "isaac-newton-001",
+      "source_type": "text_span",
+      "content": "isaac newton",
+      "bbox": null,
+      "page": null,
+      "image_path": null,
+      "model_name": "itext2kg/llama-3.3-70b-versatile",
+      "confidence": 1.0,
+      "metadata": {}
+    },
+    {
+      "id": "ev-bc68b79a",
+      "source_doc_id": "isaac-newton-001",
+      "source_type": "text_span",
+      "content": "laws of motion",
+      "bbox": null,
+      "page": null,
+      "image_path": null,
+      "model_name": "itext2kg/llama-3.3-70b-versatile",
+      "confidence": 1.0,
+      "metadata": {}
+    },
+    {
+      "id": "ev-108c7504",
+      "source_doc_id": "isaac-newton-001",
+      "source_type": "text_span",
+      "content": "cambridge university",
+      "bbox": null,
+      "page": null,
+      "image_path": null,
+      "model_name": "itext2kg/llama-3.3-70b-versatile",
+      "confidence": 1.0,
+      "metadata": {}
+    },
+    {
+      "id": "ev-6fad1cee",
+      "source_doc_id": "isaac-newton-001",
+      "source_type": "text_span",
+      "content": "woolsthorpe",
+      "bbox": null,
+      "page": null,
+      "image_path": null,
+      "model_name": "itext2kg/llama-3.3-70b-versatile",
+      "confidence": 1.0,
+      "metadata": {}
+    },
+    {
+      "id": "ev-003968aa",
+      "source_doc_id": "isaac-newton-001",
+      "source_type": "text_span",
+      "content": "royal mint",
+      "bbox": null,
+      "page": null,
+      "image_path": null,
+      "model_name": "itext2kg/llama-3.3-70b-versatile",
+      "confidence": 1.0,
+      "metadata": {}
+    },
+    {
+      "id": "ev-d5cd9235",
+      "source_doc_id": "isaac-newton-001",
+      "source_type": "text_span",
+      "content": "principia mathematica",
+      "bbox": null,
+      "page": null,
+      "image_path": null,
+      "model_name": "itext2kg/llama-3.3-70b-versatile",
+      "confidence": 1.0,
+      "metadata": {}
+    },
+    {
+      "id": "ev-0d09035a",
+      "source_doc_id": "isaac-newton-001",
+      "source_type": "model_output",
+      "content": "Trinity College",
+      "bbox": null,
+      "page": null,
+      "image_path": "data/raw/test_image.jpg",
+      "model_name": "mkgformer-mner",
+      "confidence": 0.6,
+      "metadata": {}
+    },
+    {
+      "id": "ev-72a6be01",
+      "source_doc_id": "isaac-newton-001",
+      "source_type": "model_output",
+      "content": "Cambridge University",
+      "bbox": null,
+      "page": null,
+      "image_path": "data/raw/test_image.jpg",
+      "model_name": "mkgformer-mner",
+      "confidence": 0.6,
+      "metadata": {}
+    },
+    {
+      "id": "ev-bc06ce3d",
+      "source_doc_id": "isaac-newton-001",
+      "source_type": "model_output",
+      "content": "England",
+      "bbox": null,
+      "page": null,
+      "image_path": "data/raw/test_image.jpg",
+      "model_name": "mkgformer-mner",
+      "confidence": 0.6,
+      "metadata": {}
+    },
+    {
+      "id": "ev-c3acea61",
+      "source_doc_id": "isaac-newton-001",
+      "source_type": "model_output",
+      "content": "Isaac Newton",
+      "bbox": null,
+      "page": null,
+      "image_path": "data/raw/test_image.jpg",
+      "model_name": "mkgformer-mner",
+      "confidence": 0.6,
+      "metadata": {}
+    },
+    {
+      "id": "ev-0f818f34",
+      "source_doc_id": "isaac-newton-001",
+      "source_type": "model_output",
+      "content": "Principia Mathematica",
+      "bbox": null,
+      "page": null,
+      "image_path": "data/raw/test_image.jpg",
+      "model_name": "mkgformer-mner",
+      "confidence": 0.6,
+      "metadata": {}
+    },
+    {
+      "id": "ev-2e4bd900",
+      "source_doc_id": "isaac-newton-001",
+      "source_type": "model_output",
+      "content": "Royal Mint",
+      "bbox": null,
+      "page": null,
+      "image_path": "data/raw/test_image.jpg",
+      "model_name": "mkgformer-mner",
+      "confidence": 0.6,
+      "metadata": {}
+    },
+    {
+      "id": "ev-6eff29e8",
+      "source_doc_id": "isaac-newton-001",
+      "source_type": "model_output",
+      "content": "Royal Society",
+      "bbox": null,
+      "page": null,
+      "image_path": "data/raw/test_image.jpg",
+      "model_name": "mkgformer-mner",
+      "confidence": 0.6,
+      "metadata": {}
+    },
+    {
+      "id": "ev-a1a019f7",
+      "source_doc_id": "isaac-newton-001",
+      "source_type": "model_output",
+      "content": "cross-modal: trinity college <-> Trinity College",
+      "bbox": null,
+      "page": null,
+      "image_path": null,
+      "model_name": "cross-modal-fuser",
+      "confidence": 1.0,
+      "metadata": {}
+    },
+    {
+      "id": "ev-9fff506d",
+      "source_doc_id": "isaac-newton-001",
+      "source_type": "model_output",
+      "content": "cross-modal: cambridge university <-> Cambridge University",
+      "bbox": null,
+      "page": null,
+      "image_path": null,
+      "model_name": "cross-modal-fuser",
+      "confidence": 1.0,
+      "metadata": {}
+    },
+    {
+      "id": "ev-36a05b19",
+      "source_doc_id": "isaac-newton-001",
+      "source_type": "model_output",
+      "content": "cross-modal: england <-> England",
+      "bbox": null,
+      "page": null,
+      "image_path": null,
+      "model_name": "cross-modal-fuser",
+      "confidence": 1.0,
+      "metadata": {}
+    },
+    {
+      "id": "ev-53b61def",
+      "source_doc_id": "isaac-newton-001",
+      "source_type": "model_output",
+      "content": "cross-modal: isaac newton <-> Isaac Newton",
+      "bbox": null,
+      "page": null,
+      "image_path": null,
+      "model_name": "cross-modal-fuser",
+      "confidence": 1.0,
+      "metadata": {}
+    },
+    {
+      "id": "ev-6c5d0804",
+      "source_doc_id": "isaac-newton-001",
+      "source_type": "model_output",
+      "content": "cross-modal: principia mathematica <-> Principia Mathematica",
+      "bbox": null,
+      "page": null,
+      "image_path": null,
+      "model_name": "cross-modal-fuser",
+      "confidence": 1.0,
+      "metadata": {}
+    },
+    {
+      "id": "ev-03f641eb",
+      "source_doc_id": "isaac-newton-001",
+      "source_type": "model_output",
+      "content": "cross-modal: royal mint <-> Royal Mint",
+      "bbox": null,
+      "page": null,
+      "image_path": null,
+      "model_name": "cross-modal-fuser",
+      "confidence": 1.0,
+      "metadata": {}
+    },
+    {
+      "id": "ev-971c11fd",
+      "source_doc_id": "isaac-newton-001",
+      "source_type": "model_output",
+      "content": "cross-modal: royal society <-> Royal Society",
+      "bbox": null,
+      "page": null,
+      "image_path": null,
+      "model_name": "cross-modal-fuser",
+      "confidence": 1.0,
+      "metadata": {}
+    }
+  ],
+  "pipeline_stage": "fusion",
+  "metadata": {}
+}

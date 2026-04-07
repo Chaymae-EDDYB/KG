@@ -1,0 +1,135 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d8" for="edge" attr.name="source_system" attr.type="string" />
+  <key id="d7" for="edge" attr.name="confidence" attr.type="double" />
+  <key id="d6" for="edge" attr.name="predicate" attr.type="string" />
+  <key id="d5" for="edge" attr.name="key" attr.type="string" />
+  <key id="d4" for="node" attr.name="source_system" attr.type="string" />
+  <key id="d3" for="node" attr.name="modality" attr.type="string" />
+  <key id="d2" for="node" attr.name="entity_type" attr.type="string" />
+  <key id="d1" for="node" attr.name="canonical_name" attr.type="string" />
+  <key id="d0" for="graph" attr.name="doc_id" attr.type="string" />
+  <graph edgedefault="directed">
+    <node id="ent-51fda53c">
+      <data key="d1">los alamos laboratory</data>
+      <data key="d2">LOCATION</data>
+      <data key="d3">multimodal</data>
+      <data key="d4">itext2kg</data>
+    </node>
+    <node id="ent-a2379488">
+      <data key="d1">quantum electrodynamics</data>
+      <data key="d2">OTHER</data>
+      <data key="d3">text</data>
+      <data key="d4">itext2kg</data>
+    </node>
+    <node id="ent-da0146f6">
+      <data key="d1">new york city</data>
+      <data key="d2">LOCATION</data>
+      <data key="d3">multimodal</data>
+      <data key="d4">itext2kg</data>
+    </node>
+    <node id="ent-5bd92614">
+      <data key="d1">california institute of technology</data>
+      <data key="d2">ORGANIZATION</data>
+      <data key="d3">multimodal</data>
+      <data key="d4">itext2kg</data>
+    </node>
+    <node id="ent-44c5997f">
+      <data key="d1">massachusetts institute of technology</data>
+      <data key="d2">ORGANIZATION</data>
+      <data key="d3">multimodal</data>
+      <data key="d4">itext2kg</data>
+    </node>
+    <node id="ent-7f6afcda">
+      <data key="d1">feynman diagrams</data>
+      <data key="d2">CONCEPT</data>
+      <data key="d3">multimodal</data>
+      <data key="d4">itext2kg</data>
+    </node>
+    <node id="ent-d5d9c90f">
+      <data key="d1">richard feynman</data>
+      <data key="d2">PERSON</data>
+      <data key="d3">multimodal</data>
+      <data key="d4">itext2kg</data>
+    </node>
+    <node id="ent-397cfb88">
+      <data key="d1">princeton university</data>
+      <data key="d2">ORGANIZATION</data>
+      <data key="d3">multimodal</data>
+      <data key="d4">itext2kg</data>
+    </node>
+    <node id="ent-1e32939b">
+      <data key="d1">manhattan project</data>
+      <data key="d2">OTHER</data>
+      <data key="d3">multimodal</data>
+      <data key="d4">itext2kg</data>
+    </node>
+    <node id="ent-eec0e6c7">
+      <data key="d1">nobel prize in physics</data>
+      <data key="d2">OTHER</data>
+      <data key="d3">multimodal</data>
+      <data key="d4">itext2kg</data>
+    </node>
+    <node id="ent-825e65a4">
+      <data key="d1">Institute of Technology</data>
+      <data key="d2">ORGANIZATION</data>
+      <data key="d3">multimodal</data>
+      <data key="d4">mkgformer</data>
+    </node>
+    <edge source="ent-d5d9c90f" target="ent-7f6afcda">
+      <data key="d5">rel-8286be7b</data>
+      <data key="d6">developed</data>
+      <data key="d7">1.0</data>
+      <data key="d8">itext2kg</data>
+    </edge>
+    <edge source="ent-d5d9c90f" target="ent-da0146f6">
+      <data key="d5">rel-f2df907c</data>
+      <data key="d6">born_in</data>
+      <data key="d7">1.0</data>
+      <data key="d8">itext2kg</data>
+    </edge>
+    <edge source="ent-d5d9c90f" target="ent-44c5997f">
+      <data key="d5">rel-9655ba09</data>
+      <data key="d6">studied_at</data>
+      <data key="d7">1.0</data>
+      <data key="d8">itext2kg</data>
+    </edge>
+    <edge source="ent-d5d9c90f" target="ent-a2379488">
+      <data key="d5">rel-8778d649</data>
+      <data key="d6">contributed_to</data>
+      <data key="d7">1.0</data>
+      <data key="d8">itext2kg</data>
+    </edge>
+    <edge source="ent-d5d9c90f" target="ent-397cfb88">
+      <data key="d5">rel-f8d0b52a</data>
+      <data key="d6">studied_at</data>
+      <data key="d7">1.0</data>
+      <data key="d8">itext2kg</data>
+    </edge>
+    <edge source="ent-d5d9c90f" target="ent-51fda53c">
+      <data key="d5">rel-40e752f5</data>
+      <data key="d6">worked_at</data>
+      <data key="d7">1.0</data>
+      <data key="d8">itext2kg</data>
+    </edge>
+    <edge source="ent-d5d9c90f" target="ent-5bd92614">
+      <data key="d5">rel-f222ede5</data>
+      <data key="d6">taught_at</data>
+      <data key="d7">1.0</data>
+      <data key="d8">itext2kg</data>
+    </edge>
+    <edge source="ent-d5d9c90f" target="ent-eec0e6c7">
+      <data key="d5">rel-aad68426</data>
+      <data key="d6">won</data>
+      <data key="d7">1.0</data>
+      <data key="d8">itext2kg</data>
+    </edge>
+    <edge source="ent-d5d9c90f" target="ent-1e32939b">
+      <data key="d5">rel-f42472ff</data>
+      <data key="d6">worked_on</data>
+      <data key="d7">1.0</data>
+      <data key="d8">itext2kg</data>
+    </edge>
+    <data key="d0">feynman-001</data>
+  </graph>
+</graphml>

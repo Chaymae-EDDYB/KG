@@ -1,0 +1,81 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d8" for="edge" attr.name="source_system" attr.type="string" />
+  <key id="d7" for="edge" attr.name="confidence" attr.type="double" />
+  <key id="d6" for="edge" attr.name="predicate" attr.type="string" />
+  <key id="d5" for="edge" attr.name="key" attr.type="string" />
+  <key id="d4" for="node" attr.name="source_system" attr.type="string" />
+  <key id="d3" for="node" attr.name="modality" attr.type="string" />
+  <key id="d2" for="node" attr.name="entity_type" attr.type="string" />
+  <key id="d1" for="node" attr.name="canonical_name" attr.type="string" />
+  <key id="d0" for="graph" attr.name="doc_id" attr.type="string" />
+  <graph edgedefault="directed">
+    <node id="ent-8af7b5cf">
+      <data key="d1">albert einstein</data>
+      <data key="d2">PERSON</data>
+      <data key="d3">text</data>
+      <data key="d4">itext2kg</data>
+    </node>
+    <node id="ent-85b5f84f">
+      <data key="d1">theory of relativity</data>
+      <data key="d2">CONCEPT</data>
+      <data key="d3">text</data>
+      <data key="d4">itext2kg</data>
+    </node>
+    <node id="ent-0e429e8b">
+      <data key="d1">germany</data>
+      <data key="d2">LOCATION</data>
+      <data key="d3">text</data>
+      <data key="d4">itext2kg</data>
+    </node>
+    <node id="ent-c307533d">
+      <data key="d1">princeton university</data>
+      <data key="d2">ORGANIZATION</data>
+      <data key="d3">text</data>
+      <data key="d4">itext2kg</data>
+    </node>
+    <node id="ent-68a9c800">
+      <data key="d1">nobel prize in physics</data>
+      <data key="d2">EVENT</data>
+      <data key="d3">text</data>
+      <data key="d4">itext2kg</data>
+    </node>
+    <node id="ent-19cae11c">
+      <data key="d1">ulm</data>
+      <data key="d2">LOCATION</data>
+      <data key="d3">text</data>
+      <data key="d4">itext2kg</data>
+    </node>
+    <edge source="ent-8af7b5cf" target="ent-19cae11c">
+      <data key="d5">rel-771e3629</data>
+      <data key="d6">born_in</data>
+      <data key="d7">1.0</data>
+      <data key="d8">itext2kg</data>
+    </edge>
+    <edge source="ent-8af7b5cf" target="ent-c307533d">
+      <data key="d5">rel-97fada80</data>
+      <data key="d6">worked_at</data>
+      <data key="d7">1.0</data>
+      <data key="d8">itext2kg</data>
+    </edge>
+    <edge source="ent-8af7b5cf" target="ent-85b5f84f">
+      <data key="d5">rel-69832d92</data>
+      <data key="d6">developed</data>
+      <data key="d7">1.0</data>
+      <data key="d8">itext2kg</data>
+    </edge>
+    <edge source="ent-8af7b5cf" target="ent-0e429e8b">
+      <data key="d5">rel-1e2d4bd5</data>
+      <data key="d6">born_in</data>
+      <data key="d7">1.0</data>
+      <data key="d8">itext2kg</data>
+    </edge>
+    <edge source="ent-8af7b5cf" target="ent-68a9c800">
+      <data key="d5">rel-7c962ecf</data>
+      <data key="d6">received</data>
+      <data key="d7">1.0</data>
+      <data key="d8">itext2kg</data>
+    </edge>
+    <data key="d0">einstein-groq-001</data>
+  </graph>
+</graphml>

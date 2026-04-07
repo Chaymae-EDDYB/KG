@@ -1,0 +1,590 @@
+{
+  "doc_id": "galileo-001",
+  "entities": [
+    {
+      "id": "ent-547c9de3",
+      "canonical_name": "astronomical observations",
+      "entity_type": "EVENT",
+      "modality": "text",
+      "aliases": [],
+      "evidence_ids": [
+        "ev-ad11f3cb"
+      ],
+      "source_system": "itext2kg",
+      "embedding": null,
+      "metadata": {}
+    },
+    {
+      "id": "ent-54dbc952",
+      "canonical_name": "galileo galilei",
+      "entity_type": "PERSON",
+      "modality": "multimodal",
+      "aliases": [
+        "Galileo Galilei"
+      ],
+      "evidence_ids": [
+        "ev-43b4eaa3",
+        "ev-5c4c385f"
+      ],
+      "source_system": "itext2kg",
+      "embedding": null,
+      "metadata": {}
+    },
+    {
+      "id": "ent-00e88b10",
+      "canonical_name": "university of pisa",
+      "entity_type": "ORGANIZATION",
+      "modality": "multimodal",
+      "aliases": [
+        "University of Pisa"
+      ],
+      "evidence_ids": [
+        "ev-6201b3f4",
+        "ev-92d42b1c"
+      ],
+      "source_system": "itext2kg",
+      "embedding": null,
+      "metadata": {}
+    },
+    {
+      "id": "ent-393f2cd2",
+      "canonical_name": "trial by roman inquisition",
+      "entity_type": "EVENT",
+      "modality": "multimodal",
+      "aliases": [
+        "Roman Inquisition"
+      ],
+      "evidence_ids": [
+        "ev-6f2da8e9",
+        "ev-2ca66173"
+      ],
+      "source_system": "itext2kg",
+      "embedding": null,
+      "metadata": {}
+    },
+    {
+      "id": "ent-46033dc8",
+      "canonical_name": "telescope improvement",
+      "entity_type": "OTHER",
+      "modality": "text",
+      "aliases": [],
+      "evidence_ids": [
+        "ev-154f6173"
+      ],
+      "source_system": "itext2kg",
+      "embedding": null,
+      "metadata": {}
+    },
+    {
+      "id": "ent-cd8211da",
+      "canonical_name": "university of padua",
+      "entity_type": "ORGANIZATION",
+      "modality": "multimodal",
+      "aliases": [
+        "University of Padua"
+      ],
+      "evidence_ids": [
+        "ev-5c8e94a5",
+        "ev-a1935958"
+      ],
+      "source_system": "itext2kg",
+      "embedding": null,
+      "metadata": {}
+    },
+    {
+      "id": "ent-fa3dc5af",
+      "canonical_name": "pisa",
+      "entity_type": "LOCATION",
+      "modality": "text",
+      "aliases": [],
+      "evidence_ids": [
+        "ev-80b0f52f"
+      ],
+      "source_system": "itext2kg",
+      "embedding": null,
+      "metadata": {}
+    },
+    {
+      "id": "ent-5b63614e",
+      "canonical_name": "italy",
+      "entity_type": "LOCATION",
+      "modality": "multimodal",
+      "aliases": [
+        "Italy"
+      ],
+      "evidence_ids": [
+        "ev-912ceef5",
+        "ev-6415b477"
+      ],
+      "source_system": "itext2kg",
+      "embedding": null,
+      "metadata": {}
+    },
+    {
+      "id": "ent-f2fd55d0",
+      "canonical_name": "supporter of copernican heliocentric model",
+      "entity_type": "OTHER",
+      "modality": "text",
+      "aliases": [],
+      "evidence_ids": [
+        "ev-55db4be9"
+      ],
+      "source_system": "itext2kg",
+      "embedding": null,
+      "metadata": {}
+    },
+    {
+      "id": "ent-0ca1aa76",
+      "canonical_name": "dialogue concerning the two chief world systems",
+      "entity_type": "OTHER",
+      "modality": "text",
+      "aliases": [],
+      "evidence_ids": [
+        "ev-95af5c7f"
+      ],
+      "source_system": "itext2kg",
+      "embedding": null,
+      "metadata": {}
+    },
+    {
+      "id": "ent-13e9a5db",
+      "canonical_name": "Dialogue Concerning",
+      "entity_type": "PERSON",
+      "modality": "multimodal",
+      "aliases": [],
+      "evidence_ids": [
+        "ev-50c0612c"
+      ],
+      "source_system": "mkgformer",
+      "embedding": null,
+      "metadata": {}
+    },
+    {
+      "id": "ent-2810d139",
+      "canonical_name": "Two Chief World",
+      "entity_type": "PERSON",
+      "modality": "multimodal",
+      "aliases": [],
+      "evidence_ids": [
+        "ev-9e5a59f4"
+      ],
+      "source_system": "mkgformer",
+      "embedding": null,
+      "metadata": {}
+    }
+  ],
+  "relations": [
+    {
+      "id": "rel-747cce34",
+      "subject_id": "ent-54dbc952",
+      "predicate": "was",
+      "object_id": "ent-f2fd55d0",
+      "confidence": 1.0,
+      "source_system": "itext2kg",
+      "evidence_ids": [],
+      "metadata": {
+        "observation_dates": []
+      }
+    },
+    {
+      "id": "rel-4f7960c8",
+      "subject_id": "ent-54dbc952",
+      "predicate": "published",
+      "object_id": "ent-0ca1aa76",
+      "confidence": 1.0,
+      "source_system": "itext2kg",
+      "evidence_ids": [],
+      "metadata": {
+        "observation_dates": []
+      }
+    },
+    {
+      "id": "rel-af4aa101",
+      "subject_id": "ent-54dbc952",
+      "predicate": "born_in",
+      "object_id": "ent-fa3dc5af",
+      "confidence": 1.0,
+      "source_system": "itext2kg",
+      "evidence_ids": [],
+      "metadata": {
+        "observation_dates": []
+      }
+    },
+    {
+      "id": "rel-30305190",
+      "subject_id": "ent-54dbc952",
+      "predicate": "tried_by",
+      "object_id": "ent-393f2cd2",
+      "confidence": 1.0,
+      "source_system": "itext2kg",
+      "evidence_ids": [],
+      "metadata": {
+        "observation_dates": []
+      }
+    },
+    {
+      "id": "rel-89f7ed75",
+      "subject_id": "ent-54dbc952",
+      "predicate": "taught_at",
+      "object_id": "ent-cd8211da",
+      "confidence": 1.0,
+      "source_system": "itext2kg",
+      "evidence_ids": [],
+      "metadata": {
+        "observation_dates": []
+      }
+    },
+    {
+      "id": "rel-420f35f7",
+      "subject_id": "ent-54dbc952",
+      "predicate": "improved",
+      "object_id": "ent-46033dc8",
+      "confidence": 1.0,
+      "source_system": "itext2kg",
+      "evidence_ids": [],
+      "metadata": {
+        "observation_dates": []
+      }
+    },
+    {
+      "id": "rel-c9eb439d",
+      "subject_id": "ent-54dbc952",
+      "predicate": "born_in",
+      "object_id": "ent-5b63614e",
+      "confidence": 1.0,
+      "source_system": "itext2kg",
+      "evidence_ids": [],
+      "metadata": {
+        "observation_dates": []
+      }
+    },
+    {
+      "id": "rel-96a654fe",
+      "subject_id": "ent-54dbc952",
+      "predicate": "made",
+      "object_id": "ent-547c9de3",
+      "confidence": 1.0,
+      "source_system": "itext2kg",
+      "evidence_ids": [],
+      "metadata": {
+        "observation_dates": []
+      }
+    },
+    {
+      "id": "rel-53af0c7c",
+      "subject_id": "ent-54dbc952",
+      "predicate": "is",
+      "object_id": "ent-f2fd55d0",
+      "confidence": 1.0,
+      "source_system": "itext2kg",
+      "evidence_ids": [],
+      "metadata": {
+        "observation_dates": []
+      }
+    },
+    {
+      "id": "rel-6a9cc8e3",
+      "subject_id": "ent-54dbc952",
+      "predicate": "studied_at",
+      "object_id": "ent-00e88b10",
+      "confidence": 1.0,
+      "source_system": "itext2kg",
+      "evidence_ids": [],
+      "metadata": {
+        "observation_dates": []
+      }
+    },
+    {
+      "id": "rel-46dc2629",
+      "subject_id": "ent-54dbc952",
+      "predicate": "taught_in",
+      "object_id": "ent-5b63614e",
+      "confidence": 1.0,
+      "source_system": "itext2kg",
+      "evidence_ids": [],
+      "metadata": {
+        "observation_dates": []
+      }
+    },
+    {
+      "id": "rel-a67936d5",
+      "subject_id": "ent-54dbc952",
+      "predicate": "studied_at",
+      "object_id": "ent-5b63614e",
+      "confidence": 1.0,
+      "source_system": "itext2kg",
+      "evidence_ids": [],
+      "metadata": {
+        "observation_dates": []
+      }
+    }
+  ],
+  "evidences": [
+    {
+      "id": "ev-ad11f3cb",
+      "source_doc_id": "galileo-001",
+      "source_type": "text_span",
+      "content": "astronomical observations",
+      "bbox": null,
+      "page": null,
+      "image_path": null,
+      "model_name": "itext2kg/llama-3.3-70b-versatile",
+      "confidence": 1.0,
+      "metadata": {}
+    },
+    {
+      "id": "ev-43b4eaa3",
+      "source_doc_id": "galileo-001",
+      "source_type": "text_span",
+      "content": "galileo galilei",
+      "bbox": null,
+      "page": null,
+      "image_path": null,
+      "model_name": "itext2kg/llama-3.3-70b-versatile",
+      "confidence": 1.0,
+      "metadata": {}
+    },
+    {
+      "id": "ev-6201b3f4",
+      "source_doc_id": "galileo-001",
+      "source_type": "text_span",
+      "content": "university of pisa",
+      "bbox": null,
+      "page": null,
+      "image_path": null,
+      "model_name": "itext2kg/llama-3.3-70b-versatile",
+      "confidence": 1.0,
+      "metadata": {}
+    },
+    {
+      "id": "ev-6f2da8e9",
+      "source_doc_id": "galileo-001",
+      "source_type": "text_span",
+      "content": "trial by roman inquisition",
+      "bbox": null,
+      "page": null,
+      "image_path": null,
+      "model_name": "itext2kg/llama-3.3-70b-versatile",
+      "confidence": 1.0,
+      "metadata": {}
+    },
+    {
+      "id": "ev-154f6173",
+      "source_doc_id": "galileo-001",
+      "source_type": "text_span",
+      "content": "telescope improvement",
+      "bbox": null,
+      "page": null,
+      "image_path": null,
+      "model_name": "itext2kg/llama-3.3-70b-versatile",
+      "confidence": 1.0,
+      "metadata": {}
+    },
+    {
+      "id": "ev-5c8e94a5",
+      "source_doc_id": "galileo-001",
+      "source_type": "text_span",
+      "content": "university of padua",
+      "bbox": null,
+      "page": null,
+      "image_path": null,
+      "model_name": "itext2kg/llama-3.3-70b-versatile",
+      "confidence": 1.0,
+      "metadata": {}
+    },
+    {
+      "id": "ev-80b0f52f",
+      "source_doc_id": "galileo-001",
+      "source_type": "text_span",
+      "content": "pisa",
+      "bbox": null,
+      "page": null,
+      "image_path": null,
+      "model_name": "itext2kg/llama-3.3-70b-versatile",
+      "confidence": 1.0,
+      "metadata": {}
+    },
+    {
+      "id": "ev-912ceef5",
+      "source_doc_id": "galileo-001",
+      "source_type": "text_span",
+      "content": "italy",
+      "bbox": null,
+      "page": null,
+      "image_path": null,
+      "model_name": "itext2kg/llama-3.3-70b-versatile",
+      "confidence": 1.0,
+      "metadata": {}
+    },
+    {
+      "id": "ev-55db4be9",
+      "source_doc_id": "galileo-001",
+      "source_type": "text_span",
+      "content": "supporter of copernican heliocentric model",
+      "bbox": null,
+      "page": null,
+      "image_path": null,
+      "model_name": "itext2kg/llama-3.3-70b-versatile",
+      "confidence": 1.0,
+      "metadata": {}
+    },
+    {
+      "id": "ev-95af5c7f",
+      "source_doc_id": "galileo-001",
+      "source_type": "text_span",
+      "content": "dialogue concerning the two chief world systems",
+      "bbox": null,
+      "page": null,
+      "image_path": null,
+      "model_name": "itext2kg/llama-3.3-70b-versatile",
+      "confidence": 1.0,
+      "metadata": {}
+    },
+    {
+      "id": "ev-92d42b1c",
+      "source_doc_id": "galileo-001",
+      "source_type": "model_output",
+      "content": "University of Pisa",
+      "bbox": null,
+      "page": null,
+      "image_path": "data/raw/test_image.jpg",
+      "model_name": "mkgformer-mner",
+      "confidence": 0.6,
+      "metadata": {}
+    },
+    {
+      "id": "ev-a1935958",
+      "source_doc_id": "galileo-001",
+      "source_type": "model_output",
+      "content": "University of Padua",
+      "bbox": null,
+      "page": null,
+      "image_path": "data/raw/test_image.jpg",
+      "model_name": "mkgformer-mner",
+      "confidence": 0.6,
+      "metadata": {}
+    },
+    {
+      "id": "ev-6415b477",
+      "source_doc_id": "galileo-001",
+      "source_type": "model_output",
+      "content": "Italy",
+      "bbox": null,
+      "page": null,
+      "image_path": "data/raw/test_image.jpg",
+      "model_name": "mkgformer-mner",
+      "confidence": 0.6,
+      "metadata": {}
+    },
+    {
+      "id": "ev-5c4c385f",
+      "source_doc_id": "galileo-001",
+      "source_type": "model_output",
+      "content": "Galileo Galilei",
+      "bbox": null,
+      "page": null,
+      "image_path": "data/raw/test_image.jpg",
+      "model_name": "mkgformer-mner",
+      "confidence": 0.6,
+      "metadata": {}
+    },
+    {
+      "id": "ev-2ca66173",
+      "source_doc_id": "galileo-001",
+      "source_type": "model_output",
+      "content": "Roman Inquisition",
+      "bbox": null,
+      "page": null,
+      "image_path": "data/raw/test_image.jpg",
+      "model_name": "mkgformer-mner",
+      "confidence": 0.6,
+      "metadata": {}
+    },
+    {
+      "id": "ev-50c0612c",
+      "source_doc_id": "galileo-001",
+      "source_type": "model_output",
+      "content": "Dialogue Concerning",
+      "bbox": null,
+      "page": null,
+      "image_path": "data/raw/test_image.jpg",
+      "model_name": "mkgformer-mner",
+      "confidence": 0.6,
+      "metadata": {}
+    },
+    {
+      "id": "ev-9e5a59f4",
+      "source_doc_id": "galileo-001",
+      "source_type": "model_output",
+      "content": "Two Chief World",
+      "bbox": null,
+      "page": null,
+      "image_path": "data/raw/test_image.jpg",
+      "model_name": "mkgformer-mner",
+      "confidence": 0.6,
+      "metadata": {}
+    },
+    {
+      "id": "ev-9eac891b",
+      "source_doc_id": "galileo-001",
+      "source_type": "model_output",
+      "content": "cross-modal: university of pisa <-> University of Pisa",
+      "bbox": null,
+      "page": null,
+      "image_path": null,
+      "model_name": "cross-modal-fuser",
+      "confidence": 1.0,
+      "metadata": {}
+    },
+    {
+      "id": "ev-7d29008a",
+      "source_doc_id": "galileo-001",
+      "source_type": "model_output",
+      "content": "cross-modal: university of padua <-> University of Padua",
+      "bbox": null,
+      "page": null,
+      "image_path": null,
+      "model_name": "cross-modal-fuser",
+      "confidence": 1.0,
+      "metadata": {}
+    },
+    {
+      "id": "ev-acba7469",
+      "source_doc_id": "galileo-001",
+      "source_type": "model_output",
+      "content": "cross-modal: italy <-> Italy",
+      "bbox": null,
+      "page": null,
+      "image_path": null,
+      "model_name": "cross-modal-fuser",
+      "confidence": 1.0,
+      "metadata": {}
+    },
+    {
+      "id": "ev-0c0f9697",
+      "source_doc_id": "galileo-001",
+      "source_type": "model_output",
+      "content": "cross-modal: galileo galilei <-> Galileo Galilei",
+      "bbox": null,
+      "page": null,
+      "image_path": null,
+      "model_name": "cross-modal-fuser",
+      "confidence": 1.0,
+      "metadata": {}
+    },
+    {
+      "id": "ev-9cbd2a21",
+      "source_doc_id": "galileo-001",
+      "source_type": "model_output",
+      "content": "cross-modal: trial by roman inquisition <-> Roman Inquisition",
+      "bbox": null,
+      "page": null,
+      "image_path": null,
+      "model_name": "cross-modal-fuser",
+      "confidence": 1.0,
+      "metadata": {}
+    }
+  ],
+  "pipeline_stage": "fusion",
+  "metadata": {}
+}

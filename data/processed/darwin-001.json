@@ -1,0 +1,580 @@
+{
+  "doc_id": "darwin-001",
+  "entities": [
+    {
+      "id": "ent-89f98c03",
+      "canonical_name": "voyage aboard hms beagle",
+      "entity_type": "EVENT",
+      "modality": "text",
+      "aliases": [],
+      "evidence_ids": [
+        "ev-4ff0a293"
+      ],
+      "source_system": "itext2kg",
+      "embedding": null,
+      "metadata": {}
+    },
+    {
+      "id": "ent-3bc5e2fe",
+      "canonical_name": "on the origin of species",
+      "entity_type": "OTHER",
+      "modality": "text",
+      "aliases": [],
+      "evidence_ids": [
+        "ev-5396ac45"
+      ],
+      "source_system": "itext2kg",
+      "embedding": null,
+      "metadata": {}
+    },
+    {
+      "id": "ent-11152c95",
+      "canonical_name": "england",
+      "entity_type": "LOCATION",
+      "modality": "multimodal",
+      "aliases": [
+        "England"
+      ],
+      "evidence_ids": [
+        "ev-8e8070ba",
+        "ev-7f08fc04"
+      ],
+      "source_system": "itext2kg",
+      "embedding": null,
+      "metadata": {}
+    },
+    {
+      "id": "ent-5eb8f322",
+      "canonical_name": "theory of evolution by natural selection",
+      "entity_type": "CONCEPT",
+      "modality": "text",
+      "aliases": [],
+      "evidence_ids": [
+        "ev-3a0f5eb0"
+      ],
+      "source_system": "itext2kg",
+      "embedding": null,
+      "metadata": {}
+    },
+    {
+      "id": "ent-115d6b61",
+      "canonical_name": "shrewsbury",
+      "entity_type": "LOCATION",
+      "modality": "text",
+      "aliases": [],
+      "evidence_ids": [
+        "ev-bd1d29db"
+      ],
+      "source_system": "itext2kg",
+      "embedding": null,
+      "metadata": {}
+    },
+    {
+      "id": "ent-5c6f2519",
+      "canonical_name": "kent",
+      "entity_type": "LOCATION",
+      "modality": "text",
+      "aliases": [],
+      "evidence_ids": [
+        "ev-530c746d"
+      ],
+      "source_system": "itext2kg",
+      "embedding": null,
+      "metadata": {}
+    },
+    {
+      "id": "ent-952f6c4b",
+      "canonical_name": "cambridge university",
+      "entity_type": "ORGANIZATION",
+      "modality": "multimodal",
+      "aliases": [
+        "Cambridge University"
+      ],
+      "evidence_ids": [
+        "ev-2c5bc4b6",
+        "ev-c8631ec9"
+      ],
+      "source_system": "itext2kg",
+      "embedding": null,
+      "metadata": {}
+    },
+    {
+      "id": "ent-d50dd4d7",
+      "canonical_name": "edinburgh university",
+      "entity_type": "ORGANIZATION",
+      "modality": "multimodal",
+      "aliases": [
+        "Edinburgh University"
+      ],
+      "evidence_ids": [
+        "ev-39e92dbe",
+        "ev-252495e6"
+      ],
+      "source_system": "itext2kg",
+      "embedding": null,
+      "metadata": {}
+    },
+    {
+      "id": "ent-566a99f1",
+      "canonical_name": "charles darwin",
+      "entity_type": "PERSON",
+      "modality": "multimodal",
+      "aliases": [
+        "Charles Darwin"
+      ],
+      "evidence_ids": [
+        "ev-63f8b9e7",
+        "ev-6edbf11a"
+      ],
+      "source_system": "itext2kg",
+      "embedding": null,
+      "metadata": {}
+    },
+    {
+      "id": "ent-61fca67d",
+      "canonical_name": "galapagos islands",
+      "entity_type": "LOCATION",
+      "modality": "multimodal",
+      "aliases": [
+        "Galapagos Islands"
+      ],
+      "evidence_ids": [
+        "ev-68d9c763",
+        "ev-b6f7bafe"
+      ],
+      "source_system": "itext2kg",
+      "embedding": null,
+      "metadata": {}
+    },
+    {
+      "id": "ent-f544e2fa",
+      "canonical_name": "down house",
+      "entity_type": "LOCATION",
+      "modality": "multimodal",
+      "aliases": [
+        "Down House"
+      ],
+      "evidence_ids": [
+        "ev-845b9b45",
+        "ev-5ddf342e"
+      ],
+      "source_system": "itext2kg",
+      "embedding": null,
+      "metadata": {}
+    }
+  ],
+  "relations": [
+    {
+      "id": "rel-f45ddc9b",
+      "subject_id": "ent-5c6f2519",
+      "predicate": "located_in",
+      "object_id": "ent-11152c95",
+      "confidence": 1.0,
+      "source_system": "itext2kg",
+      "evidence_ids": [],
+      "metadata": {
+        "observation_dates": []
+      }
+    },
+    {
+      "id": "rel-7f45d2b6",
+      "subject_id": "ent-566a99f1",
+      "predicate": "studied_at",
+      "object_id": "ent-d50dd4d7",
+      "confidence": 1.0,
+      "source_system": "itext2kg",
+      "evidence_ids": [],
+      "metadata": {
+        "observation_dates": []
+      }
+    },
+    {
+      "id": "rel-63c8e6f3",
+      "subject_id": "ent-566a99f1",
+      "predicate": "born_in",
+      "object_id": "ent-115d6b61",
+      "confidence": 1.0,
+      "source_system": "itext2kg",
+      "evidence_ids": [],
+      "metadata": {
+        "observation_dates": []
+      }
+    },
+    {
+      "id": "rel-e044e6a5",
+      "subject_id": "ent-566a99f1",
+      "predicate": "studied_at",
+      "object_id": "ent-952f6c4b",
+      "confidence": 1.0,
+      "source_system": "itext2kg",
+      "evidence_ids": [],
+      "metadata": {
+        "observation_dates": []
+      }
+    },
+    {
+      "id": "rel-78db3978",
+      "subject_id": "ent-566a99f1",
+      "predicate": "lived_at",
+      "object_id": "ent-f544e2fa",
+      "confidence": 1.0,
+      "source_system": "itext2kg",
+      "evidence_ids": [],
+      "metadata": {
+        "observation_dates": []
+      }
+    },
+    {
+      "id": "rel-90fe5e07",
+      "subject_id": "ent-115d6b61",
+      "predicate": "located_in",
+      "object_id": "ent-11152c95",
+      "confidence": 1.0,
+      "source_system": "itext2kg",
+      "evidence_ids": [],
+      "metadata": {
+        "observation_dates": []
+      }
+    },
+    {
+      "id": "rel-2ff53576",
+      "subject_id": "ent-f544e2fa",
+      "predicate": "located_in",
+      "object_id": "ent-5c6f2519",
+      "confidence": 1.0,
+      "source_system": "itext2kg",
+      "evidence_ids": [],
+      "metadata": {
+        "observation_dates": []
+      }
+    },
+    {
+      "id": "rel-ccc20ecf",
+      "subject_id": "ent-89f98c03",
+      "predicate": "visited",
+      "object_id": "ent-61fca67d",
+      "confidence": 1.0,
+      "source_system": "itext2kg",
+      "evidence_ids": [],
+      "metadata": {
+        "observation_dates": []
+      }
+    },
+    {
+      "id": "rel-9498edd7",
+      "subject_id": "ent-566a99f1",
+      "predicate": "published",
+      "object_id": "ent-3bc5e2fe",
+      "confidence": 1.0,
+      "source_system": "itext2kg",
+      "evidence_ids": [],
+      "metadata": {
+        "observation_dates": []
+      }
+    },
+    {
+      "id": "rel-0c8eb5df",
+      "subject_id": "ent-566a99f1",
+      "predicate": "embarked_on",
+      "object_id": "ent-89f98c03",
+      "confidence": 1.0,
+      "source_system": "itext2kg",
+      "evidence_ids": [],
+      "metadata": {
+        "observation_dates": []
+      }
+    },
+    {
+      "id": "rel-61c6c08c",
+      "subject_id": "ent-566a99f1",
+      "predicate": "developed",
+      "object_id": "ent-5eb8f322",
+      "confidence": 1.0,
+      "source_system": "itext2kg",
+      "evidence_ids": [],
+      "metadata": {
+        "observation_dates": []
+      }
+    }
+  ],
+  "evidences": [
+    {
+      "id": "ev-4ff0a293",
+      "source_doc_id": "darwin-001",
+      "source_type": "text_span",
+      "content": "voyage aboard hms beagle",
+      "bbox": null,
+      "page": null,
+      "image_path": null,
+      "model_name": "itext2kg/llama-3.3-70b-versatile",
+      "confidence": 1.0,
+      "metadata": {}
+    },
+    {
+      "id": "ev-5396ac45",
+      "source_doc_id": "darwin-001",
+      "source_type": "text_span",
+      "content": "on the origin of species",
+      "bbox": null,
+      "page": null,
+      "image_path": null,
+      "model_name": "itext2kg/llama-3.3-70b-versatile",
+      "confidence": 1.0,
+      "metadata": {}
+    },
+    {
+      "id": "ev-8e8070ba",
+      "source_doc_id": "darwin-001",
+      "source_type": "text_span",
+      "content": "england",
+      "bbox": null,
+      "page": null,
+      "image_path": null,
+      "model_name": "itext2kg/llama-3.3-70b-versatile",
+      "confidence": 1.0,
+      "metadata": {}
+    },
+    {
+      "id": "ev-3a0f5eb0",
+      "source_doc_id": "darwin-001",
+      "source_type": "text_span",
+      "content": "theory of evolution by natural selection",
+      "bbox": null,
+      "page": null,
+      "image_path": null,
+      "model_name": "itext2kg/llama-3.3-70b-versatile",
+      "confidence": 1.0,
+      "metadata": {}
+    },
+    {
+      "id": "ev-bd1d29db",
+      "source_doc_id": "darwin-001",
+      "source_type": "text_span",
+      "content": "shrewsbury",
+      "bbox": null,
+      "page": null,
+      "image_path": null,
+      "model_name": "itext2kg/llama-3.3-70b-versatile",
+      "confidence": 1.0,
+      "metadata": {}
+    },
+    {
+      "id": "ev-530c746d",
+      "source_doc_id": "darwin-001",
+      "source_type": "text_span",
+      "content": "kent",
+      "bbox": null,
+      "page": null,
+      "image_path": null,
+      "model_name": "itext2kg/llama-3.3-70b-versatile",
+      "confidence": 1.0,
+      "metadata": {}
+    },
+    {
+      "id": "ev-2c5bc4b6",
+      "source_doc_id": "darwin-001",
+      "source_type": "text_span",
+      "content": "cambridge university",
+      "bbox": null,
+      "page": null,
+      "image_path": null,
+      "model_name": "itext2kg/llama-3.3-70b-versatile",
+      "confidence": 1.0,
+      "metadata": {}
+    },
+    {
+      "id": "ev-39e92dbe",
+      "source_doc_id": "darwin-001",
+      "source_type": "text_span",
+      "content": "edinburgh university",
+      "bbox": null,
+      "page": null,
+      "image_path": null,
+      "model_name": "itext2kg/llama-3.3-70b-versatile",
+      "confidence": 1.0,
+      "metadata": {}
+    },
+    {
+      "id": "ev-63f8b9e7",
+      "source_doc_id": "darwin-001",
+      "source_type": "text_span",
+      "content": "charles darwin",
+      "bbox": null,
+      "page": null,
+      "image_path": null,
+      "model_name": "itext2kg/llama-3.3-70b-versatile",
+      "confidence": 1.0,
+      "metadata": {}
+    },
+    {
+      "id": "ev-68d9c763",
+      "source_doc_id": "darwin-001",
+      "source_type": "text_span",
+      "content": "galapagos islands",
+      "bbox": null,
+      "page": null,
+      "image_path": null,
+      "model_name": "itext2kg/llama-3.3-70b-versatile",
+      "confidence": 1.0,
+      "metadata": {}
+    },
+    {
+      "id": "ev-845b9b45",
+      "source_doc_id": "darwin-001",
+      "source_type": "text_span",
+      "content": "down house",
+      "bbox": null,
+      "page": null,
+      "image_path": null,
+      "model_name": "itext2kg/llama-3.3-70b-versatile",
+      "confidence": 1.0,
+      "metadata": {}
+    },
+    {
+      "id": "ev-252495e6",
+      "source_doc_id": "darwin-001",
+      "source_type": "model_output",
+      "content": "Edinburgh University",
+      "bbox": null,
+      "page": null,
+      "image_path": "data/raw/test_image.jpg",
+      "model_name": "mkgformer-mner",
+      "confidence": 0.6,
+      "metadata": {}
+    },
+    {
+      "id": "ev-c8631ec9",
+      "source_doc_id": "darwin-001",
+      "source_type": "model_output",
+      "content": "Cambridge University",
+      "bbox": null,
+      "page": null,
+      "image_path": "data/raw/test_image.jpg",
+      "model_name": "mkgformer-mner",
+      "confidence": 0.6,
+      "metadata": {}
+    },
+    {
+      "id": "ev-7f08fc04",
+      "source_doc_id": "darwin-001",
+      "source_type": "model_output",
+      "content": "England",
+      "bbox": null,
+      "page": null,
+      "image_path": "data/raw/test_image.jpg",
+      "model_name": "mkgformer-mner",
+      "confidence": 0.6,
+      "metadata": {}
+    },
+    {
+      "id": "ev-6edbf11a",
+      "source_doc_id": "darwin-001",
+      "source_type": "model_output",
+      "content": "Charles Darwin",
+      "bbox": null,
+      "page": null,
+      "image_path": "data/raw/test_image.jpg",
+      "model_name": "mkgformer-mner",
+      "confidence": 0.6,
+      "metadata": {}
+    },
+    {
+      "id": "ev-b6f7bafe",
+      "source_doc_id": "darwin-001",
+      "source_type": "model_output",
+      "content": "Galapagos Islands",
+      "bbox": null,
+      "page": null,
+      "image_path": "data/raw/test_image.jpg",
+      "model_name": "mkgformer-mner",
+      "confidence": 0.6,
+      "metadata": {}
+    },
+    {
+      "id": "ev-5ddf342e",
+      "source_doc_id": "darwin-001",
+      "source_type": "model_output",
+      "content": "Down House",
+      "bbox": null,
+      "page": null,
+      "image_path": "data/raw/test_image.jpg",
+      "model_name": "mkgformer-mner",
+      "confidence": 0.6,
+      "metadata": {}
+    },
+    {
+      "id": "ev-c739ca11",
+      "source_doc_id": "darwin-001",
+      "source_type": "model_output",
+      "content": "cross-modal: edinburgh university <-> Edinburgh University",
+      "bbox": null,
+      "page": null,
+      "image_path": null,
+      "model_name": "cross-modal-fuser",
+      "confidence": 1.0,
+      "metadata": {}
+    },
+    {
+      "id": "ev-c2b5e627",
+      "source_doc_id": "darwin-001",
+      "source_type": "model_output",
+      "content": "cross-modal: cambridge university <-> Cambridge University",
+      "bbox": null,
+      "page": null,
+      "image_path": null,
+      "model_name": "cross-modal-fuser",
+      "confidence": 1.0,
+      "metadata": {}
+    },
+    {
+      "id": "ev-e40f0d93",
+      "source_doc_id": "darwin-001",
+      "source_type": "model_output",
+      "content": "cross-modal: england <-> England",
+      "bbox": null,
+      "page": null,
+      "image_path": null,
+      "model_name": "cross-modal-fuser",
+      "confidence": 1.0,
+      "metadata": {}
+    },
+    {
+      "id": "ev-a4c676c9",
+      "source_doc_id": "darwin-001",
+      "source_type": "model_output",
+      "content": "cross-modal: charles darwin <-> Charles Darwin",
+      "bbox": null,
+      "page": null,
+      "image_path": null,
+      "model_name": "cross-modal-fuser",
+      "confidence": 1.0,
+      "metadata": {}
+    },
+    {
+      "id": "ev-1c41b196",
+      "source_doc_id": "darwin-001",
+      "source_type": "model_output",
+      "content": "cross-modal: galapagos islands <-> Galapagos Islands",
+      "bbox": null,
+      "page": null,
+      "image_path": null,
+      "model_name": "cross-modal-fuser",
+      "confidence": 1.0,
+      "metadata": {}
+    },
+    {
+      "id": "ev-8c98e047",
+      "source_doc_id": "darwin-001",
+      "source_type": "model_output",
+      "content": "cross-modal: down house <-> Down House",
+      "bbox": null,
+      "page": null,
+      "image_path": null,
+      "model_name": "cross-modal-fuser",
+      "confidence": 1.0,
+      "metadata": {}
+    }
+  ],
+  "pipeline_stage": "fusion",
+  "metadata": {}
+}

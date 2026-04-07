@@ -1,0 +1,657 @@
+{
+  "doc_id": "nikola-tesla-001",
+  "entities": [
+    {
+      "id": "ent-ba52933a",
+      "canonical_name": "paris",
+      "entity_type": "LOCATION",
+      "modality": "multimodal",
+      "aliases": [
+        "Paris, France"
+      ],
+      "evidence_ids": [
+        "ev-1a7b6c36",
+        "ev-f0c9b8f7"
+      ],
+      "source_system": "itext2kg",
+      "embedding": null,
+      "metadata": {}
+    },
+    {
+      "id": "ent-6d41e1c1",
+      "canonical_name": "thomas edison",
+      "entity_type": "PERSON",
+      "modality": "multimodal",
+      "aliases": [
+        "Thomas Edison"
+      ],
+      "evidence_ids": [
+        "ev-c4ae9925",
+        "ev-ca58538d"
+      ],
+      "source_system": "itext2kg",
+      "embedding": null,
+      "metadata": {}
+    },
+    {
+      "id": "ent-fff9180e",
+      "canonical_name": "france",
+      "entity_type": "LOCATION",
+      "modality": "text",
+      "aliases": [],
+      "evidence_ids": [
+        "ev-82db5af4"
+      ],
+      "source_system": "itext2kg",
+      "embedding": null,
+      "metadata": {}
+    },
+    {
+      "id": "ent-3e68104e",
+      "canonical_name": "united states",
+      "entity_type": "LOCATION",
+      "modality": "multimodal",
+      "aliases": [
+        "United States"
+      ],
+      "evidence_ids": [
+        "ev-766c7dfa",
+        "ev-f3935090"
+      ],
+      "source_system": "itext2kg",
+      "embedding": null,
+      "metadata": {}
+    },
+    {
+      "id": "ent-97b13fa6",
+      "canonical_name": "war of currents",
+      "entity_type": "EVENT",
+      "modality": "text",
+      "aliases": [],
+      "evidence_ids": [
+        "ev-3288d95c"
+      ],
+      "source_system": "itext2kg",
+      "embedding": null,
+      "metadata": {}
+    },
+    {
+      "id": "ent-4ca53e14",
+      "canonical_name": "new york city",
+      "entity_type": "LOCATION",
+      "modality": "multimodal",
+      "aliases": [
+        "New York City"
+      ],
+      "evidence_ids": [
+        "ev-ce2aea60",
+        "ev-98fe9449"
+      ],
+      "source_system": "itext2kg",
+      "embedding": null,
+      "metadata": {}
+    },
+    {
+      "id": "ent-bc056036",
+      "canonical_name": "austria",
+      "entity_type": "LOCATION",
+      "modality": "text",
+      "aliases": [],
+      "evidence_ids": [
+        "ev-530f861e"
+      ],
+      "source_system": "itext2kg",
+      "embedding": null,
+      "metadata": {}
+    },
+    {
+      "id": "ent-e6880cba",
+      "canonical_name": "continental edison company",
+      "entity_type": "ORGANIZATION",
+      "modality": "multimodal",
+      "aliases": [
+        "Continental Edison Company"
+      ],
+      "evidence_ids": [
+        "ev-34270625",
+        "ev-dc3cfff2"
+      ],
+      "source_system": "itext2kg",
+      "embedding": null,
+      "metadata": {}
+    },
+    {
+      "id": "ent-7cb3a2ef",
+      "canonical_name": "nikola tesla",
+      "entity_type": "PERSON",
+      "modality": "multimodal",
+      "aliases": [
+        "Nikola Tesla"
+      ],
+      "evidence_ids": [
+        "ev-fc21ddba",
+        "ev-bc0b8113"
+      ],
+      "source_system": "itext2kg",
+      "embedding": null,
+      "metadata": {}
+    },
+    {
+      "id": "ent-386fcc48",
+      "canonical_name": "smiljan",
+      "entity_type": "LOCATION",
+      "modality": "text",
+      "aliases": [],
+      "evidence_ids": [
+        "ev-d21cb679"
+      ],
+      "source_system": "itext2kg",
+      "embedding": null,
+      "metadata": {}
+    },
+    {
+      "id": "ent-4dcca5e6",
+      "canonical_name": "technical university of graz",
+      "entity_type": "ORGANIZATION",
+      "modality": "multimodal",
+      "aliases": [
+        "University of Graz"
+      ],
+      "evidence_ids": [
+        "ev-e8f8fe60",
+        "ev-b9091ca2"
+      ],
+      "source_system": "itext2kg",
+      "embedding": null,
+      "metadata": {}
+    },
+    {
+      "id": "ent-72c21b84",
+      "canonical_name": "Technical University",
+      "entity_type": "ORGANIZATION",
+      "modality": "multimodal",
+      "aliases": [],
+      "evidence_ids": [
+        "ev-a3fc0eb6"
+      ],
+      "source_system": "mkgformer",
+      "embedding": null,
+      "metadata": {}
+    },
+    {
+      "id": "ent-7f7b3552",
+      "canonical_name": "Smiljan, Austria",
+      "entity_type": "LOCATION",
+      "modality": "multimodal",
+      "aliases": [],
+      "evidence_ids": [
+        "ev-cde20ee7"
+      ],
+      "source_system": "mkgformer",
+      "embedding": null,
+      "metadata": {}
+    }
+  ],
+  "relations": [
+    {
+      "id": "rel-4795f72b",
+      "subject_id": "ent-7cb3a2ef",
+      "predicate": "worked_for",
+      "object_id": "ent-e6880cba",
+      "confidence": 1.0,
+      "source_system": "itext2kg",
+      "evidence_ids": [],
+      "metadata": {
+        "observation_dates": []
+      }
+    },
+    {
+      "id": "rel-5f3216b0",
+      "subject_id": "ent-7cb3a2ef",
+      "predicate": "worked_in",
+      "object_id": "ent-fff9180e",
+      "confidence": 1.0,
+      "source_system": "itext2kg",
+      "evidence_ids": [],
+      "metadata": {
+        "observation_dates": []
+      }
+    },
+    {
+      "id": "rel-607a0c14",
+      "subject_id": "ent-7cb3a2ef",
+      "predicate": "studied_at",
+      "object_id": "ent-4dcca5e6",
+      "confidence": 1.0,
+      "source_system": "itext2kg",
+      "evidence_ids": [],
+      "metadata": {
+        "observation_dates": []
+      }
+    },
+    {
+      "id": "rel-b7798e23",
+      "subject_id": "ent-7cb3a2ef",
+      "predicate": "born_in",
+      "object_id": "ent-bc056036",
+      "confidence": 1.0,
+      "source_system": "itext2kg",
+      "evidence_ids": [],
+      "metadata": {
+        "observation_dates": []
+      }
+    },
+    {
+      "id": "rel-6aeca37d",
+      "subject_id": "ent-7cb3a2ef",
+      "predicate": "worked_at",
+      "object_id": "ent-4ca53e14",
+      "confidence": 1.0,
+      "source_system": "itext2kg",
+      "evidence_ids": [],
+      "metadata": {
+        "observation_dates": []
+      }
+    },
+    {
+      "id": "rel-8cdc6186",
+      "subject_id": "ent-7cb3a2ef",
+      "predicate": "rival_of",
+      "object_id": "ent-6d41e1c1",
+      "confidence": 1.0,
+      "source_system": "itext2kg",
+      "evidence_ids": [],
+      "metadata": {
+        "observation_dates": []
+      }
+    },
+    {
+      "id": "rel-918ef39c",
+      "subject_id": "ent-7cb3a2ef",
+      "predicate": "involved_in",
+      "object_id": "ent-97b13fa6",
+      "confidence": 1.0,
+      "source_system": "itext2kg",
+      "evidence_ids": [],
+      "metadata": {
+        "observation_dates": []
+      }
+    },
+    {
+      "id": "rel-d46d93c3",
+      "subject_id": "ent-7cb3a2ef",
+      "predicate": "moved_to",
+      "object_id": "ent-3e68104e",
+      "confidence": 1.0,
+      "source_system": "itext2kg",
+      "evidence_ids": [],
+      "metadata": {
+        "observation_dates": []
+      }
+    },
+    {
+      "id": "rel-f6d64e3b",
+      "subject_id": "ent-7cb3a2ef",
+      "predicate": "worked_in",
+      "object_id": "ent-4ca53e14",
+      "confidence": 1.0,
+      "source_system": "itext2kg",
+      "evidence_ids": [],
+      "metadata": {
+        "observation_dates": []
+      }
+    },
+    {
+      "id": "rel-283ddcfc",
+      "subject_id": "ent-7cb3a2ef",
+      "predicate": "worked_in",
+      "object_id": "ent-ba52933a",
+      "confidence": 1.0,
+      "source_system": "itext2kg",
+      "evidence_ids": [],
+      "metadata": {
+        "observation_dates": []
+      }
+    },
+    {
+      "id": "rel-1fd60dbe",
+      "subject_id": "ent-7cb3a2ef",
+      "predicate": "born_in",
+      "object_id": "ent-386fcc48",
+      "confidence": 1.0,
+      "source_system": "itext2kg",
+      "evidence_ids": [],
+      "metadata": {
+        "observation_dates": []
+      }
+    }
+  ],
+  "evidences": [
+    {
+      "id": "ev-1a7b6c36",
+      "source_doc_id": "nikola-tesla-001",
+      "source_type": "text_span",
+      "content": "paris",
+      "bbox": null,
+      "page": null,
+      "image_path": null,
+      "model_name": "itext2kg/llama-3.3-70b-versatile",
+      "confidence": 1.0,
+      "metadata": {}
+    },
+    {
+      "id": "ev-c4ae9925",
+      "source_doc_id": "nikola-tesla-001",
+      "source_type": "text_span",
+      "content": "thomas edison",
+      "bbox": null,
+      "page": null,
+      "image_path": null,
+      "model_name": "itext2kg/llama-3.3-70b-versatile",
+      "confidence": 1.0,
+      "metadata": {}
+    },
+    {
+      "id": "ev-82db5af4",
+      "source_doc_id": "nikola-tesla-001",
+      "source_type": "text_span",
+      "content": "france",
+      "bbox": null,
+      "page": null,
+      "image_path": null,
+      "model_name": "itext2kg/llama-3.3-70b-versatile",
+      "confidence": 1.0,
+      "metadata": {}
+    },
+    {
+      "id": "ev-766c7dfa",
+      "source_doc_id": "nikola-tesla-001",
+      "source_type": "text_span",
+      "content": "united states",
+      "bbox": null,
+      "page": null,
+      "image_path": null,
+      "model_name": "itext2kg/llama-3.3-70b-versatile",
+      "confidence": 1.0,
+      "metadata": {}
+    },
+    {
+      "id": "ev-3288d95c",
+      "source_doc_id": "nikola-tesla-001",
+      "source_type": "text_span",
+      "content": "war of currents",
+      "bbox": null,
+      "page": null,
+      "image_path": null,
+      "model_name": "itext2kg/llama-3.3-70b-versatile",
+      "confidence": 1.0,
+      "metadata": {}
+    },
+    {
+      "id": "ev-ce2aea60",
+      "source_doc_id": "nikola-tesla-001",
+      "source_type": "text_span",
+      "content": "new york city",
+      "bbox": null,
+      "page": null,
+      "image_path": null,
+      "model_name": "itext2kg/llama-3.3-70b-versatile",
+      "confidence": 1.0,
+      "metadata": {}
+    },
+    {
+      "id": "ev-530f861e",
+      "source_doc_id": "nikola-tesla-001",
+      "source_type": "text_span",
+      "content": "austria",
+      "bbox": null,
+      "page": null,
+      "image_path": null,
+      "model_name": "itext2kg/llama-3.3-70b-versatile",
+      "confidence": 1.0,
+      "metadata": {}
+    },
+    {
+      "id": "ev-34270625",
+      "source_doc_id": "nikola-tesla-001",
+      "source_type": "text_span",
+      "content": "continental edison company",
+      "bbox": null,
+      "page": null,
+      "image_path": null,
+      "model_name": "itext2kg/llama-3.3-70b-versatile",
+      "confidence": 1.0,
+      "metadata": {}
+    },
+    {
+      "id": "ev-fc21ddba",
+      "source_doc_id": "nikola-tesla-001",
+      "source_type": "text_span",
+      "content": "nikola tesla",
+      "bbox": null,
+      "page": null,
+      "image_path": null,
+      "model_name": "itext2kg/llama-3.3-70b-versatile",
+      "confidence": 1.0,
+      "metadata": {}
+    },
+    {
+      "id": "ev-d21cb679",
+      "source_doc_id": "nikola-tesla-001",
+      "source_type": "text_span",
+      "content": "smiljan",
+      "bbox": null,
+      "page": null,
+      "image_path": null,
+      "model_name": "itext2kg/llama-3.3-70b-versatile",
+      "confidence": 1.0,
+      "metadata": {}
+    },
+    {
+      "id": "ev-e8f8fe60",
+      "source_doc_id": "nikola-tesla-001",
+      "source_type": "text_span",
+      "content": "technical university of graz",
+      "bbox": null,
+      "page": null,
+      "image_path": null,
+      "model_name": "itext2kg/llama-3.3-70b-versatile",
+      "confidence": 1.0,
+      "metadata": {}
+    },
+    {
+      "id": "ev-a3fc0eb6",
+      "source_doc_id": "nikola-tesla-001",
+      "source_type": "model_output",
+      "content": "Technical University",
+      "bbox": null,
+      "page": null,
+      "image_path": "data/raw/test_image.jpg",
+      "model_name": "mkgformer-mner",
+      "confidence": 0.6,
+      "metadata": {}
+    },
+    {
+      "id": "ev-b9091ca2",
+      "source_doc_id": "nikola-tesla-001",
+      "source_type": "model_output",
+      "content": "University of Graz",
+      "bbox": null,
+      "page": null,
+      "image_path": "data/raw/test_image.jpg",
+      "model_name": "mkgformer-mner",
+      "confidence": 0.6,
+      "metadata": {}
+    },
+    {
+      "id": "ev-cde20ee7",
+      "source_doc_id": "nikola-tesla-001",
+      "source_type": "model_output",
+      "content": "Smiljan, Austria",
+      "bbox": null,
+      "page": null,
+      "image_path": "data/raw/test_image.jpg",
+      "model_name": "mkgformer-mner",
+      "confidence": 0.6,
+      "metadata": {}
+    },
+    {
+      "id": "ev-f0c9b8f7",
+      "source_doc_id": "nikola-tesla-001",
+      "source_type": "model_output",
+      "content": "Paris, France",
+      "bbox": null,
+      "page": null,
+      "image_path": "data/raw/test_image.jpg",
+      "model_name": "mkgformer-mner",
+      "confidence": 0.6,
+      "metadata": {}
+    },
+    {
+      "id": "ev-f3935090",
+      "source_doc_id": "nikola-tesla-001",
+      "source_type": "model_output",
+      "content": "United States",
+      "bbox": null,
+      "page": null,
+      "image_path": "data/raw/test_image.jpg",
+      "model_name": "mkgformer-mner",
+      "confidence": 0.6,
+      "metadata": {}
+    },
+    {
+      "id": "ev-bc0b8113",
+      "source_doc_id": "nikola-tesla-001",
+      "source_type": "model_output",
+      "content": "Nikola Tesla",
+      "bbox": null,
+      "page": null,
+      "image_path": "data/raw/test_image.jpg",
+      "model_name": "mkgformer-mner",
+      "confidence": 0.6,
+      "metadata": {}
+    },
+    {
+      "id": "ev-dc3cfff2",
+      "source_doc_id": "nikola-tesla-001",
+      "source_type": "model_output",
+      "content": "Continental Edison Company",
+      "bbox": null,
+      "page": null,
+      "image_path": "data/raw/test_image.jpg",
+      "model_name": "mkgformer-mner",
+      "confidence": 0.6,
+      "metadata": {}
+    },
+    {
+      "id": "ev-98fe9449",
+      "source_doc_id": "nikola-tesla-001",
+      "source_type": "model_output",
+      "content": "New York City",
+      "bbox": null,
+      "page": null,
+      "image_path": "data/raw/test_image.jpg",
+      "model_name": "mkgformer-mner",
+      "confidence": 0.6,
+      "metadata": {}
+    },
+    {
+      "id": "ev-ca58538d",
+      "source_doc_id": "nikola-tesla-001",
+      "source_type": "model_output",
+      "content": "Thomas Edison",
+      "bbox": null,
+      "page": null,
+      "image_path": "data/raw/test_image.jpg",
+      "model_name": "mkgformer-mner",
+      "confidence": 0.6,
+      "metadata": {}
+    },
+    {
+      "id": "ev-07000bd7",
+      "source_doc_id": "nikola-tesla-001",
+      "source_type": "model_output",
+      "content": "cross-modal: united states <-> United States",
+      "bbox": null,
+      "page": null,
+      "image_path": null,
+      "model_name": "cross-modal-fuser",
+      "confidence": 1.0,
+      "metadata": {}
+    },
+    {
+      "id": "ev-bcc0ab17",
+      "source_doc_id": "nikola-tesla-001",
+      "source_type": "model_output",
+      "content": "cross-modal: nikola tesla <-> Nikola Tesla",
+      "bbox": null,
+      "page": null,
+      "image_path": null,
+      "model_name": "cross-modal-fuser",
+      "confidence": 1.0,
+      "metadata": {}
+    },
+    {
+      "id": "ev-11630eb9",
+      "source_doc_id": "nikola-tesla-001",
+      "source_type": "model_output",
+      "content": "cross-modal: continental edison company <-> Continental Edison Company",
+      "bbox": null,
+      "page": null,
+      "image_path": null,
+      "model_name": "cross-modal-fuser",
+      "confidence": 1.0,
+      "metadata": {}
+    },
+    {
+      "id": "ev-85bef94a",
+      "source_doc_id": "nikola-tesla-001",
+      "source_type": "model_output",
+      "content": "cross-modal: new york city <-> New York City",
+      "bbox": null,
+      "page": null,
+      "image_path": null,
+      "model_name": "cross-modal-fuser",
+      "confidence": 1.0,
+      "metadata": {}
+    },
+    {
+      "id": "ev-684e5af4",
+      "source_doc_id": "nikola-tesla-001",
+      "source_type": "model_output",
+      "content": "cross-modal: thomas edison <-> Thomas Edison",
+      "bbox": null,
+      "page": null,
+      "image_path": null,
+      "model_name": "cross-modal-fuser",
+      "confidence": 1.0,
+      "metadata": {}
+    },
+    {
+      "id": "ev-76316e25",
+      "source_doc_id": "nikola-tesla-001",
+      "source_type": "model_output",
+      "content": "cross-modal: paris <-> Paris, France",
+      "bbox": null,
+      "page": null,
+      "image_path": null,
+      "model_name": "cross-modal-fuser",
+      "confidence": 1.0,
+      "metadata": {}
+    },
+    {
+      "id": "ev-c48a11e2",
+      "source_doc_id": "nikola-tesla-001",
+      "source_type": "model_output",
+      "content": "cross-modal: technical university of graz <-> University of Graz",
+      "bbox": null,
+      "page": null,
+      "image_path": null,
+      "model_name": "cross-modal-fuser",
+      "confidence": 1.0,
+      "metadata": {}
+    }
+  ],
+  "pipeline_stage": "fusion",
+  "metadata": {}
+}

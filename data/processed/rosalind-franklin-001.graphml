@@ -1,0 +1,129 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d8" for="edge" attr.name="source_system" attr.type="string" />
+  <key id="d7" for="edge" attr.name="confidence" attr.type="double" />
+  <key id="d6" for="edge" attr.name="predicate" attr.type="string" />
+  <key id="d5" for="edge" attr.name="key" attr.type="string" />
+  <key id="d4" for="node" attr.name="source_system" attr.type="string" />
+  <key id="d3" for="node" attr.name="modality" attr.type="string" />
+  <key id="d2" for="node" attr.name="entity_type" attr.type="string" />
+  <key id="d1" for="node" attr.name="canonical_name" attr.type="string" />
+  <key id="d0" for="graph" attr.name="doc_id" attr.type="string" />
+  <graph edgedefault="directed">
+    <node id="ent-b4bf8f43">
+      <data key="d1">london</data>
+      <data key="d2">LOCATION</data>
+      <data key="d3">text</data>
+      <data key="d4">itext2kg</data>
+    </node>
+    <node id="ent-0e2f59cb">
+      <data key="d1">x ray crystallography</data>
+      <data key="d2">OTHER</data>
+      <data key="d3">text</data>
+      <data key="d4">itext2kg</data>
+    </node>
+    <node id="ent-a4118b09">
+      <data key="d1">king's college london</data>
+      <data key="d2">ORGANIZATION</data>
+      <data key="d3">multimodal</data>
+      <data key="d4">itext2kg</data>
+    </node>
+    <node id="ent-09d54857">
+      <data key="d1">rosalind franklin</data>
+      <data key="d2">PERSON</data>
+      <data key="d3">multimodal</data>
+      <data key="d4">itext2kg</data>
+    </node>
+    <node id="ent-6d0bacf5">
+      <data key="d1">cambridge university</data>
+      <data key="d2">ORGANIZATION</data>
+      <data key="d3">multimodal</data>
+      <data key="d4">itext2kg</data>
+    </node>
+    <node id="ent-88b318fe">
+      <data key="d1">understanding of dna structure</data>
+      <data key="d2">EVENT</data>
+      <data key="d3">text</data>
+      <data key="d4">itext2kg</data>
+    </node>
+    <node id="ent-7816530c">
+      <data key="d1">james watson</data>
+      <data key="d2">PERSON</data>
+      <data key="d3">multimodal</data>
+      <data key="d4">itext2kg</data>
+    </node>
+    <node id="ent-55a37b53">
+      <data key="d1">birkbeck college</data>
+      <data key="d2">ORGANIZATION</data>
+      <data key="d3">multimodal</data>
+      <data key="d4">itext2kg</data>
+    </node>
+    <node id="ent-d4b8fc5e">
+      <data key="d1">francis crick</data>
+      <data key="d2">PERSON</data>
+      <data key="d3">multimodal</data>
+      <data key="d4">itext2kg</data>
+    </node>
+    <node id="ent-b1347842">
+      <data key="d1">England</data>
+      <data key="d2">LOCATION</data>
+      <data key="d3">multimodal</data>
+      <data key="d4">mkgformer</data>
+    </node>
+    <edge source="ent-09d54857" target="ent-0e2f59cb">
+      <data key="d5">rel-d593e39e</data>
+      <data key="d6">used</data>
+      <data key="d7">1.0</data>
+      <data key="d8">itext2kg</data>
+    </edge>
+    <edge source="ent-09d54857" target="ent-b4bf8f43">
+      <data key="d5">rel-96b72975</data>
+      <data key="d6">born_in</data>
+      <data key="d7">1.0</data>
+      <data key="d8">itext2kg</data>
+    </edge>
+    <edge source="ent-09d54857" target="ent-a4118b09">
+      <data key="d5">rel-fe319dac</data>
+      <data key="d6">conducted_research_at</data>
+      <data key="d7">1.0</data>
+      <data key="d8">itext2kg</data>
+    </edge>
+    <edge source="ent-09d54857" target="ent-6d0bacf5">
+      <data key="d5">rel-01ee822d</data>
+      <data key="d6">studied_at</data>
+      <data key="d7">1.0</data>
+      <data key="d8">itext2kg</data>
+    </edge>
+    <edge source="ent-09d54857" target="ent-88b318fe">
+      <data key="d5">rel-b9cb24ae</data>
+      <data key="d6">contributed_to</data>
+      <data key="d7">1.0</data>
+      <data key="d8">itext2kg</data>
+    </edge>
+    <edge source="ent-09d54857" target="ent-55a37b53">
+      <data key="d5">rel-e3801bd3</data>
+      <data key="d6">worked_at</data>
+      <data key="d7">1.0</data>
+      <data key="d8">itext2kg</data>
+    </edge>
+    <edge source="ent-7816530c" target="ent-88b318fe">
+      <data key="d5">rel-33c5d623</data>
+      <data key="d6">contributed_to</data>
+      <data key="d7">1.0</data>
+      <data key="d8">itext2kg</data>
+    </edge>
+    <edge source="ent-7816530c" target="ent-d4b8fc5e">
+      <data key="d5">rel-1209eda4</data>
+      <data key="d6">collaborated_with</data>
+      <data key="d7">1.0</data>
+      <data key="d8">itext2kg</data>
+    </edge>
+    <edge source="ent-d4b8fc5e" target="ent-88b318fe">
+      <data key="d5">rel-a4f79810</data>
+      <data key="d6">contributed_to</data>
+      <data key="d7">1.0</data>
+      <data key="d8">itext2kg</data>
+    </edge>
+    <data key="d0">rosalind-franklin-001</data>
+  </graph>
+</graphml>

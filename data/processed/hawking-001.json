@@ -1,0 +1,740 @@
+{
+  "doc_id": "hawking-001",
+  "entities": [
+    {
+      "id": "ent-1148000d",
+      "canonical_name": "oxford",
+      "entity_type": "LOCATION",
+      "modality": "text",
+      "aliases": [],
+      "evidence_ids": [
+        "ev-955df1bd"
+      ],
+      "source_system": "itext2kg",
+      "embedding": null,
+      "metadata": {}
+    },
+    {
+      "id": "ent-15084457",
+      "canonical_name": "stephen hawking",
+      "entity_type": "PERSON",
+      "modality": "multimodal",
+      "aliases": [
+        "Stephen Hawking"
+      ],
+      "evidence_ids": [
+        "ev-2ff4c727",
+        "ev-6affa924"
+      ],
+      "source_system": "itext2kg",
+      "embedding": null,
+      "metadata": {}
+    },
+    {
+      "id": "ent-510a5f1e",
+      "canonical_name": "hawking radiation",
+      "entity_type": "CONCEPT",
+      "modality": "multimodal",
+      "aliases": [
+        "Hawking Radiation"
+      ],
+      "evidence_ids": [
+        "ev-f246f591",
+        "ev-88d66f82"
+      ],
+      "source_system": "itext2kg",
+      "embedding": null,
+      "metadata": {}
+    },
+    {
+      "id": "ent-7904f84c",
+      "canonical_name": "lucasian professor of mathematics",
+      "entity_type": "OTHER",
+      "modality": "multimodal",
+      "aliases": [
+        "Lucasian Professor"
+      ],
+      "evidence_ids": [
+        "ev-8fc7cae2",
+        "ev-5bfb6830"
+      ],
+      "source_system": "itext2kg",
+      "embedding": null,
+      "metadata": {}
+    },
+    {
+      "id": "ent-62660c89",
+      "canonical_name": "england",
+      "entity_type": "LOCATION",
+      "modality": "multimodal",
+      "aliases": [
+        "England"
+      ],
+      "evidence_ids": [
+        "ev-b651f709",
+        "ev-a0a8786e"
+      ],
+      "source_system": "itext2kg",
+      "embedding": null,
+      "metadata": {}
+    },
+    {
+      "id": "ent-bf7659fc",
+      "canonical_name": "university college oxford",
+      "entity_type": "ORGANIZATION",
+      "modality": "multimodal",
+      "aliases": [
+        "University College Oxford"
+      ],
+      "evidence_ids": [
+        "ev-9b8ee338",
+        "ev-32464905"
+      ],
+      "source_system": "itext2kg",
+      "embedding": null,
+      "metadata": {}
+    },
+    {
+      "id": "ent-ffcceb1e",
+      "canonical_name": "black holes",
+      "entity_type": "CONCEPT",
+      "modality": "text",
+      "aliases": [],
+      "evidence_ids": [
+        "ev-00b7eb2c"
+      ],
+      "source_system": "itext2kg",
+      "embedding": null,
+      "metadata": {}
+    },
+    {
+      "id": "ent-1054516c",
+      "canonical_name": "cambridge university",
+      "entity_type": "ORGANIZATION",
+      "modality": "multimodal",
+      "aliases": [
+        "Cambridge University"
+      ],
+      "evidence_ids": [
+        "ev-21ed989e",
+        "ev-13fa2426"
+      ],
+      "source_system": "itext2kg",
+      "embedding": null,
+      "metadata": {}
+    },
+    {
+      "id": "ent-87edab65",
+      "canonical_name": "a brief history of time",
+      "entity_type": "OTHER",
+      "modality": "text",
+      "aliases": [],
+      "evidence_ids": [
+        "ev-3faea4f9"
+      ],
+      "source_system": "itext2kg",
+      "embedding": null,
+      "metadata": {}
+    },
+    {
+      "id": "ent-7448b9d2",
+      "canonical_name": "singularity theorems",
+      "entity_type": "CONCEPT",
+      "modality": "text",
+      "aliases": [],
+      "evidence_ids": [
+        "ev-97f514ef"
+      ],
+      "source_system": "itext2kg",
+      "embedding": null,
+      "metadata": {}
+    },
+    {
+      "id": "ent-fa5cae18",
+      "canonical_name": "roger penrose",
+      "entity_type": "PERSON",
+      "modality": "multimodal",
+      "aliases": [
+        "Roger Penrose"
+      ],
+      "evidence_ids": [
+        "ev-f355e57b",
+        "ev-df3d7cc2"
+      ],
+      "source_system": "itext2kg",
+      "embedding": null,
+      "metadata": {}
+    },
+    {
+      "id": "ent-aee0c3fa",
+      "canonical_name": "Brief History",
+      "entity_type": "PERSON",
+      "modality": "multimodal",
+      "aliases": [],
+      "evidence_ids": [
+        "ev-40a89318"
+      ],
+      "source_system": "mkgformer",
+      "embedding": null,
+      "metadata": {}
+    }
+  ],
+  "relations": [
+    {
+      "id": "rel-2294a133",
+      "subject_id": "ent-15084457",
+      "predicate": "developed_theories_about",
+      "object_id": "ent-ffcceb1e",
+      "confidence": 1.0,
+      "source_system": "itext2kg",
+      "evidence_ids": [],
+      "metadata": {
+        "observation_dates": []
+      }
+    },
+    {
+      "id": "rel-483c4fdb",
+      "subject_id": "ent-15084457",
+      "predicate": "born_in",
+      "object_id": "ent-62660c89",
+      "confidence": 1.0,
+      "source_system": "itext2kg",
+      "evidence_ids": [],
+      "metadata": {
+        "observation_dates": []
+      }
+    },
+    {
+      "id": "rel-1772c192",
+      "subject_id": "ent-fa5cae18",
+      "predicate": "studied_at",
+      "object_id": "ent-bf7659fc",
+      "confidence": 1.0,
+      "source_system": "itext2kg",
+      "evidence_ids": [],
+      "metadata": {
+        "observation_dates": []
+      }
+    },
+    {
+      "id": "rel-9d38a0cd",
+      "subject_id": "ent-15084457",
+      "predicate": "studied_at",
+      "object_id": "ent-bf7659fc",
+      "confidence": 1.0,
+      "source_system": "itext2kg",
+      "evidence_ids": [],
+      "metadata": {
+        "observation_dates": []
+      }
+    },
+    {
+      "id": "rel-b20ccd30",
+      "subject_id": "ent-15084457",
+      "predicate": "wrote",
+      "object_id": "ent-87edab65",
+      "confidence": 1.0,
+      "source_system": "itext2kg",
+      "evidence_ids": [],
+      "metadata": {
+        "observation_dates": []
+      }
+    },
+    {
+      "id": "rel-44d8767c",
+      "subject_id": "ent-fa5cae18",
+      "predicate": "theorized_about",
+      "object_id": "ent-ffcceb1e",
+      "confidence": 1.0,
+      "source_system": "itext2kg",
+      "evidence_ids": [],
+      "metadata": {
+        "observation_dates": []
+      }
+    },
+    {
+      "id": "rel-38e9c305",
+      "subject_id": "ent-15084457",
+      "predicate": "worked_with",
+      "object_id": "ent-fa5cae18",
+      "confidence": 1.0,
+      "source_system": "itext2kg",
+      "evidence_ids": [],
+      "metadata": {
+        "observation_dates": []
+      }
+    },
+    {
+      "id": "rel-f90846fa",
+      "subject_id": "ent-fa5cae18",
+      "predicate": "studied_at",
+      "object_id": "ent-1054516c",
+      "confidence": 1.0,
+      "source_system": "itext2kg",
+      "evidence_ids": [],
+      "metadata": {
+        "observation_dates": []
+      }
+    },
+    {
+      "id": "rel-da85f1de",
+      "subject_id": "ent-fa5cae18",
+      "predicate": "wrote",
+      "object_id": "ent-87edab65",
+      "confidence": 1.0,
+      "source_system": "itext2kg",
+      "evidence_ids": [],
+      "metadata": {
+        "observation_dates": []
+      }
+    },
+    {
+      "id": "rel-b15f92cb",
+      "subject_id": "ent-15084457",
+      "predicate": "studied_at",
+      "object_id": "ent-1054516c",
+      "confidence": 1.0,
+      "source_system": "itext2kg",
+      "evidence_ids": [],
+      "metadata": {
+        "observation_dates": []
+      }
+    },
+    {
+      "id": "rel-74c229b8",
+      "subject_id": "ent-15084457",
+      "predicate": "born_in",
+      "object_id": "ent-1148000d",
+      "confidence": 1.0,
+      "source_system": "itext2kg",
+      "evidence_ids": [],
+      "metadata": {
+        "observation_dates": []
+      }
+    },
+    {
+      "id": "rel-353e9333",
+      "subject_id": "ent-fa5cae18",
+      "predicate": "born_in",
+      "object_id": "ent-1148000d",
+      "confidence": 1.0,
+      "source_system": "itext2kg",
+      "evidence_ids": [],
+      "metadata": {
+        "observation_dates": []
+      }
+    },
+    {
+      "id": "rel-9a6e878c",
+      "subject_id": "ent-15084457",
+      "predicate": "worked_on",
+      "object_id": "ent-7448b9d2",
+      "confidence": 1.0,
+      "source_system": "itext2kg",
+      "evidence_ids": [],
+      "metadata": {
+        "observation_dates": []
+      }
+    },
+    {
+      "id": "rel-87c95fdd",
+      "subject_id": "ent-15084457",
+      "predicate": "lived_in",
+      "object_id": "ent-62660c89",
+      "confidence": 1.0,
+      "source_system": "itext2kg",
+      "evidence_ids": [],
+      "metadata": {
+        "observation_dates": []
+      }
+    },
+    {
+      "id": "rel-cee191fe",
+      "subject_id": "ent-fa5cae18",
+      "predicate": "holds_position",
+      "object_id": "ent-7904f84c",
+      "confidence": 1.0,
+      "source_system": "itext2kg",
+      "evidence_ids": [],
+      "metadata": {
+        "observation_dates": []
+      }
+    },
+    {
+      "id": "rel-929230bb",
+      "subject_id": "ent-fa5cae18",
+      "predicate": "developed",
+      "object_id": "ent-510a5f1e",
+      "confidence": 1.0,
+      "source_system": "itext2kg",
+      "evidence_ids": [],
+      "metadata": {
+        "observation_dates": []
+      }
+    },
+    {
+      "id": "rel-49f311e3",
+      "subject_id": "ent-15084457",
+      "predicate": "holds_position",
+      "object_id": "ent-7904f84c",
+      "confidence": 1.0,
+      "source_system": "itext2kg",
+      "evidence_ids": [],
+      "metadata": {
+        "observation_dates": []
+      }
+    },
+    {
+      "id": "rel-bc2df1d1",
+      "subject_id": "ent-fa5cae18",
+      "predicate": "worked_on",
+      "object_id": "ent-7448b9d2",
+      "confidence": 1.0,
+      "source_system": "itext2kg",
+      "evidence_ids": [],
+      "metadata": {
+        "observation_dates": []
+      }
+    },
+    {
+      "id": "rel-37c492b6",
+      "subject_id": "ent-15084457",
+      "predicate": "developed_theories_about",
+      "object_id": "ent-510a5f1e",
+      "confidence": 1.0,
+      "source_system": "itext2kg",
+      "evidence_ids": [],
+      "metadata": {
+        "observation_dates": []
+      }
+    },
+    {
+      "id": "rel-5bc9f9a3",
+      "subject_id": "ent-fa5cae18",
+      "predicate": "collaborated_with",
+      "object_id": "ent-fa5cae18",
+      "confidence": 1.0,
+      "source_system": "itext2kg",
+      "evidence_ids": [],
+      "metadata": {
+        "observation_dates": []
+      }
+    }
+  ],
+  "evidences": [
+    {
+      "id": "ev-955df1bd",
+      "source_doc_id": "hawking-001",
+      "source_type": "text_span",
+      "content": "oxford",
+      "bbox": null,
+      "page": null,
+      "image_path": null,
+      "model_name": "itext2kg/llama-3.3-70b-versatile",
+      "confidence": 1.0,
+      "metadata": {}
+    },
+    {
+      "id": "ev-2ff4c727",
+      "source_doc_id": "hawking-001",
+      "source_type": "text_span",
+      "content": "stephen hawking",
+      "bbox": null,
+      "page": null,
+      "image_path": null,
+      "model_name": "itext2kg/llama-3.3-70b-versatile",
+      "confidence": 1.0,
+      "metadata": {}
+    },
+    {
+      "id": "ev-f246f591",
+      "source_doc_id": "hawking-001",
+      "source_type": "text_span",
+      "content": "hawking radiation",
+      "bbox": null,
+      "page": null,
+      "image_path": null,
+      "model_name": "itext2kg/llama-3.3-70b-versatile",
+      "confidence": 1.0,
+      "metadata": {}
+    },
+    {
+      "id": "ev-8fc7cae2",
+      "source_doc_id": "hawking-001",
+      "source_type": "text_span",
+      "content": "lucasian professor of mathematics",
+      "bbox": null,
+      "page": null,
+      "image_path": null,
+      "model_name": "itext2kg/llama-3.3-70b-versatile",
+      "confidence": 1.0,
+      "metadata": {}
+    },
+    {
+      "id": "ev-b651f709",
+      "source_doc_id": "hawking-001",
+      "source_type": "text_span",
+      "content": "england",
+      "bbox": null,
+      "page": null,
+      "image_path": null,
+      "model_name": "itext2kg/llama-3.3-70b-versatile",
+      "confidence": 1.0,
+      "metadata": {}
+    },
+    {
+      "id": "ev-9b8ee338",
+      "source_doc_id": "hawking-001",
+      "source_type": "text_span",
+      "content": "university college oxford",
+      "bbox": null,
+      "page": null,
+      "image_path": null,
+      "model_name": "itext2kg/llama-3.3-70b-versatile",
+      "confidence": 1.0,
+      "metadata": {}
+    },
+    {
+      "id": "ev-00b7eb2c",
+      "source_doc_id": "hawking-001",
+      "source_type": "text_span",
+      "content": "black holes",
+      "bbox": null,
+      "page": null,
+      "image_path": null,
+      "model_name": "itext2kg/llama-3.3-70b-versatile",
+      "confidence": 1.0,
+      "metadata": {}
+    },
+    {
+      "id": "ev-21ed989e",
+      "source_doc_id": "hawking-001",
+      "source_type": "text_span",
+      "content": "cambridge university",
+      "bbox": null,
+      "page": null,
+      "image_path": null,
+      "model_name": "itext2kg/llama-3.3-70b-versatile",
+      "confidence": 1.0,
+      "metadata": {}
+    },
+    {
+      "id": "ev-3faea4f9",
+      "source_doc_id": "hawking-001",
+      "source_type": "text_span",
+      "content": "a brief history of time",
+      "bbox": null,
+      "page": null,
+      "image_path": null,
+      "model_name": "itext2kg/llama-3.3-70b-versatile",
+      "confidence": 1.0,
+      "metadata": {}
+    },
+    {
+      "id": "ev-97f514ef",
+      "source_doc_id": "hawking-001",
+      "source_type": "text_span",
+      "content": "singularity theorems",
+      "bbox": null,
+      "page": null,
+      "image_path": null,
+      "model_name": "itext2kg/llama-3.3-70b-versatile",
+      "confidence": 1.0,
+      "metadata": {}
+    },
+    {
+      "id": "ev-f355e57b",
+      "source_doc_id": "hawking-001",
+      "source_type": "text_span",
+      "content": "roger penrose",
+      "bbox": null,
+      "page": null,
+      "image_path": null,
+      "model_name": "itext2kg/llama-3.3-70b-versatile",
+      "confidence": 1.0,
+      "metadata": {}
+    },
+    {
+      "id": "ev-13fa2426",
+      "source_doc_id": "hawking-001",
+      "source_type": "model_output",
+      "content": "Cambridge University",
+      "bbox": null,
+      "page": null,
+      "image_path": "data/raw/test_image.jpg",
+      "model_name": "mkgformer-mner",
+      "confidence": 0.6,
+      "metadata": {}
+    },
+    {
+      "id": "ev-a0a8786e",
+      "source_doc_id": "hawking-001",
+      "source_type": "model_output",
+      "content": "England",
+      "bbox": null,
+      "page": null,
+      "image_path": "data/raw/test_image.jpg",
+      "model_name": "mkgformer-mner",
+      "confidence": 0.6,
+      "metadata": {}
+    },
+    {
+      "id": "ev-6affa924",
+      "source_doc_id": "hawking-001",
+      "source_type": "model_output",
+      "content": "Stephen Hawking",
+      "bbox": null,
+      "page": null,
+      "image_path": "data/raw/test_image.jpg",
+      "model_name": "mkgformer-mner",
+      "confidence": 0.6,
+      "metadata": {}
+    },
+    {
+      "id": "ev-32464905",
+      "source_doc_id": "hawking-001",
+      "source_type": "model_output",
+      "content": "University College Oxford",
+      "bbox": null,
+      "page": null,
+      "image_path": "data/raw/test_image.jpg",
+      "model_name": "mkgformer-mner",
+      "confidence": 0.6,
+      "metadata": {}
+    },
+    {
+      "id": "ev-5bfb6830",
+      "source_doc_id": "hawking-001",
+      "source_type": "model_output",
+      "content": "Lucasian Professor",
+      "bbox": null,
+      "page": null,
+      "image_path": "data/raw/test_image.jpg",
+      "model_name": "mkgformer-mner",
+      "confidence": 0.6,
+      "metadata": {}
+    },
+    {
+      "id": "ev-88d66f82",
+      "source_doc_id": "hawking-001",
+      "source_type": "model_output",
+      "content": "Hawking Radiation",
+      "bbox": null,
+      "page": null,
+      "image_path": "data/raw/test_image.jpg",
+      "model_name": "mkgformer-mner",
+      "confidence": 0.6,
+      "metadata": {}
+    },
+    {
+      "id": "ev-40a89318",
+      "source_doc_id": "hawking-001",
+      "source_type": "model_output",
+      "content": "Brief History",
+      "bbox": null,
+      "page": null,
+      "image_path": "data/raw/test_image.jpg",
+      "model_name": "mkgformer-mner",
+      "confidence": 0.6,
+      "metadata": {}
+    },
+    {
+      "id": "ev-df3d7cc2",
+      "source_doc_id": "hawking-001",
+      "source_type": "model_output",
+      "content": "Roger Penrose",
+      "bbox": null,
+      "page": null,
+      "image_path": "data/raw/test_image.jpg",
+      "model_name": "mkgformer-mner",
+      "confidence": 0.6,
+      "metadata": {}
+    },
+    {
+      "id": "ev-3e12c1fe",
+      "source_doc_id": "hawking-001",
+      "source_type": "model_output",
+      "content": "cross-modal: cambridge university <-> Cambridge University",
+      "bbox": null,
+      "page": null,
+      "image_path": null,
+      "model_name": "cross-modal-fuser",
+      "confidence": 1.0,
+      "metadata": {}
+    },
+    {
+      "id": "ev-9e2dfaaa",
+      "source_doc_id": "hawking-001",
+      "source_type": "model_output",
+      "content": "cross-modal: england <-> England",
+      "bbox": null,
+      "page": null,
+      "image_path": null,
+      "model_name": "cross-modal-fuser",
+      "confidence": 1.0,
+      "metadata": {}
+    },
+    {
+      "id": "ev-9cf47c2a",
+      "source_doc_id": "hawking-001",
+      "source_type": "model_output",
+      "content": "cross-modal: stephen hawking <-> Stephen Hawking",
+      "bbox": null,
+      "page": null,
+      "image_path": null,
+      "model_name": "cross-modal-fuser",
+      "confidence": 1.0,
+      "metadata": {}
+    },
+    {
+      "id": "ev-62636bba",
+      "source_doc_id": "hawking-001",
+      "source_type": "model_output",
+      "content": "cross-modal: university college oxford <-> University College Oxford",
+      "bbox": null,
+      "page": null,
+      "image_path": null,
+      "model_name": "cross-modal-fuser",
+      "confidence": 1.0,
+      "metadata": {}
+    },
+    {
+      "id": "ev-0265ad65",
+      "source_doc_id": "hawking-001",
+      "source_type": "model_output",
+      "content": "cross-modal: hawking radiation <-> Hawking Radiation",
+      "bbox": null,
+      "page": null,
+      "image_path": null,
+      "model_name": "cross-modal-fuser",
+      "confidence": 1.0,
+      "metadata": {}
+    },
+    {
+      "id": "ev-7f5cdc8d",
+      "source_doc_id": "hawking-001",
+      "source_type": "model_output",
+      "content": "cross-modal: roger penrose <-> Roger Penrose",
+      "bbox": null,
+      "page": null,
+      "image_path": null,
+      "model_name": "cross-modal-fuser",
+      "confidence": 1.0,
+      "metadata": {}
+    },
+    {
+      "id": "ev-621a4972",
+      "source_doc_id": "hawking-001",
+      "source_type": "model_output",
+      "content": "cross-modal: lucasian professor of mathematics <-> Lucasian Professor",
+      "bbox": null,
+      "page": null,
+      "image_path": null,
+      "model_name": "cross-modal-fuser",
+      "confidence": 1.0,
+      "metadata": {}
+    }
+  ],
+  "pipeline_stage": "fusion",
+  "metadata": {}
+}

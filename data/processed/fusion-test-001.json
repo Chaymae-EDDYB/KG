@@ -1,0 +1,195 @@
+{
+  "doc_id": "fusion-test-001",
+  "entities": [
+    {
+      "id": "ent-dbad46e4",
+      "canonical_name": "Stub Entity A",
+      "entity_type": "PERSON",
+      "modality": "text",
+      "aliases": [],
+      "evidence_ids": [
+        "ev-c552c0c6"
+      ],
+      "source_system": "stub",
+      "embedding": null,
+      "metadata": {}
+    },
+    {
+      "id": "ent-45f2fb72",
+      "canonical_name": "Stub Entity B",
+      "entity_type": "ORGANIZATION",
+      "modality": "text",
+      "aliases": [],
+      "evidence_ids": [
+        "ev-c552c0c6"
+      ],
+      "source_system": "stub",
+      "embedding": null,
+      "metadata": {}
+    },
+    {
+      "id": "ent-d37dda11",
+      "canonical_name": "stub_visual_object",
+      "entity_type": "OBJECT",
+      "modality": "image",
+      "aliases": [],
+      "evidence_ids": [
+        "ev-a0ebb21f"
+      ],
+      "source_system": "stub",
+      "embedding": null,
+      "metadata": {}
+    },
+    {
+      "id": "ent-b1ace9f9",
+      "canonical_name": "Stub Entity A",
+      "entity_type": "PERSON",
+      "modality": "text",
+      "aliases": [],
+      "evidence_ids": [
+        "ev-f60413cb"
+      ],
+      "source_system": "stub",
+      "embedding": null,
+      "metadata": {}
+    },
+    {
+      "id": "ent-ea9af0ff",
+      "canonical_name": "Stub Entity B",
+      "entity_type": "ORGANIZATION",
+      "modality": "text",
+      "aliases": [],
+      "evidence_ids": [
+        "ev-f60413cb"
+      ],
+      "source_system": "stub",
+      "embedding": null,
+      "metadata": {}
+    },
+    {
+      "id": "ent-116ef7a5",
+      "canonical_name": "stub_visual_object",
+      "entity_type": "OBJECT",
+      "modality": "image",
+      "aliases": [],
+      "evidence_ids": [
+        "ev-346277ca"
+      ],
+      "source_system": "stub",
+      "embedding": null,
+      "metadata": {}
+    }
+  ],
+  "relations": [
+    {
+      "id": "rel-d4a23b89",
+      "subject_id": "ent-dbad46e4",
+      "predicate": "affiliated_with",
+      "object_id": "ent-45f2fb72",
+      "confidence": 0.9,
+      "source_system": "stub",
+      "evidence_ids": [
+        "ev-c552c0c6"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "rel-c96678c6",
+      "subject_id": "ent-dbad46e4",
+      "predicate": "depicted_as",
+      "object_id": "ent-d37dda11",
+      "confidence": 0.75,
+      "source_system": "stub-fusion",
+      "evidence_ids": [
+        "ev-a0ebb21f"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "rel-03a9a243",
+      "subject_id": "ent-b1ace9f9",
+      "predicate": "affiliated_with",
+      "object_id": "ent-ea9af0ff",
+      "confidence": 0.9,
+      "source_system": "stub",
+      "evidence_ids": [
+        "ev-f60413cb"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "rel-261a2655",
+      "subject_id": "ent-b1ace9f9",
+      "predicate": "depicted_as",
+      "object_id": "ent-116ef7a5",
+      "confidence": 0.75,
+      "source_system": "stub-fusion",
+      "evidence_ids": [
+        "ev-346277ca"
+      ],
+      "metadata": {}
+    }
+  ],
+  "evidences": [
+    {
+      "id": "ev-c552c0c6",
+      "source_doc_id": "fusion-test-001",
+      "source_type": "text_span",
+      "content": "Albert Einstein was a theoretical physicist born in Ulm, Germany in 1879.\nHe developed the theory of",
+      "bbox": null,
+      "page": null,
+      "image_path": null,
+      "model_name": "stub",
+      "confidence": 1.0,
+      "metadata": {}
+    },
+    {
+      "id": "ev-a0ebb21f",
+      "source_doc_id": "fusion-test-001",
+      "source_type": "image_region",
+      "content": "stub_visual_object",
+      "bbox": [
+        10.0,
+        10.0,
+        100.0,
+        100.0
+      ],
+      "page": null,
+      "image_path": "data/raw/sample_image.jpg",
+      "model_name": "stub",
+      "confidence": 0.8,
+      "metadata": {}
+    },
+    {
+      "id": "ev-f60413cb",
+      "source_doc_id": "fusion-test-001",
+      "source_type": "text_span",
+      "content": "Albert Einstein was a theoretical physicist born in Ulm, Germany in 1879.\nHe developed the theory of",
+      "bbox": null,
+      "page": null,
+      "image_path": null,
+      "model_name": "stub",
+      "confidence": 1.0,
+      "metadata": {}
+    },
+    {
+      "id": "ev-346277ca",
+      "source_doc_id": "fusion-test-001",
+      "source_type": "image_region",
+      "content": "stub_visual_object",
+      "bbox": [
+        10.0,
+        10.0,
+        100.0,
+        100.0
+      ],
+      "page": null,
+      "image_path": "data/raw/sample_image.jpg",
+      "model_name": "stub",
+      "confidence": 0.8,
+      "metadata": {}
+    }
+  ],
+  "pipeline_stage": "fusion",
+  "metadata": {}
+}

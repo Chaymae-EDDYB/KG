@@ -1,0 +1,225 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d8" for="edge" attr.name="source_system" attr.type="string" />
+  <key id="d7" for="edge" attr.name="confidence" attr.type="double" />
+  <key id="d6" for="edge" attr.name="predicate" attr.type="string" />
+  <key id="d5" for="edge" attr.name="key" attr.type="string" />
+  <key id="d4" for="node" attr.name="source_system" attr.type="string" />
+  <key id="d3" for="node" attr.name="modality" attr.type="string" />
+  <key id="d2" for="node" attr.name="entity_type" attr.type="string" />
+  <key id="d1" for="node" attr.name="canonical_name" attr.type="string" />
+  <key id="d0" for="graph" attr.name="doc_id" attr.type="string" />
+  <graph edgedefault="directed">
+    <node id="ent-c634de03">
+      <data key="d1">paris</data>
+      <data key="d2">LOCATION</data>
+      <data key="d3">multimodal</data>
+      <data key="d4">itext2kg</data>
+    </node>
+    <node id="ent-e9efe722">
+      <data key="d1">radium</data>
+      <data key="d2">OTHER</data>
+      <data key="d3">text</data>
+      <data key="d4">itext2kg</data>
+    </node>
+    <node id="ent-fab20317">
+      <data key="d1">sorbonne university</data>
+      <data key="d2">ORGANIZATION</data>
+      <data key="d3">multimodal</data>
+      <data key="d4">itext2kg</data>
+    </node>
+    <node id="ent-ce33ce2a">
+      <data key="d1">nobel prize in chemistry</data>
+      <data key="d2">OTHER</data>
+      <data key="d3">multimodal</data>
+      <data key="d4">itext2kg</data>
+    </node>
+    <node id="ent-b98d3a2e">
+      <data key="d1">france</data>
+      <data key="d2">LOCATION</data>
+      <data key="d3">text</data>
+      <data key="d4">itext2kg</data>
+    </node>
+    <node id="ent-e8df10f5">
+      <data key="d1">warsaw</data>
+      <data key="d2">LOCATION</data>
+      <data key="d3">multimodal</data>
+      <data key="d4">itext2kg</data>
+    </node>
+    <node id="ent-2e82f99b">
+      <data key="d1">marie curie</data>
+      <data key="d2">PERSON</data>
+      <data key="d3">multimodal</data>
+      <data key="d4">itext2kg</data>
+    </node>
+    <node id="ent-6ccfd6a1">
+      <data key="d1">pierre curie</data>
+      <data key="d2">PERSON</data>
+      <data key="d3">multimodal</data>
+      <data key="d4">itext2kg</data>
+    </node>
+    <node id="ent-c95efd17">
+      <data key="d1">polonium</data>
+      <data key="d2">OTHER</data>
+      <data key="d3">text</data>
+      <data key="d4">itext2kg</data>
+    </node>
+    <node id="ent-d8a296e9">
+      <data key="d1">poland</data>
+      <data key="d2">LOCATION</data>
+      <data key="d3">multimodal</data>
+      <data key="d4">itext2kg</data>
+    </node>
+    <node id="ent-96a4efd9">
+      <data key="d1">nobel prize in physics</data>
+      <data key="d2">OTHER</data>
+      <data key="d3">multimodal</data>
+      <data key="d4">itext2kg</data>
+    </node>
+    <node id="ent-14846977">
+      <data key="d1">curie institute</data>
+      <data key="d2">ORGANIZATION</data>
+      <data key="d3">multimodal</data>
+      <data key="d4">itext2kg</data>
+    </node>
+    <node id="ent-dd12001a">
+      <data key="d1">Nobel Prizes</data>
+      <data key="d2">PERSON</data>
+      <data key="d3">multimodal</data>
+      <data key="d4">mkgformer</data>
+    </node>
+    <edge source="ent-fab20317" target="ent-c634de03">
+      <data key="d5">rel-45424cb2</data>
+      <data key="d6">located_in</data>
+      <data key="d7">1.0</data>
+      <data key="d8">itext2kg</data>
+    </edge>
+    <edge source="ent-2e82f99b" target="ent-e9efe722">
+      <data key="d5">rel-c936d73a</data>
+      <data key="d6">discovered</data>
+      <data key="d7">1.0</data>
+      <data key="d8">itext2kg</data>
+    </edge>
+    <edge source="ent-2e82f99b" target="ent-d8a296e9">
+      <data key="d5">rel-3227cd0e</data>
+      <data key="d6">born_in</data>
+      <data key="d7">1.0</data>
+      <data key="d8">itext2kg</data>
+    </edge>
+    <edge source="ent-2e82f99b" target="ent-c634de03">
+      <data key="d5">rel-7faaa41e</data>
+      <data key="d6">moved_to</data>
+      <data key="d7">1.0</data>
+      <data key="d8">itext2kg</data>
+    </edge>
+    <edge source="ent-2e82f99b" target="ent-e8df10f5">
+      <data key="d5">rel-f6ab7cbb</data>
+      <data key="d6">born_in</data>
+      <data key="d7">1.0</data>
+      <data key="d8">itext2kg</data>
+    </edge>
+    <edge source="ent-2e82f99b" target="ent-96a4efd9">
+      <data key="d5">rel-46efb918</data>
+      <data key="d6">won</data>
+      <data key="d7">1.0</data>
+      <data key="d8">itext2kg</data>
+    </edge>
+    <edge source="ent-2e82f99b" target="ent-fab20317">
+      <data key="d5">rel-2c0ca417</data>
+      <data key="d6">studied_at</data>
+      <data key="d7">1.0</data>
+      <data key="d8">itext2kg</data>
+    </edge>
+    <edge source="ent-2e82f99b" target="ent-ce33ce2a">
+      <data key="d5">rel-a9183b2b</data>
+      <data key="d6">won</data>
+      <data key="d7">1.0</data>
+      <data key="d8">itext2kg</data>
+    </edge>
+    <edge source="ent-2e82f99b" target="ent-14846977">
+      <data key="d5">rel-cf4611ea</data>
+      <data key="d6">founded</data>
+      <data key="d7">1.0</data>
+      <data key="d8">itext2kg</data>
+    </edge>
+    <edge source="ent-2e82f99b" target="ent-6ccfd6a1">
+      <data key="d5">rel-a0a6aaf1</data>
+      <data key="d6">collaborated_with</data>
+      <data key="d7">1.0</data>
+      <data key="d8">itext2kg</data>
+    </edge>
+    <edge source="ent-2e82f99b" target="ent-b98d3a2e">
+      <data key="d5">rel-2bd06daf</data>
+      <data key="d6">moved_to</data>
+      <data key="d7">1.0</data>
+      <data key="d8">itext2kg</data>
+    </edge>
+    <edge source="ent-2e82f99b" target="ent-c95efd17">
+      <data key="d5">rel-9af7e8d2</data>
+      <data key="d6">discovered</data>
+      <data key="d7">1.0</data>
+      <data key="d8">itext2kg</data>
+    </edge>
+    <edge source="ent-6ccfd6a1" target="ent-96a4efd9">
+      <data key="d5">rel-8a233545</data>
+      <data key="d6">won</data>
+      <data key="d7">1.0</data>
+      <data key="d8">itext2kg</data>
+    </edge>
+    <edge source="ent-6ccfd6a1" target="ent-ce33ce2a">
+      <data key="d5">rel-64af702e</data>
+      <data key="d6">won</data>
+      <data key="d7">1.0</data>
+      <data key="d8">itext2kg</data>
+    </edge>
+    <edge source="ent-6ccfd6a1" target="ent-e8df10f5">
+      <data key="d5">rel-e70ae923</data>
+      <data key="d6">born_in</data>
+      <data key="d7">1.0</data>
+      <data key="d8">itext2kg</data>
+    </edge>
+    <edge source="ent-6ccfd6a1" target="ent-fab20317">
+      <data key="d5">rel-22133205</data>
+      <data key="d6">studied_at</data>
+      <data key="d7">1.0</data>
+      <data key="d8">itext2kg</data>
+    </edge>
+    <edge source="ent-6ccfd6a1" target="ent-14846977">
+      <data key="d5">rel-76143c8e</data>
+      <data key="d6">founded</data>
+      <data key="d7">1.0</data>
+      <data key="d8">itext2kg</data>
+    </edge>
+    <edge source="ent-6ccfd6a1" target="ent-6ccfd6a1">
+      <data key="d5">rel-9a539c52</data>
+      <data key="d6">collaborated_with</data>
+      <data key="d7">1.0</data>
+      <data key="d8">itext2kg</data>
+    </edge>
+    <edge source="ent-6ccfd6a1" target="ent-c95efd17">
+      <data key="d5">rel-5142dbf6</data>
+      <data key="d6">discovered</data>
+      <data key="d7">1.0</data>
+      <data key="d8">itext2kg</data>
+    </edge>
+    <edge source="ent-6ccfd6a1" target="ent-e9efe722">
+      <data key="d5">rel-6c701a7b</data>
+      <data key="d6">discovered</data>
+      <data key="d7">1.0</data>
+      <data key="d8">itext2kg</data>
+    </edge>
+    <edge source="ent-d8a296e9" target="ent-b98d3a2e">
+      <data key="d5">rel-a42bb465</data>
+      <data key="d6">is_connected_to</data>
+      <data key="d7">1.0</data>
+      <data key="d8">itext2kg</data>
+    </edge>
+    <edge source="ent-14846977" target="ent-c634de03">
+      <data key="d5">rel-f40750f1</data>
+      <data key="d6">located_in</data>
+      <data key="d7">1.0</data>
+      <data key="d8">itext2kg</data>
+    </edge>
+    <data key="d0">marie-curie-001</data>
+  </graph>
+</graphml>

@@ -1,0 +1,629 @@
+{
+  "doc_id": "einstein-multimodal-001",
+  "entities": [
+    {
+      "id": "ent-6890e52d",
+      "canonical_name": "ulm",
+      "entity_type": "LOCATION",
+      "modality": "text",
+      "aliases": [],
+      "evidence_ids": [
+        "ev-12e72019"
+      ],
+      "source_system": "itext2kg",
+      "embedding": null,
+      "metadata": {}
+    },
+    {
+      "id": "ent-f2020ce7",
+      "canonical_name": "nobel prize in physics",
+      "entity_type": "EVENT",
+      "modality": "text",
+      "aliases": [],
+      "evidence_ids": [
+        "ev-1182a70a"
+      ],
+      "source_system": "itext2kg",
+      "embedding": null,
+      "metadata": {}
+    },
+    {
+      "id": "ent-5bacabaf",
+      "canonical_name": "theory of relativity",
+      "entity_type": "CONCEPT",
+      "modality": "text",
+      "aliases": [],
+      "evidence_ids": [
+        "ev-fe2de714"
+      ],
+      "source_system": "itext2kg",
+      "embedding": null,
+      "metadata": {}
+    },
+    {
+      "id": "ent-ab189137",
+      "canonical_name": "albert einstein",
+      "entity_type": "PERSON",
+      "modality": "text",
+      "aliases": [],
+      "evidence_ids": [
+        "ev-5a1e9f09"
+      ],
+      "source_system": "itext2kg",
+      "embedding": null,
+      "metadata": {}
+    },
+    {
+      "id": "ent-03c93459",
+      "canonical_name": "germany",
+      "entity_type": "LOCATION",
+      "modality": "text",
+      "aliases": [],
+      "evidence_ids": [
+        "ev-f3204a22"
+      ],
+      "source_system": "itext2kg",
+      "embedding": null,
+      "metadata": {}
+    },
+    {
+      "id": "ent-25cb42eb",
+      "canonical_name": "princeton university",
+      "entity_type": "ORGANIZATION",
+      "modality": "text",
+      "aliases": [],
+      "evidence_ids": [
+        "ev-fa051200"
+      ],
+      "source_system": "itext2kg",
+      "embedding": null,
+      "metadata": {}
+    },
+    {
+      "id": "ent-27ede5b6",
+      "canonical_name": "Princeton University",
+      "entity_type": "ORGANIZATION",
+      "modality": "multimodal",
+      "aliases": [],
+      "evidence_ids": [
+        "ev-92f73cc2"
+      ],
+      "source_system": "mkgformer",
+      "embedding": null,
+      "metadata": {}
+    },
+    {
+      "id": "ent-ed992045",
+      "canonical_name": "Nobel Prize",
+      "entity_type": "OTHER",
+      "modality": "multimodal",
+      "aliases": [],
+      "evidence_ids": [
+        "ev-74ac1606"
+      ],
+      "source_system": "mkgformer",
+      "embedding": null,
+      "metadata": {}
+    },
+    {
+      "id": "ent-2b0dc024",
+      "canonical_name": "Ulm, Germany",
+      "entity_type": "LOCATION",
+      "modality": "multimodal",
+      "aliases": [],
+      "evidence_ids": [
+        "ev-a93eb6d9"
+      ],
+      "source_system": "mkgformer",
+      "embedding": null,
+      "metadata": {}
+    },
+    {
+      "id": "ent-44924175",
+      "canonical_name": "Germany",
+      "entity_type": "LOCATION",
+      "modality": "multimodal",
+      "aliases": [],
+      "evidence_ids": [
+        "ev-a3f01122"
+      ],
+      "source_system": "mkgformer",
+      "embedding": null,
+      "metadata": {}
+    },
+    {
+      "id": "ent-d5b09d14",
+      "canonical_name": "Albert Einstein",
+      "entity_type": "PERSON",
+      "modality": "multimodal",
+      "aliases": [],
+      "evidence_ids": [
+        "ev-5c719552"
+      ],
+      "source_system": "mkgformer",
+      "embedding": null,
+      "metadata": {}
+    },
+    {
+      "id": "ent-370666a5",
+      "canonical_name": "Albert",
+      "entity_type": "OTHER",
+      "modality": "multimodal",
+      "aliases": [],
+      "evidence_ids": [
+        "ev-c1af7ca3"
+      ],
+      "source_system": "mkgformer",
+      "embedding": null,
+      "metadata": {}
+    },
+    {
+      "id": "ent-f097523f",
+      "canonical_name": "Einstein",
+      "entity_type": "OTHER",
+      "modality": "multimodal",
+      "aliases": [],
+      "evidence_ids": [
+        "ev-e8bc1351"
+      ],
+      "source_system": "mkgformer",
+      "embedding": null,
+      "metadata": {}
+    },
+    {
+      "id": "ent-a97ef303",
+      "canonical_name": "Princeton",
+      "entity_type": "OTHER",
+      "modality": "multimodal",
+      "aliases": [],
+      "evidence_ids": [
+        "ev-0499fa95"
+      ],
+      "source_system": "mkgformer",
+      "embedding": null,
+      "metadata": {}
+    },
+    {
+      "id": "ent-29ec597d",
+      "canonical_name": "University",
+      "entity_type": "OTHER",
+      "modality": "multimodal",
+      "aliases": [],
+      "evidence_ids": [
+        "ev-9bfba67e"
+      ],
+      "source_system": "mkgformer",
+      "embedding": null,
+      "metadata": {}
+    },
+    {
+      "id": "ent-327841d5",
+      "canonical_name": "Nobel",
+      "entity_type": "OTHER",
+      "modality": "multimodal",
+      "aliases": [],
+      "evidence_ids": [
+        "ev-a47e8220"
+      ],
+      "source_system": "mkgformer",
+      "embedding": null,
+      "metadata": {}
+    },
+    {
+      "id": "ent-16d1fca4",
+      "canonical_name": "Prize",
+      "entity_type": "OTHER",
+      "modality": "multimodal",
+      "aliases": [],
+      "evidence_ids": [
+        "ev-cbe0519d"
+      ],
+      "source_system": "mkgformer",
+      "embedding": null,
+      "metadata": {}
+    },
+    {
+      "id": "ent-419dbc72",
+      "canonical_name": "Physics",
+      "entity_type": "OTHER",
+      "modality": "multimodal",
+      "aliases": [],
+      "evidence_ids": [
+        "ev-b287f1bc"
+      ],
+      "source_system": "mkgformer",
+      "embedding": null,
+      "metadata": {}
+    }
+  ],
+  "relations": [
+    {
+      "id": "rel-7850e394",
+      "subject_id": "ent-ab189137",
+      "predicate": "received",
+      "object_id": "ent-f2020ce7",
+      "confidence": 1.0,
+      "source_system": "itext2kg",
+      "evidence_ids": [],
+      "metadata": {
+        "observation_dates": []
+      }
+    },
+    {
+      "id": "rel-ea2dd137",
+      "subject_id": "ent-ab189137",
+      "predicate": "developed",
+      "object_id": "ent-5bacabaf",
+      "confidence": 1.0,
+      "source_system": "itext2kg",
+      "evidence_ids": [],
+      "metadata": {
+        "observation_dates": []
+      }
+    },
+    {
+      "id": "rel-1df6d1c6",
+      "subject_id": "ent-ab189137",
+      "predicate": "worked_at",
+      "object_id": "ent-25cb42eb",
+      "confidence": 1.0,
+      "source_system": "itext2kg",
+      "evidence_ids": [],
+      "metadata": {
+        "observation_dates": []
+      }
+    },
+    {
+      "id": "rel-f6babf89",
+      "subject_id": "ent-ab189137",
+      "predicate": "from",
+      "object_id": "ent-03c93459",
+      "confidence": 1.0,
+      "source_system": "itext2kg",
+      "evidence_ids": [],
+      "metadata": {
+        "observation_dates": []
+      }
+    },
+    {
+      "id": "rel-395bb4b4",
+      "subject_id": "ent-ab189137",
+      "predicate": "born_in",
+      "object_id": "ent-03c93459",
+      "confidence": 1.0,
+      "source_system": "itext2kg",
+      "evidence_ids": [],
+      "metadata": {
+        "observation_dates": []
+      }
+    },
+    {
+      "id": "rel-e89a87b0",
+      "subject_id": "ent-ab189137",
+      "predicate": "born_in",
+      "object_id": "ent-6890e52d",
+      "confidence": 1.0,
+      "source_system": "itext2kg",
+      "evidence_ids": [],
+      "metadata": {
+        "observation_dates": []
+      }
+    },
+    {
+      "id": "rel-33685c65",
+      "subject_id": "ent-25cb42eb",
+      "predicate": "depicted_as",
+      "object_id": "ent-27ede5b6",
+      "confidence": 1.0,
+      "source_system": "fusion",
+      "evidence_ids": [
+        "ev-c8cedaab"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "rel-10dfda2f",
+      "subject_id": "ent-03c93459",
+      "predicate": "depicted_as",
+      "object_id": "ent-44924175",
+      "confidence": 1.0,
+      "source_system": "fusion",
+      "evidence_ids": [
+        "ev-8ed96521"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "rel-ecfa6967",
+      "subject_id": "ent-ab189137",
+      "predicate": "depicted_as",
+      "object_id": "ent-d5b09d14",
+      "confidence": 1.0,
+      "source_system": "fusion",
+      "evidence_ids": [
+        "ev-483355c6"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "rel-8a1954a6",
+      "subject_id": "ent-f2020ce7",
+      "predicate": "depicted_as",
+      "object_id": "ent-ed992045",
+      "confidence": 1.0,
+      "source_system": "fusion",
+      "evidence_ids": [
+        "ev-4dc0b27a"
+      ],
+      "metadata": {}
+    }
+  ],
+  "evidences": [
+    {
+      "id": "ev-12e72019",
+      "source_doc_id": "einstein-multimodal-001",
+      "source_type": "text_span",
+      "content": "ulm",
+      "bbox": null,
+      "page": null,
+      "image_path": null,
+      "model_name": "itext2kg/llama-3.3-70b-versatile",
+      "confidence": 1.0,
+      "metadata": {}
+    },
+    {
+      "id": "ev-1182a70a",
+      "source_doc_id": "einstein-multimodal-001",
+      "source_type": "text_span",
+      "content": "nobel prize in physics",
+      "bbox": null,
+      "page": null,
+      "image_path": null,
+      "model_name": "itext2kg/llama-3.3-70b-versatile",
+      "confidence": 1.0,
+      "metadata": {}
+    },
+    {
+      "id": "ev-fe2de714",
+      "source_doc_id": "einstein-multimodal-001",
+      "source_type": "text_span",
+      "content": "theory of relativity",
+      "bbox": null,
+      "page": null,
+      "image_path": null,
+      "model_name": "itext2kg/llama-3.3-70b-versatile",
+      "confidence": 1.0,
+      "metadata": {}
+    },
+    {
+      "id": "ev-5a1e9f09",
+      "source_doc_id": "einstein-multimodal-001",
+      "source_type": "text_span",
+      "content": "albert einstein",
+      "bbox": null,
+      "page": null,
+      "image_path": null,
+      "model_name": "itext2kg/llama-3.3-70b-versatile",
+      "confidence": 1.0,
+      "metadata": {}
+    },
+    {
+      "id": "ev-f3204a22",
+      "source_doc_id": "einstein-multimodal-001",
+      "source_type": "text_span",
+      "content": "germany",
+      "bbox": null,
+      "page": null,
+      "image_path": null,
+      "model_name": "itext2kg/llama-3.3-70b-versatile",
+      "confidence": 1.0,
+      "metadata": {}
+    },
+    {
+      "id": "ev-fa051200",
+      "source_doc_id": "einstein-multimodal-001",
+      "source_type": "text_span",
+      "content": "princeton university",
+      "bbox": null,
+      "page": null,
+      "image_path": null,
+      "model_name": "itext2kg/llama-3.3-70b-versatile",
+      "confidence": 1.0,
+      "metadata": {}
+    },
+    {
+      "id": "ev-92f73cc2",
+      "source_doc_id": "einstein-multimodal-001",
+      "source_type": "model_output",
+      "content": "Princeton University",
+      "bbox": null,
+      "page": null,
+      "image_path": "data/raw/test_image.jpg",
+      "model_name": "mkgformer-mner",
+      "confidence": 0.6,
+      "metadata": {}
+    },
+    {
+      "id": "ev-74ac1606",
+      "source_doc_id": "einstein-multimodal-001",
+      "source_type": "model_output",
+      "content": "Nobel Prize",
+      "bbox": null,
+      "page": null,
+      "image_path": "data/raw/test_image.jpg",
+      "model_name": "mkgformer-mner",
+      "confidence": 0.6,
+      "metadata": {}
+    },
+    {
+      "id": "ev-a93eb6d9",
+      "source_doc_id": "einstein-multimodal-001",
+      "source_type": "model_output",
+      "content": "Ulm, Germany",
+      "bbox": null,
+      "page": null,
+      "image_path": "data/raw/test_image.jpg",
+      "model_name": "mkgformer-mner",
+      "confidence": 0.6,
+      "metadata": {}
+    },
+    {
+      "id": "ev-a3f01122",
+      "source_doc_id": "einstein-multimodal-001",
+      "source_type": "model_output",
+      "content": "Germany",
+      "bbox": null,
+      "page": null,
+      "image_path": "data/raw/test_image.jpg",
+      "model_name": "mkgformer-mner",
+      "confidence": 0.6,
+      "metadata": {}
+    },
+    {
+      "id": "ev-5c719552",
+      "source_doc_id": "einstein-multimodal-001",
+      "source_type": "model_output",
+      "content": "Albert Einstein",
+      "bbox": null,
+      "page": null,
+      "image_path": "data/raw/test_image.jpg",
+      "model_name": "mkgformer-mner",
+      "confidence": 0.6,
+      "metadata": {}
+    },
+    {
+      "id": "ev-c1af7ca3",
+      "source_doc_id": "einstein-multimodal-001",
+      "source_type": "model_output",
+      "content": "Albert",
+      "bbox": null,
+      "page": null,
+      "image_path": "data/raw/test_image.jpg",
+      "model_name": "mkgformer-mner",
+      "confidence": 0.6,
+      "metadata": {}
+    },
+    {
+      "id": "ev-e8bc1351",
+      "source_doc_id": "einstein-multimodal-001",
+      "source_type": "model_output",
+      "content": "Einstein",
+      "bbox": null,
+      "page": null,
+      "image_path": "data/raw/test_image.jpg",
+      "model_name": "mkgformer-mner",
+      "confidence": 0.6,
+      "metadata": {}
+    },
+    {
+      "id": "ev-0499fa95",
+      "source_doc_id": "einstein-multimodal-001",
+      "source_type": "model_output",
+      "content": "Princeton",
+      "bbox": null,
+      "page": null,
+      "image_path": "data/raw/test_image.jpg",
+      "model_name": "mkgformer-mner",
+      "confidence": 0.6,
+      "metadata": {}
+    },
+    {
+      "id": "ev-9bfba67e",
+      "source_doc_id": "einstein-multimodal-001",
+      "source_type": "model_output",
+      "content": "University",
+      "bbox": null,
+      "page": null,
+      "image_path": "data/raw/test_image.jpg",
+      "model_name": "mkgformer-mner",
+      "confidence": 0.6,
+      "metadata": {}
+    },
+    {
+      "id": "ev-a47e8220",
+      "source_doc_id": "einstein-multimodal-001",
+      "source_type": "model_output",
+      "content": "Nobel",
+      "bbox": null,
+      "page": null,
+      "image_path": "data/raw/test_image.jpg",
+      "model_name": "mkgformer-mner",
+      "confidence": 0.6,
+      "metadata": {}
+    },
+    {
+      "id": "ev-cbe0519d",
+      "source_doc_id": "einstein-multimodal-001",
+      "source_type": "model_output",
+      "content": "Prize",
+      "bbox": null,
+      "page": null,
+      "image_path": "data/raw/test_image.jpg",
+      "model_name": "mkgformer-mner",
+      "confidence": 0.6,
+      "metadata": {}
+    },
+    {
+      "id": "ev-b287f1bc",
+      "source_doc_id": "einstein-multimodal-001",
+      "source_type": "model_output",
+      "content": "Physics",
+      "bbox": null,
+      "page": null,
+      "image_path": "data/raw/test_image.jpg",
+      "model_name": "mkgformer-mner",
+      "confidence": 0.6,
+      "metadata": {}
+    },
+    {
+      "id": "ev-c8cedaab",
+      "source_doc_id": "einstein-multimodal-001",
+      "source_type": "model_output",
+      "content": "cross-modal: princeton university <-> Princeton University",
+      "bbox": null,
+      "page": null,
+      "image_path": null,
+      "model_name": "cross-modal-fuser",
+      "confidence": 1.0,
+      "metadata": {}
+    },
+    {
+      "id": "ev-8ed96521",
+      "source_doc_id": "einstein-multimodal-001",
+      "source_type": "model_output",
+      "content": "cross-modal: germany <-> Germany",
+      "bbox": null,
+      "page": null,
+      "image_path": null,
+      "model_name": "cross-modal-fuser",
+      "confidence": 1.0,
+      "metadata": {}
+    },
+    {
+      "id": "ev-483355c6",
+      "source_doc_id": "einstein-multimodal-001",
+      "source_type": "model_output",
+      "content": "cross-modal: albert einstein <-> Albert Einstein",
+      "bbox": null,
+      "page": null,
+      "image_path": null,
+      "model_name": "cross-modal-fuser",
+      "confidence": 1.0,
+      "metadata": {}
+    },
+    {
+      "id": "ev-4dc0b27a",
+      "source_doc_id": "einstein-multimodal-001",
+      "source_type": "model_output",
+      "content": "cross-modal: nobel prize in physics <-> Nobel Prize",
+      "bbox": null,
+      "page": null,
+      "image_path": null,
+      "model_name": "cross-modal-fuser",
+      "confidence": 1.0,
+      "metadata": {}
+    }
+  ],
+  "pipeline_stage": "fusion",
+  "metadata": {}
+}

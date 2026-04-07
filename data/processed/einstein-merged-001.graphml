@@ -1,0 +1,129 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d8" for="edge" attr.name="source_system" attr.type="string" />
+  <key id="d7" for="edge" attr.name="confidence" attr.type="double" />
+  <key id="d6" for="edge" attr.name="predicate" attr.type="string" />
+  <key id="d5" for="edge" attr.name="key" attr.type="string" />
+  <key id="d4" for="node" attr.name="source_system" attr.type="string" />
+  <key id="d3" for="node" attr.name="modality" attr.type="string" />
+  <key id="d2" for="node" attr.name="entity_type" attr.type="string" />
+  <key id="d1" for="node" attr.name="canonical_name" attr.type="string" />
+  <key id="d0" for="graph" attr.name="doc_id" attr.type="string" />
+  <graph edgedefault="directed">
+    <node id="ent-1d6eec5c">
+      <data key="d1">germany</data>
+      <data key="d2">OTHER</data>
+      <data key="d3">multimodal</data>
+      <data key="d4">itext2kg</data>
+    </node>
+    <node id="ent-b6405a0d">
+      <data key="d1">ulm</data>
+      <data key="d2">LOCATION</data>
+      <data key="d3">text</data>
+      <data key="d4">itext2kg</data>
+    </node>
+    <node id="ent-62fc22a2">
+      <data key="d1">theory of relativity</data>
+      <data key="d2">CONCEPT</data>
+      <data key="d3">text</data>
+      <data key="d4">itext2kg</data>
+    </node>
+    <node id="ent-a1b8cfa1">
+      <data key="d1">princeton university</data>
+      <data key="d2">ORGANIZATION</data>
+      <data key="d3">multimodal</data>
+      <data key="d4">itext2kg</data>
+    </node>
+    <node id="ent-c9102605">
+      <data key="d1">albert einstein</data>
+      <data key="d2">PERSON</data>
+      <data key="d3">multimodal</data>
+      <data key="d4">itext2kg</data>
+    </node>
+    <node id="ent-572abd25">
+      <data key="d1">nobel prize in physics</data>
+      <data key="d2">EVENT</data>
+      <data key="d3">multimodal</data>
+      <data key="d4">itext2kg</data>
+    </node>
+    <node id="ent-8fcaa34a">
+      <data key="d1">Ulm, Germany</data>
+      <data key="d2">LOCATION</data>
+      <data key="d3">multimodal</data>
+      <data key="d4">mkgformer</data>
+    </node>
+    <node id="ent-17f7cdb0">
+      <data key="d1">Albert</data>
+      <data key="d2">OTHER</data>
+      <data key="d3">multimodal</data>
+      <data key="d4">mkgformer</data>
+    </node>
+    <node id="ent-d90ce0c0">
+      <data key="d1">Einstein</data>
+      <data key="d2">OTHER</data>
+      <data key="d3">multimodal</data>
+      <data key="d4">mkgformer</data>
+    </node>
+    <node id="ent-6fa8a4e3">
+      <data key="d1">Princeton</data>
+      <data key="d2">OTHER</data>
+      <data key="d3">multimodal</data>
+      <data key="d4">mkgformer</data>
+    </node>
+    <node id="ent-ee8660a0">
+      <data key="d1">University</data>
+      <data key="d2">OTHER</data>
+      <data key="d3">multimodal</data>
+      <data key="d4">mkgformer</data>
+    </node>
+    <node id="ent-4970ec95">
+      <data key="d1">Nobel</data>
+      <data key="d2">OTHER</data>
+      <data key="d3">multimodal</data>
+      <data key="d4">mkgformer</data>
+    </node>
+    <node id="ent-59085ed9">
+      <data key="d1">Prize</data>
+      <data key="d2">OTHER</data>
+      <data key="d3">multimodal</data>
+      <data key="d4">mkgformer</data>
+    </node>
+    <node id="ent-a197194e">
+      <data key="d1">Physics</data>
+      <data key="d2">OTHER</data>
+      <data key="d3">multimodal</data>
+      <data key="d4">mkgformer</data>
+    </node>
+    <edge source="ent-c9102605" target="ent-572abd25">
+      <data key="d5">rel-ec181f6f</data>
+      <data key="d6">received</data>
+      <data key="d7">1.0</data>
+      <data key="d8">itext2kg</data>
+    </edge>
+    <edge source="ent-c9102605" target="ent-a1b8cfa1">
+      <data key="d5">rel-ff04571c</data>
+      <data key="d6">worked_at</data>
+      <data key="d7">1.0</data>
+      <data key="d8">itext2kg</data>
+    </edge>
+    <edge source="ent-c9102605" target="ent-b6405a0d">
+      <data key="d5">rel-e306a0f0</data>
+      <data key="d6">born_in</data>
+      <data key="d7">1.0</data>
+      <data key="d8">itext2kg</data>
+    </edge>
+    <edge source="ent-c9102605" target="ent-1d6eec5c">
+      <data key="d5">rel-8424fb82</data>
+      <data key="d6">born_in</data>
+      <data key="d7">1.0</data>
+      <data key="d8">itext2kg</data>
+    </edge>
+    <edge source="ent-c9102605" target="ent-62fc22a2">
+      <data key="d5">rel-c3346782</data>
+      <data key="d6">developed</data>
+      <data key="d7">1.0</data>
+      <data key="d8">itext2kg</data>
+    </edge>
+    <data key="d0">einstein-merged-001</data>
+  </graph>
+</graphml>

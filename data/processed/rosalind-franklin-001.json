@@ -1,0 +1,531 @@
+{
+  "doc_id": "rosalind-franklin-001",
+  "entities": [
+    {
+      "id": "ent-b4bf8f43",
+      "canonical_name": "london",
+      "entity_type": "LOCATION",
+      "modality": "text",
+      "aliases": [],
+      "evidence_ids": [
+        "ev-25663f88"
+      ],
+      "source_system": "itext2kg",
+      "embedding": null,
+      "metadata": {}
+    },
+    {
+      "id": "ent-0e2f59cb",
+      "canonical_name": "x ray crystallography",
+      "entity_type": "OTHER",
+      "modality": "text",
+      "aliases": [],
+      "evidence_ids": [
+        "ev-c104c2f0"
+      ],
+      "source_system": "itext2kg",
+      "embedding": null,
+      "metadata": {}
+    },
+    {
+      "id": "ent-a4118b09",
+      "canonical_name": "king's college london",
+      "entity_type": "ORGANIZATION",
+      "modality": "multimodal",
+      "aliases": [
+        "College London"
+      ],
+      "evidence_ids": [
+        "ev-f4b74475",
+        "ev-a50814ee"
+      ],
+      "source_system": "itext2kg",
+      "embedding": null,
+      "metadata": {}
+    },
+    {
+      "id": "ent-09d54857",
+      "canonical_name": "rosalind franklin",
+      "entity_type": "PERSON",
+      "modality": "multimodal",
+      "aliases": [
+        "Rosalind Franklin"
+      ],
+      "evidence_ids": [
+        "ev-234cceca",
+        "ev-04ab5ebc"
+      ],
+      "source_system": "itext2kg",
+      "embedding": null,
+      "metadata": {}
+    },
+    {
+      "id": "ent-6d0bacf5",
+      "canonical_name": "cambridge university",
+      "entity_type": "ORGANIZATION",
+      "modality": "multimodal",
+      "aliases": [
+        "Cambridge University"
+      ],
+      "evidence_ids": [
+        "ev-8fbad5bc",
+        "ev-d9692015"
+      ],
+      "source_system": "itext2kg",
+      "embedding": null,
+      "metadata": {}
+    },
+    {
+      "id": "ent-88b318fe",
+      "canonical_name": "understanding of dna structure",
+      "entity_type": "EVENT",
+      "modality": "text",
+      "aliases": [],
+      "evidence_ids": [
+        "ev-cf0b9084"
+      ],
+      "source_system": "itext2kg",
+      "embedding": null,
+      "metadata": {}
+    },
+    {
+      "id": "ent-7816530c",
+      "canonical_name": "james watson",
+      "entity_type": "PERSON",
+      "modality": "multimodal",
+      "aliases": [
+        "James Watson"
+      ],
+      "evidence_ids": [
+        "ev-9b352a53",
+        "ev-b44ff181"
+      ],
+      "source_system": "itext2kg",
+      "embedding": null,
+      "metadata": {}
+    },
+    {
+      "id": "ent-55a37b53",
+      "canonical_name": "birkbeck college",
+      "entity_type": "ORGANIZATION",
+      "modality": "multimodal",
+      "aliases": [
+        "Birkbeck College"
+      ],
+      "evidence_ids": [
+        "ev-f8100a72",
+        "ev-92db4ede"
+      ],
+      "source_system": "itext2kg",
+      "embedding": null,
+      "metadata": {}
+    },
+    {
+      "id": "ent-d4b8fc5e",
+      "canonical_name": "francis crick",
+      "entity_type": "PERSON",
+      "modality": "multimodal",
+      "aliases": [
+        "Francis Crick"
+      ],
+      "evidence_ids": [
+        "ev-75f64325",
+        "ev-249150a7"
+      ],
+      "source_system": "itext2kg",
+      "embedding": null,
+      "metadata": {}
+    },
+    {
+      "id": "ent-b1347842",
+      "canonical_name": "England",
+      "entity_type": "LOCATION",
+      "modality": "multimodal",
+      "aliases": [],
+      "evidence_ids": [
+        "ev-1d8e2298"
+      ],
+      "source_system": "mkgformer",
+      "embedding": null,
+      "metadata": {}
+    }
+  ],
+  "relations": [
+    {
+      "id": "rel-d593e39e",
+      "subject_id": "ent-09d54857",
+      "predicate": "used",
+      "object_id": "ent-0e2f59cb",
+      "confidence": 1.0,
+      "source_system": "itext2kg",
+      "evidence_ids": [],
+      "metadata": {
+        "observation_dates": []
+      }
+    },
+    {
+      "id": "rel-96b72975",
+      "subject_id": "ent-09d54857",
+      "predicate": "born_in",
+      "object_id": "ent-b4bf8f43",
+      "confidence": 1.0,
+      "source_system": "itext2kg",
+      "evidence_ids": [],
+      "metadata": {
+        "observation_dates": []
+      }
+    },
+    {
+      "id": "rel-fe319dac",
+      "subject_id": "ent-09d54857",
+      "predicate": "conducted_research_at",
+      "object_id": "ent-a4118b09",
+      "confidence": 1.0,
+      "source_system": "itext2kg",
+      "evidence_ids": [],
+      "metadata": {
+        "observation_dates": []
+      }
+    },
+    {
+      "id": "rel-01ee822d",
+      "subject_id": "ent-09d54857",
+      "predicate": "studied_at",
+      "object_id": "ent-6d0bacf5",
+      "confidence": 1.0,
+      "source_system": "itext2kg",
+      "evidence_ids": [],
+      "metadata": {
+        "observation_dates": []
+      }
+    },
+    {
+      "id": "rel-33c5d623",
+      "subject_id": "ent-7816530c",
+      "predicate": "contributed_to",
+      "object_id": "ent-88b318fe",
+      "confidence": 1.0,
+      "source_system": "itext2kg",
+      "evidence_ids": [],
+      "metadata": {
+        "observation_dates": []
+      }
+    },
+    {
+      "id": "rel-a4f79810",
+      "subject_id": "ent-d4b8fc5e",
+      "predicate": "contributed_to",
+      "object_id": "ent-88b318fe",
+      "confidence": 1.0,
+      "source_system": "itext2kg",
+      "evidence_ids": [],
+      "metadata": {
+        "observation_dates": []
+      }
+    },
+    {
+      "id": "rel-b9cb24ae",
+      "subject_id": "ent-09d54857",
+      "predicate": "contributed_to",
+      "object_id": "ent-88b318fe",
+      "confidence": 1.0,
+      "source_system": "itext2kg",
+      "evidence_ids": [],
+      "metadata": {
+        "observation_dates": []
+      }
+    },
+    {
+      "id": "rel-1209eda4",
+      "subject_id": "ent-7816530c",
+      "predicate": "collaborated_with",
+      "object_id": "ent-d4b8fc5e",
+      "confidence": 1.0,
+      "source_system": "itext2kg",
+      "evidence_ids": [],
+      "metadata": {
+        "observation_dates": []
+      }
+    },
+    {
+      "id": "rel-e3801bd3",
+      "subject_id": "ent-09d54857",
+      "predicate": "worked_at",
+      "object_id": "ent-55a37b53",
+      "confidence": 1.0,
+      "source_system": "itext2kg",
+      "evidence_ids": [],
+      "metadata": {
+        "observation_dates": []
+      }
+    }
+  ],
+  "evidences": [
+    {
+      "id": "ev-25663f88",
+      "source_doc_id": "rosalind-franklin-001",
+      "source_type": "text_span",
+      "content": "london",
+      "bbox": null,
+      "page": null,
+      "image_path": null,
+      "model_name": "itext2kg/llama-3.3-70b-versatile",
+      "confidence": 1.0,
+      "metadata": {}
+    },
+    {
+      "id": "ev-c104c2f0",
+      "source_doc_id": "rosalind-franklin-001",
+      "source_type": "text_span",
+      "content": "x ray crystallography",
+      "bbox": null,
+      "page": null,
+      "image_path": null,
+      "model_name": "itext2kg/llama-3.3-70b-versatile",
+      "confidence": 1.0,
+      "metadata": {}
+    },
+    {
+      "id": "ev-f4b74475",
+      "source_doc_id": "rosalind-franklin-001",
+      "source_type": "text_span",
+      "content": "king's college london",
+      "bbox": null,
+      "page": null,
+      "image_path": null,
+      "model_name": "itext2kg/llama-3.3-70b-versatile",
+      "confidence": 1.0,
+      "metadata": {}
+    },
+    {
+      "id": "ev-234cceca",
+      "source_doc_id": "rosalind-franklin-001",
+      "source_type": "text_span",
+      "content": "rosalind franklin",
+      "bbox": null,
+      "page": null,
+      "image_path": null,
+      "model_name": "itext2kg/llama-3.3-70b-versatile",
+      "confidence": 1.0,
+      "metadata": {}
+    },
+    {
+      "id": "ev-8fbad5bc",
+      "source_doc_id": "rosalind-franklin-001",
+      "source_type": "text_span",
+      "content": "cambridge university",
+      "bbox": null,
+      "page": null,
+      "image_path": null,
+      "model_name": "itext2kg/llama-3.3-70b-versatile",
+      "confidence": 1.0,
+      "metadata": {}
+    },
+    {
+      "id": "ev-cf0b9084",
+      "source_doc_id": "rosalind-franklin-001",
+      "source_type": "text_span",
+      "content": "understanding of dna structure",
+      "bbox": null,
+      "page": null,
+      "image_path": null,
+      "model_name": "itext2kg/llama-3.3-70b-versatile",
+      "confidence": 1.0,
+      "metadata": {}
+    },
+    {
+      "id": "ev-9b352a53",
+      "source_doc_id": "rosalind-franklin-001",
+      "source_type": "text_span",
+      "content": "james watson",
+      "bbox": null,
+      "page": null,
+      "image_path": null,
+      "model_name": "itext2kg/llama-3.3-70b-versatile",
+      "confidence": 1.0,
+      "metadata": {}
+    },
+    {
+      "id": "ev-f8100a72",
+      "source_doc_id": "rosalind-franklin-001",
+      "source_type": "text_span",
+      "content": "birkbeck college",
+      "bbox": null,
+      "page": null,
+      "image_path": null,
+      "model_name": "itext2kg/llama-3.3-70b-versatile",
+      "confidence": 1.0,
+      "metadata": {}
+    },
+    {
+      "id": "ev-75f64325",
+      "source_doc_id": "rosalind-franklin-001",
+      "source_type": "text_span",
+      "content": "francis crick",
+      "bbox": null,
+      "page": null,
+      "image_path": null,
+      "model_name": "itext2kg/llama-3.3-70b-versatile",
+      "confidence": 1.0,
+      "metadata": {}
+    },
+    {
+      "id": "ev-d9692015",
+      "source_doc_id": "rosalind-franklin-001",
+      "source_type": "model_output",
+      "content": "Cambridge University",
+      "bbox": null,
+      "page": null,
+      "image_path": "data/raw/test_image.jpg",
+      "model_name": "mkgformer-mner",
+      "confidence": 0.6,
+      "metadata": {}
+    },
+    {
+      "id": "ev-92db4ede",
+      "source_doc_id": "rosalind-franklin-001",
+      "source_type": "model_output",
+      "content": "Birkbeck College",
+      "bbox": null,
+      "page": null,
+      "image_path": "data/raw/test_image.jpg",
+      "model_name": "mkgformer-mner",
+      "confidence": 0.6,
+      "metadata": {}
+    },
+    {
+      "id": "ev-1d8e2298",
+      "source_doc_id": "rosalind-franklin-001",
+      "source_type": "model_output",
+      "content": "England",
+      "bbox": null,
+      "page": null,
+      "image_path": "data/raw/test_image.jpg",
+      "model_name": "mkgformer-mner",
+      "confidence": 0.6,
+      "metadata": {}
+    },
+    {
+      "id": "ev-04ab5ebc",
+      "source_doc_id": "rosalind-franklin-001",
+      "source_type": "model_output",
+      "content": "Rosalind Franklin",
+      "bbox": null,
+      "page": null,
+      "image_path": "data/raw/test_image.jpg",
+      "model_name": "mkgformer-mner",
+      "confidence": 0.6,
+      "metadata": {}
+    },
+    {
+      "id": "ev-a50814ee",
+      "source_doc_id": "rosalind-franklin-001",
+      "source_type": "model_output",
+      "content": "College London",
+      "bbox": null,
+      "page": null,
+      "image_path": "data/raw/test_image.jpg",
+      "model_name": "mkgformer-mner",
+      "confidence": 0.6,
+      "metadata": {}
+    },
+    {
+      "id": "ev-b44ff181",
+      "source_doc_id": "rosalind-franklin-001",
+      "source_type": "model_output",
+      "content": "James Watson",
+      "bbox": null,
+      "page": null,
+      "image_path": "data/raw/test_image.jpg",
+      "model_name": "mkgformer-mner",
+      "confidence": 0.6,
+      "metadata": {}
+    },
+    {
+      "id": "ev-249150a7",
+      "source_doc_id": "rosalind-franklin-001",
+      "source_type": "model_output",
+      "content": "Francis Crick",
+      "bbox": null,
+      "page": null,
+      "image_path": "data/raw/test_image.jpg",
+      "model_name": "mkgformer-mner",
+      "confidence": 0.6,
+      "metadata": {}
+    },
+    {
+      "id": "ev-fa3eb921",
+      "source_doc_id": "rosalind-franklin-001",
+      "source_type": "model_output",
+      "content": "cross-modal: cambridge university <-> Cambridge University",
+      "bbox": null,
+      "page": null,
+      "image_path": null,
+      "model_name": "cross-modal-fuser",
+      "confidence": 1.0,
+      "metadata": {}
+    },
+    {
+      "id": "ev-4676c39b",
+      "source_doc_id": "rosalind-franklin-001",
+      "source_type": "model_output",
+      "content": "cross-modal: birkbeck college <-> Birkbeck College",
+      "bbox": null,
+      "page": null,
+      "image_path": null,
+      "model_name": "cross-modal-fuser",
+      "confidence": 1.0,
+      "metadata": {}
+    },
+    {
+      "id": "ev-d8ccb50b",
+      "source_doc_id": "rosalind-franklin-001",
+      "source_type": "model_output",
+      "content": "cross-modal: rosalind franklin <-> Rosalind Franklin",
+      "bbox": null,
+      "page": null,
+      "image_path": null,
+      "model_name": "cross-modal-fuser",
+      "confidence": 1.0,
+      "metadata": {}
+    },
+    {
+      "id": "ev-abb9ab57",
+      "source_doc_id": "rosalind-franklin-001",
+      "source_type": "model_output",
+      "content": "cross-modal: james watson <-> James Watson",
+      "bbox": null,
+      "page": null,
+      "image_path": null,
+      "model_name": "cross-modal-fuser",
+      "confidence": 1.0,
+      "metadata": {}
+    },
+    {
+      "id": "ev-2f1a38c3",
+      "source_doc_id": "rosalind-franklin-001",
+      "source_type": "model_output",
+      "content": "cross-modal: francis crick <-> Francis Crick",
+      "bbox": null,
+      "page": null,
+      "image_path": null,
+      "model_name": "cross-modal-fuser",
+      "confidence": 1.0,
+      "metadata": {}
+    },
+    {
+      "id": "ev-d9d84f03",
+      "source_doc_id": "rosalind-franklin-001",
+      "source_type": "model_output",
+      "content": "cross-modal: king's college london <-> College London",
+      "bbox": null,
+      "page": null,
+      "image_path": null,
+      "model_name": "cross-modal-fuser",
+      "confidence": 1.0,
+      "metadata": {}
+    }
+  ],
+  "pipeline_stage": "fusion",
+  "metadata": {}
+}

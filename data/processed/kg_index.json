@@ -1,0 +1,1619 @@
+{
+  "entity_ids": [
+    "ent-397eff7b",
+    "ent-8a8a1e47",
+    "ent-58b46e98",
+    "ent-03493707",
+    "ent-cba13597",
+    "ent-7e4e73a9",
+    "ent-8b324a1d",
+    "ent-a43ad8d4",
+    "ent-2dba9abe",
+    "ent-dbb7d9ee",
+    "ent-f69f81b4",
+    "ent-f4810be4",
+    "ent-826dba2b",
+    "ent-577da929",
+    "ent-927e5288",
+    "ent-bf23a121",
+    "ent-52969ae7",
+    "ent-c88a0aaf",
+    "ent-2beae20d",
+    "ent-f46dae89",
+    "ent-01cceba5",
+    "ent-c7e1b4cb",
+    "ent-b6e15d2d",
+    "ent-89f98c03",
+    "ent-3bc5e2fe",
+    "ent-11152c95",
+    "ent-5eb8f322",
+    "ent-115d6b61",
+    "ent-5c6f2519",
+    "ent-952f6c4b",
+    "ent-d50dd4d7",
+    "ent-566a99f1",
+    "ent-61fca67d",
+    "ent-f544e2fa",
+    "ent-230a45c3",
+    "ent-4be79eef",
+    "ent-d10b05e3",
+    "ent-e48f7b49",
+    "ent-acd37e5d",
+    "ent-24584ff8",
+    "ent-ef129dae",
+    "ent-8af7b5cf",
+    "ent-85b5f84f",
+    "ent-0e429e8b",
+    "ent-c307533d",
+    "ent-68a9c800",
+    "ent-19cae11c",
+    "ent-1d6eec5c",
+    "ent-b6405a0d",
+    "ent-62fc22a2",
+    "ent-a1b8cfa1",
+    "ent-c9102605",
+    "ent-572abd25",
+    "ent-8fcaa34a",
+    "ent-17f7cdb0",
+    "ent-d90ce0c0",
+    "ent-6fa8a4e3",
+    "ent-ee8660a0",
+    "ent-4970ec95",
+    "ent-59085ed9",
+    "ent-a197194e",
+    "ent-6890e52d",
+    "ent-f2020ce7",
+    "ent-5bacabaf",
+    "ent-ab189137",
+    "ent-03c93459",
+    "ent-25cb42eb",
+    "ent-27ede5b6",
+    "ent-ed992045",
+    "ent-2b0dc024",
+    "ent-44924175",
+    "ent-d5b09d14",
+    "ent-370666a5",
+    "ent-f097523f",
+    "ent-a97ef303",
+    "ent-29ec597d",
+    "ent-327841d5",
+    "ent-16d1fca4",
+    "ent-419dbc72",
+    "ent-548d6f0c",
+    "ent-4126600d",
+    "ent-8bd46a65",
+    "ent-b04ee8b1",
+    "ent-bf8fef8a",
+    "ent-ab0162b8",
+    "ent-51fda53c",
+    "ent-a2379488",
+    "ent-da0146f6",
+    "ent-5bd92614",
+    "ent-44c5997f",
+    "ent-7f6afcda",
+    "ent-d5d9c90f",
+    "ent-397cfb88",
+    "ent-1e32939b",
+    "ent-eec0e6c7",
+    "ent-825e65a4",
+    "ent-dbad46e4",
+    "ent-45f2fb72",
+    "ent-d37dda11",
+    "ent-b1ace9f9",
+    "ent-ea9af0ff",
+    "ent-116ef7a5",
+    "ent-547c9de3",
+    "ent-54dbc952",
+    "ent-00e88b10",
+    "ent-393f2cd2",
+    "ent-46033dc8",
+    "ent-cd8211da",
+    "ent-fa3dc5af",
+    "ent-5b63614e",
+    "ent-f2fd55d0",
+    "ent-0ca1aa76",
+    "ent-13e9a5db",
+    "ent-2810d139",
+    "ent-1148000d",
+    "ent-15084457",
+    "ent-510a5f1e",
+    "ent-7904f84c",
+    "ent-62660c89",
+    "ent-bf7659fc",
+    "ent-ffcceb1e",
+    "ent-1054516c",
+    "ent-87edab65",
+    "ent-7448b9d2",
+    "ent-fa5cae18",
+    "ent-aee0c3fa",
+    "ent-e2964d64",
+    "ent-d6ac6a13",
+    "ent-49a37af1",
+    "ent-d7ce4341",
+    "ent-cbb5745f",
+    "ent-5e1f1a0f",
+    "ent-e2d10d83",
+    "ent-79ea4d66",
+    "ent-e477eb5b",
+    "ent-2b935ac9",
+    "ent-c634de03",
+    "ent-e9efe722",
+    "ent-fab20317",
+    "ent-ce33ce2a",
+    "ent-b98d3a2e",
+    "ent-e8df10f5",
+    "ent-2e82f99b",
+    "ent-6ccfd6a1",
+    "ent-c95efd17",
+    "ent-d8a296e9",
+    "ent-96a4efd9",
+    "ent-14846977",
+    "ent-dd12001a",
+    "ent-ba52933a",
+    "ent-6d41e1c1",
+    "ent-fff9180e",
+    "ent-3e68104e",
+    "ent-97b13fa6",
+    "ent-4ca53e14",
+    "ent-bc056036",
+    "ent-e6880cba",
+    "ent-7cb3a2ef",
+    "ent-386fcc48",
+    "ent-4dcca5e6",
+    "ent-72c21b84",
+    "ent-7f7b3552",
+    "ent-b4bf8f43",
+    "ent-0e2f59cb",
+    "ent-a4118b09",
+    "ent-09d54857",
+    "ent-6d0bacf5",
+    "ent-88b318fe",
+    "ent-7816530c",
+    "ent-55a37b53",
+    "ent-d4b8fc5e",
+    "ent-b1347842",
+    "ent-83979767",
+    "ent-8a2e8eab",
+    "ent-8112d5df",
+    "ent-8bdaf71f",
+    "ent-2bd23fde",
+    "ent-c59c2164",
+    "ent-290a7419"
+  ],
+  "entity_names": [
+    "mathematics",
+    "london",
+    "augustus de morgan",
+    "england",
+    "lord byron",
+    "university college london",
+    "ada lovelace",
+    "charles babbage",
+    "analytical engine",
+    "university of manchester",
+    "london",
+    "government code and cypher school",
+    "national physical laboratory",
+    "world war ii",
+    "turing machine",
+    "england",
+    "artificial intelligence",
+    "bletchley park",
+    "cambridge university",
+    "alan turing",
+    "turing test",
+    "Government Code",
+    "Cypher School",
+    "voyage aboard hms beagle",
+    "on the origin of species",
+    "england",
+    "theory of evolution by natural selection",
+    "shrewsbury",
+    "kent",
+    "cambridge university",
+    "edinburgh university",
+    "charles darwin",
+    "galapagos islands",
+    "down house",
+    "germany",
+    "princeton university",
+    "albert einstein",
+    "ulm",
+    "theory of relativity",
+    "nobel prize in physics",
+    "Ulm, Germany",
+    "albert einstein",
+    "theory of relativity",
+    "germany",
+    "princeton university",
+    "nobel prize in physics",
+    "ulm",
+    "germany",
+    "ulm",
+    "theory of relativity",
+    "princeton university",
+    "albert einstein",
+    "nobel prize in physics",
+    "Ulm, Germany",
+    "Albert",
+    "Einstein",
+    "Princeton",
+    "University",
+    "Nobel",
+    "Prize",
+    "Physics",
+    "ulm",
+    "nobel prize in physics",
+    "theory of relativity",
+    "albert einstein",
+    "germany",
+    "princeton university",
+    "Princeton University",
+    "Nobel Prize",
+    "Ulm, Germany",
+    "Germany",
+    "Albert Einstein",
+    "Albert",
+    "Einstein",
+    "Princeton",
+    "University",
+    "Nobel",
+    "Prize",
+    "Physics",
+    "nobel prize in physics",
+    "princeton university",
+    "ulm",
+    "albert einstein",
+    "germany",
+    "theory of relativity",
+    "los alamos laboratory",
+    "quantum electrodynamics",
+    "new york city",
+    "california institute of technology",
+    "massachusetts institute of technology",
+    "feynman diagrams",
+    "richard feynman",
+    "princeton university",
+    "manhattan project",
+    "nobel prize in physics",
+    "Institute of Technology",
+    "Stub Entity A",
+    "Stub Entity B",
+    "stub_visual_object",
+    "Stub Entity A",
+    "Stub Entity B",
+    "stub_visual_object",
+    "astronomical observations",
+    "galileo galilei",
+    "university of pisa",
+    "trial by roman inquisition",
+    "telescope improvement",
+    "university of padua",
+    "pisa",
+    "italy",
+    "supporter of copernican heliocentric model",
+    "dialogue concerning the two chief world systems",
+    "Dialogue Concerning",
+    "Two Chief World",
+    "oxford",
+    "stephen hawking",
+    "hawking radiation",
+    "lucasian professor of mathematics",
+    "england",
+    "university college oxford",
+    "black holes",
+    "cambridge university",
+    "a brief history of time",
+    "singularity theorems",
+    "roger penrose",
+    "Brief History",
+    "universal gravitation",
+    "royal society",
+    "trinity college",
+    "england",
+    "isaac newton",
+    "laws of motion",
+    "cambridge university",
+    "woolsthorpe",
+    "royal mint",
+    "principia mathematica",
+    "paris",
+    "radium",
+    "sorbonne university",
+    "nobel prize in chemistry",
+    "france",
+    "warsaw",
+    "marie curie",
+    "pierre curie",
+    "polonium",
+    "poland",
+    "nobel prize in physics",
+    "curie institute",
+    "Nobel Prizes",
+    "paris",
+    "thomas edison",
+    "france",
+    "united states",
+    "war of currents",
+    "new york city",
+    "austria",
+    "continental edison company",
+    "nikola tesla",
+    "smiljan",
+    "technical university of graz",
+    "Technical University",
+    "Smiljan, Austria",
+    "london",
+    "x ray crystallography",
+    "king's college london",
+    "rosalind franklin",
+    "cambridge university",
+    "understanding of dna structure",
+    "james watson",
+    "birkbeck college",
+    "francis crick",
+    "England",
+    "germany",
+    "theory of relativity",
+    "albert einstein",
+    "ulm",
+    "princeton university",
+    "nobel prize in physics",
+    "Ulm, Germany"
+  ],
+  "entity_map": {
+    "ent-397eff7b": {
+      "id": "ent-397eff7b",
+      "canonical_name": "mathematics",
+      "entity_type": "OTHER",
+      "modality": "text",
+      "doc_id": "ada-lovelace-001"
+    },
+    "ent-8a8a1e47": {
+      "id": "ent-8a8a1e47",
+      "canonical_name": "london",
+      "entity_type": "LOCATION",
+      "modality": "text",
+      "doc_id": "ada-lovelace-001"
+    },
+    "ent-58b46e98": {
+      "id": "ent-58b46e98",
+      "canonical_name": "augustus de morgan",
+      "entity_type": "PERSON",
+      "modality": "multimodal",
+      "doc_id": "ada-lovelace-001"
+    },
+    "ent-03493707": {
+      "id": "ent-03493707",
+      "canonical_name": "england",
+      "entity_type": "LOCATION",
+      "modality": "multimodal",
+      "doc_id": "ada-lovelace-001"
+    },
+    "ent-cba13597": {
+      "id": "ent-cba13597",
+      "canonical_name": "lord byron",
+      "entity_type": "PERSON",
+      "modality": "multimodal",
+      "doc_id": "ada-lovelace-001"
+    },
+    "ent-7e4e73a9": {
+      "id": "ent-7e4e73a9",
+      "canonical_name": "university college london",
+      "entity_type": "ORGANIZATION",
+      "modality": "multimodal",
+      "doc_id": "ada-lovelace-001"
+    },
+    "ent-8b324a1d": {
+      "id": "ent-8b324a1d",
+      "canonical_name": "ada lovelace",
+      "entity_type": "PERSON",
+      "modality": "multimodal",
+      "doc_id": "ada-lovelace-001"
+    },
+    "ent-a43ad8d4": {
+      "id": "ent-a43ad8d4",
+      "canonical_name": "charles babbage",
+      "entity_type": "PERSON",
+      "modality": "multimodal",
+      "doc_id": "ada-lovelace-001"
+    },
+    "ent-2dba9abe": {
+      "id": "ent-2dba9abe",
+      "canonical_name": "analytical engine",
+      "entity_type": "CONCEPT",
+      "modality": "multimodal",
+      "doc_id": "ada-lovelace-001"
+    },
+    "ent-dbb7d9ee": {
+      "id": "ent-dbb7d9ee",
+      "canonical_name": "university of manchester",
+      "entity_type": "ORGANIZATION",
+      "modality": "multimodal",
+      "doc_id": "alan-turing-001"
+    },
+    "ent-f69f81b4": {
+      "id": "ent-f69f81b4",
+      "canonical_name": "london",
+      "entity_type": "LOCATION",
+      "modality": "text",
+      "doc_id": "alan-turing-001"
+    },
+    "ent-f4810be4": {
+      "id": "ent-f4810be4",
+      "canonical_name": "government code and cypher school",
+      "entity_type": "ORGANIZATION",
+      "modality": "text",
+      "doc_id": "alan-turing-001"
+    },
+    "ent-826dba2b": {
+      "id": "ent-826dba2b",
+      "canonical_name": "national physical laboratory",
+      "entity_type": "ORGANIZATION",
+      "modality": "multimodal",
+      "doc_id": "alan-turing-001"
+    },
+    "ent-577da929": {
+      "id": "ent-577da929",
+      "canonical_name": "world war ii",
+      "entity_type": "EVENT",
+      "modality": "multimodal",
+      "doc_id": "alan-turing-001"
+    },
+    "ent-927e5288": {
+      "id": "ent-927e5288",
+      "canonical_name": "turing machine",
+      "entity_type": "CONCEPT",
+      "modality": "multimodal",
+      "doc_id": "alan-turing-001"
+    },
+    "ent-bf23a121": {
+      "id": "ent-bf23a121",
+      "canonical_name": "england",
+      "entity_type": "LOCATION",
+      "modality": "multimodal",
+      "doc_id": "alan-turing-001"
+    },
+    "ent-52969ae7": {
+      "id": "ent-52969ae7",
+      "canonical_name": "artificial intelligence",
+      "entity_type": "OTHER",
+      "modality": "text",
+      "doc_id": "alan-turing-001"
+    },
+    "ent-c88a0aaf": {
+      "id": "ent-c88a0aaf",
+      "canonical_name": "bletchley park",
+      "entity_type": "LOCATION",
+      "modality": "multimodal",
+      "doc_id": "alan-turing-001"
+    },
+    "ent-2beae20d": {
+      "id": "ent-2beae20d",
+      "canonical_name": "cambridge university",
+      "entity_type": "ORGANIZATION",
+      "modality": "multimodal",
+      "doc_id": "alan-turing-001"
+    },
+    "ent-f46dae89": {
+      "id": "ent-f46dae89",
+      "canonical_name": "alan turing",
+      "entity_type": "PERSON",
+      "modality": "multimodal",
+      "doc_id": "alan-turing-001"
+    },
+    "ent-01cceba5": {
+      "id": "ent-01cceba5",
+      "canonical_name": "turing test",
+      "entity_type": "CONCEPT",
+      "modality": "multimodal",
+      "doc_id": "alan-turing-001"
+    },
+    "ent-c7e1b4cb": {
+      "id": "ent-c7e1b4cb",
+      "canonical_name": "Government Code",
+      "entity_type": "PERSON",
+      "modality": "multimodal",
+      "doc_id": "alan-turing-001"
+    },
+    "ent-b6e15d2d": {
+      "id": "ent-b6e15d2d",
+      "canonical_name": "Cypher School",
+      "entity_type": "PERSON",
+      "modality": "multimodal",
+      "doc_id": "alan-turing-001"
+    },
+    "ent-89f98c03": {
+      "id": "ent-89f98c03",
+      "canonical_name": "voyage aboard hms beagle",
+      "entity_type": "EVENT",
+      "modality": "text",
+      "doc_id": "darwin-001"
+    },
+    "ent-3bc5e2fe": {
+      "id": "ent-3bc5e2fe",
+      "canonical_name": "on the origin of species",
+      "entity_type": "OTHER",
+      "modality": "text",
+      "doc_id": "darwin-001"
+    },
+    "ent-11152c95": {
+      "id": "ent-11152c95",
+      "canonical_name": "england",
+      "entity_type": "LOCATION",
+      "modality": "multimodal",
+      "doc_id": "darwin-001"
+    },
+    "ent-5eb8f322": {
+      "id": "ent-5eb8f322",
+      "canonical_name": "theory of evolution by natural selection",
+      "entity_type": "CONCEPT",
+      "modality": "text",
+      "doc_id": "darwin-001"
+    },
+    "ent-115d6b61": {
+      "id": "ent-115d6b61",
+      "canonical_name": "shrewsbury",
+      "entity_type": "LOCATION",
+      "modality": "text",
+      "doc_id": "darwin-001"
+    },
+    "ent-5c6f2519": {
+      "id": "ent-5c6f2519",
+      "canonical_name": "kent",
+      "entity_type": "LOCATION",
+      "modality": "text",
+      "doc_id": "darwin-001"
+    },
+    "ent-952f6c4b": {
+      "id": "ent-952f6c4b",
+      "canonical_name": "cambridge university",
+      "entity_type": "ORGANIZATION",
+      "modality": "multimodal",
+      "doc_id": "darwin-001"
+    },
+    "ent-d50dd4d7": {
+      "id": "ent-d50dd4d7",
+      "canonical_name": "edinburgh university",
+      "entity_type": "ORGANIZATION",
+      "modality": "multimodal",
+      "doc_id": "darwin-001"
+    },
+    "ent-566a99f1": {
+      "id": "ent-566a99f1",
+      "canonical_name": "charles darwin",
+      "entity_type": "PERSON",
+      "modality": "multimodal",
+      "doc_id": "darwin-001"
+    },
+    "ent-61fca67d": {
+      "id": "ent-61fca67d",
+      "canonical_name": "galapagos islands",
+      "entity_type": "LOCATION",
+      "modality": "multimodal",
+      "doc_id": "darwin-001"
+    },
+    "ent-f544e2fa": {
+      "id": "ent-f544e2fa",
+      "canonical_name": "down house",
+      "entity_type": "LOCATION",
+      "modality": "multimodal",
+      "doc_id": "darwin-001"
+    },
+    "ent-230a45c3": {
+      "id": "ent-230a45c3",
+      "canonical_name": "germany",
+      "entity_type": "LOCATION",
+      "modality": "text",
+      "doc_id": "einstein-clean-001"
+    },
+    "ent-4be79eef": {
+      "id": "ent-4be79eef",
+      "canonical_name": "princeton university",
+      "entity_type": "ORGANIZATION",
+      "modality": "multimodal",
+      "doc_id": "einstein-clean-001"
+    },
+    "ent-d10b05e3": {
+      "id": "ent-d10b05e3",
+      "canonical_name": "albert einstein",
+      "entity_type": "PERSON",
+      "modality": "multimodal",
+      "doc_id": "einstein-clean-001"
+    },
+    "ent-e48f7b49": {
+      "id": "ent-e48f7b49",
+      "canonical_name": "ulm",
+      "entity_type": "LOCATION",
+      "modality": "text",
+      "doc_id": "einstein-clean-001"
+    },
+    "ent-acd37e5d": {
+      "id": "ent-acd37e5d",
+      "canonical_name": "theory of relativity",
+      "entity_type": "CONCEPT",
+      "modality": "text",
+      "doc_id": "einstein-clean-001"
+    },
+    "ent-24584ff8": {
+      "id": "ent-24584ff8",
+      "canonical_name": "nobel prize in physics",
+      "entity_type": "EVENT",
+      "modality": "multimodal",
+      "doc_id": "einstein-clean-001"
+    },
+    "ent-ef129dae": {
+      "id": "ent-ef129dae",
+      "canonical_name": "Ulm, Germany",
+      "entity_type": "LOCATION",
+      "modality": "multimodal",
+      "doc_id": "einstein-clean-001"
+    },
+    "ent-8af7b5cf": {
+      "id": "ent-8af7b5cf",
+      "canonical_name": "albert einstein",
+      "entity_type": "PERSON",
+      "modality": "text",
+      "doc_id": "einstein-groq-001"
+    },
+    "ent-85b5f84f": {
+      "id": "ent-85b5f84f",
+      "canonical_name": "theory of relativity",
+      "entity_type": "CONCEPT",
+      "modality": "text",
+      "doc_id": "einstein-groq-001"
+    },
+    "ent-0e429e8b": {
+      "id": "ent-0e429e8b",
+      "canonical_name": "germany",
+      "entity_type": "LOCATION",
+      "modality": "text",
+      "doc_id": "einstein-groq-001"
+    },
+    "ent-c307533d": {
+      "id": "ent-c307533d",
+      "canonical_name": "princeton university",
+      "entity_type": "ORGANIZATION",
+      "modality": "text",
+      "doc_id": "einstein-groq-001"
+    },
+    "ent-68a9c800": {
+      "id": "ent-68a9c800",
+      "canonical_name": "nobel prize in physics",
+      "entity_type": "EVENT",
+      "modality": "text",
+      "doc_id": "einstein-groq-001"
+    },
+    "ent-19cae11c": {
+      "id": "ent-19cae11c",
+      "canonical_name": "ulm",
+      "entity_type": "LOCATION",
+      "modality": "text",
+      "doc_id": "einstein-groq-001"
+    },
+    "ent-1d6eec5c": {
+      "id": "ent-1d6eec5c",
+      "canonical_name": "germany",
+      "entity_type": "OTHER",
+      "modality": "multimodal",
+      "doc_id": "einstein-merged-001"
+    },
+    "ent-b6405a0d": {
+      "id": "ent-b6405a0d",
+      "canonical_name": "ulm",
+      "entity_type": "LOCATION",
+      "modality": "text",
+      "doc_id": "einstein-merged-001"
+    },
+    "ent-62fc22a2": {
+      "id": "ent-62fc22a2",
+      "canonical_name": "theory of relativity",
+      "entity_type": "CONCEPT",
+      "modality": "text",
+      "doc_id": "einstein-merged-001"
+    },
+    "ent-a1b8cfa1": {
+      "id": "ent-a1b8cfa1",
+      "canonical_name": "princeton university",
+      "entity_type": "ORGANIZATION",
+      "modality": "multimodal",
+      "doc_id": "einstein-merged-001"
+    },
+    "ent-c9102605": {
+      "id": "ent-c9102605",
+      "canonical_name": "albert einstein",
+      "entity_type": "PERSON",
+      "modality": "multimodal",
+      "doc_id": "einstein-merged-001"
+    },
+    "ent-572abd25": {
+      "id": "ent-572abd25",
+      "canonical_name": "nobel prize in physics",
+      "entity_type": "EVENT",
+      "modality": "multimodal",
+      "doc_id": "einstein-merged-001"
+    },
+    "ent-8fcaa34a": {
+      "id": "ent-8fcaa34a",
+      "canonical_name": "Ulm, Germany",
+      "entity_type": "LOCATION",
+      "modality": "multimodal",
+      "doc_id": "einstein-merged-001"
+    },
+    "ent-17f7cdb0": {
+      "id": "ent-17f7cdb0",
+      "canonical_name": "Albert",
+      "entity_type": "OTHER",
+      "modality": "multimodal",
+      "doc_id": "einstein-merged-001"
+    },
+    "ent-d90ce0c0": {
+      "id": "ent-d90ce0c0",
+      "canonical_name": "Einstein",
+      "entity_type": "OTHER",
+      "modality": "multimodal",
+      "doc_id": "einstein-merged-001"
+    },
+    "ent-6fa8a4e3": {
+      "id": "ent-6fa8a4e3",
+      "canonical_name": "Princeton",
+      "entity_type": "OTHER",
+      "modality": "multimodal",
+      "doc_id": "einstein-merged-001"
+    },
+    "ent-ee8660a0": {
+      "id": "ent-ee8660a0",
+      "canonical_name": "University",
+      "entity_type": "OTHER",
+      "modality": "multimodal",
+      "doc_id": "einstein-merged-001"
+    },
+    "ent-4970ec95": {
+      "id": "ent-4970ec95",
+      "canonical_name": "Nobel",
+      "entity_type": "OTHER",
+      "modality": "multimodal",
+      "doc_id": "einstein-merged-001"
+    },
+    "ent-59085ed9": {
+      "id": "ent-59085ed9",
+      "canonical_name": "Prize",
+      "entity_type": "OTHER",
+      "modality": "multimodal",
+      "doc_id": "einstein-merged-001"
+    },
+    "ent-a197194e": {
+      "id": "ent-a197194e",
+      "canonical_name": "Physics",
+      "entity_type": "OTHER",
+      "modality": "multimodal",
+      "doc_id": "einstein-merged-001"
+    },
+    "ent-6890e52d": {
+      "id": "ent-6890e52d",
+      "canonical_name": "ulm",
+      "entity_type": "LOCATION",
+      "modality": "text",
+      "doc_id": "einstein-multimodal-001"
+    },
+    "ent-f2020ce7": {
+      "id": "ent-f2020ce7",
+      "canonical_name": "nobel prize in physics",
+      "entity_type": "EVENT",
+      "modality": "text",
+      "doc_id": "einstein-multimodal-001"
+    },
+    "ent-5bacabaf": {
+      "id": "ent-5bacabaf",
+      "canonical_name": "theory of relativity",
+      "entity_type": "CONCEPT",
+      "modality": "text",
+      "doc_id": "einstein-multimodal-001"
+    },
+    "ent-ab189137": {
+      "id": "ent-ab189137",
+      "canonical_name": "albert einstein",
+      "entity_type": "PERSON",
+      "modality": "text",
+      "doc_id": "einstein-multimodal-001"
+    },
+    "ent-03c93459": {
+      "id": "ent-03c93459",
+      "canonical_name": "germany",
+      "entity_type": "LOCATION",
+      "modality": "text",
+      "doc_id": "einstein-multimodal-001"
+    },
+    "ent-25cb42eb": {
+      "id": "ent-25cb42eb",
+      "canonical_name": "princeton university",
+      "entity_type": "ORGANIZATION",
+      "modality": "text",
+      "doc_id": "einstein-multimodal-001"
+    },
+    "ent-27ede5b6": {
+      "id": "ent-27ede5b6",
+      "canonical_name": "Princeton University",
+      "entity_type": "ORGANIZATION",
+      "modality": "multimodal",
+      "doc_id": "einstein-multimodal-001"
+    },
+    "ent-ed992045": {
+      "id": "ent-ed992045",
+      "canonical_name": "Nobel Prize",
+      "entity_type": "OTHER",
+      "modality": "multimodal",
+      "doc_id": "einstein-multimodal-001"
+    },
+    "ent-2b0dc024": {
+      "id": "ent-2b0dc024",
+      "canonical_name": "Ulm, Germany",
+      "entity_type": "LOCATION",
+      "modality": "multimodal",
+      "doc_id": "einstein-multimodal-001"
+    },
+    "ent-44924175": {
+      "id": "ent-44924175",
+      "canonical_name": "Germany",
+      "entity_type": "LOCATION",
+      "modality": "multimodal",
+      "doc_id": "einstein-multimodal-001"
+    },
+    "ent-d5b09d14": {
+      "id": "ent-d5b09d14",
+      "canonical_name": "Albert Einstein",
+      "entity_type": "PERSON",
+      "modality": "multimodal",
+      "doc_id": "einstein-multimodal-001"
+    },
+    "ent-370666a5": {
+      "id": "ent-370666a5",
+      "canonical_name": "Albert",
+      "entity_type": "OTHER",
+      "modality": "multimodal",
+      "doc_id": "einstein-multimodal-001"
+    },
+    "ent-f097523f": {
+      "id": "ent-f097523f",
+      "canonical_name": "Einstein",
+      "entity_type": "OTHER",
+      "modality": "multimodal",
+      "doc_id": "einstein-multimodal-001"
+    },
+    "ent-a97ef303": {
+      "id": "ent-a97ef303",
+      "canonical_name": "Princeton",
+      "entity_type": "OTHER",
+      "modality": "multimodal",
+      "doc_id": "einstein-multimodal-001"
+    },
+    "ent-29ec597d": {
+      "id": "ent-29ec597d",
+      "canonical_name": "University",
+      "entity_type": "OTHER",
+      "modality": "multimodal",
+      "doc_id": "einstein-multimodal-001"
+    },
+    "ent-327841d5": {
+      "id": "ent-327841d5",
+      "canonical_name": "Nobel",
+      "entity_type": "OTHER",
+      "modality": "multimodal",
+      "doc_id": "einstein-multimodal-001"
+    },
+    "ent-16d1fca4": {
+      "id": "ent-16d1fca4",
+      "canonical_name": "Prize",
+      "entity_type": "OTHER",
+      "modality": "multimodal",
+      "doc_id": "einstein-multimodal-001"
+    },
+    "ent-419dbc72": {
+      "id": "ent-419dbc72",
+      "canonical_name": "Physics",
+      "entity_type": "OTHER",
+      "modality": "multimodal",
+      "doc_id": "einstein-multimodal-001"
+    },
+    "ent-548d6f0c": {
+      "id": "ent-548d6f0c",
+      "canonical_name": "nobel prize in physics",
+      "entity_type": "EVENT",
+      "modality": "text",
+      "doc_id": "einstein-real-001"
+    },
+    "ent-4126600d": {
+      "id": "ent-4126600d",
+      "canonical_name": "princeton university",
+      "entity_type": "ORGANIZATION",
+      "modality": "text",
+      "doc_id": "einstein-real-001"
+    },
+    "ent-8bd46a65": {
+      "id": "ent-8bd46a65",
+      "canonical_name": "ulm",
+      "entity_type": "LOCATION",
+      "modality": "text",
+      "doc_id": "einstein-real-001"
+    },
+    "ent-b04ee8b1": {
+      "id": "ent-b04ee8b1",
+      "canonical_name": "albert einstein",
+      "entity_type": "PERSON",
+      "modality": "text",
+      "doc_id": "einstein-real-001"
+    },
+    "ent-bf8fef8a": {
+      "id": "ent-bf8fef8a",
+      "canonical_name": "germany",
+      "entity_type": "LOCATION",
+      "modality": "text",
+      "doc_id": "einstein-real-001"
+    },
+    "ent-ab0162b8": {
+      "id": "ent-ab0162b8",
+      "canonical_name": "theory of relativity",
+      "entity_type": "CONCEPT",
+      "modality": "text",
+      "doc_id": "einstein-real-001"
+    },
+    "ent-51fda53c": {
+      "id": "ent-51fda53c",
+      "canonical_name": "los alamos laboratory",
+      "entity_type": "LOCATION",
+      "modality": "multimodal",
+      "doc_id": "feynman-001"
+    },
+    "ent-a2379488": {
+      "id": "ent-a2379488",
+      "canonical_name": "quantum electrodynamics",
+      "entity_type": "OTHER",
+      "modality": "text",
+      "doc_id": "feynman-001"
+    },
+    "ent-da0146f6": {
+      "id": "ent-da0146f6",
+      "canonical_name": "new york city",
+      "entity_type": "LOCATION",
+      "modality": "multimodal",
+      "doc_id": "feynman-001"
+    },
+    "ent-5bd92614": {
+      "id": "ent-5bd92614",
+      "canonical_name": "california institute of technology",
+      "entity_type": "ORGANIZATION",
+      "modality": "multimodal",
+      "doc_id": "feynman-001"
+    },
+    "ent-44c5997f": {
+      "id": "ent-44c5997f",
+      "canonical_name": "massachusetts institute of technology",
+      "entity_type": "ORGANIZATION",
+      "modality": "multimodal",
+      "doc_id": "feynman-001"
+    },
+    "ent-7f6afcda": {
+      "id": "ent-7f6afcda",
+      "canonical_name": "feynman diagrams",
+      "entity_type": "CONCEPT",
+      "modality": "multimodal",
+      "doc_id": "feynman-001"
+    },
+    "ent-d5d9c90f": {
+      "id": "ent-d5d9c90f",
+      "canonical_name": "richard feynman",
+      "entity_type": "PERSON",
+      "modality": "multimodal",
+      "doc_id": "feynman-001"
+    },
+    "ent-397cfb88": {
+      "id": "ent-397cfb88",
+      "canonical_name": "princeton university",
+      "entity_type": "ORGANIZATION",
+      "modality": "multimodal",
+      "doc_id": "feynman-001"
+    },
+    "ent-1e32939b": {
+      "id": "ent-1e32939b",
+      "canonical_name": "manhattan project",
+      "entity_type": "OTHER",
+      "modality": "multimodal",
+      "doc_id": "feynman-001"
+    },
+    "ent-eec0e6c7": {
+      "id": "ent-eec0e6c7",
+      "canonical_name": "nobel prize in physics",
+      "entity_type": "OTHER",
+      "modality": "multimodal",
+      "doc_id": "feynman-001"
+    },
+    "ent-825e65a4": {
+      "id": "ent-825e65a4",
+      "canonical_name": "Institute of Technology",
+      "entity_type": "ORGANIZATION",
+      "modality": "multimodal",
+      "doc_id": "feynman-001"
+    },
+    "ent-dbad46e4": {
+      "id": "ent-dbad46e4",
+      "canonical_name": "Stub Entity A",
+      "entity_type": "PERSON",
+      "modality": "text",
+      "doc_id": "fusion-test-001"
+    },
+    "ent-45f2fb72": {
+      "id": "ent-45f2fb72",
+      "canonical_name": "Stub Entity B",
+      "entity_type": "ORGANIZATION",
+      "modality": "text",
+      "doc_id": "fusion-test-001"
+    },
+    "ent-d37dda11": {
+      "id": "ent-d37dda11",
+      "canonical_name": "stub_visual_object",
+      "entity_type": "OBJECT",
+      "modality": "image",
+      "doc_id": "fusion-test-001"
+    },
+    "ent-b1ace9f9": {
+      "id": "ent-b1ace9f9",
+      "canonical_name": "Stub Entity A",
+      "entity_type": "PERSON",
+      "modality": "text",
+      "doc_id": "fusion-test-001"
+    },
+    "ent-ea9af0ff": {
+      "id": "ent-ea9af0ff",
+      "canonical_name": "Stub Entity B",
+      "entity_type": "ORGANIZATION",
+      "modality": "text",
+      "doc_id": "fusion-test-001"
+    },
+    "ent-116ef7a5": {
+      "id": "ent-116ef7a5",
+      "canonical_name": "stub_visual_object",
+      "entity_type": "OBJECT",
+      "modality": "image",
+      "doc_id": "fusion-test-001"
+    },
+    "ent-547c9de3": {
+      "id": "ent-547c9de3",
+      "canonical_name": "astronomical observations",
+      "entity_type": "EVENT",
+      "modality": "text",
+      "doc_id": "galileo-001"
+    },
+    "ent-54dbc952": {
+      "id": "ent-54dbc952",
+      "canonical_name": "galileo galilei",
+      "entity_type": "PERSON",
+      "modality": "multimodal",
+      "doc_id": "galileo-001"
+    },
+    "ent-00e88b10": {
+      "id": "ent-00e88b10",
+      "canonical_name": "university of pisa",
+      "entity_type": "ORGANIZATION",
+      "modality": "multimodal",
+      "doc_id": "galileo-001"
+    },
+    "ent-393f2cd2": {
+      "id": "ent-393f2cd2",
+      "canonical_name": "trial by roman inquisition",
+      "entity_type": "EVENT",
+      "modality": "multimodal",
+      "doc_id": "galileo-001"
+    },
+    "ent-46033dc8": {
+      "id": "ent-46033dc8",
+      "canonical_name": "telescope improvement",
+      "entity_type": "OTHER",
+      "modality": "text",
+      "doc_id": "galileo-001"
+    },
+    "ent-cd8211da": {
+      "id": "ent-cd8211da",
+      "canonical_name": "university of padua",
+      "entity_type": "ORGANIZATION",
+      "modality": "multimodal",
+      "doc_id": "galileo-001"
+    },
+    "ent-fa3dc5af": {
+      "id": "ent-fa3dc5af",
+      "canonical_name": "pisa",
+      "entity_type": "LOCATION",
+      "modality": "text",
+      "doc_id": "galileo-001"
+    },
+    "ent-5b63614e": {
+      "id": "ent-5b63614e",
+      "canonical_name": "italy",
+      "entity_type": "LOCATION",
+      "modality": "multimodal",
+      "doc_id": "galileo-001"
+    },
+    "ent-f2fd55d0": {
+      "id": "ent-f2fd55d0",
+      "canonical_name": "supporter of copernican heliocentric model",
+      "entity_type": "OTHER",
+      "modality": "text",
+      "doc_id": "galileo-001"
+    },
+    "ent-0ca1aa76": {
+      "id": "ent-0ca1aa76",
+      "canonical_name": "dialogue concerning the two chief world systems",
+      "entity_type": "OTHER",
+      "modality": "text",
+      "doc_id": "galileo-001"
+    },
+    "ent-13e9a5db": {
+      "id": "ent-13e9a5db",
+      "canonical_name": "Dialogue Concerning",
+      "entity_type": "PERSON",
+      "modality": "multimodal",
+      "doc_id": "galileo-001"
+    },
+    "ent-2810d139": {
+      "id": "ent-2810d139",
+      "canonical_name": "Two Chief World",
+      "entity_type": "PERSON",
+      "modality": "multimodal",
+      "doc_id": "galileo-001"
+    },
+    "ent-1148000d": {
+      "id": "ent-1148000d",
+      "canonical_name": "oxford",
+      "entity_type": "LOCATION",
+      "modality": "text",
+      "doc_id": "hawking-001"
+    },
+    "ent-15084457": {
+      "id": "ent-15084457",
+      "canonical_name": "stephen hawking",
+      "entity_type": "PERSON",
+      "modality": "multimodal",
+      "doc_id": "hawking-001"
+    },
+    "ent-510a5f1e": {
+      "id": "ent-510a5f1e",
+      "canonical_name": "hawking radiation",
+      "entity_type": "CONCEPT",
+      "modality": "multimodal",
+      "doc_id": "hawking-001"
+    },
+    "ent-7904f84c": {
+      "id": "ent-7904f84c",
+      "canonical_name": "lucasian professor of mathematics",
+      "entity_type": "OTHER",
+      "modality": "multimodal",
+      "doc_id": "hawking-001"
+    },
+    "ent-62660c89": {
+      "id": "ent-62660c89",
+      "canonical_name": "england",
+      "entity_type": "LOCATION",
+      "modality": "multimodal",
+      "doc_id": "hawking-001"
+    },
+    "ent-bf7659fc": {
+      "id": "ent-bf7659fc",
+      "canonical_name": "university college oxford",
+      "entity_type": "ORGANIZATION",
+      "modality": "multimodal",
+      "doc_id": "hawking-001"
+    },
+    "ent-ffcceb1e": {
+      "id": "ent-ffcceb1e",
+      "canonical_name": "black holes",
+      "entity_type": "CONCEPT",
+      "modality": "text",
+      "doc_id": "hawking-001"
+    },
+    "ent-1054516c": {
+      "id": "ent-1054516c",
+      "canonical_name": "cambridge university",
+      "entity_type": "ORGANIZATION",
+      "modality": "multimodal",
+      "doc_id": "hawking-001"
+    },
+    "ent-87edab65": {
+      "id": "ent-87edab65",
+      "canonical_name": "a brief history of time",
+      "entity_type": "OTHER",
+      "modality": "text",
+      "doc_id": "hawking-001"
+    },
+    "ent-7448b9d2": {
+      "id": "ent-7448b9d2",
+      "canonical_name": "singularity theorems",
+      "entity_type": "CONCEPT",
+      "modality": "text",
+      "doc_id": "hawking-001"
+    },
+    "ent-fa5cae18": {
+      "id": "ent-fa5cae18",
+      "canonical_name": "roger penrose",
+      "entity_type": "PERSON",
+      "modality": "multimodal",
+      "doc_id": "hawking-001"
+    },
+    "ent-aee0c3fa": {
+      "id": "ent-aee0c3fa",
+      "canonical_name": "Brief History",
+      "entity_type": "PERSON",
+      "modality": "multimodal",
+      "doc_id": "hawking-001"
+    },
+    "ent-e2964d64": {
+      "id": "ent-e2964d64",
+      "canonical_name": "universal gravitation",
+      "entity_type": "CONCEPT",
+      "modality": "text",
+      "doc_id": "isaac-newton-001"
+    },
+    "ent-d6ac6a13": {
+      "id": "ent-d6ac6a13",
+      "canonical_name": "royal society",
+      "entity_type": "ORGANIZATION",
+      "modality": "multimodal",
+      "doc_id": "isaac-newton-001"
+    },
+    "ent-49a37af1": {
+      "id": "ent-49a37af1",
+      "canonical_name": "trinity college",
+      "entity_type": "ORGANIZATION",
+      "modality": "multimodal",
+      "doc_id": "isaac-newton-001"
+    },
+    "ent-d7ce4341": {
+      "id": "ent-d7ce4341",
+      "canonical_name": "england",
+      "entity_type": "LOCATION",
+      "modality": "multimodal",
+      "doc_id": "isaac-newton-001"
+    },
+    "ent-cbb5745f": {
+      "id": "ent-cbb5745f",
+      "canonical_name": "isaac newton",
+      "entity_type": "PERSON",
+      "modality": "multimodal",
+      "doc_id": "isaac-newton-001"
+    },
+    "ent-5e1f1a0f": {
+      "id": "ent-5e1f1a0f",
+      "canonical_name": "laws of motion",
+      "entity_type": "CONCEPT",
+      "modality": "text",
+      "doc_id": "isaac-newton-001"
+    },
+    "ent-e2d10d83": {
+      "id": "ent-e2d10d83",
+      "canonical_name": "cambridge university",
+      "entity_type": "ORGANIZATION",
+      "modality": "multimodal",
+      "doc_id": "isaac-newton-001"
+    },
+    "ent-79ea4d66": {
+      "id": "ent-79ea4d66",
+      "canonical_name": "woolsthorpe",
+      "entity_type": "LOCATION",
+      "modality": "text",
+      "doc_id": "isaac-newton-001"
+    },
+    "ent-e477eb5b": {
+      "id": "ent-e477eb5b",
+      "canonical_name": "royal mint",
+      "entity_type": "ORGANIZATION",
+      "modality": "multimodal",
+      "doc_id": "isaac-newton-001"
+    },
+    "ent-2b935ac9": {
+      "id": "ent-2b935ac9",
+      "canonical_name": "principia mathematica",
+      "entity_type": "OTHER",
+      "modality": "multimodal",
+      "doc_id": "isaac-newton-001"
+    },
+    "ent-c634de03": {
+      "id": "ent-c634de03",
+      "canonical_name": "paris",
+      "entity_type": "LOCATION",
+      "modality": "multimodal",
+      "doc_id": "marie-curie-001"
+    },
+    "ent-e9efe722": {
+      "id": "ent-e9efe722",
+      "canonical_name": "radium",
+      "entity_type": "OTHER",
+      "modality": "text",
+      "doc_id": "marie-curie-001"
+    },
+    "ent-fab20317": {
+      "id": "ent-fab20317",
+      "canonical_name": "sorbonne university",
+      "entity_type": "ORGANIZATION",
+      "modality": "multimodal",
+      "doc_id": "marie-curie-001"
+    },
+    "ent-ce33ce2a": {
+      "id": "ent-ce33ce2a",
+      "canonical_name": "nobel prize in chemistry",
+      "entity_type": "OTHER",
+      "modality": "multimodal",
+      "doc_id": "marie-curie-001"
+    },
+    "ent-b98d3a2e": {
+      "id": "ent-b98d3a2e",
+      "canonical_name": "france",
+      "entity_type": "LOCATION",
+      "modality": "text",
+      "doc_id": "marie-curie-001"
+    },
+    "ent-e8df10f5": {
+      "id": "ent-e8df10f5",
+      "canonical_name": "warsaw",
+      "entity_type": "LOCATION",
+      "modality": "multimodal",
+      "doc_id": "marie-curie-001"
+    },
+    "ent-2e82f99b": {
+      "id": "ent-2e82f99b",
+      "canonical_name": "marie curie",
+      "entity_type": "PERSON",
+      "modality": "multimodal",
+      "doc_id": "marie-curie-001"
+    },
+    "ent-6ccfd6a1": {
+      "id": "ent-6ccfd6a1",
+      "canonical_name": "pierre curie",
+      "entity_type": "PERSON",
+      "modality": "multimodal",
+      "doc_id": "marie-curie-001"
+    },
+    "ent-c95efd17": {
+      "id": "ent-c95efd17",
+      "canonical_name": "polonium",
+      "entity_type": "OTHER",
+      "modality": "text",
+      "doc_id": "marie-curie-001"
+    },
+    "ent-d8a296e9": {
+      "id": "ent-d8a296e9",
+      "canonical_name": "poland",
+      "entity_type": "LOCATION",
+      "modality": "multimodal",
+      "doc_id": "marie-curie-001"
+    },
+    "ent-96a4efd9": {
+      "id": "ent-96a4efd9",
+      "canonical_name": "nobel prize in physics",
+      "entity_type": "OTHER",
+      "modality": "multimodal",
+      "doc_id": "marie-curie-001"
+    },
+    "ent-14846977": {
+      "id": "ent-14846977",
+      "canonical_name": "curie institute",
+      "entity_type": "ORGANIZATION",
+      "modality": "multimodal",
+      "doc_id": "marie-curie-001"
+    },
+    "ent-dd12001a": {
+      "id": "ent-dd12001a",
+      "canonical_name": "Nobel Prizes",
+      "entity_type": "PERSON",
+      "modality": "multimodal",
+      "doc_id": "marie-curie-001"
+    },
+    "ent-ba52933a": {
+      "id": "ent-ba52933a",
+      "canonical_name": "paris",
+      "entity_type": "LOCATION",
+      "modality": "multimodal",
+      "doc_id": "nikola-tesla-001"
+    },
+    "ent-6d41e1c1": {
+      "id": "ent-6d41e1c1",
+      "canonical_name": "thomas edison",
+      "entity_type": "PERSON",
+      "modality": "multimodal",
+      "doc_id": "nikola-tesla-001"
+    },
+    "ent-fff9180e": {
+      "id": "ent-fff9180e",
+      "canonical_name": "france",
+      "entity_type": "LOCATION",
+      "modality": "text",
+      "doc_id": "nikola-tesla-001"
+    },
+    "ent-3e68104e": {
+      "id": "ent-3e68104e",
+      "canonical_name": "united states",
+      "entity_type": "LOCATION",
+      "modality": "multimodal",
+      "doc_id": "nikola-tesla-001"
+    },
+    "ent-97b13fa6": {
+      "id": "ent-97b13fa6",
+      "canonical_name": "war of currents",
+      "entity_type": "EVENT",
+      "modality": "text",
+      "doc_id": "nikola-tesla-001"
+    },
+    "ent-4ca53e14": {
+      "id": "ent-4ca53e14",
+      "canonical_name": "new york city",
+      "entity_type": "LOCATION",
+      "modality": "multimodal",
+      "doc_id": "nikola-tesla-001"
+    },
+    "ent-bc056036": {
+      "id": "ent-bc056036",
+      "canonical_name": "austria",
+      "entity_type": "LOCATION",
+      "modality": "text",
+      "doc_id": "nikola-tesla-001"
+    },
+    "ent-e6880cba": {
+      "id": "ent-e6880cba",
+      "canonical_name": "continental edison company",
+      "entity_type": "ORGANIZATION",
+      "modality": "multimodal",
+      "doc_id": "nikola-tesla-001"
+    },
+    "ent-7cb3a2ef": {
+      "id": "ent-7cb3a2ef",
+      "canonical_name": "nikola tesla",
+      "entity_type": "PERSON",
+      "modality": "multimodal",
+      "doc_id": "nikola-tesla-001"
+    },
+    "ent-386fcc48": {
+      "id": "ent-386fcc48",
+      "canonical_name": "smiljan",
+      "entity_type": "LOCATION",
+      "modality": "text",
+      "doc_id": "nikola-tesla-001"
+    },
+    "ent-4dcca5e6": {
+      "id": "ent-4dcca5e6",
+      "canonical_name": "technical university of graz",
+      "entity_type": "ORGANIZATION",
+      "modality": "multimodal",
+      "doc_id": "nikola-tesla-001"
+    },
+    "ent-72c21b84": {
+      "id": "ent-72c21b84",
+      "canonical_name": "Technical University",
+      "entity_type": "ORGANIZATION",
+      "modality": "multimodal",
+      "doc_id": "nikola-tesla-001"
+    },
+    "ent-7f7b3552": {
+      "id": "ent-7f7b3552",
+      "canonical_name": "Smiljan, Austria",
+      "entity_type": "LOCATION",
+      "modality": "multimodal",
+      "doc_id": "nikola-tesla-001"
+    },
+    "ent-b4bf8f43": {
+      "id": "ent-b4bf8f43",
+      "canonical_name": "london",
+      "entity_type": "LOCATION",
+      "modality": "text",
+      "doc_id": "rosalind-franklin-001"
+    },
+    "ent-0e2f59cb": {
+      "id": "ent-0e2f59cb",
+      "canonical_name": "x ray crystallography",
+      "entity_type": "OTHER",
+      "modality": "text",
+      "doc_id": "rosalind-franklin-001"
+    },
+    "ent-a4118b09": {
+      "id": "ent-a4118b09",
+      "canonical_name": "king's college london",
+      "entity_type": "ORGANIZATION",
+      "modality": "multimodal",
+      "doc_id": "rosalind-franklin-001"
+    },
+    "ent-09d54857": {
+      "id": "ent-09d54857",
+      "canonical_name": "rosalind franklin",
+      "entity_type": "PERSON",
+      "modality": "multimodal",
+      "doc_id": "rosalind-franklin-001"
+    },
+    "ent-6d0bacf5": {
+      "id": "ent-6d0bacf5",
+      "canonical_name": "cambridge university",
+      "entity_type": "ORGANIZATION",
+      "modality": "multimodal",
+      "doc_id": "rosalind-franklin-001"
+    },
+    "ent-88b318fe": {
+      "id": "ent-88b318fe",
+      "canonical_name": "understanding of dna structure",
+      "entity_type": "EVENT",
+      "modality": "text",
+      "doc_id": "rosalind-franklin-001"
+    },
+    "ent-7816530c": {
+      "id": "ent-7816530c",
+      "canonical_name": "james watson",
+      "entity_type": "PERSON",
+      "modality": "multimodal",
+      "doc_id": "rosalind-franklin-001"
+    },
+    "ent-55a37b53": {
+      "id": "ent-55a37b53",
+      "canonical_name": "birkbeck college",
+      "entity_type": "ORGANIZATION",
+      "modality": "multimodal",
+      "doc_id": "rosalind-franklin-001"
+    },
+    "ent-d4b8fc5e": {
+      "id": "ent-d4b8fc5e",
+      "canonical_name": "francis crick",
+      "entity_type": "PERSON",
+      "modality": "multimodal",
+      "doc_id": "rosalind-franklin-001"
+    },
+    "ent-b1347842": {
+      "id": "ent-b1347842",
+      "canonical_name": "England",
+      "entity_type": "LOCATION",
+      "modality": "multimodal",
+      "doc_id": "rosalind-franklin-001"
+    },
+    "ent-83979767": {
+      "id": "ent-83979767",
+      "canonical_name": "germany",
+      "entity_type": "LOCATION",
+      "modality": "text",
+      "doc_id": "sample"
+    },
+    "ent-8a2e8eab": {
+      "id": "ent-8a2e8eab",
+      "canonical_name": "theory of relativity",
+      "entity_type": "CONCEPT",
+      "modality": "text",
+      "doc_id": "sample"
+    },
+    "ent-8112d5df": {
+      "id": "ent-8112d5df",
+      "canonical_name": "albert einstein",
+      "entity_type": "PERSON",
+      "modality": "multimodal",
+      "doc_id": "sample"
+    },
+    "ent-8bdaf71f": {
+      "id": "ent-8bdaf71f",
+      "canonical_name": "ulm",
+      "entity_type": "LOCATION",
+      "modality": "text",
+      "doc_id": "sample"
+    },
+    "ent-2bd23fde": {
+      "id": "ent-2bd23fde",
+      "canonical_name": "princeton university",
+      "entity_type": "ORGANIZATION",
+      "modality": "multimodal",
+      "doc_id": "sample"
+    },
+    "ent-c59c2164": {
+      "id": "ent-c59c2164",
+      "canonical_name": "nobel prize in physics",
+      "entity_type": "EVENT",
+      "modality": "multimodal",
+      "doc_id": "sample"
+    },
+    "ent-290a7419": {
+      "id": "ent-290a7419",
+      "canonical_name": "Ulm, Germany",
+      "entity_type": "LOCATION",
+      "modality": "multimodal",
+      "doc_id": "sample"
+    }
+  }
+}

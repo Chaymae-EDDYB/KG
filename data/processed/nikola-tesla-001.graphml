@@ -1,0 +1,153 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d8" for="edge" attr.name="source_system" attr.type="string" />
+  <key id="d7" for="edge" attr.name="confidence" attr.type="double" />
+  <key id="d6" for="edge" attr.name="predicate" attr.type="string" />
+  <key id="d5" for="edge" attr.name="key" attr.type="string" />
+  <key id="d4" for="node" attr.name="source_system" attr.type="string" />
+  <key id="d3" for="node" attr.name="modality" attr.type="string" />
+  <key id="d2" for="node" attr.name="entity_type" attr.type="string" />
+  <key id="d1" for="node" attr.name="canonical_name" attr.type="string" />
+  <key id="d0" for="graph" attr.name="doc_id" attr.type="string" />
+  <graph edgedefault="directed">
+    <node id="ent-ba52933a">
+      <data key="d1">paris</data>
+      <data key="d2">LOCATION</data>
+      <data key="d3">multimodal</data>
+      <data key="d4">itext2kg</data>
+    </node>
+    <node id="ent-6d41e1c1">
+      <data key="d1">thomas edison</data>
+      <data key="d2">PERSON</data>
+      <data key="d3">multimodal</data>
+      <data key="d4">itext2kg</data>
+    </node>
+    <node id="ent-fff9180e">
+      <data key="d1">france</data>
+      <data key="d2">LOCATION</data>
+      <data key="d3">text</data>
+      <data key="d4">itext2kg</data>
+    </node>
+    <node id="ent-3e68104e">
+      <data key="d1">united states</data>
+      <data key="d2">LOCATION</data>
+      <data key="d3">multimodal</data>
+      <data key="d4">itext2kg</data>
+    </node>
+    <node id="ent-97b13fa6">
+      <data key="d1">war of currents</data>
+      <data key="d2">EVENT</data>
+      <data key="d3">text</data>
+      <data key="d4">itext2kg</data>
+    </node>
+    <node id="ent-4ca53e14">
+      <data key="d1">new york city</data>
+      <data key="d2">LOCATION</data>
+      <data key="d3">multimodal</data>
+      <data key="d4">itext2kg</data>
+    </node>
+    <node id="ent-bc056036">
+      <data key="d1">austria</data>
+      <data key="d2">LOCATION</data>
+      <data key="d3">text</data>
+      <data key="d4">itext2kg</data>
+    </node>
+    <node id="ent-e6880cba">
+      <data key="d1">continental edison company</data>
+      <data key="d2">ORGANIZATION</data>
+      <data key="d3">multimodal</data>
+      <data key="d4">itext2kg</data>
+    </node>
+    <node id="ent-7cb3a2ef">
+      <data key="d1">nikola tesla</data>
+      <data key="d2">PERSON</data>
+      <data key="d3">multimodal</data>
+      <data key="d4">itext2kg</data>
+    </node>
+    <node id="ent-386fcc48">
+      <data key="d1">smiljan</data>
+      <data key="d2">LOCATION</data>
+      <data key="d3">text</data>
+      <data key="d4">itext2kg</data>
+    </node>
+    <node id="ent-4dcca5e6">
+      <data key="d1">technical university of graz</data>
+      <data key="d2">ORGANIZATION</data>
+      <data key="d3">multimodal</data>
+      <data key="d4">itext2kg</data>
+    </node>
+    <node id="ent-72c21b84">
+      <data key="d1">Technical University</data>
+      <data key="d2">ORGANIZATION</data>
+      <data key="d3">multimodal</data>
+      <data key="d4">mkgformer</data>
+    </node>
+    <node id="ent-7f7b3552">
+      <data key="d1">Smiljan, Austria</data>
+      <data key="d2">LOCATION</data>
+      <data key="d3">multimodal</data>
+      <data key="d4">mkgformer</data>
+    </node>
+    <edge source="ent-7cb3a2ef" target="ent-e6880cba">
+      <data key="d5">rel-4795f72b</data>
+      <data key="d6">worked_for</data>
+      <data key="d7">1.0</data>
+      <data key="d8">itext2kg</data>
+    </edge>
+    <edge source="ent-7cb3a2ef" target="ent-fff9180e">
+      <data key="d5">rel-5f3216b0</data>
+      <data key="d6">worked_in</data>
+      <data key="d7">1.0</data>
+      <data key="d8">itext2kg</data>
+    </edge>
+    <edge source="ent-7cb3a2ef" target="ent-4dcca5e6">
+      <data key="d5">rel-607a0c14</data>
+      <data key="d6">studied_at</data>
+      <data key="d7">1.0</data>
+      <data key="d8">itext2kg</data>
+    </edge>
+    <edge source="ent-7cb3a2ef" target="ent-bc056036">
+      <data key="d5">rel-b7798e23</data>
+      <data key="d6">born_in</data>
+      <data key="d7">1.0</data>
+      <data key="d8">itext2kg</data>
+    </edge>
+    <edge source="ent-7cb3a2ef" target="ent-4ca53e14">
+      <data key="d5">rel-f6d64e3b</data>
+      <data key="d6">worked_in</data>
+      <data key="d7">1.0</data>
+      <data key="d8">itext2kg</data>
+    </edge>
+    <edge source="ent-7cb3a2ef" target="ent-6d41e1c1">
+      <data key="d5">rel-8cdc6186</data>
+      <data key="d6">rival_of</data>
+      <data key="d7">1.0</data>
+      <data key="d8">itext2kg</data>
+    </edge>
+    <edge source="ent-7cb3a2ef" target="ent-97b13fa6">
+      <data key="d5">rel-918ef39c</data>
+      <data key="d6">involved_in</data>
+      <data key="d7">1.0</data>
+      <data key="d8">itext2kg</data>
+    </edge>
+    <edge source="ent-7cb3a2ef" target="ent-3e68104e">
+      <data key="d5">rel-d46d93c3</data>
+      <data key="d6">moved_to</data>
+      <data key="d7">1.0</data>
+      <data key="d8">itext2kg</data>
+    </edge>
+    <edge source="ent-7cb3a2ef" target="ent-ba52933a">
+      <data key="d5">rel-283ddcfc</data>
+      <data key="d6">worked_in</data>
+      <data key="d7">1.0</data>
+      <data key="d8">itext2kg</data>
+    </edge>
+    <edge source="ent-7cb3a2ef" target="ent-386fcc48">
+      <data key="d5">rel-1fd60dbe</data>
+      <data key="d6">born_in</data>
+      <data key="d7">1.0</data>
+      <data key="d8">itext2kg</data>
+    </edge>
+    <data key="d0">nikola-tesla-001</data>
+  </graph>
+</graphml>

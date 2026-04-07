@@ -1,0 +1,231 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d8" for="edge" attr.name="source_system" attr.type="string" />
+  <key id="d7" for="edge" attr.name="confidence" attr.type="double" />
+  <key id="d6" for="edge" attr.name="predicate" attr.type="string" />
+  <key id="d5" for="edge" attr.name="key" attr.type="string" />
+  <key id="d4" for="node" attr.name="source_system" attr.type="string" />
+  <key id="d3" for="node" attr.name="modality" attr.type="string" />
+  <key id="d2" for="node" attr.name="entity_type" attr.type="string" />
+  <key id="d1" for="node" attr.name="canonical_name" attr.type="string" />
+  <key id="d0" for="graph" attr.name="doc_id" attr.type="string" />
+  <graph edgedefault="directed">
+    <node id="ent-dbb7d9ee">
+      <data key="d1">university of manchester</data>
+      <data key="d2">ORGANIZATION</data>
+      <data key="d3">multimodal</data>
+      <data key="d4">itext2kg</data>
+    </node>
+    <node id="ent-f69f81b4">
+      <data key="d1">london</data>
+      <data key="d2">LOCATION</data>
+      <data key="d3">text</data>
+      <data key="d4">itext2kg</data>
+    </node>
+    <node id="ent-f4810be4">
+      <data key="d1">government code and cypher school</data>
+      <data key="d2">ORGANIZATION</data>
+      <data key="d3">text</data>
+      <data key="d4">itext2kg</data>
+    </node>
+    <node id="ent-826dba2b">
+      <data key="d1">national physical laboratory</data>
+      <data key="d2">ORGANIZATION</data>
+      <data key="d3">multimodal</data>
+      <data key="d4">itext2kg</data>
+    </node>
+    <node id="ent-577da929">
+      <data key="d1">world war ii</data>
+      <data key="d2">EVENT</data>
+      <data key="d3">multimodal</data>
+      <data key="d4">itext2kg</data>
+    </node>
+    <node id="ent-927e5288">
+      <data key="d1">turing machine</data>
+      <data key="d2">CONCEPT</data>
+      <data key="d3">multimodal</data>
+      <data key="d4">itext2kg</data>
+    </node>
+    <node id="ent-bf23a121">
+      <data key="d1">england</data>
+      <data key="d2">LOCATION</data>
+      <data key="d3">multimodal</data>
+      <data key="d4">itext2kg</data>
+    </node>
+    <node id="ent-52969ae7">
+      <data key="d1">artificial intelligence</data>
+      <data key="d2">OTHER</data>
+      <data key="d3">text</data>
+      <data key="d4">itext2kg</data>
+    </node>
+    <node id="ent-c88a0aaf">
+      <data key="d1">bletchley park</data>
+      <data key="d2">LOCATION</data>
+      <data key="d3">multimodal</data>
+      <data key="d4">itext2kg</data>
+    </node>
+    <node id="ent-2beae20d">
+      <data key="d1">cambridge university</data>
+      <data key="d2">ORGANIZATION</data>
+      <data key="d3">multimodal</data>
+      <data key="d4">itext2kg</data>
+    </node>
+    <node id="ent-f46dae89">
+      <data key="d1">alan turing</data>
+      <data key="d2">PERSON</data>
+      <data key="d3">multimodal</data>
+      <data key="d4">itext2kg</data>
+    </node>
+    <node id="ent-01cceba5">
+      <data key="d1">turing test</data>
+      <data key="d2">CONCEPT</data>
+      <data key="d3">multimodal</data>
+      <data key="d4">itext2kg</data>
+    </node>
+    <node id="ent-c7e1b4cb">
+      <data key="d1">Government Code</data>
+      <data key="d2">PERSON</data>
+      <data key="d3">multimodal</data>
+      <data key="d4">mkgformer</data>
+    </node>
+    <node id="ent-b6e15d2d">
+      <data key="d1">Cypher School</data>
+      <data key="d2">PERSON</data>
+      <data key="d3">multimodal</data>
+      <data key="d4">mkgformer</data>
+    </node>
+    <edge source="ent-f69f81b4" target="ent-bf23a121">
+      <data key="d5">rel-36b1536d</data>
+      <data key="d6">located_in</data>
+      <data key="d7">1.0</data>
+      <data key="d8">itext2kg</data>
+    </edge>
+    <edge source="ent-577da929" target="ent-f46dae89">
+      <data key="d5">rel-e8a5ccf2</data>
+      <data key="d6">participated_in</data>
+      <data key="d7">1.0</data>
+      <data key="d8">itext2kg</data>
+    </edge>
+    <edge source="ent-927e5288" target="ent-c88a0aaf">
+      <data key="d5">rel-9a785577</data>
+      <data key="d6">worked_at</data>
+      <data key="d7">1.0</data>
+      <data key="d8">itext2kg</data>
+    </edge>
+    <edge source="ent-927e5288" target="ent-01cceba5">
+      <data key="d5">rel-5a042999</data>
+      <data key="d6">developed</data>
+      <data key="d7">1.0</data>
+      <data key="d8">itext2kg</data>
+    </edge>
+    <edge source="ent-927e5288" target="ent-826dba2b">
+      <data key="d5">rel-9f69d9c4</data>
+      <data key="d6">worked_at</data>
+      <data key="d7">1.0</data>
+      <data key="d8">itext2kg</data>
+    </edge>
+    <edge source="ent-927e5288" target="ent-dbb7d9ee">
+      <data key="d5">rel-1bf62585</data>
+      <data key="d6">worked_at</data>
+      <data key="d7">1.0</data>
+      <data key="d8">itext2kg</data>
+    </edge>
+    <edge source="ent-927e5288" target="ent-f4810be4">
+      <data key="d5">rel-cdbbe4e9</data>
+      <data key="d6">worked_at</data>
+      <data key="d7">1.0</data>
+      <data key="d8">itext2kg</data>
+    </edge>
+    <edge source="ent-927e5288" target="ent-2beae20d">
+      <data key="d5">rel-cd888159</data>
+      <data key="d6">studied_at</data>
+      <data key="d7">1.0</data>
+      <data key="d8">itext2kg</data>
+    </edge>
+    <edge source="ent-927e5288" target="ent-52969ae7">
+      <data key="d5">rel-f61ba338</data>
+      <data key="d6">contributed_to</data>
+      <data key="d7">1.0</data>
+      <data key="d8">itext2kg</data>
+    </edge>
+    <edge source="ent-927e5288" target="ent-f69f81b4">
+      <data key="d5">rel-949f3b68</data>
+      <data key="d6">born_in</data>
+      <data key="d7">1.0</data>
+      <data key="d8">itext2kg</data>
+    </edge>
+    <edge source="ent-927e5288" target="ent-927e5288">
+      <data key="d5">rel-ee80fd1e</data>
+      <data key="d6">developed</data>
+      <data key="d7">1.0</data>
+      <data key="d8">itext2kg</data>
+    </edge>
+    <edge source="ent-f46dae89" target="ent-826dba2b">
+      <data key="d5">rel-f09e8ea7</data>
+      <data key="d6">worked_at</data>
+      <data key="d7">1.0</data>
+      <data key="d8">itext2kg</data>
+    </edge>
+    <edge source="ent-f46dae89" target="ent-dbb7d9ee">
+      <data key="d5">rel-d36033be</data>
+      <data key="d6">worked_at</data>
+      <data key="d7">1.0</data>
+      <data key="d8">itext2kg</data>
+    </edge>
+    <edge source="ent-f46dae89" target="ent-f4810be4">
+      <data key="d5">rel-3339c7da</data>
+      <data key="d6">worked_at</data>
+      <data key="d7">1.0</data>
+      <data key="d8">itext2kg</data>
+    </edge>
+    <edge source="ent-f46dae89" target="ent-577da929">
+      <data key="d5">rel-48ff5b61</data>
+      <data key="d6">participated_in</data>
+      <data key="d7">1.0</data>
+      <data key="d8">itext2kg</data>
+    </edge>
+    <edge source="ent-f46dae89" target="ent-f69f81b4">
+      <data key="d5">rel-14c81d56</data>
+      <data key="d6">born_in</data>
+      <data key="d7">1.0</data>
+      <data key="d8">itext2kg</data>
+    </edge>
+    <edge source="ent-f46dae89" target="ent-52969ae7">
+      <data key="d5">rel-e285a440</data>
+      <data key="d6">developed</data>
+      <data key="d7">1.0</data>
+      <data key="d8">itext2kg</data>
+    </edge>
+    <edge source="ent-f46dae89" target="ent-bf23a121">
+      <data key="d5">rel-3ec1dcbd</data>
+      <data key="d6">born_in</data>
+      <data key="d7">1.0</data>
+      <data key="d8">itext2kg</data>
+    </edge>
+    <edge source="ent-f46dae89" target="ent-927e5288">
+      <data key="d5">rel-ab876856</data>
+      <data key="d6">developed</data>
+      <data key="d7">1.0</data>
+      <data key="d8">itext2kg</data>
+    </edge>
+    <edge source="ent-f46dae89" target="ent-c88a0aaf">
+      <data key="d5">rel-51ceab6d</data>
+      <data key="d6">worked_at</data>
+      <data key="d7">1.0</data>
+      <data key="d8">itext2kg</data>
+    </edge>
+    <edge source="ent-f46dae89" target="ent-01cceba5">
+      <data key="d5">rel-0e4bb913</data>
+      <data key="d6">developed</data>
+      <data key="d7">1.0</data>
+      <data key="d8">itext2kg</data>
+    </edge>
+    <edge source="ent-f46dae89" target="ent-2beae20d">
+      <data key="d5">rel-24269a71</data>
+      <data key="d6">studied_at</data>
+      <data key="d7">1.0</data>
+      <data key="d8">itext2kg</data>
+    </edge>
+    <data key="d0">alan-turing-001</data>
+  </graph>
+</graphml>

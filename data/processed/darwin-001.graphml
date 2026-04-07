@@ -1,0 +1,147 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d8" for="edge" attr.name="source_system" attr.type="string" />
+  <key id="d7" for="edge" attr.name="confidence" attr.type="double" />
+  <key id="d6" for="edge" attr.name="predicate" attr.type="string" />
+  <key id="d5" for="edge" attr.name="key" attr.type="string" />
+  <key id="d4" for="node" attr.name="source_system" attr.type="string" />
+  <key id="d3" for="node" attr.name="modality" attr.type="string" />
+  <key id="d2" for="node" attr.name="entity_type" attr.type="string" />
+  <key id="d1" for="node" attr.name="canonical_name" attr.type="string" />
+  <key id="d0" for="graph" attr.name="doc_id" attr.type="string" />
+  <graph edgedefault="directed">
+    <node id="ent-89f98c03">
+      <data key="d1">voyage aboard hms beagle</data>
+      <data key="d2">EVENT</data>
+      <data key="d3">text</data>
+      <data key="d4">itext2kg</data>
+    </node>
+    <node id="ent-3bc5e2fe">
+      <data key="d1">on the origin of species</data>
+      <data key="d2">OTHER</data>
+      <data key="d3">text</data>
+      <data key="d4">itext2kg</data>
+    </node>
+    <node id="ent-11152c95">
+      <data key="d1">england</data>
+      <data key="d2">LOCATION</data>
+      <data key="d3">multimodal</data>
+      <data key="d4">itext2kg</data>
+    </node>
+    <node id="ent-5eb8f322">
+      <data key="d1">theory of evolution by natural selection</data>
+      <data key="d2">CONCEPT</data>
+      <data key="d3">text</data>
+      <data key="d4">itext2kg</data>
+    </node>
+    <node id="ent-115d6b61">
+      <data key="d1">shrewsbury</data>
+      <data key="d2">LOCATION</data>
+      <data key="d3">text</data>
+      <data key="d4">itext2kg</data>
+    </node>
+    <node id="ent-5c6f2519">
+      <data key="d1">kent</data>
+      <data key="d2">LOCATION</data>
+      <data key="d3">text</data>
+      <data key="d4">itext2kg</data>
+    </node>
+    <node id="ent-952f6c4b">
+      <data key="d1">cambridge university</data>
+      <data key="d2">ORGANIZATION</data>
+      <data key="d3">multimodal</data>
+      <data key="d4">itext2kg</data>
+    </node>
+    <node id="ent-d50dd4d7">
+      <data key="d1">edinburgh university</data>
+      <data key="d2">ORGANIZATION</data>
+      <data key="d3">multimodal</data>
+      <data key="d4">itext2kg</data>
+    </node>
+    <node id="ent-566a99f1">
+      <data key="d1">charles darwin</data>
+      <data key="d2">PERSON</data>
+      <data key="d3">multimodal</data>
+      <data key="d4">itext2kg</data>
+    </node>
+    <node id="ent-61fca67d">
+      <data key="d1">galapagos islands</data>
+      <data key="d2">LOCATION</data>
+      <data key="d3">multimodal</data>
+      <data key="d4">itext2kg</data>
+    </node>
+    <node id="ent-f544e2fa">
+      <data key="d1">down house</data>
+      <data key="d2">LOCATION</data>
+      <data key="d3">multimodal</data>
+      <data key="d4">itext2kg</data>
+    </node>
+    <edge source="ent-89f98c03" target="ent-61fca67d">
+      <data key="d5">rel-ccc20ecf</data>
+      <data key="d6">visited</data>
+      <data key="d7">1.0</data>
+      <data key="d8">itext2kg</data>
+    </edge>
+    <edge source="ent-115d6b61" target="ent-11152c95">
+      <data key="d5">rel-90fe5e07</data>
+      <data key="d6">located_in</data>
+      <data key="d7">1.0</data>
+      <data key="d8">itext2kg</data>
+    </edge>
+    <edge source="ent-5c6f2519" target="ent-11152c95">
+      <data key="d5">rel-f45ddc9b</data>
+      <data key="d6">located_in</data>
+      <data key="d7">1.0</data>
+      <data key="d8">itext2kg</data>
+    </edge>
+    <edge source="ent-566a99f1" target="ent-d50dd4d7">
+      <data key="d5">rel-7f45d2b6</data>
+      <data key="d6">studied_at</data>
+      <data key="d7">1.0</data>
+      <data key="d8">itext2kg</data>
+    </edge>
+    <edge source="ent-566a99f1" target="ent-115d6b61">
+      <data key="d5">rel-63c8e6f3</data>
+      <data key="d6">born_in</data>
+      <data key="d7">1.0</data>
+      <data key="d8">itext2kg</data>
+    </edge>
+    <edge source="ent-566a99f1" target="ent-952f6c4b">
+      <data key="d5">rel-e044e6a5</data>
+      <data key="d6">studied_at</data>
+      <data key="d7">1.0</data>
+      <data key="d8">itext2kg</data>
+    </edge>
+    <edge source="ent-566a99f1" target="ent-f544e2fa">
+      <data key="d5">rel-78db3978</data>
+      <data key="d6">lived_at</data>
+      <data key="d7">1.0</data>
+      <data key="d8">itext2kg</data>
+    </edge>
+    <edge source="ent-566a99f1" target="ent-3bc5e2fe">
+      <data key="d5">rel-9498edd7</data>
+      <data key="d6">published</data>
+      <data key="d7">1.0</data>
+      <data key="d8">itext2kg</data>
+    </edge>
+    <edge source="ent-566a99f1" target="ent-89f98c03">
+      <data key="d5">rel-0c8eb5df</data>
+      <data key="d6">embarked_on</data>
+      <data key="d7">1.0</data>
+      <data key="d8">itext2kg</data>
+    </edge>
+    <edge source="ent-566a99f1" target="ent-5eb8f322">
+      <data key="d5">rel-61c6c08c</data>
+      <data key="d6">developed</data>
+      <data key="d7">1.0</data>
+      <data key="d8">itext2kg</data>
+    </edge>
+    <edge source="ent-f544e2fa" target="ent-5c6f2519">
+      <data key="d5">rel-2ff53576</data>
+      <data key="d6">located_in</data>
+      <data key="d7">1.0</data>
+      <data key="d8">itext2kg</data>
+    </edge>
+    <data key="d0">darwin-001</data>
+  </graph>
+</graphml>

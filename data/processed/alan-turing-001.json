@@ -1,0 +1,868 @@
+{
+  "doc_id": "alan-turing-001",
+  "entities": [
+    {
+      "id": "ent-dbb7d9ee",
+      "canonical_name": "university of manchester",
+      "entity_type": "ORGANIZATION",
+      "modality": "multimodal",
+      "aliases": [
+        "University of Manchester"
+      ],
+      "evidence_ids": [
+        "ev-4c04d74e",
+        "ev-f3508301"
+      ],
+      "source_system": "itext2kg",
+      "embedding": null,
+      "metadata": {}
+    },
+    {
+      "id": "ent-f69f81b4",
+      "canonical_name": "london",
+      "entity_type": "LOCATION",
+      "modality": "text",
+      "aliases": [],
+      "evidence_ids": [
+        "ev-38e0ff2d"
+      ],
+      "source_system": "itext2kg",
+      "embedding": null,
+      "metadata": {}
+    },
+    {
+      "id": "ent-f4810be4",
+      "canonical_name": "government code and cypher school",
+      "entity_type": "ORGANIZATION",
+      "modality": "text",
+      "aliases": [],
+      "evidence_ids": [
+        "ev-8b65e6f9"
+      ],
+      "source_system": "itext2kg",
+      "embedding": null,
+      "metadata": {}
+    },
+    {
+      "id": "ent-826dba2b",
+      "canonical_name": "national physical laboratory",
+      "entity_type": "ORGANIZATION",
+      "modality": "multimodal",
+      "aliases": [
+        "National Physical Laboratory"
+      ],
+      "evidence_ids": [
+        "ev-8b8aa16f",
+        "ev-6cb22213"
+      ],
+      "source_system": "itext2kg",
+      "embedding": null,
+      "metadata": {}
+    },
+    {
+      "id": "ent-577da929",
+      "canonical_name": "world war ii",
+      "entity_type": "EVENT",
+      "modality": "multimodal",
+      "aliases": [
+        "World War"
+      ],
+      "evidence_ids": [
+        "ev-b9676f38",
+        "ev-d570e8a7"
+      ],
+      "source_system": "itext2kg",
+      "embedding": null,
+      "metadata": {}
+    },
+    {
+      "id": "ent-927e5288",
+      "canonical_name": "turing machine",
+      "entity_type": "CONCEPT",
+      "modality": "multimodal",
+      "aliases": [
+        "Turing Machine"
+      ],
+      "evidence_ids": [
+        "ev-62b9a230",
+        "ev-9d102e03"
+      ],
+      "source_system": "itext2kg",
+      "embedding": null,
+      "metadata": {}
+    },
+    {
+      "id": "ent-bf23a121",
+      "canonical_name": "england",
+      "entity_type": "LOCATION",
+      "modality": "multimodal",
+      "aliases": [
+        "England"
+      ],
+      "evidence_ids": [
+        "ev-e42977d2",
+        "ev-199bcef6"
+      ],
+      "source_system": "itext2kg",
+      "embedding": null,
+      "metadata": {}
+    },
+    {
+      "id": "ent-52969ae7",
+      "canonical_name": "artificial intelligence",
+      "entity_type": "OTHER",
+      "modality": "text",
+      "aliases": [],
+      "evidence_ids": [
+        "ev-223b978d"
+      ],
+      "source_system": "itext2kg",
+      "embedding": null,
+      "metadata": {}
+    },
+    {
+      "id": "ent-c88a0aaf",
+      "canonical_name": "bletchley park",
+      "entity_type": "LOCATION",
+      "modality": "multimodal",
+      "aliases": [
+        "Bletchley Park"
+      ],
+      "evidence_ids": [
+        "ev-16161f41",
+        "ev-074c47c4"
+      ],
+      "source_system": "itext2kg",
+      "embedding": null,
+      "metadata": {}
+    },
+    {
+      "id": "ent-2beae20d",
+      "canonical_name": "cambridge university",
+      "entity_type": "ORGANIZATION",
+      "modality": "multimodal",
+      "aliases": [
+        "Cambridge University"
+      ],
+      "evidence_ids": [
+        "ev-318223d6",
+        "ev-538e5c9e"
+      ],
+      "source_system": "itext2kg",
+      "embedding": null,
+      "metadata": {}
+    },
+    {
+      "id": "ent-f46dae89",
+      "canonical_name": "alan turing",
+      "entity_type": "PERSON",
+      "modality": "multimodal",
+      "aliases": [
+        "Alan Turing"
+      ],
+      "evidence_ids": [
+        "ev-18ec61d5",
+        "ev-593bea86"
+      ],
+      "source_system": "itext2kg",
+      "embedding": null,
+      "metadata": {}
+    },
+    {
+      "id": "ent-01cceba5",
+      "canonical_name": "turing test",
+      "entity_type": "CONCEPT",
+      "modality": "multimodal",
+      "aliases": [
+        "Turing Test"
+      ],
+      "evidence_ids": [
+        "ev-c4f5d399",
+        "ev-f5538752"
+      ],
+      "source_system": "itext2kg",
+      "embedding": null,
+      "metadata": {}
+    },
+    {
+      "id": "ent-c7e1b4cb",
+      "canonical_name": "Government Code",
+      "entity_type": "PERSON",
+      "modality": "multimodal",
+      "aliases": [],
+      "evidence_ids": [
+        "ev-17c84c50"
+      ],
+      "source_system": "mkgformer",
+      "embedding": null,
+      "metadata": {}
+    },
+    {
+      "id": "ent-b6e15d2d",
+      "canonical_name": "Cypher School",
+      "entity_type": "PERSON",
+      "modality": "multimodal",
+      "aliases": [],
+      "evidence_ids": [
+        "ev-84ab9d02"
+      ],
+      "source_system": "mkgformer",
+      "embedding": null,
+      "metadata": {}
+    }
+  ],
+  "relations": [
+    {
+      "id": "rel-f09e8ea7",
+      "subject_id": "ent-f46dae89",
+      "predicate": "worked_at",
+      "object_id": "ent-826dba2b",
+      "confidence": 1.0,
+      "source_system": "itext2kg",
+      "evidence_ids": [],
+      "metadata": {
+        "observation_dates": []
+      }
+    },
+    {
+      "id": "rel-d36033be",
+      "subject_id": "ent-f46dae89",
+      "predicate": "worked_at",
+      "object_id": "ent-dbb7d9ee",
+      "confidence": 1.0,
+      "source_system": "itext2kg",
+      "evidence_ids": [],
+      "metadata": {
+        "observation_dates": []
+      }
+    },
+    {
+      "id": "rel-3339c7da",
+      "subject_id": "ent-f46dae89",
+      "predicate": "worked_at",
+      "object_id": "ent-f4810be4",
+      "confidence": 1.0,
+      "source_system": "itext2kg",
+      "evidence_ids": [],
+      "metadata": {
+        "observation_dates": []
+      }
+    },
+    {
+      "id": "rel-9a785577",
+      "subject_id": "ent-927e5288",
+      "predicate": "worked_at",
+      "object_id": "ent-c88a0aaf",
+      "confidence": 1.0,
+      "source_system": "itext2kg",
+      "evidence_ids": [],
+      "metadata": {
+        "observation_dates": []
+      }
+    },
+    {
+      "id": "rel-5a042999",
+      "subject_id": "ent-927e5288",
+      "predicate": "developed",
+      "object_id": "ent-01cceba5",
+      "confidence": 1.0,
+      "source_system": "itext2kg",
+      "evidence_ids": [],
+      "metadata": {
+        "observation_dates": []
+      }
+    },
+    {
+      "id": "rel-9f69d9c4",
+      "subject_id": "ent-927e5288",
+      "predicate": "worked_at",
+      "object_id": "ent-826dba2b",
+      "confidence": 1.0,
+      "source_system": "itext2kg",
+      "evidence_ids": [],
+      "metadata": {
+        "observation_dates": []
+      }
+    },
+    {
+      "id": "rel-48ff5b61",
+      "subject_id": "ent-f46dae89",
+      "predicate": "participated_in",
+      "object_id": "ent-577da929",
+      "confidence": 1.0,
+      "source_system": "itext2kg",
+      "evidence_ids": [],
+      "metadata": {
+        "observation_dates": []
+      }
+    },
+    {
+      "id": "rel-1bf62585",
+      "subject_id": "ent-927e5288",
+      "predicate": "worked_at",
+      "object_id": "ent-dbb7d9ee",
+      "confidence": 1.0,
+      "source_system": "itext2kg",
+      "evidence_ids": [],
+      "metadata": {
+        "observation_dates": []
+      }
+    },
+    {
+      "id": "rel-14c81d56",
+      "subject_id": "ent-f46dae89",
+      "predicate": "born_in",
+      "object_id": "ent-f69f81b4",
+      "confidence": 1.0,
+      "source_system": "itext2kg",
+      "evidence_ids": [],
+      "metadata": {
+        "observation_dates": []
+      }
+    },
+    {
+      "id": "rel-e285a440",
+      "subject_id": "ent-f46dae89",
+      "predicate": "developed",
+      "object_id": "ent-52969ae7",
+      "confidence": 1.0,
+      "source_system": "itext2kg",
+      "evidence_ids": [],
+      "metadata": {
+        "observation_dates": []
+      }
+    },
+    {
+      "id": "rel-cdbbe4e9",
+      "subject_id": "ent-927e5288",
+      "predicate": "worked_at",
+      "object_id": "ent-f4810be4",
+      "confidence": 1.0,
+      "source_system": "itext2kg",
+      "evidence_ids": [],
+      "metadata": {
+        "observation_dates": []
+      }
+    },
+    {
+      "id": "rel-cd888159",
+      "subject_id": "ent-927e5288",
+      "predicate": "studied_at",
+      "object_id": "ent-2beae20d",
+      "confidence": 1.0,
+      "source_system": "itext2kg",
+      "evidence_ids": [],
+      "metadata": {
+        "observation_dates": []
+      }
+    },
+    {
+      "id": "rel-36b1536d",
+      "subject_id": "ent-f69f81b4",
+      "predicate": "located_in",
+      "object_id": "ent-bf23a121",
+      "confidence": 1.0,
+      "source_system": "itext2kg",
+      "evidence_ids": [],
+      "metadata": {
+        "observation_dates": []
+      }
+    },
+    {
+      "id": "rel-f61ba338",
+      "subject_id": "ent-927e5288",
+      "predicate": "contributed_to",
+      "object_id": "ent-52969ae7",
+      "confidence": 1.0,
+      "source_system": "itext2kg",
+      "evidence_ids": [],
+      "metadata": {
+        "observation_dates": []
+      }
+    },
+    {
+      "id": "rel-3ec1dcbd",
+      "subject_id": "ent-f46dae89",
+      "predicate": "born_in",
+      "object_id": "ent-bf23a121",
+      "confidence": 1.0,
+      "source_system": "itext2kg",
+      "evidence_ids": [],
+      "metadata": {
+        "observation_dates": []
+      }
+    },
+    {
+      "id": "rel-949f3b68",
+      "subject_id": "ent-927e5288",
+      "predicate": "born_in",
+      "object_id": "ent-f69f81b4",
+      "confidence": 1.0,
+      "source_system": "itext2kg",
+      "evidence_ids": [],
+      "metadata": {
+        "observation_dates": []
+      }
+    },
+    {
+      "id": "rel-ab876856",
+      "subject_id": "ent-f46dae89",
+      "predicate": "developed",
+      "object_id": "ent-927e5288",
+      "confidence": 1.0,
+      "source_system": "itext2kg",
+      "evidence_ids": [],
+      "metadata": {
+        "observation_dates": []
+      }
+    },
+    {
+      "id": "rel-e8a5ccf2",
+      "subject_id": "ent-577da929",
+      "predicate": "participated_in",
+      "object_id": "ent-f46dae89",
+      "confidence": 1.0,
+      "source_system": "itext2kg",
+      "evidence_ids": [],
+      "metadata": {
+        "observation_dates": []
+      }
+    },
+    {
+      "id": "rel-ee80fd1e",
+      "subject_id": "ent-927e5288",
+      "predicate": "developed",
+      "object_id": "ent-927e5288",
+      "confidence": 1.0,
+      "source_system": "itext2kg",
+      "evidence_ids": [],
+      "metadata": {
+        "observation_dates": []
+      }
+    },
+    {
+      "id": "rel-51ceab6d",
+      "subject_id": "ent-f46dae89",
+      "predicate": "worked_at",
+      "object_id": "ent-c88a0aaf",
+      "confidence": 1.0,
+      "source_system": "itext2kg",
+      "evidence_ids": [],
+      "metadata": {
+        "observation_dates": []
+      }
+    },
+    {
+      "id": "rel-0e4bb913",
+      "subject_id": "ent-f46dae89",
+      "predicate": "developed",
+      "object_id": "ent-01cceba5",
+      "confidence": 1.0,
+      "source_system": "itext2kg",
+      "evidence_ids": [],
+      "metadata": {
+        "observation_dates": []
+      }
+    },
+    {
+      "id": "rel-24269a71",
+      "subject_id": "ent-f46dae89",
+      "predicate": "studied_at",
+      "object_id": "ent-2beae20d",
+      "confidence": 1.0,
+      "source_system": "itext2kg",
+      "evidence_ids": [],
+      "metadata": {
+        "observation_dates": []
+      }
+    }
+  ],
+  "evidences": [
+    {
+      "id": "ev-4c04d74e",
+      "source_doc_id": "alan-turing-001",
+      "source_type": "text_span",
+      "content": "university of manchester",
+      "bbox": null,
+      "page": null,
+      "image_path": null,
+      "model_name": "itext2kg/llama-3.3-70b-versatile",
+      "confidence": 1.0,
+      "metadata": {}
+    },
+    {
+      "id": "ev-38e0ff2d",
+      "source_doc_id": "alan-turing-001",
+      "source_type": "text_span",
+      "content": "london",
+      "bbox": null,
+      "page": null,
+      "image_path": null,
+      "model_name": "itext2kg/llama-3.3-70b-versatile",
+      "confidence": 1.0,
+      "metadata": {}
+    },
+    {
+      "id": "ev-8b65e6f9",
+      "source_doc_id": "alan-turing-001",
+      "source_type": "text_span",
+      "content": "government code and cypher school",
+      "bbox": null,
+      "page": null,
+      "image_path": null,
+      "model_name": "itext2kg/llama-3.3-70b-versatile",
+      "confidence": 1.0,
+      "metadata": {}
+    },
+    {
+      "id": "ev-8b8aa16f",
+      "source_doc_id": "alan-turing-001",
+      "source_type": "text_span",
+      "content": "national physical laboratory",
+      "bbox": null,
+      "page": null,
+      "image_path": null,
+      "model_name": "itext2kg/llama-3.3-70b-versatile",
+      "confidence": 1.0,
+      "metadata": {}
+    },
+    {
+      "id": "ev-b9676f38",
+      "source_doc_id": "alan-turing-001",
+      "source_type": "text_span",
+      "content": "world war ii",
+      "bbox": null,
+      "page": null,
+      "image_path": null,
+      "model_name": "itext2kg/llama-3.3-70b-versatile",
+      "confidence": 1.0,
+      "metadata": {}
+    },
+    {
+      "id": "ev-62b9a230",
+      "source_doc_id": "alan-turing-001",
+      "source_type": "text_span",
+      "content": "turing machine",
+      "bbox": null,
+      "page": null,
+      "image_path": null,
+      "model_name": "itext2kg/llama-3.3-70b-versatile",
+      "confidence": 1.0,
+      "metadata": {}
+    },
+    {
+      "id": "ev-e42977d2",
+      "source_doc_id": "alan-turing-001",
+      "source_type": "text_span",
+      "content": "england",
+      "bbox": null,
+      "page": null,
+      "image_path": null,
+      "model_name": "itext2kg/llama-3.3-70b-versatile",
+      "confidence": 1.0,
+      "metadata": {}
+    },
+    {
+      "id": "ev-223b978d",
+      "source_doc_id": "alan-turing-001",
+      "source_type": "text_span",
+      "content": "artificial intelligence",
+      "bbox": null,
+      "page": null,
+      "image_path": null,
+      "model_name": "itext2kg/llama-3.3-70b-versatile",
+      "confidence": 1.0,
+      "metadata": {}
+    },
+    {
+      "id": "ev-16161f41",
+      "source_doc_id": "alan-turing-001",
+      "source_type": "text_span",
+      "content": "bletchley park",
+      "bbox": null,
+      "page": null,
+      "image_path": null,
+      "model_name": "itext2kg/llama-3.3-70b-versatile",
+      "confidence": 1.0,
+      "metadata": {}
+    },
+    {
+      "id": "ev-318223d6",
+      "source_doc_id": "alan-turing-001",
+      "source_type": "text_span",
+      "content": "cambridge university",
+      "bbox": null,
+      "page": null,
+      "image_path": null,
+      "model_name": "itext2kg/llama-3.3-70b-versatile",
+      "confidence": 1.0,
+      "metadata": {}
+    },
+    {
+      "id": "ev-18ec61d5",
+      "source_doc_id": "alan-turing-001",
+      "source_type": "text_span",
+      "content": "alan turing",
+      "bbox": null,
+      "page": null,
+      "image_path": null,
+      "model_name": "itext2kg/llama-3.3-70b-versatile",
+      "confidence": 1.0,
+      "metadata": {}
+    },
+    {
+      "id": "ev-c4f5d399",
+      "source_doc_id": "alan-turing-001",
+      "source_type": "text_span",
+      "content": "turing test",
+      "bbox": null,
+      "page": null,
+      "image_path": null,
+      "model_name": "itext2kg/llama-3.3-70b-versatile",
+      "confidence": 1.0,
+      "metadata": {}
+    },
+    {
+      "id": "ev-538e5c9e",
+      "source_doc_id": "alan-turing-001",
+      "source_type": "model_output",
+      "content": "Cambridge University",
+      "bbox": null,
+      "page": null,
+      "image_path": "data/raw/test_image.jpg",
+      "model_name": "mkgformer-mner",
+      "confidence": 0.6,
+      "metadata": {}
+    },
+    {
+      "id": "ev-f3508301",
+      "source_doc_id": "alan-turing-001",
+      "source_type": "model_output",
+      "content": "University of Manchester",
+      "bbox": null,
+      "page": null,
+      "image_path": "data/raw/test_image.jpg",
+      "model_name": "mkgformer-mner",
+      "confidence": 0.6,
+      "metadata": {}
+    },
+    {
+      "id": "ev-199bcef6",
+      "source_doc_id": "alan-turing-001",
+      "source_type": "model_output",
+      "content": "England",
+      "bbox": null,
+      "page": null,
+      "image_path": "data/raw/test_image.jpg",
+      "model_name": "mkgformer-mner",
+      "confidence": 0.6,
+      "metadata": {}
+    },
+    {
+      "id": "ev-593bea86",
+      "source_doc_id": "alan-turing-001",
+      "source_type": "model_output",
+      "content": "Alan Turing",
+      "bbox": null,
+      "page": null,
+      "image_path": "data/raw/test_image.jpg",
+      "model_name": "mkgformer-mner",
+      "confidence": 0.6,
+      "metadata": {}
+    },
+    {
+      "id": "ev-17c84c50",
+      "source_doc_id": "alan-turing-001",
+      "source_type": "model_output",
+      "content": "Government Code",
+      "bbox": null,
+      "page": null,
+      "image_path": "data/raw/test_image.jpg",
+      "model_name": "mkgformer-mner",
+      "confidence": 0.6,
+      "metadata": {}
+    },
+    {
+      "id": "ev-84ab9d02",
+      "source_doc_id": "alan-turing-001",
+      "source_type": "model_output",
+      "content": "Cypher School",
+      "bbox": null,
+      "page": null,
+      "image_path": "data/raw/test_image.jpg",
+      "model_name": "mkgformer-mner",
+      "confidence": 0.6,
+      "metadata": {}
+    },
+    {
+      "id": "ev-074c47c4",
+      "source_doc_id": "alan-turing-001",
+      "source_type": "model_output",
+      "content": "Bletchley Park",
+      "bbox": null,
+      "page": null,
+      "image_path": "data/raw/test_image.jpg",
+      "model_name": "mkgformer-mner",
+      "confidence": 0.6,
+      "metadata": {}
+    },
+    {
+      "id": "ev-d570e8a7",
+      "source_doc_id": "alan-turing-001",
+      "source_type": "model_output",
+      "content": "World War",
+      "bbox": null,
+      "page": null,
+      "image_path": "data/raw/test_image.jpg",
+      "model_name": "mkgformer-mner",
+      "confidence": 0.6,
+      "metadata": {}
+    },
+    {
+      "id": "ev-9d102e03",
+      "source_doc_id": "alan-turing-001",
+      "source_type": "model_output",
+      "content": "Turing Machine",
+      "bbox": null,
+      "page": null,
+      "image_path": "data/raw/test_image.jpg",
+      "model_name": "mkgformer-mner",
+      "confidence": 0.6,
+      "metadata": {}
+    },
+    {
+      "id": "ev-f5538752",
+      "source_doc_id": "alan-turing-001",
+      "source_type": "model_output",
+      "content": "Turing Test",
+      "bbox": null,
+      "page": null,
+      "image_path": "data/raw/test_image.jpg",
+      "model_name": "mkgformer-mner",
+      "confidence": 0.6,
+      "metadata": {}
+    },
+    {
+      "id": "ev-6cb22213",
+      "source_doc_id": "alan-turing-001",
+      "source_type": "model_output",
+      "content": "National Physical Laboratory",
+      "bbox": null,
+      "page": null,
+      "image_path": "data/raw/test_image.jpg",
+      "model_name": "mkgformer-mner",
+      "confidence": 0.6,
+      "metadata": {}
+    },
+    {
+      "id": "ev-d7cd8dfd",
+      "source_doc_id": "alan-turing-001",
+      "source_type": "model_output",
+      "content": "cross-modal: cambridge university <-> Cambridge University",
+      "bbox": null,
+      "page": null,
+      "image_path": null,
+      "model_name": "cross-modal-fuser",
+      "confidence": 1.0,
+      "metadata": {}
+    },
+    {
+      "id": "ev-8f000ca3",
+      "source_doc_id": "alan-turing-001",
+      "source_type": "model_output",
+      "content": "cross-modal: university of manchester <-> University of Manchester",
+      "bbox": null,
+      "page": null,
+      "image_path": null,
+      "model_name": "cross-modal-fuser",
+      "confidence": 1.0,
+      "metadata": {}
+    },
+    {
+      "id": "ev-36db1f9c",
+      "source_doc_id": "alan-turing-001",
+      "source_type": "model_output",
+      "content": "cross-modal: england <-> England",
+      "bbox": null,
+      "page": null,
+      "image_path": null,
+      "model_name": "cross-modal-fuser",
+      "confidence": 1.0,
+      "metadata": {}
+    },
+    {
+      "id": "ev-18404f5c",
+      "source_doc_id": "alan-turing-001",
+      "source_type": "model_output",
+      "content": "cross-modal: alan turing <-> Alan Turing",
+      "bbox": null,
+      "page": null,
+      "image_path": null,
+      "model_name": "cross-modal-fuser",
+      "confidence": 1.0,
+      "metadata": {}
+    },
+    {
+      "id": "ev-6be3b539",
+      "source_doc_id": "alan-turing-001",
+      "source_type": "model_output",
+      "content": "cross-modal: bletchley park <-> Bletchley Park",
+      "bbox": null,
+      "page": null,
+      "image_path": null,
+      "model_name": "cross-modal-fuser",
+      "confidence": 1.0,
+      "metadata": {}
+    },
+    {
+      "id": "ev-d2f9615a",
+      "source_doc_id": "alan-turing-001",
+      "source_type": "model_output",
+      "content": "cross-modal: turing machine <-> Turing Machine",
+      "bbox": null,
+      "page": null,
+      "image_path": null,
+      "model_name": "cross-modal-fuser",
+      "confidence": 1.0,
+      "metadata": {}
+    },
+    {
+      "id": "ev-6e5fbf56",
+      "source_doc_id": "alan-turing-001",
+      "source_type": "model_output",
+      "content": "cross-modal: turing test <-> Turing Test",
+      "bbox": null,
+      "page": null,
+      "image_path": null,
+      "model_name": "cross-modal-fuser",
+      "confidence": 1.0,
+      "metadata": {}
+    },
+    {
+      "id": "ev-80a67f43",
+      "source_doc_id": "alan-turing-001",
+      "source_type": "model_output",
+      "content": "cross-modal: national physical laboratory <-> National Physical Laboratory",
+      "bbox": null,
+      "page": null,
+      "image_path": null,
+      "model_name": "cross-modal-fuser",
+      "confidence": 1.0,
+      "metadata": {}
+    },
+    {
+      "id": "ev-7f0ca958",
+      "source_doc_id": "alan-turing-001",
+      "source_type": "model_output",
+      "content": "cross-modal: world war ii <-> World War",
+      "bbox": null,
+      "page": null,
+      "image_path": null,
+      "model_name": "cross-modal-fuser",
+      "confidence": 1.0,
+      "metadata": {}
+    }
+  ],
+  "pipeline_stage": "fusion",
+  "metadata": {}
+}

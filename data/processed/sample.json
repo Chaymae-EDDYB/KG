@@ -1,0 +1,327 @@
+{
+  "doc_id": "sample",
+  "entities": [
+    {
+      "id": "ent-83979767",
+      "canonical_name": "germany",
+      "entity_type": "LOCATION",
+      "modality": "text",
+      "aliases": [],
+      "evidence_ids": [
+        "ev-de0b8c42"
+      ],
+      "source_system": "itext2kg",
+      "embedding": null,
+      "metadata": {}
+    },
+    {
+      "id": "ent-8a2e8eab",
+      "canonical_name": "theory of relativity",
+      "entity_type": "CONCEPT",
+      "modality": "text",
+      "aliases": [],
+      "evidence_ids": [
+        "ev-491b17ab"
+      ],
+      "source_system": "itext2kg",
+      "embedding": null,
+      "metadata": {}
+    },
+    {
+      "id": "ent-8112d5df",
+      "canonical_name": "albert einstein",
+      "entity_type": "PERSON",
+      "modality": "multimodal",
+      "aliases": [
+        "Albert Einstein"
+      ],
+      "evidence_ids": [
+        "ev-a7759431",
+        "ev-0bda12ff"
+      ],
+      "source_system": "itext2kg",
+      "embedding": null,
+      "metadata": {}
+    },
+    {
+      "id": "ent-8bdaf71f",
+      "canonical_name": "ulm",
+      "entity_type": "LOCATION",
+      "modality": "text",
+      "aliases": [],
+      "evidence_ids": [
+        "ev-699ec58b"
+      ],
+      "source_system": "itext2kg",
+      "embedding": null,
+      "metadata": {}
+    },
+    {
+      "id": "ent-2bd23fde",
+      "canonical_name": "princeton university",
+      "entity_type": "ORGANIZATION",
+      "modality": "multimodal",
+      "aliases": [
+        "Princeton University"
+      ],
+      "evidence_ids": [
+        "ev-5483e488",
+        "ev-72814909"
+      ],
+      "source_system": "itext2kg",
+      "embedding": null,
+      "metadata": {}
+    },
+    {
+      "id": "ent-c59c2164",
+      "canonical_name": "nobel prize in physics",
+      "entity_type": "EVENT",
+      "modality": "multimodal",
+      "aliases": [
+        "Nobel Prize in Physics"
+      ],
+      "evidence_ids": [
+        "ev-6a704cb1",
+        "ev-b5b13f84"
+      ],
+      "source_system": "itext2kg",
+      "embedding": null,
+      "metadata": {}
+    },
+    {
+      "id": "ent-290a7419",
+      "canonical_name": "Ulm, Germany",
+      "entity_type": "LOCATION",
+      "modality": "multimodal",
+      "aliases": [],
+      "evidence_ids": [
+        "ev-18ecbc59"
+      ],
+      "source_system": "mkgformer",
+      "embedding": null,
+      "metadata": {}
+    }
+  ],
+  "relations": [
+    {
+      "id": "rel-3a631b46",
+      "subject_id": "ent-8112d5df",
+      "predicate": "received",
+      "object_id": "ent-c59c2164",
+      "confidence": 1.0,
+      "source_system": "itext2kg",
+      "evidence_ids": [],
+      "metadata": {
+        "observation_dates": []
+      }
+    },
+    {
+      "id": "rel-d5cc45f0",
+      "subject_id": "ent-8112d5df",
+      "predicate": "born_in",
+      "object_id": "ent-8bdaf71f",
+      "confidence": 1.0,
+      "source_system": "itext2kg",
+      "evidence_ids": [],
+      "metadata": {
+        "observation_dates": []
+      }
+    },
+    {
+      "id": "rel-087947e4",
+      "subject_id": "ent-8112d5df",
+      "predicate": "worked_at",
+      "object_id": "ent-2bd23fde",
+      "confidence": 1.0,
+      "source_system": "itext2kg",
+      "evidence_ids": [],
+      "metadata": {
+        "observation_dates": []
+      }
+    },
+    {
+      "id": "rel-7406b40c",
+      "subject_id": "ent-8112d5df",
+      "predicate": "developed",
+      "object_id": "ent-8a2e8eab",
+      "confidence": 1.0,
+      "source_system": "itext2kg",
+      "evidence_ids": [],
+      "metadata": {
+        "observation_dates": []
+      }
+    },
+    {
+      "id": "rel-cd8b1153",
+      "subject_id": "ent-8112d5df",
+      "predicate": "born_in",
+      "object_id": "ent-83979767",
+      "confidence": 1.0,
+      "source_system": "itext2kg",
+      "evidence_ids": [],
+      "metadata": {
+        "observation_dates": []
+      }
+    }
+  ],
+  "evidences": [
+    {
+      "id": "ev-de0b8c42",
+      "source_doc_id": "sample",
+      "source_type": "text_span",
+      "content": "germany",
+      "bbox": null,
+      "page": null,
+      "image_path": null,
+      "model_name": "itext2kg/llama-3.3-70b-versatile",
+      "confidence": 1.0,
+      "metadata": {}
+    },
+    {
+      "id": "ev-491b17ab",
+      "source_doc_id": "sample",
+      "source_type": "text_span",
+      "content": "theory of relativity",
+      "bbox": null,
+      "page": null,
+      "image_path": null,
+      "model_name": "itext2kg/llama-3.3-70b-versatile",
+      "confidence": 1.0,
+      "metadata": {}
+    },
+    {
+      "id": "ev-a7759431",
+      "source_doc_id": "sample",
+      "source_type": "text_span",
+      "content": "albert einstein",
+      "bbox": null,
+      "page": null,
+      "image_path": null,
+      "model_name": "itext2kg/llama-3.3-70b-versatile",
+      "confidence": 1.0,
+      "metadata": {}
+    },
+    {
+      "id": "ev-699ec58b",
+      "source_doc_id": "sample",
+      "source_type": "text_span",
+      "content": "ulm",
+      "bbox": null,
+      "page": null,
+      "image_path": null,
+      "model_name": "itext2kg/llama-3.3-70b-versatile",
+      "confidence": 1.0,
+      "metadata": {}
+    },
+    {
+      "id": "ev-5483e488",
+      "source_doc_id": "sample",
+      "source_type": "text_span",
+      "content": "princeton university",
+      "bbox": null,
+      "page": null,
+      "image_path": null,
+      "model_name": "itext2kg/llama-3.3-70b-versatile",
+      "confidence": 1.0,
+      "metadata": {}
+    },
+    {
+      "id": "ev-6a704cb1",
+      "source_doc_id": "sample",
+      "source_type": "text_span",
+      "content": "nobel prize in physics",
+      "bbox": null,
+      "page": null,
+      "image_path": null,
+      "model_name": "itext2kg/llama-3.3-70b-versatile",
+      "confidence": 1.0,
+      "metadata": {}
+    },
+    {
+      "id": "ev-72814909",
+      "source_doc_id": "sample",
+      "source_type": "model_output",
+      "content": "Princeton University",
+      "bbox": null,
+      "page": null,
+      "image_path": "data/raw/test_image.jpg",
+      "model_name": "mkgformer-mner",
+      "confidence": 0.6,
+      "metadata": {}
+    },
+    {
+      "id": "ev-b5b13f84",
+      "source_doc_id": "sample",
+      "source_type": "model_output",
+      "content": "Nobel Prize in Physics",
+      "bbox": null,
+      "page": null,
+      "image_path": "data/raw/test_image.jpg",
+      "model_name": "mkgformer-mner",
+      "confidence": 0.6,
+      "metadata": {}
+    },
+    {
+      "id": "ev-18ecbc59",
+      "source_doc_id": "sample",
+      "source_type": "model_output",
+      "content": "Ulm, Germany",
+      "bbox": null,
+      "page": null,
+      "image_path": "data/raw/test_image.jpg",
+      "model_name": "mkgformer-mner",
+      "confidence": 0.6,
+      "metadata": {}
+    },
+    {
+      "id": "ev-0bda12ff",
+      "source_doc_id": "sample",
+      "source_type": "model_output",
+      "content": "Albert Einstein",
+      "bbox": null,
+      "page": null,
+      "image_path": "data/raw/test_image.jpg",
+      "model_name": "mkgformer-mner",
+      "confidence": 0.6,
+      "metadata": {}
+    },
+    {
+      "id": "ev-01e22af5",
+      "source_doc_id": "sample",
+      "source_type": "model_output",
+      "content": "cross-modal: princeton university <-> Princeton University",
+      "bbox": null,
+      "page": null,
+      "image_path": null,
+      "model_name": "cross-modal-fuser",
+      "confidence": 1.0,
+      "metadata": {}
+    },
+    {
+      "id": "ev-21b46f92",
+      "source_doc_id": "sample",
+      "source_type": "model_output",
+      "content": "cross-modal: nobel prize in physics <-> Nobel Prize in Physics",
+      "bbox": null,
+      "page": null,
+      "image_path": null,
+      "model_name": "cross-modal-fuser",
+      "confidence": 1.0,
+      "metadata": {}
+    },
+    {
+      "id": "ev-48606c63",
+      "source_doc_id": "sample",
+      "source_type": "model_output",
+      "content": "cross-modal: albert einstein <-> Albert Einstein",
+      "bbox": null,
+      "page": null,
+      "image_path": null,
+      "model_name": "cross-modal-fuser",
+      "confidence": 1.0,
+      "metadata": {}
+    }
+  ],
+  "pipeline_stage": "fusion",
+  "metadata": {}
+}

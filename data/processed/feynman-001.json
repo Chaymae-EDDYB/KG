@@ -1,0 +1,637 @@
+{
+  "doc_id": "feynman-001",
+  "entities": [
+    {
+      "id": "ent-51fda53c",
+      "canonical_name": "los alamos laboratory",
+      "entity_type": "LOCATION",
+      "modality": "multimodal",
+      "aliases": [
+        "Los Alamos Laboratory"
+      ],
+      "evidence_ids": [
+        "ev-444de7c8",
+        "ev-598d3330"
+      ],
+      "source_system": "itext2kg",
+      "embedding": null,
+      "metadata": {}
+    },
+    {
+      "id": "ent-a2379488",
+      "canonical_name": "quantum electrodynamics",
+      "entity_type": "OTHER",
+      "modality": "text",
+      "aliases": [],
+      "evidence_ids": [
+        "ev-21d89704"
+      ],
+      "source_system": "itext2kg",
+      "embedding": null,
+      "metadata": {}
+    },
+    {
+      "id": "ent-da0146f6",
+      "canonical_name": "new york city",
+      "entity_type": "LOCATION",
+      "modality": "multimodal",
+      "aliases": [
+        "New York City"
+      ],
+      "evidence_ids": [
+        "ev-0ecd7c9b",
+        "ev-f5d1bbf1"
+      ],
+      "source_system": "itext2kg",
+      "embedding": null,
+      "metadata": {}
+    },
+    {
+      "id": "ent-5bd92614",
+      "canonical_name": "california institute of technology",
+      "entity_type": "ORGANIZATION",
+      "modality": "multimodal",
+      "aliases": [
+        "California Institute"
+      ],
+      "evidence_ids": [
+        "ev-268cbd01",
+        "ev-5cdb7d8b"
+      ],
+      "source_system": "itext2kg",
+      "embedding": null,
+      "metadata": {}
+    },
+    {
+      "id": "ent-44c5997f",
+      "canonical_name": "massachusetts institute of technology",
+      "entity_type": "ORGANIZATION",
+      "modality": "multimodal",
+      "aliases": [
+        "Massachusetts Institute"
+      ],
+      "evidence_ids": [
+        "ev-8f9f7132",
+        "ev-d10551f7"
+      ],
+      "source_system": "itext2kg",
+      "embedding": null,
+      "metadata": {}
+    },
+    {
+      "id": "ent-7f6afcda",
+      "canonical_name": "feynman diagrams",
+      "entity_type": "CONCEPT",
+      "modality": "multimodal",
+      "aliases": [
+        "Feynman Diagrams"
+      ],
+      "evidence_ids": [
+        "ev-3118abb1",
+        "ev-9e8311fe"
+      ],
+      "source_system": "itext2kg",
+      "embedding": null,
+      "metadata": {}
+    },
+    {
+      "id": "ent-d5d9c90f",
+      "canonical_name": "richard feynman",
+      "entity_type": "PERSON",
+      "modality": "multimodal",
+      "aliases": [
+        "Richard Feynman"
+      ],
+      "evidence_ids": [
+        "ev-7cbb2716",
+        "ev-49faf159"
+      ],
+      "source_system": "itext2kg",
+      "embedding": null,
+      "metadata": {}
+    },
+    {
+      "id": "ent-397cfb88",
+      "canonical_name": "princeton university",
+      "entity_type": "ORGANIZATION",
+      "modality": "multimodal",
+      "aliases": [
+        "Princeton University"
+      ],
+      "evidence_ids": [
+        "ev-935fe0b0",
+        "ev-40686be2"
+      ],
+      "source_system": "itext2kg",
+      "embedding": null,
+      "metadata": {}
+    },
+    {
+      "id": "ent-1e32939b",
+      "canonical_name": "manhattan project",
+      "entity_type": "OTHER",
+      "modality": "multimodal",
+      "aliases": [
+        "Manhattan Project"
+      ],
+      "evidence_ids": [
+        "ev-cdc9e1c2",
+        "ev-83735980"
+      ],
+      "source_system": "itext2kg",
+      "embedding": null,
+      "metadata": {}
+    },
+    {
+      "id": "ent-eec0e6c7",
+      "canonical_name": "nobel prize in physics",
+      "entity_type": "OTHER",
+      "modality": "multimodal",
+      "aliases": [
+        "Nobel Prize in Physics"
+      ],
+      "evidence_ids": [
+        "ev-051bbcbc",
+        "ev-92e8716d"
+      ],
+      "source_system": "itext2kg",
+      "embedding": null,
+      "metadata": {}
+    },
+    {
+      "id": "ent-825e65a4",
+      "canonical_name": "Institute of Technology",
+      "entity_type": "ORGANIZATION",
+      "modality": "multimodal",
+      "aliases": [],
+      "evidence_ids": [
+        "ev-9d214dd4"
+      ],
+      "source_system": "mkgformer",
+      "embedding": null,
+      "metadata": {}
+    }
+  ],
+  "relations": [
+    {
+      "id": "rel-8286be7b",
+      "subject_id": "ent-d5d9c90f",
+      "predicate": "developed",
+      "object_id": "ent-7f6afcda",
+      "confidence": 1.0,
+      "source_system": "itext2kg",
+      "evidence_ids": [],
+      "metadata": {
+        "observation_dates": []
+      }
+    },
+    {
+      "id": "rel-f2df907c",
+      "subject_id": "ent-d5d9c90f",
+      "predicate": "born_in",
+      "object_id": "ent-da0146f6",
+      "confidence": 1.0,
+      "source_system": "itext2kg",
+      "evidence_ids": [],
+      "metadata": {
+        "observation_dates": []
+      }
+    },
+    {
+      "id": "rel-9655ba09",
+      "subject_id": "ent-d5d9c90f",
+      "predicate": "studied_at",
+      "object_id": "ent-44c5997f",
+      "confidence": 1.0,
+      "source_system": "itext2kg",
+      "evidence_ids": [],
+      "metadata": {
+        "observation_dates": []
+      }
+    },
+    {
+      "id": "rel-8778d649",
+      "subject_id": "ent-d5d9c90f",
+      "predicate": "contributed_to",
+      "object_id": "ent-a2379488",
+      "confidence": 1.0,
+      "source_system": "itext2kg",
+      "evidence_ids": [],
+      "metadata": {
+        "observation_dates": []
+      }
+    },
+    {
+      "id": "rel-f8d0b52a",
+      "subject_id": "ent-d5d9c90f",
+      "predicate": "studied_at",
+      "object_id": "ent-397cfb88",
+      "confidence": 1.0,
+      "source_system": "itext2kg",
+      "evidence_ids": [],
+      "metadata": {
+        "observation_dates": []
+      }
+    },
+    {
+      "id": "rel-40e752f5",
+      "subject_id": "ent-d5d9c90f",
+      "predicate": "worked_at",
+      "object_id": "ent-51fda53c",
+      "confidence": 1.0,
+      "source_system": "itext2kg",
+      "evidence_ids": [],
+      "metadata": {
+        "observation_dates": []
+      }
+    },
+    {
+      "id": "rel-f222ede5",
+      "subject_id": "ent-d5d9c90f",
+      "predicate": "taught_at",
+      "object_id": "ent-5bd92614",
+      "confidence": 1.0,
+      "source_system": "itext2kg",
+      "evidence_ids": [],
+      "metadata": {
+        "observation_dates": []
+      }
+    },
+    {
+      "id": "rel-aad68426",
+      "subject_id": "ent-d5d9c90f",
+      "predicate": "won",
+      "object_id": "ent-eec0e6c7",
+      "confidence": 1.0,
+      "source_system": "itext2kg",
+      "evidence_ids": [],
+      "metadata": {
+        "observation_dates": []
+      }
+    },
+    {
+      "id": "rel-f42472ff",
+      "subject_id": "ent-d5d9c90f",
+      "predicate": "worked_on",
+      "object_id": "ent-1e32939b",
+      "confidence": 1.0,
+      "source_system": "itext2kg",
+      "evidence_ids": [],
+      "metadata": {
+        "observation_dates": []
+      }
+    }
+  ],
+  "evidences": [
+    {
+      "id": "ev-444de7c8",
+      "source_doc_id": "feynman-001",
+      "source_type": "text_span",
+      "content": "los alamos laboratory",
+      "bbox": null,
+      "page": null,
+      "image_path": null,
+      "model_name": "itext2kg/llama-3.3-70b-versatile",
+      "confidence": 1.0,
+      "metadata": {}
+    },
+    {
+      "id": "ev-21d89704",
+      "source_doc_id": "feynman-001",
+      "source_type": "text_span",
+      "content": "quantum electrodynamics",
+      "bbox": null,
+      "page": null,
+      "image_path": null,
+      "model_name": "itext2kg/llama-3.3-70b-versatile",
+      "confidence": 1.0,
+      "metadata": {}
+    },
+    {
+      "id": "ev-0ecd7c9b",
+      "source_doc_id": "feynman-001",
+      "source_type": "text_span",
+      "content": "new york city",
+      "bbox": null,
+      "page": null,
+      "image_path": null,
+      "model_name": "itext2kg/llama-3.3-70b-versatile",
+      "confidence": 1.0,
+      "metadata": {}
+    },
+    {
+      "id": "ev-268cbd01",
+      "source_doc_id": "feynman-001",
+      "source_type": "text_span",
+      "content": "california institute of technology",
+      "bbox": null,
+      "page": null,
+      "image_path": null,
+      "model_name": "itext2kg/llama-3.3-70b-versatile",
+      "confidence": 1.0,
+      "metadata": {}
+    },
+    {
+      "id": "ev-8f9f7132",
+      "source_doc_id": "feynman-001",
+      "source_type": "text_span",
+      "content": "massachusetts institute of technology",
+      "bbox": null,
+      "page": null,
+      "image_path": null,
+      "model_name": "itext2kg/llama-3.3-70b-versatile",
+      "confidence": 1.0,
+      "metadata": {}
+    },
+    {
+      "id": "ev-3118abb1",
+      "source_doc_id": "feynman-001",
+      "source_type": "text_span",
+      "content": "feynman diagrams",
+      "bbox": null,
+      "page": null,
+      "image_path": null,
+      "model_name": "itext2kg/llama-3.3-70b-versatile",
+      "confidence": 1.0,
+      "metadata": {}
+    },
+    {
+      "id": "ev-7cbb2716",
+      "source_doc_id": "feynman-001",
+      "source_type": "text_span",
+      "content": "richard feynman",
+      "bbox": null,
+      "page": null,
+      "image_path": null,
+      "model_name": "itext2kg/llama-3.3-70b-versatile",
+      "confidence": 1.0,
+      "metadata": {}
+    },
+    {
+      "id": "ev-935fe0b0",
+      "source_doc_id": "feynman-001",
+      "source_type": "text_span",
+      "content": "princeton university",
+      "bbox": null,
+      "page": null,
+      "image_path": null,
+      "model_name": "itext2kg/llama-3.3-70b-versatile",
+      "confidence": 1.0,
+      "metadata": {}
+    },
+    {
+      "id": "ev-cdc9e1c2",
+      "source_doc_id": "feynman-001",
+      "source_type": "text_span",
+      "content": "manhattan project",
+      "bbox": null,
+      "page": null,
+      "image_path": null,
+      "model_name": "itext2kg/llama-3.3-70b-versatile",
+      "confidence": 1.0,
+      "metadata": {}
+    },
+    {
+      "id": "ev-051bbcbc",
+      "source_doc_id": "feynman-001",
+      "source_type": "text_span",
+      "content": "nobel prize in physics",
+      "bbox": null,
+      "page": null,
+      "image_path": null,
+      "model_name": "itext2kg/llama-3.3-70b-versatile",
+      "confidence": 1.0,
+      "metadata": {}
+    },
+    {
+      "id": "ev-d10551f7",
+      "source_doc_id": "feynman-001",
+      "source_type": "model_output",
+      "content": "Massachusetts Institute",
+      "bbox": null,
+      "page": null,
+      "image_path": "data/raw/test_image.jpg",
+      "model_name": "mkgformer-mner",
+      "confidence": 0.6,
+      "metadata": {}
+    },
+    {
+      "id": "ev-40686be2",
+      "source_doc_id": "feynman-001",
+      "source_type": "model_output",
+      "content": "Princeton University",
+      "bbox": null,
+      "page": null,
+      "image_path": "data/raw/test_image.jpg",
+      "model_name": "mkgformer-mner",
+      "confidence": 0.6,
+      "metadata": {}
+    },
+    {
+      "id": "ev-5cdb7d8b",
+      "source_doc_id": "feynman-001",
+      "source_type": "model_output",
+      "content": "California Institute",
+      "bbox": null,
+      "page": null,
+      "image_path": "data/raw/test_image.jpg",
+      "model_name": "mkgformer-mner",
+      "confidence": 0.6,
+      "metadata": {}
+    },
+    {
+      "id": "ev-9d214dd4",
+      "source_doc_id": "feynman-001",
+      "source_type": "model_output",
+      "content": "Institute of Technology",
+      "bbox": null,
+      "page": null,
+      "image_path": "data/raw/test_image.jpg",
+      "model_name": "mkgformer-mner",
+      "confidence": 0.6,
+      "metadata": {}
+    },
+    {
+      "id": "ev-92e8716d",
+      "source_doc_id": "feynman-001",
+      "source_type": "model_output",
+      "content": "Nobel Prize in Physics",
+      "bbox": null,
+      "page": null,
+      "image_path": "data/raw/test_image.jpg",
+      "model_name": "mkgformer-mner",
+      "confidence": 0.6,
+      "metadata": {}
+    },
+    {
+      "id": "ev-49faf159",
+      "source_doc_id": "feynman-001",
+      "source_type": "model_output",
+      "content": "Richard Feynman",
+      "bbox": null,
+      "page": null,
+      "image_path": "data/raw/test_image.jpg",
+      "model_name": "mkgformer-mner",
+      "confidence": 0.6,
+      "metadata": {}
+    },
+    {
+      "id": "ev-f5d1bbf1",
+      "source_doc_id": "feynman-001",
+      "source_type": "model_output",
+      "content": "New York City",
+      "bbox": null,
+      "page": null,
+      "image_path": "data/raw/test_image.jpg",
+      "model_name": "mkgformer-mner",
+      "confidence": 0.6,
+      "metadata": {}
+    },
+    {
+      "id": "ev-83735980",
+      "source_doc_id": "feynman-001",
+      "source_type": "model_output",
+      "content": "Manhattan Project",
+      "bbox": null,
+      "page": null,
+      "image_path": "data/raw/test_image.jpg",
+      "model_name": "mkgformer-mner",
+      "confidence": 0.6,
+      "metadata": {}
+    },
+    {
+      "id": "ev-598d3330",
+      "source_doc_id": "feynman-001",
+      "source_type": "model_output",
+      "content": "Los Alamos Laboratory",
+      "bbox": null,
+      "page": null,
+      "image_path": "data/raw/test_image.jpg",
+      "model_name": "mkgformer-mner",
+      "confidence": 0.6,
+      "metadata": {}
+    },
+    {
+      "id": "ev-9e8311fe",
+      "source_doc_id": "feynman-001",
+      "source_type": "model_output",
+      "content": "Feynman Diagrams",
+      "bbox": null,
+      "page": null,
+      "image_path": "data/raw/test_image.jpg",
+      "model_name": "mkgformer-mner",
+      "confidence": 0.6,
+      "metadata": {}
+    },
+    {
+      "id": "ev-0ffba508",
+      "source_doc_id": "feynman-001",
+      "source_type": "model_output",
+      "content": "cross-modal: princeton university <-> Princeton University",
+      "bbox": null,
+      "page": null,
+      "image_path": null,
+      "model_name": "cross-modal-fuser",
+      "confidence": 1.0,
+      "metadata": {}
+    },
+    {
+      "id": "ev-d79997a6",
+      "source_doc_id": "feynman-001",
+      "source_type": "model_output",
+      "content": "cross-modal: nobel prize in physics <-> Nobel Prize in Physics",
+      "bbox": null,
+      "page": null,
+      "image_path": null,
+      "model_name": "cross-modal-fuser",
+      "confidence": 1.0,
+      "metadata": {}
+    },
+    {
+      "id": "ev-da894f57",
+      "source_doc_id": "feynman-001",
+      "source_type": "model_output",
+      "content": "cross-modal: richard feynman <-> Richard Feynman",
+      "bbox": null,
+      "page": null,
+      "image_path": null,
+      "model_name": "cross-modal-fuser",
+      "confidence": 1.0,
+      "metadata": {}
+    },
+    {
+      "id": "ev-f93ddb4b",
+      "source_doc_id": "feynman-001",
+      "source_type": "model_output",
+      "content": "cross-modal: new york city <-> New York City",
+      "bbox": null,
+      "page": null,
+      "image_path": null,
+      "model_name": "cross-modal-fuser",
+      "confidence": 1.0,
+      "metadata": {}
+    },
+    {
+      "id": "ev-d56abc17",
+      "source_doc_id": "feynman-001",
+      "source_type": "model_output",
+      "content": "cross-modal: manhattan project <-> Manhattan Project",
+      "bbox": null,
+      "page": null,
+      "image_path": null,
+      "model_name": "cross-modal-fuser",
+      "confidence": 1.0,
+      "metadata": {}
+    },
+    {
+      "id": "ev-21342937",
+      "source_doc_id": "feynman-001",
+      "source_type": "model_output",
+      "content": "cross-modal: los alamos laboratory <-> Los Alamos Laboratory",
+      "bbox": null,
+      "page": null,
+      "image_path": null,
+      "model_name": "cross-modal-fuser",
+      "confidence": 1.0,
+      "metadata": {}
+    },
+    {
+      "id": "ev-ed0074b5",
+      "source_doc_id": "feynman-001",
+      "source_type": "model_output",
+      "content": "cross-modal: feynman diagrams <-> Feynman Diagrams",
+      "bbox": null,
+      "page": null,
+      "image_path": null,
+      "model_name": "cross-modal-fuser",
+      "confidence": 1.0,
+      "metadata": {}
+    },
+    {
+      "id": "ev-bf5db1b3",
+      "source_doc_id": "feynman-001",
+      "source_type": "model_output",
+      "content": "cross-modal: california institute of technology <-> California Institute",
+      "bbox": null,
+      "page": null,
+      "image_path": null,
+      "model_name": "cross-modal-fuser",
+      "confidence": 1.0,
+      "metadata": {}
+    },
+    {
+      "id": "ev-3d74d74c",
+      "source_doc_id": "feynman-001",
+      "source_type": "model_output",
+      "content": "cross-modal: massachusetts institute of technology <-> Massachusetts Institute",
+      "bbox": null,
+      "page": null,
+      "image_path": null,
+      "model_name": "cross-modal-fuser",
+      "confidence": 1.0,
+      "metadata": {}
+    }
+  ],
+  "pipeline_stage": "fusion",
+  "metadata": {}
+}

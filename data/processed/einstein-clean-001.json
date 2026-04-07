@@ -1,0 +1,327 @@
+{
+  "doc_id": "einstein-clean-001",
+  "entities": [
+    {
+      "id": "ent-230a45c3",
+      "canonical_name": "germany",
+      "entity_type": "LOCATION",
+      "modality": "text",
+      "aliases": [],
+      "evidence_ids": [
+        "ev-9eb3f7a5"
+      ],
+      "source_system": "itext2kg",
+      "embedding": null,
+      "metadata": {}
+    },
+    {
+      "id": "ent-4be79eef",
+      "canonical_name": "princeton university",
+      "entity_type": "ORGANIZATION",
+      "modality": "multimodal",
+      "aliases": [
+        "Princeton University"
+      ],
+      "evidence_ids": [
+        "ev-a2bcaea7",
+        "ev-9cf3a9a6"
+      ],
+      "source_system": "itext2kg",
+      "embedding": null,
+      "metadata": {}
+    },
+    {
+      "id": "ent-d10b05e3",
+      "canonical_name": "albert einstein",
+      "entity_type": "PERSON",
+      "modality": "multimodal",
+      "aliases": [
+        "Albert Einstein"
+      ],
+      "evidence_ids": [
+        "ev-89718c71",
+        "ev-c17a97a7"
+      ],
+      "source_system": "itext2kg",
+      "embedding": null,
+      "metadata": {}
+    },
+    {
+      "id": "ent-e48f7b49",
+      "canonical_name": "ulm",
+      "entity_type": "LOCATION",
+      "modality": "text",
+      "aliases": [],
+      "evidence_ids": [
+        "ev-d82da957"
+      ],
+      "source_system": "itext2kg",
+      "embedding": null,
+      "metadata": {}
+    },
+    {
+      "id": "ent-acd37e5d",
+      "canonical_name": "theory of relativity",
+      "entity_type": "CONCEPT",
+      "modality": "text",
+      "aliases": [],
+      "evidence_ids": [
+        "ev-0930fe01"
+      ],
+      "source_system": "itext2kg",
+      "embedding": null,
+      "metadata": {}
+    },
+    {
+      "id": "ent-24584ff8",
+      "canonical_name": "nobel prize in physics",
+      "entity_type": "EVENT",
+      "modality": "multimodal",
+      "aliases": [
+        "Nobel Prize in Physics"
+      ],
+      "evidence_ids": [
+        "ev-e353c1d7",
+        "ev-70faf43e"
+      ],
+      "source_system": "itext2kg",
+      "embedding": null,
+      "metadata": {}
+    },
+    {
+      "id": "ent-ef129dae",
+      "canonical_name": "Ulm, Germany",
+      "entity_type": "LOCATION",
+      "modality": "multimodal",
+      "aliases": [],
+      "evidence_ids": [
+        "ev-bbbd3dac"
+      ],
+      "source_system": "mkgformer",
+      "embedding": null,
+      "metadata": {}
+    }
+  ],
+  "relations": [
+    {
+      "id": "rel-9af0849b",
+      "subject_id": "ent-d10b05e3",
+      "predicate": "received",
+      "object_id": "ent-24584ff8",
+      "confidence": 1.0,
+      "source_system": "itext2kg",
+      "evidence_ids": [],
+      "metadata": {
+        "observation_dates": []
+      }
+    },
+    {
+      "id": "rel-077d9d28",
+      "subject_id": "ent-d10b05e3",
+      "predicate": "worked_at",
+      "object_id": "ent-4be79eef",
+      "confidence": 1.0,
+      "source_system": "itext2kg",
+      "evidence_ids": [],
+      "metadata": {
+        "observation_dates": []
+      }
+    },
+    {
+      "id": "rel-ee9c74c8",
+      "subject_id": "ent-d10b05e3",
+      "predicate": "born_in",
+      "object_id": "ent-230a45c3",
+      "confidence": 1.0,
+      "source_system": "itext2kg",
+      "evidence_ids": [],
+      "metadata": {
+        "observation_dates": []
+      }
+    },
+    {
+      "id": "rel-48e66c04",
+      "subject_id": "ent-d10b05e3",
+      "predicate": "born_in",
+      "object_id": "ent-e48f7b49",
+      "confidence": 1.0,
+      "source_system": "itext2kg",
+      "evidence_ids": [],
+      "metadata": {
+        "observation_dates": []
+      }
+    },
+    {
+      "id": "rel-e103d63e",
+      "subject_id": "ent-d10b05e3",
+      "predicate": "developed",
+      "object_id": "ent-acd37e5d",
+      "confidence": 1.0,
+      "source_system": "itext2kg",
+      "evidence_ids": [],
+      "metadata": {
+        "observation_dates": []
+      }
+    }
+  ],
+  "evidences": [
+    {
+      "id": "ev-9eb3f7a5",
+      "source_doc_id": "einstein-clean-001",
+      "source_type": "text_span",
+      "content": "germany",
+      "bbox": null,
+      "page": null,
+      "image_path": null,
+      "model_name": "itext2kg/llama-3.3-70b-versatile",
+      "confidence": 1.0,
+      "metadata": {}
+    },
+    {
+      "id": "ev-a2bcaea7",
+      "source_doc_id": "einstein-clean-001",
+      "source_type": "text_span",
+      "content": "princeton university",
+      "bbox": null,
+      "page": null,
+      "image_path": null,
+      "model_name": "itext2kg/llama-3.3-70b-versatile",
+      "confidence": 1.0,
+      "metadata": {}
+    },
+    {
+      "id": "ev-89718c71",
+      "source_doc_id": "einstein-clean-001",
+      "source_type": "text_span",
+      "content": "albert einstein",
+      "bbox": null,
+      "page": null,
+      "image_path": null,
+      "model_name": "itext2kg/llama-3.3-70b-versatile",
+      "confidence": 1.0,
+      "metadata": {}
+    },
+    {
+      "id": "ev-d82da957",
+      "source_doc_id": "einstein-clean-001",
+      "source_type": "text_span",
+      "content": "ulm",
+      "bbox": null,
+      "page": null,
+      "image_path": null,
+      "model_name": "itext2kg/llama-3.3-70b-versatile",
+      "confidence": 1.0,
+      "metadata": {}
+    },
+    {
+      "id": "ev-0930fe01",
+      "source_doc_id": "einstein-clean-001",
+      "source_type": "text_span",
+      "content": "theory of relativity",
+      "bbox": null,
+      "page": null,
+      "image_path": null,
+      "model_name": "itext2kg/llama-3.3-70b-versatile",
+      "confidence": 1.0,
+      "metadata": {}
+    },
+    {
+      "id": "ev-e353c1d7",
+      "source_doc_id": "einstein-clean-001",
+      "source_type": "text_span",
+      "content": "nobel prize in physics",
+      "bbox": null,
+      "page": null,
+      "image_path": null,
+      "model_name": "itext2kg/llama-3.3-70b-versatile",
+      "confidence": 1.0,
+      "metadata": {}
+    },
+    {
+      "id": "ev-9cf3a9a6",
+      "source_doc_id": "einstein-clean-001",
+      "source_type": "model_output",
+      "content": "Princeton University",
+      "bbox": null,
+      "page": null,
+      "image_path": "data/raw/test_image.jpg",
+      "model_name": "mkgformer-mner",
+      "confidence": 0.6,
+      "metadata": {}
+    },
+    {
+      "id": "ev-70faf43e",
+      "source_doc_id": "einstein-clean-001",
+      "source_type": "model_output",
+      "content": "Nobel Prize in Physics",
+      "bbox": null,
+      "page": null,
+      "image_path": "data/raw/test_image.jpg",
+      "model_name": "mkgformer-mner",
+      "confidence": 0.6,
+      "metadata": {}
+    },
+    {
+      "id": "ev-bbbd3dac",
+      "source_doc_id": "einstein-clean-001",
+      "source_type": "model_output",
+      "content": "Ulm, Germany",
+      "bbox": null,
+      "page": null,
+      "image_path": "data/raw/test_image.jpg",
+      "model_name": "mkgformer-mner",
+      "confidence": 0.6,
+      "metadata": {}
+    },
+    {
+      "id": "ev-c17a97a7",
+      "source_doc_id": "einstein-clean-001",
+      "source_type": "model_output",
+      "content": "Albert Einstein",
+      "bbox": null,
+      "page": null,
+      "image_path": "data/raw/test_image.jpg",
+      "model_name": "mkgformer-mner",
+      "confidence": 0.6,
+      "metadata": {}
+    },
+    {
+      "id": "ev-33cff017",
+      "source_doc_id": "einstein-clean-001",
+      "source_type": "model_output",
+      "content": "cross-modal: princeton university <-> Princeton University",
+      "bbox": null,
+      "page": null,
+      "image_path": null,
+      "model_name": "cross-modal-fuser",
+      "confidence": 1.0,
+      "metadata": {}
+    },
+    {
+      "id": "ev-4ec0e36e",
+      "source_doc_id": "einstein-clean-001",
+      "source_type": "model_output",
+      "content": "cross-modal: nobel prize in physics <-> Nobel Prize in Physics",
+      "bbox": null,
+      "page": null,
+      "image_path": null,
+      "model_name": "cross-modal-fuser",
+      "confidence": 1.0,
+      "metadata": {}
+    },
+    {
+      "id": "ev-c8ed4b6e",
+      "source_doc_id": "einstein-clean-001",
+      "source_type": "model_output",
+      "content": "cross-modal: albert einstein <-> Albert Einstein",
+      "bbox": null,
+      "page": null,
+      "image_path": null,
+      "model_name": "cross-modal-fuser",
+      "confidence": 1.0,
+      "metadata": {}
+    }
+  ],
+  "pipeline_stage": "fusion",
+  "metadata": {}
+}
