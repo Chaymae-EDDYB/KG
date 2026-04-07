@@ -1,0 +1,35 @@
+project:
+  name: mmkg
+  version: "0.1.0"
+  log_level: INFO
+
+itext2kg:
+  llm_model: "llama-3.3-70b-versatile"
+  embeddings_model: "all-MiniLM-L6-v2"
+  entity_merge_threshold: 0.85
+  relation_merge_threshold: 0.80
+
+mkgformer:
+  conda_env: "mkgformer"
+  runner_script: "scripts/mkgformer_runner/run_mner.py"
+  bert_model: "bert-base-uncased"
+  vit_model: "openai/clip-vit-base-patch32"
+  enabled: true
+
+extraction:
+  primary: itext2kg
+  relation_confidence_threshold: 0.5
+
+fusion:
+  clip_similarity_threshold: 0.80
+  merge_above_threshold: true
+
+storage:
+  output_dir: data/processed
+  format: both
+
+paths:
+  data_raw: data/raw
+  data_processed: data/processed
+  data_tmp: data/tmp
+  external: external
